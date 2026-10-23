@@ -1,0 +1,318 @@
+# ===== enrichment 2: popular things with few answers of their own =====================
+patch hen | farm eatmeat milk -flies everyday? onfarm mostcountries
+patch rooster | farm onfarm -milk cute~ makessound
+patch turkey | onfarm farm eatmeat -flies? holiday wild~
+patch seagull | flies sky beach ocean carnivore~ everyday~
+patch hawk | flies sky carnivore claws fast woodland~ grassland~ wild
+patch vulture | flies sky carnivore -kidknows? bald
+patch robin | flies sky sings -pest wild cute
+patch sparrow | flies sky sings garden -pest wild
+patch dove | -pest garden~ city~ quiet sings~
+patch canary | flies sings bright~ -garden
+patch trout | freshwater -ocean fins gills
+patch cod | ocean -freshwater fins gills
+patch eel | swims aquatic fins gills dark~ scary~
+patch great white shark | dangerous teeth ocean -freshwater
+patch shrimp | ocean aquatic swims -dangerous
+patch worm | -legs slimy wet longthin slow -dangerous soft
+patch snake | longthin -legs scary venomous~ dangerous~ tail
+patch lizard | legs4 tail longtail claws~ climbs~ desertan~ fast~
+patch gecko | legs4 tail sticky? climbs
+patch iguana | legs4 tail longtail spiky~
+patch alligator | dangerous teeth swims tail longtail legs4 scary
+patch insect | legs6 antennae -legs4
+patch butterfly | wings flies garden summery cute -dangerous -scary
+patch beetle | legs6 hard~ wings~ garden~
+patch fly | wings flies noisy pest dirty summery
+patch triceratops | horns herbivore -teeth famous kidknows
+patch stegosaurus | spiky herbivore famous kidknows
+patch apartment | building inside livethere -payenter manypeople~
+patch library | building inside -payenter read? learnplace
+patch theater | building inside payenter music~ actor?
+patch gym | building inside sport strong? payenter
+patch cafe | building inside eatplace -livethere payenter~ city
+patch shop | building inside -livethere payenter~ money
+patch mall | building inside shopplace -livethere money
+patch factory | building inside -livethere workthere machine
+patch barn | building inside onfarm farm? animal? -livethere -city
+patch garage | building inside car carpart~ -livethere homes~
+patch gate | opens -inside outdoors
+patch playground | outdoors fun children -inside -payenter
+patch train station | building inside rail -livethere city crowded
+patch kitchen | room cooking homes house inside -outdoors
+patch bathroom | room hygiene homes house inside -outdoors
+patch bedroom | room sleep homes house inside -outdoors
+patch living room | room homes house inside -outdoors watch~ sit
+patch stairs | buildpart homes house -lift tall~
+patch floor | buildpart homes house flat
+patch eraser | stationery school schooluse writing~ -metal soft
+patch chalk | stationery school schooluse col=white -metal powder
+patch envelope | stationery paper office~ communicate
+patch stapler | stationery office desk office_use metal
+patch paper clip | stationery office desk office_use metal
+patch globe | round spins school learnplace -flat
+patch letter | document paper read communicate writing
+patch passport | document paper read travel airport adults govjob~
+patch telescope | nightsky celestial~ glass longthin cylinder
+patch magnifying glass | glass round handle seethrough crime~
+patch money | paper metal money everyday mostcountries kidknows
+patch banknote | money paper flat folds
+patch credit card | money plastic flat boxshape adults
+patch piggy bank | money container ceramic breakable children cute
+patch cinderella | fairytale female blond royal castle
+patch snow white | fairytale female darkhair royal castle
+patch woody | toy disney moviechar hat_char
+patch tom cat | cartoon moviechar catkind -talks_anim
+patch bugs bunny | cartoon moviechar funny talks_anim
+patch garfield | cartoon catkind funny talks_anim
+patch snoopy | cartoon dogkind talks_anim~
+patch minion | cartoon moviechar funny glasses_c
+patch kermit the frog | cartoon talks_anim moviechar
+patch pac-man | gamechar videogame round
+patch pikachu | gamechar pokemon talks_anim~ powers
+patch steve minecraft | gamechar videogame
+patch tetris | videogame game boxshape
+patch minecraft | videogame game boxshape
+patch fortnite | videogame game modern
+patch wonder woman | superhero female powers strong
+patch captain america | superhero male strong
+patch hulk | superhero male strong
+patch easter bunny | easter fictional
+patch giant | fictional myth tall strong
+patch angel | fictional wings flies_char col=white
+patch sweater | wear soft wintery garment_up
+patch jacket | wear garment_up outdoors
+patch raincoat | wear garment_up outdoors protect
+patch suit | wear formal garment_up garment_lo
+patch dress | wear female garment_lo garment_up
+patch skirt | wear female garment_lo
+patch jeans | wear garment_lo
+patch trousers | wear garment_lo
+patch pants | wear garment_lo
+patch shorts | wear garment_lo summery
+patch pajamas | wear sleep bedroom
+patch underwear | wear underwear
+patch uniform | wear costume work
+patch scarf | wear onface wintery soft
+patch belt | wear accessory fasten
+patch hat | wear onhead
+patch cap | wear onhead
+patch shoes | wear onfeet pair
+patch sneakers | wear onfeet pair
+patch boots | wear onfeet pair
+patch sandals | wear onfeet pair
+patch high heels | wear onfeet pair female
+patch wedding ring | jewellery wear onhand round
+patch necklace | jewellery wear onface
+patch bracelet | jewellery wear onhand round
+patch earrings | jewellery wear pair
+patch handbag | accessory carry bag
+patch purse | accessory carry money bag
+patch wallet | accessory carry money bag
+patch backpack | accessory carry bag
+patch toy | toy children fun kidknows
+patch doll | toy children female? fun
+patch barbie | toy children female fun famous blond
+patch stuffed animal | toy children soft cute
+patch monopoly | game boardgame money paper
+patch ball | round bounces rolls thrown sport fun
+patch soccer ball | round bounces rolls football teamsport
+patch basketball | round bounces rolls teamsport basketq col=orange
+patch tennis ball | round bounces rolls tennisq col=yellow
+patch tennis racket | tennisq racket strings handle sport
+patch dumbbell | sport heavy metal strong
+patch trophy | metal shiny gift sport col=yellow
+patch guitar | strings wood music instrument band
+patch violin | strings wood music instrument orchestra bow
+patch harp | strings music instrument orchestra
+patch flute | blow music instrument orchestra
+patch saxophone | blow music instrument band
+patch trumpet | blow music instrument orchestra
+patch drum | music instrument strike noisy
+patch drum kit | music instrument strike noisy band
+patch bell | makessound strike
+patch spaghetti | pasta italy food grain longthin cooked hotfood
+patch spaghetti bolognese | pasta italy food meat cooked hotfood
+patch lasagna | pasta italy food meat cheese baked
+patch pasta | pasta italy food grain cooked
+patch fried rice | rice food fried china
+patch stew | soup food meat hotfood bowl
+patch roast chicken | meat food hotfood
+patch meatballs | meat food round
+patch meat | meat food fromanimal
+patch waffle | baked sweet breakfast
+patch apple pie | baked sweet fromfruit cake
+patch mayonnaise | sauce creamy egg_in
+patch cream | dairy creamy liquid
+patch bread | bread baked grain everyday
+patch baguette | bread baked grain france longthin
+patch biscuit | baked sweet snack crunchy
+patch cake | baked sweet birthday dessert
+patch birthday cake | baked sweet birthday dessert party
+patch chocolate cake | baked sweet choc dessert
+patch cheesecake | sweet dessert cheese creamy
+patch cupcake | baked sweet dessert handfood
+patch muffin | baked sweet handfood
+patch ice cream | frozen cold sweet dessert creamy summery
+patch chocolate bar | candy sweet choc
+patch candy | candy sweet sugary children
+patch candy cane | candy sweet xmas
+patch gummy bears | candy sweet soft children
+patch marshmallow | candy sweet soft fluffy
+patch chewing gum | candy sweet~ stretchy sticky
+patch bubble gum | candy sweet stretchy sticky
+patch cheese | dairy cheese salty
+patch crisps | snack salty crunchy fried
+patch juice | drink fromfruit sweet cold
+patch orange juice | drink fromfruit sweet citrus
+patch apple juice | drink fromfruit sweet
+patch lemonade | drink sweet sour
+patch cola | drink sweet fizzy caffeine
+patch soda | drink sweet fizzy
+patch smoothie | drink fromfruit creamy
+patch whisky | drink alcohol adults
+patch cocktail | drink alcohol adults
+patch pine tree | tree cone evergreen woodland
+patch maple tree | tree leaves woodland
+patch palm tree | tree tropical beach hotclimate
+patch apple tree | tree fruitplant garden
+patch flower | flower garden smellsnice
+patch tulip | flower garden
+patch daisy | flower garden
+patch dandelion | flower garden
+patch lily | flower smellsnice
+patch orchid | flower houseplant
+patch daffodil | flower garden
+patch poppy | flower
+patch cherry blossom | flower tree
+patch cactus | spiky desert hotclimate
+patch grapefruit | fruit citrus sour
+patch raspberry | fruit berry sweet
+patch blackberry | fruit berry sweet
+patch blueberry | fruit berry sweet
+patch peach | fruit sweet stone_pit
+patch apricot | fruit sweet stone_pit
+patch plum | fruit sweet stone_pit
+patch lettuce | vegetable leafy green_veg
+patch spinach | vegetable leafy green_veg
+patch cauliflower | vegetable cooked
+patch green beans | vegetable legume green_veg
+patch beans | vegetable legume
+patch mushroom | fungus food cooked
+patch nut | nut hard crunchy
+patch almond | nut hard crunchy
+patch wheat | grain crop onfarm
+patch pepper | spice
+patch mustard | sauce spicy
+patch basil | spice leafy
+patch mint | leafy
+patch spatula | utensil kitchen cooking
+patch frying pan | utensil kitchen cooking heats~ fried
+patch water bottle | drink container lid
+patch stove | appliance kitchen cooking heats hot
+patch coffee machine | appliance kitchen caffeine hotdrink
+patch armchair | furniture sit soft livingroom
+patch couch | furniture sit soft livingroom
+patch mattress | sleep soft bedroom
+patch cushion | soft livingroom
+patch cupboard | furniture opens kitchen
+patch shelf | furniture wall
+patch rug | soft flat livingroom
+patch calendar | time document
+patch picture frame | decoration wall
+patch photo | camera flat
+patch shampoo | hygiene bathroom
+patch tap | withwater bathroom kitchen metal
+patch hairbrush | grooming hygiene
+patch lipstick | cosmetic onface female
+patch make-up | cosmetic onface female
+patch bandage | medical helps hospital
+patch pill | medical helps pharmacy
+patch stethoscope | medical hospital
+patch antelope | deer wild africa horns
+patch seal | aquatic ocean swims fins
+patch whale | aquatic ocean swims fins
+patch blue whale | aquatic ocean swims fins
+patch bat | flies wings nocturnal
+patch boy | person human child male
+patch girl | person human child female
+patch child | person human child
+patch mother | person human female adults
+patch father | person human male adults
+patch grandmother | person human female elderly
+patch grandfather | person human male elderly
+patch friend | person human
+patch vet | job animaljob helps
+patch teacher | job kidsjob school
+patch baker | job foodjob
+patch scientist | job scientist lab
+patch programmer | job computer
+patch artist | job artist art
+patch singer | job musician entertain
+patch musician | job musician entertain
+patch actor | job actor entertain
+patch writer | job writer
+patch president | job leader govjob
+patch athlete | job athlete sport
+patch vincent van gogh | artist famous
+patch nelson mandela | leader famous
+patch paris | france europe
+patch rome | italy europe
+patch hill | natplace outdoors
+patch island | natplace ocean
+patch sea | natplace ocean
+patch forest | natplace forest
+patch planet | celestial inspace round
+patch mars | celestial inspace round
+patch sunset | sky sun_rel
+patch light | bright
+patch electricity | electricity
+patch face | bodypart onheadbody
+patch ear | bodypart onheadbody pair
+patch nose | bodypart onheadbody
+patch mouth | bodypart onheadbody
+patch tongue | bodypart onheadbody
+patch skin | bodypart
+patch heart | bodypart organ inbody
+patch brain | bodypart organ inbody
+patch lungs | bodypart organ inbody pair
+patch stomach | bodypart organ inbody
+patch blood | bodypart liquid
+patch love | emotion positive
+patch time | timeunit
+patch new year | event holiday
+patch wedding | event wedding
+patch olympic games | event sport olympic
+patch party | event party
+patch dream | sleep
+patch dance | activity music
+patch running | sport
+patch tennis | sport tennisq
+patch mathematics | subject school
+patch science | subject school
+patch number | shape
+patch circle | shape round
+patch song | music
+patch wrench | tool repair
+patch pliers | tool repair
+patch drill | tool repair
+patch tape measure | tool measure
+patch paint | art
+patch jeep | vehicle car
+patch van | vehicle car
+patch truck | vehicle car
+patch bus | vehicle public
+patch school bus | vehicle public school
+patch subway | vehicle public underground
+patch motorcycle | vehicle twowheels
+patch scooter | vehicle twowheels
+patch jet | vehicle aircraft
+patch space shuttle | vehicle tospace
+patch spaceship | vehicle tospace
+patch boat | vehicle boat
+patch ship | vehicle boat
+patch yacht | vehicle boat
+patch cruise ship | vehicle boat
+patch tire | carpart car
+patch stop sign | road
+patch road sign | road

@@ -1,0 +1,199 @@
+# ===== dishes and meals =========================================================
+pizza | fastfood_c | 95 | sz=4 baked grain cheese round flat italy europe -fried handfood restaurant kidknows everyday? mostcountries party col=red,yellow fromveg~ meat~ -bun -bread? -healthy
+hamburger | sandwich_c | 90 | fastfood meat hotfood restaurant usa namerica round cheese~ fried? -cold col=brown kidknows mostcountries -healthy salty
+cheeseburger | sandwich_c | 30 | fastfood meat cheese hotfood restaurant usa round col=brown,yellow -healthy
+hot dog | sandwich_c | 70 | fastfood meat hotfood longthin usa germany~ namerica col=brown,red stadium~ party? -healthy
+sandwich | sandwich_c | 80 | cold col=brown,white uk~ usa~ everyday kidknows mostcountries -fastfood? -hotfood school? flat? meat~ cheese~
+toast | bread_c | 50 | breakfast hotfood crunchy flat col=brown,yellow -egg_in kidknows
+french fries | fastfood_c | 85 | fried fromveg salty crunchy? longthin col=yellow france~ usa uk~ -meat restaurant kidknows
+chips | snack_c | 70 | sz=2 fried? fromveg salty crunchy flat col=yellow packet usa uk~ party -cooked?
+nachos | snack_c | 20 | crunchy cheese mexico samerica col=yellow theatre~ hotfood~ -packet? restaurant
+taco | fastfood_c | 45 | mexico samerica meat cheese~ fromveg handfood col=yellow,brown crunchy? spicy~ restaurant
+burrito | fastfood_c | 35 | mexico samerica meat rice~ cheese~ handfood col=yellow,brown cylinder
+quesadilla | fastfood_c | 10 | mexico cheese flat handfood col=yellow
+enchilada | dish_c | 8 | mexico spicy cheese meat~
+fried chicken | fastfood_c | 50 | meat fried crunchy usa col=brown,yellow restaurant
+chicken nuggets | fastfood_c | 45 | meat fried crunchy kidknows children col=yellow,brown sz=2 restaurant
+kebab | fastfood_c | 30 | meat bun? bread? germany~ asia~ col=brown hotfood spicy~ fromveg~
+falafel | fastfood_c | 10 | -meat fromveg legume fried round asia~ egypt~ col=brown sz=2
+hot pot | soup_c | 5 | china asia spicy meat~ -bowl? restaurant
+ramen | soup_c | 35 | pasta japan asia meat~ egg_in? bowl restaurant
+pho | soup_c | 8 | pasta asia meat bowl
+noodles | pasta_c | 55 | -italy -europe asia china japan bowl? kidknows longthin
+spaghetti | pasta_c | 75 | longthin sauce~ col=yellow,red kidknows mostcountries cheap
+spaghetti bolognese | pasta_c | 30 | meat col=red,yellow sauce~
+lasagna | pasta_c | 40 | baked cheese meat col=red,yellow flat
+macaroni and cheese | pasta_c | 25 | cheese col=yellow usa -italy creamy -europe kidknows
+ravioli | pasta_c | 15 | col=yellow meat~ cheese~ sz=2
+pasta | pasta_c | 60 | col=yellow kidknows mostcountries cheap everyday
+risotto | rice_c | 12 | italy europe -asia creamy cheese~
+paella | rice_c | 12 | spain europe -asia seafood meat~ col=yellow
+fried rice | rice_c | 30 | china asia fried egg_in? col=yellow,brown
+sushi | rice_c | 70 | japan -hotfood cold seafood raw~ handfood~ col=white,pink,green restaurant expensive~ sz=2 -cooked?
+curry | dish_c | 55 | india asia spicy sauce? rice~ meat~ col=yellow,orange,brown bowl uk~
+butter chicken | dish_c | 6 | india meat creamy col=orange
+dumplings | dish_c | 30 | china asia meat~ grain cooked sz=2 col=white restaurant
+spring roll | dish_c | 15 | china asia fried crunchy fromveg handfood col=yellow
+dim sum | dish_c | 6 | china asia
+stew | soup_c | 30 | meat fromveg wintery -bowl? europe~ col=brown
+chili con carne | soup_c | 12 | meat legume spicy mexico usa col=red,brown
+goulash | soup_c | 5 | meat spicy europe col=red,brown
+tomato soup | soup_c | 20 | fromveg col=red -meat
+chicken soup | soup_c | 20 | meat col=yellow healthy~
+mushroom soup | soup_c | 6 | fromveg creamy col=white,brown
+gazpacho | soup_c | 2 | -hotfood cold spain fromveg col=red
+roast chicken | meatfood_c | 40 | dish hotfood restaurant~ col=brown,yellow -fridge
+roast beef | meatfood_c | 15 | dish hotfood uk col=brown,red
+steak | meatfood_c | 60 | dish hotfood restaurant expensive~ col=brown,red flat usa~
+meatballs | meatfood_c | 30 | dish round sz=2 col=brown italy~ sauce~
+sausage | meatfood_c | 60 | longthin cylinder col=brown,red germany europe fried? breakfast? kidknows
+bacon | meatfood_c | 55 | fried crunchy salty breakfast usa uk col=red,brown flat
+ham | meatfood_c | 40 | col=pink salty -cooked? -hotfood cold flat xmas~
+salami | meatfood_c | 15 | col=red salty -hotfood italy round flat
+meat | meatfood_c | 50 | kidknows mostcountries col=red,brown
+chicken meat | meatfood_c | 20 | col=white,yellow healthy~
+pork | meatfood_c | 15 | col=pink
+beef | meatfood_c | 20 | col=red,brown
+lamb chop | meatfood_c | 5 | col=brown
+turkey dinner | meatfood_c | 8 | dish xmas usa hotfood col=brown
+ribs | meatfood_c | 12 | dish bone? usa handfood col=brown,red
+burger patty | meatfood_c | 4 | round flat col=brown fried
+schnitzel | meatfood_c | 15 | dish fried crunchy germany europe flat col=yellow
+fish and chips | seafood_c | 30 | dish fried hotfood uk restaurant col=yellow -healthy
+fish fingers | seafood_c | 20 | fried children kidknows uk col=yellow,orange frozen~ sz=2 longthin
+caviar | seafood_c | 15 | expensive luxury rare russia col=black salty sz=1 -cooked -hotfood
+smoked salmon | seafood_c | 8 | col=pink,orange -hotfood -cooked salty
+omelette | dish_c | 30 | egg_in fromanimal breakfast fried flat col=yellow france~ -meat? cheese~
+fried egg | dish_c | 30 | egg_in fromanimal breakfast fried flat col=white,yellow -meat
+scrambled eggs | dish_c | 15 | egg_in fromanimal breakfast soft col=yellow -meat
+boiled egg | dish_c | 15 | egg_in fromanimal breakfast hard? col=white,yellow -meat sz=2 easter~ handfood~
+egg | dairy_c | 85 | -dairy egg_in fromanimal natural? breakfast cooked? hard? shell breakable round col=white,brown sz=2 easter kidknows everyday -cold? supermarket -milk?
+pancake | baked_c | 55 | breakfast sweet~ flat round col=yellow,brown cooked fried? usa~ -bread -handfood? dessert~
+waffle | baked_c | 30 | breakfast sweet col=yellow,brown flat crunchy?
+crepe | baked_c | 15 | france europe flat sweet~ col=yellow,brown
+french toast | baked_c | 8 | breakfast sweet egg_in col=yellow,brown flat
+quiche | baked_c | 6 | france egg_in cheese col=yellow round
+pie | cake_c | 45 | round col=brown,yellow fromfruit~ meat~ usa~ uk~ -birthday
+apple pie | cake_c | 30 | fromfruit round col=brown,yellow usa uk hotfood~
+meat pie | baked_c | 10 | meat hotfood uk oceania col=brown
+pot pie | baked_c | 5 | meat hotfood usa col=yellow
+pasty | baked_c | 4 | meat uk col=yellow handfood
+hummus | sauce_c | 15 | fromveg legume asia~ egypt~ greece~ col=yellow,brown creamy
+guacamole | sauce_c | 15 | fromveg mexico col=green creamy
+salsa | sauce_c | 15 | fromveg spicy~ mexico col=red
+ketchup | sauce_c | 75 | fromveg col=red sweet~ packet usa kidknows everyday fastfood~
+mayonnaise | sauce_c | 45 | egg_in col=white,yellow creamy packet fridge france~
+soy sauce | sauce_c | 25 | col=black,brown liquid salty asia china japan packet
+barbecue sauce | sauce_c | 10 | col=brown,red usa sweet~
+gravy | sauce_c | 15 | col=brown hotfood meat uk usa liquid
+vinegar | sauce_c | 20 | liquid sour col=brown,white -creamy packet ingredient cupboard
+olive oil | sauce_c | 30 | liquid col=yellow,green italy spain greece europe ingredient fromplant cupboard -fridge cooking? healthy?
+oil | sauce_c | 25 | liquid col=yellow ingredient fromplant cooking? fried? cupboard -fridge
+butter | dairy_c | 60 | col=yellow,white creamy soft melts ingredient breakfast -cold?
+margarine | sauce_c | 6 | col=yellow,white creamy fridge -dairy fromplant
+honey | sauce_c | 60 | col=yellow,orange,brown sweet sugary sticky liquid~ natural fromanimal breakfast packet -fridge kidknows
+jam | sauce_c | 45 | col=red,purple sweet sugary sticky fromfruit jam breakfast packet
+peanut butter | sauce_c | 45 | col=brown sticky creamy nut usa breakfast? packet salty~
+nutella | sauce_c | 30 | col=brown choc sweet sugary creamy italy europe nut breakfast packet kidknows famous
+maple syrup | sauce_c | 20 | col=brown,orange sweet sugary sticky liquid canada namerica breakfast fromplant
+syrup | sauce_c | 8 | col=brown,orange sweet sugary sticky liquid
+whipped cream | dairy_c | 20 | col=white creamy sweet soft dessert? fluffy
+cream | dairy_c | 25 | col=white liquid creamy dessert~ ingredient
+sour cream | dairy_c | 6 | col=white creamy sour
+pesto | sauce_c | 6 | col=green italy fromveg
+tofu | prepared | 15 | fromplant legume col=white soft asia china japan -meat ingredient fridge healthy? sz=3 cooked?
+# ===== bread, cakes and baking ======================================================
+bread | bread_c | 90 | sz=4 kidknows everyday mostcountries -handfood? breakfast
+baguette | bread_c | 25 | sz=5 longthin france europe crunchy col=yellow,brown
+bagel | bread_c | 20 | round hollow? usa breakfast col=brown,yellow
+croissant | pastry_c | 45 | france europe breakfast col=yellow,brown soft -crunchy? pointed?
+pretzel | bread_c | 25 | germany europe usa salty col=brown crunchy? snack
+bun | bread_c | 20 | round soft col=yellow,brown sz=2
+roll | bread_c | 10 | round soft sz=2
+pita | bread_c | 6 | flat asia~ greece~ hollow
+tortilla | bread_c | 15 | flat round mexico samerica col=yellow,white
+naan | bread_c | 8 | flat india asia
+cracker | biscuit_c | 15 | salty -sweet -sugary flat col=yellow
+biscuit | biscuit_c | 45 | flat round uk europe
+cookie | biscuit_c | 75 | flat round choc~ usa kidknows children
+chocolate chip cookie | biscuit_c | 20 | choc flat round usa
+gingerbread | biscuit_c | 20 | xmas spice? col=brown flat
+gingerbread man | biscuit_c | 15 | xmas col=brown flat fairytale~ character~ fictional~
+fortune cookie | biscuit_c | 8 | china~ usa paper? col=yellow
+cake | cake_c | 90 | sz=4 kidknows everyday? mostcountries birthday party
+birthday cake | cake_c | 45 | sz=4 birthday party light? fire_rel? kidknows col=any
+wedding cake | cake_c | 15 | sz=5 wedding col=white tall expensive
+chocolate cake | cake_c | 30 | choc col=brown
+cheesecake | cake_c | 25 | cheese dairy creamy usa col=white,yellow
+cupcake | cake_c | 45 | sz=2 handfood birthday party col=any children
+muffin | cake_c | 30 | sz=2 handfood breakfast usa uk col=brown,yellow -birthday
+brownie | cake_c | 20 | choc col=brown sz=2 usa handfood
+donut | pastry_c | 65 | sz=2 round hollow fried sweet sugary col=brown,pink usa police~ handfood kidknows
+cinnamon roll | pastry_c | 12 | col=brown sweet round
+eclair | pastry_c | 6 | france choc creamy longthin
+apple strudel | pastry_c | 4 | germany europe fromfruit
+tart | cake_c | 8 | fromfruit round
+macaron | pastry_c | 10 | france round sz=2 col=any expensive~
+churros | pastry_c | 10 | spain mexico fried longthin sugary
+baklava | pastry_c | 4 | greece asia nut sweet
+scone | baked_c | 10 | uk round col=yellow -egg_in?
+pastry | pastry_c | 20 | kidknows
+# ===== desserts and sweets =======================================================
+ice cream | icecream_c | 92 | col=any kidknows everyday? mostcountries cone? children
+ice cream cone | icecream_c | 20 | cone? pointed handfood crunchy~ col=yellow,white
+popsicle | icecream_c | 35 | -dairy? fromfruit? handfood longthin col=any children wood?
+frozen yogurt | icecream_c | 5 | col=white,pink
+sorbet | icecream_c | 5 | -dairy fromfruit col=any
+milkshake | icecream_c | 30 | drink liquid -frozen dairy col=pink,brown,white fastfood~ usa
+sundae | icecream_c | 8 | col=white,brown bowl
+chocolate | candy_c | 92 | choc col=brown sweet melts kidknows everyday mostcountries gift easter? -cheap? sz=3 flat?
+chocolate bar | candy_c | 40 | choc col=brown flat sz=3 packet
+white chocolate | candy_c | 8 | choc col=white
+hot chocolate | hotdrink_c | 40 | choc sweet sugary dairy col=brown wintery children? -caffeine? kidknows
+candy | candy_c | 70 | col=any kidknows halloween sugary
+lollipop | candy_c | 50 | round longthin? col=any hard children kidknows
+candy cane | candy_c | 25 | xmas stripes col=red,white longthin hard
+gummy bears | candy_c | 40 | col=any soft stretchy germany~ children
+jelly beans | candy_c | 15 | col=any easter~
+marshmallow | candy_c | 35 | col=white,pink soft fluffy camping? melts
+cotton candy | candy_c | 35 | col=pink,blue fluffy soft circus party summery -packet? melts
+caramel | candy_c | 15 | col=brown,yellow sticky melts
+toffee | candy_c | 10 | col=brown sticky hard uk
+fudge | candy_c | 8 | col=brown soft uk
+licorice | candy_c | 12 | col=black,red longthin stretchy
+chewing gum | candy_c | 55 | col=pink,white,green stretchy sticky -food? kidknows -choc
+bubble gum | candy_c | 35 | col=pink stretchy sticky children
+mints | candy_c | 15 | col=white round sz=1 -sugary? smellsnice
+jelly | dessert_c | 30 | col=any soft bowl? cold fridge children uk? seethrough~
+pudding | dessert_c | 25 | col=brown,yellow creamy soft bowl uk usa~ dairy~
+custard | dessert_c | 15 | col=yellow creamy dairy egg_in uk liquid~ hotfood~
+yogurt | dairy_c | 55 | col=white,pink creamy soft breakfast healthy sour~ fridge bowl~ packet cold
+tiramisu | dessert_c | 12 | italy europe caffeine creamy col=brown cake~
+apple crumble | dessert_c | 4 | fromfruit uk hotfood baked
+trifle | dessert_c | 3 | uk creamy bowl
+mousse | dessert_c | 4 | choc~ creamy france
+creme brulee | dessert_c | 4 | france creamy crunchy
+# ===== dairy =========================================================================
+milk | dairy_c | 85 | drink liquid col=white cold breakfast kidknows everyday mostcountries healthy packet children
+cheese | cheese_c | 85 | sz=3 kidknows everyday mostcountries holes~
+cheddar | cheese_c | 15 | uk col=yellow,orange
+mozzarella | cheese_c | 15 | italy col=white soft
+parmesan | cheese_c | 12 | italy hard col=yellow
+brie | cheese_c | 6 | france soft creamy col=white,yellow
+camembert | cheese_c | 5 | france soft creamy col=white,yellow round
+swiss cheese | cheese_c | 15 | holes col=yellow europe
+feta | cheese_c | 6 | greece col=white salty
+blue cheese | cheese_c | 8 | col=white,blue smells -smellsnice
+goat cheese | cheese_c | 4 | col=white soft
+cream cheese | cheese_c | 8 | creamy soft col=white usa~
+cottage cheese | cheese_c | 4 | col=white soft
+# ===== snacks ========================================================================
+crisps | snack_c | 25 | fried fromveg flat uk col=yellow
+pretzels | snack_c | 10 | salty grain baked col=brown
+peanuts | snack_c | 15 | nut fromplant salty col=brown shell~
+granola bar | snack_c | 8 | grain sweet healthy? breakfast?
+trail mix | snack_c | 3 | nut sweet
+beef jerky | snack_c | 6 | meat dried salty usa col=brown
+rice cake | snack_c | 4 | grain rice flat round healthy?
+cheese puffs | snack_c | 8 | cheese col=orange
+dried fruit | snack_c | 6 | fromfruit dried sweet healthy?

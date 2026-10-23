@@ -1,0 +1,15 @@
+# ===== brands, apps, media, clubs (v2.1) ====================================================
+class brand_base | o_nonobject | cat=O sz=0 brand manmade famous modern? -alive -natural -person -fictional -animal -plant -food -place? -touch? -visible? -concept? -bodypart -job -realperson -character -myth -human -male -female -child -elderly -alivenow -country -cityplace -natplace -celestial -weather -kidknows? adults~ mostcountries? everyday?
+class techco_c | brand_base | techco electricity internet~ computer~ phone~
+class appweb_c | brand_base | appweb techco~ internet electricity phone computer screen communicate~ modern everyday? -touch -visible
+class social_c | appweb_c | socialnet communicate
+class carbrand_c | brand_base | carbrand car vehicle~ roadveh~ expensive~ -internet
+class foodbrand_c | brand_base | foodbrand food? drink? supermarket shop cheap? kidknows -internet
+class fashion_c | brand_base | fashionbrand clothing~ wear~ shop -internet
+class chain_c | brand_base | restaurantchain shop~ city -internet
+class media_base | o_nonobject | cat=O sz=0 fictional? famous -alive -natural -touch -visible? manmade -person? -animal -plant -food -place -bodypart -job -realperson -human -male -female -alivenow -country -cityplace -natplace -celestial -weather -brand? watch? fun kidknows? -mostcountries -everyday
+class film_c | media_base | film moviechar theatre~ watch
+class tvshow_c | media_base | tvshow moviechar watch
+class booktitle_c | media_base | booktitle bookchar read -watch
+class gametitle_c | media_base | game videogame fun -watch? electricity screen
+class club_c | o_nonobject | cat=O sz=0 -manmade? -oneperson -lift -s_hold club sport teamsport stadium famous crowded -alive -natural -animal -plant -food -person -fictional -bodypart -touch? -visible? fun football?

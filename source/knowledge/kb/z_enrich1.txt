@@ -1,0 +1,184 @@
+# ===== enrichment 1: objects from the second expansion ==================================
+patch coaster | cheap drink? crockery~ -opens -handle hard paper~
+patch egg timer | glass~ col=white,any boxshape~ makessound~ -electric?
+patch ice pack | plastic soft~ fridge helps -hard? wet~
+patch photo album | paper read~ livingroom collect
+patch sewing kit | boxshape opens bag? cheap
+patch shower curtain | fabric~ longthin? folds -hard col=any
+patch soap dish | hard breakable~ col=white -handle flat~
+patch step stool | plastic wood~ sit~ legsfurn lift -soft
+patch tea bag | sz=2 flat soft~ cheap supermarket -hard daily~ adults
+patch thermostat | electric battery~ screen~ col=white house -lift? homes~
+patch toilet seat | col=white flat~ round~ opens hard
+patch wallpaper | rolls folds~ house bedroom livingroom
+patch water filter | plastic cylinder~ healthy? drink? fridge~
+patch wine bottle | sz=4 lid breakable drink alcohol? -children cylinder
+patch wooden spoon | cooking kitchen handle -metal cheap
+patch candle holder | -electric decoration livingroom~ church~ shiny~
+patch bird feeder | wood plastic~ outdoors hollow~ -heavy cheap
+patch bird bath | outdoors heavy -lift stays round
+patch cat flap | plastic flat buildpart house
+patch hamster cage | sz=4 boxshape house opens
+patch bird cage | sz=5 house opens col=grey,yellow
+patch pet bowl | plastic metal~ round hollow house kitchen~ cheap
+patch dog toy | fun? soft~ bites~ col=any cheap
+patch scratching post | fabric~ wood house tall~
+patch saddle | onfarm sport~ fromanimal adults
+patch horseshoe | onfarm hard heavy~ decoration~ pointed~
+patch garlic press | sz=3 handle pair~ cooking kitchen
+patch potato masher | sz=4 cooking kitchen
+patch ice cream scoop | sz=3 kitchen handle
+patch mortar and pestle | sz=3 kitchen cooking pair~ oldfash~
+patch muffin tin | sz=4 flat~ kitchen
+patch casserole dish | sz=4 hot heavy~ breakable~ kitchen
+patch steamer | sz=4 metal lid kitchen asia~
+patch ice cream maker | sz=4 electric plugin kitchen frozen
+patch kitchen scale | sz=3 electric kitchen
+patch pitcher | sz=4 container hollow drink withwater
+patch spice rack | sz=5 wood kitchen container~
+patch dish towel | sz=4 soft folds cleaning kitchen
+patch mp3 player | sz=2 battery screen~ buttons s_pocket
+patch ipod | sz=2 battery screen buttons s_pocket famous
+patch iphone | sz=3 touch? internet camera
+patch modem | electronic plugin cord boxshape light~ col=black,white
+patch graphics card | computer flat manyparts expensive~
+patch motherboard | computer -screen expensive~
+patch microchip | computer electricity hard
+patch circuit board | computer electricity hard
+patch hdmi cable | computer~ watch~ col=black plugin~
+patch sd card | computer camera~ phone~ s_pocket cheap
+patch pager | sz=2 battery screen buttons
+patch gps | sz=3 battery travel~
+patch dashcam | sz=2 battery~ screen~
+patch scanner | sz=4 plugin cord flat
+patch game cartridge | nintendo~ -screen collect~
+patch radar | electricity screen~ outdoors~ spins
+patch clamp | repair hard toolbox
+patch mallet | sz=4 repair heavy~ -metal
+patch trowel | gardenuse garden pointed flat metal outdoors handle -electric
+patch staple gun | metal handle repair
+patch nail gun | electric noisy construction handle
+patch sander | electric plugin repair wood?
+patch vice | repair toolbox~ garage stays
+patch tool belt | wear repair carry
+patch utility knife | handle toolbox office~
+patch pulley | heavy~ -handle
+patch car jack | repair garage
+patch bicycle pump | handle cylinder plastic metal
+patch air compressor | electric plugin machine garage
+patch generator | machine heavy outdoors camping~ engine
+patch blowtorch | gas fuel metal repair~
+patch spirit level | longthin metal plastic construction repair
+patch oil can | repair garage lid
+patch crampons | metal pair wintery snowplace pointed
+patch carabiner | sport mountain s_pocket
+patch climbing rope | sport climbs? strong
+patch sofa bed | livingroom bedroom heavy folds
+patch futon | soft sleep bedroom -wood?
+patch recliner | livingroom heavy -wood fabric
+patch footstool | livingroom fabric -tall
+patch bar stool | legsfurn kitchen~ -soft
+patch dresser | wood heavy furniture
+patch display cabinet | livingroom wood decoration~
+patch shoe rack | wood metal~
+patch umbrella stand | cylinder hollow metal~
+patch cradle | sleep children soft~
+patch playpen | fabric~ plastic~ wood~
+patch changing table | wood bathroom~ bedroom
+patch garden chair | sit folds~ summery
+patch poncho | wear fabric plastic~ protect
+patch parka | outdoors soft fluffy~ protect
+patch fleece | garment_up soft wintery outdoors
+patch blazer | garment_up work office adults
+patch waistcoat | garment_up formal wedding~
+patch turtleneck | garment_up soft
+patch tracksuit | soft sport
+patch sweatpants | garment_lo
+patch dressing gown | fluffy bathroom
+patch beret | wear onhead soft col=black,red
+patch fedora | wear onhead col=black,grey,brown formal~
+patch sombrero | wear onhead summery
+patch headband | wear onhead stretchy
+patch bandana | wear fabric col=red,blue
+patch balaclava | wear fabric col=black scary~
+patch earmuffs | wear onhead soft
+patch cowboy boots | onfeet pair col=brown
+patch wellington boots | onfeet pair outdoors garden onfarm
+patch loafers | onfeet pair col=brown,black office
+patch stockings | pair soft formal
+patch suspenders | wear male~ oldfash~ col=any
+patch cufflinks | metal shiny
+patch shawl | wear fabric wintery~
+patch lab coat | wear fabric work
+patch scrubs | wear fabric work
+patch wig | wear soft col=any
+patch eye patch | wear fabric
+patch monocle | wear round
+patch wristband | wear fabric stretchy
+patch magic 8 ball | toy plastic fun -children? read~
+patch etch a sketch | toy plastic fun children boxshape
+patch dollhouse | toy children female~ manyparts
+patch toy soldier | toy metal~ plastic children collect manyparts
+patch model train | toy electric wheels manyparts
+patch toy robot | toy metal~ plastic children moving
+patch bingo | game fun -children? manyparts
+patch uno | game fun flat
+patch connect four | game fun children round
+patch twister | game fun children party
+patch battleship | game fun
+patch backgammon | game wood~
+patch mahjong | game manyparts
+patch go game | game round manyparts
+patch billiards | game ball round manyparts heavy~ racket
+patch foosball | game manyparts
+patch air hockey | game plugin
+patch table tennis | sport fun tennisq~
+patch mini golf | game racket
+patch carousel | fun children carryperson moving payenter
+patch haunted house | fun payenter dark
+patch hurdle | sport stadium -heavy
+patch balance beam | sport stadium
+patch pommel horse | sport stadium leather
+patch goalpost | sport stadium metal tall
+patch football boots | onfeet pair leather~
+patch shin pads | wear sport plastic
+patch mouthguard | wear sport plastic onface
+patch knee pads | wear sport plastic
+patch punching bag | sport stadium hollow~
+patch kettlebell | sport stadium round~
+patch barbell | sport stadium longthin
+patch rowing machine | sport stadium electric~ heavy
+patch yoga ball | sport bounces~ round
+patch scoreboard | sport electric light
+patch podium | sport stadium
+patch mountain bike | -racing
+patch racing bike | sport light~
+patch tandem | muscle
+patch buoy | round~ plastic
+patch minibus | travel public~
+patch coach bus | manypeople -city
+patch trolleybus | city public
+patch hovercraft | -wheels boat~ travel
+patch biplane | travel museum~
+patch private jet | travel -manypeople
+patch cargo plane | -manypeople work
+patch lunar module | inspace tospace rare famous~
+patch steamboat | travel freshwater
+patch aircraft carrier | -carries1 manypeople weapon~
+patch warship | -carries1 manypeople ocean
+patch tugboat | -manypeople
+patch fishing boat | ocean -manypeople
+patch catamaran | ocean~ fast~
+patch pedalo | freshwater -engine -fuel
+patch houseboat | freshwater slow
+patch dinghy | -engine~
+patch inflatable boat | fun summery
+patch hearse | -homes -fun scary~
+patch ice cream van | sweet? noisy
+patch food truck | eatplace? city
+patch tow truck | work heavy
+patch tanker truck | heavy
+patch dune buggy | -doors carries1
+patch snowplow | work cold
+patch street sweeper | work slow city
+patch armored car | heavy protect

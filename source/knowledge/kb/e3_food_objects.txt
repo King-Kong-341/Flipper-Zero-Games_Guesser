@@ -1,0 +1,234 @@
+# ===== more food (v2.1) =====================================================================
+pizza slice | fastfood_c | 4 | sz=3 baked cheese flat pointed italy handfood
+pizza hawaii | fastfood_c | 3 | sz=4 baked cheese fromfruit meat round flat
+penne | pasta_c | 3 | italy cylinder hollow
+tortellini | pasta_c | 3 | italy meat~ cheese~
+macaroni | pasta_c | 3 | italy cylinder hollow
+pasta bake | pasta_c | 2 | baked cheese
+noodle soup | soup_c | 3 | pasta hotfood bowl asia~
+chicken noodle soup | soup_c | 2 | meat pasta
+goulash soup | soup_c | 2 | meat spicy europe
+chili | soup_c | 2 | spicy legume meat
+burrito bowl | rice_c | 2 | mexico bowl
+poke bowl | rice_c | 3 | bowl seafood raw~ healthy oceania~
+fried noodles | pasta_c | 2 | -italy asia fried
+dumpling | dish_c | 3 | asia grain meat~ sz=2
+sushi nigiri | rice_c | 2 | japan seafood raw
+california roll | rice_c | 2 | usa japan seafood cylinder
+tempura shrimp | seafood_c | 2 | japan fried crunchy
+fish taco | fastfood_c | 2 | mexico seafood handfood
+chicken wrap | sandwich_c | 2 | meat -bun cylinder
+falafel wrap | sandwich_c | 2 | -meat legume cylinder
+hot dog bun | bread_c | 2 | longthin soft
+burger bun | bread_c | 2 | round soft
+cornbread | bread_c | 2 | usa col=yellow
+flatbread | bread_c | 3 | flat
+sourdough | bread_c | 3 | sour~ crunchy
+brioche | bread_c | 2 | sweet soft france
+croissant chocolate | pastry_c | 2 | choc france
+pain au chocolat | pastry_c | 3 | choc france
+cinnamon bun | pastry_c | 3 | sweet spice nordic~
+danish pastry | pastry_c | 2 | sweet europe nordic
+apple turnover | pastry_c | 2 | fromfruit sweet
+plum cake | cake_c | 2 | fromfruit germany
+marble cake | cake_c | 3 | choc col=brown,yellow germany~
+lemon cake | cake_c | 2 | fromfruit sour~ col=yellow
+fruit cake | cake_c | 2 | fromfruit
+cream cake | cake_c | 2 | creamy dairy
+crumble | dessert_c | 2 | fromfruit baked hotfood
+fruit tart | cake_c | 2 | fromfruit
+chocolate mousse | dessert_c | 2 | choc creamy
+rice pudding | dessert_c | 3 | rice dairy creamy sweet bowl
+chocolate pudding | dessert_c | 3 | choc creamy bowl children
+vanilla pudding | dessert_c | 2 | creamy bowl col=yellow
+fruit yogurt | dairy_c | 3 | fromfruit sweet creamy
+greek yogurt | dairy_c | 2 | greece creamy sour~
+ice cream sandwich | icecream_c | 2 | 
+magnum ice cream | icecream_c | 3 | choc handfood longthin
+chocolate ice cream | icecream_c | 3 | choc col=brown
+vanilla ice cream | icecream_c | 3 | col=white,yellow
+strawberry ice cream | icecream_c | 2 | fromfruit col=pink
+gingerbread house | biscuit_c | 4 | xmas house? sweet decoration
+candy floss | candy_c | 2 | fluffy circus
+popping candy | candy_c | 2 | noisy sour~ children
+jawbreaker | candy_c | 2 | hard round col=any
+chocolate coins | candy_c | 2 | choc round flat xmas col=yellow money~
+advent calendar | candy_c | 5 | xmas choc boxshape gift children paper
+chocolate santa | candy_c | 3 | choc xmas hollow
+chocolate bunny | candy_c | 3 | choc easter hollow
+mars bar | candy_c | 2 | choc packet
+snickers | candy_c | 4 | choc nut packet
+kitkat | candy_c | 4 | choc crunchy packet
+twix | candy_c | 2 | choc packet
+m and ms | candy_c | 5 | choc round col=any multicol packet
+smarties | candy_c | 3 | choc round col=any multicol
+skittles | candy_c | 3 | round col=any multicol sour~ fromfruit~
+tic tacs | candy_c | 2 | sz=1 col=white
+ritter sport | candy_c | 2 | choc germany boxshape flat
+toblerone | candy_c | 3 | choc europe pointed? nut~
+ferrero rocher | candy_c | 3 | choc nut round gift col=yellow,brown
+pringles | snack_c | 4 | fried crunchy salty cylinder packet usa
+doritos | snack_c | 3 | crunchy salty spicy~ col=orange pointed
+cheetos | snack_c | 2 | crunchy col=orange cheese
+peanut butter jelly | sandwich_c | 2 | nut sweet usa jam
+avocado toast | bread_c | 3 | fromveg healthy breakfast~ modern
+eggs benedict | dish_c | 2 | egg_in breakfast usa
+bacon and eggs | meatfood_c | 2 | breakfast egg_in fried
+chicken drumstick | meatfood_c | 3 | handfood fried~ bone?
+turkey leg | meatfood_c | 2 | handfood bone?
+spare ribs | meatfood_c | 2 | usa handfood
+pulled pork | meatfood_c | 2 | usa bun~
+salami pizza | fastfood_c | 2 | sz=4 baked cheese meat round flat germany~
+cheese platter | cheese_c | 2 | manyparts party
+cheese fondue | dish_c | 2 | cheese melts hotfood europe
+gouda | cheese_c | 3 | europe col=yellow
+emmental | cheese_c | 2 | europe holes col=yellow
+grape juice | juice_c | 2 | col=purple
+tomato juice | juice_c | 1 | col=red fromveg -sweet
+fruit punch | softdrink_c | 2 | fromfruit col=red party
+fanta | softdrink_c | 4 | col=orange fizzy fromfruit~ sweet
+sprite | softdrink_c | 3 | col=white seethrough fizzy sweet sour~
+flat white | hotdrink_c | 1 | caffeine dairy oceania
+mocha | hotdrink_c | 2 | caffeine choc
+frappuccino | drink_c | 2 | caffeine cold sweet usa
+gin and tonic | alcohol_c | 2 | fizzy bitter
+pina colada | alcohol_c | 2 | tropical sweet creamy
+aperol spritz | alcohol_c | 3 | italy col=orange fizzy summery
+baileys | alcohol_c | 2 | creamy sweet europe
+jagermeister | alcohol_c | 2 | germany col=brown
+# ===== more objects (v2.1) ================================================================
+airpods | gadget_c | 8 | sz=2 sound music listen pair col=white usa s_pocket
+playstation 5 | electronic_c | 5 | sz=5 videogame fun japan plugin col=white,black modern
+nintendo ds | gadget_c | 4 | videogame screen buttons nintendo japan opens folds pair~
+wii | electronic_c | 4 | sz=4 videogame nintendo japan col=white remote sport~
+apple watch | gadget_c | 4 | sz=2 time onhand screen internet usa
+macbook | computer_c | 4 | sz=4 screen keys internet battery opens folds usa expensive col=grey
+kindle | gadget_c | 3 | sz=3 read screen battery flat
+gopro | gadget_c | 3 | sz=2 camera sport watersport~ battery
+polaroid camera | gadget_c | 3 | sz=3 camera oldfash~ paper?
+disposable camera | gadget_c | 1 | sz=3 camera cheap
+film camera | gadget_c | 1 | sz=3 camera oldfash
+soundbar | electronic_c | 2 | sz=5 sound listen livingroom
+subwoofer | electronic_c | 1 | sz=4 sound noisy
+ring light | lighting_c | 2 | sz=5 round camera? modern
+led strip | lighting_c | 3 | sz=4 col=any modern plugin longthin
+disco ball | lighting_c | 4 | sz=4 round shiny party music decoration glass
+neon sign | lighting_c | 2 | sz=6 bright col=any read city
+glow stick | lighting_c | 3 | sz=3 -electric glows bright longthin party plastic col=any
+oil lamp | lighting_c | 2 | sz=3 fire_rel oldfash
+headlamp | lighting_c | 2 | sz=3 battery onhead camping
+camping stove | appliance_c | 2 | sz=3 heats camping fire_rel -plugin gas
+cool box | container_c | 3 | sz=5 cools cold camping beach
+picnic basket | container_c | 3 | sz=5 handle food? outdoors summery
+picnic blanket | household_c | 2 | sz=6 fabric outdoors summery folds
+camping chair | seat_c | 2 | sz=5 folds camping outdoors
+air mattress | bed_c | 3 | sz=7 rubber gas floats? camping -legsfurn
+water pistol | toy_c | 3 | sz=3 withwater wet summery plastic weapon~
+super soaker | toy_c | 2 | sz=4 withwater wet summery plastic weapon~
+nerf gun | toy_c | 5 | sz=4 plastic weapon~ col=orange,blue fun children
+toy sword | toy_c | 3 | sz=4 plastic sword weapon~ pointed
+toy dinosaur | toy_c | 4 | sz=3 plastic dinosaur col=green
+toy truck | toy_c | 3 | sz=3 wheels plastic
+toy plane | toy_c | 2 | sz=3 plastic
+toy boat | toy_c | 2 | sz=3 plastic floats
+toy kitchen | toy_c | 2 | sz=6 plastic kitchen
+doll pram | toy_c | 2 | sz=5 wheels
+baby doll | toy_c | 3 | sz=4 plastic soft~
+plush toy | toy_c | 3 | sz=4 soft fluffy fabric cute
+fidget spinner | toy_c | 6 | sz=2 spins plastic metal modern fun
+pop it | toy_c | 5 | sz=3 rubber col=any multicol modern children noisy~
+slime | toy_c | 6 | sz=2 slimy sticky stretchy col=green,any children wet
+kinetic sand | toy_c | 2 | sz=3 powder~ soft col=any
+modelling clay | toy_c | 2 | sz=2 soft art col=any
+marble run | toy_c | 2 | sz=5 manyparts plastic rolls
+wooden train | toy_c | 3 | sz=4 wood wheels rail children
+playmobil | toy_c | 6 | sz=2 plastic germany europe manyparts human~ collect
+duplo | toy_c | 3 | sz=2 plastic boxshape manyparts children
+k'nex | toy_c | 1 | sz=2 plastic manyparts
+meccano | toy_c | 1 | sz=2 metal manyparts
+hot wheels | toy_c | 4 | sz=2 car wheels metal collect
+transformers toy | toy_c | 3 | sz=3 robotalien car plastic
+pokemon cards | game_c | 8 | paper flat collect pokemon japan children manyparts
+trading cards | game_c | 4 | paper flat collect manyparts
+football stickers | game_c | 3 | paper sticky collect football
+yu-gi-oh cards | game_c | 2 | paper flat collect japan
+magic cards | game_c | 2 | paper flat collect fantasy
+yahtzee | game_c | 2 | boardgame manyparts
+ludo | game_c | 4 | boardgame col=red,yellow,green,blue
+snakes and ladders | game_c | 3 | boardgame children snake?
+cluedo | game_c | 3 | boardgame crime
+risk | game_c | 2 | boardgame military
+catan | game_c | 3 | boardgame germany manyparts
+memory game | game_c | 4 | boardgame paper children
+skat | game_c | 2 | boardgame paper germany adults
+mau mau | game_c | 2 | boardgame paper germany children
+kite surfing | sport_c | 2 | watersport ocean beach
+bungee jumping | sport_c | 3 | dangerous scary jumps tall
+skydiving | sport_c | 3 | dangerous scary sky aircraft
+parkour | sport_c | 2 | jumps city climbs
+archery | sport_c | 3 | olympic pointed bow?
+fencing | sport_c | 2 | olympic sword mask
+wrestling | sport_c | 3 | fighting olympic strong
+weightlifting | sport_c | 2 | olympic strong heavy
+marathon | sport_c | 3 | olympic longday~
+handball | sport_c | 4 | ball teamsport olympic germany~ europe
+water polo | sport_c | 1 | ball teamsport watersport
+badminton | sport_c | 4 | racket olympic
+squash (sport) | sport_c | 2 | racket ball
+lacrosse | sport_c | 1 | racket ball teamsport
+football (american) | sport_c | 4 | amfootball ball teamsport usa
+curling | sport_c | 2 | wintery olympic stone round
+bobsleigh | sport_c | 1 | wintery olympic fast
+ski jumping | sport_c | 2 | wintery olympic jumps
+biathlon | sport_c | 2 | wintery olympic weapon~ germany~ nordic~
+horse racing | sport_c | 2 | racing fast
+motocross | sport_c | 2 | racing twowheels noisy dirty
+nascar | sport_c | 1 | racing car usa
+esports | sport_c | 3 | videogame modern computer
+bowling pin | sportgear_c | 3 | sz=4 col=white,red hard
+swim cap | hat_c | 2 | sz=3 rubber watersport swims
+diving board | structure_c | 2 | sz=7 swims jumps watersport
+climbing wall | structure_c | 2 | sz=9 climbs sport
+skate park | structure_c | 2 | sz=10 wheels fun outdoors
+football pitch | structure_c | 4 | sz=10 football stadium flat col=green
+tennis court | structure_c | 2 | sz=10 tennisq flat sport
+basketball court | structure_c | 2 | sz=10 basketq flat sport
+ice rink | structure_c | 3 | sz=10 cold wintery flat
+ski slope | natplace_c | 2 | mountain snowplace wintery sport
+golf course | structure_c | 2 | sz=10 outdoors sport
+race track | structure_c | 3 | sz=10 racing car fast round
+running track | structure_c | 2 | sz=10 olympic round
+boxing ring | structure_c | 2 | sz=8 fighting
+chess board | game_c | 3 | flat boxshape col=black,white bwhite boardgame wood
+chess piece | game_c | 2 | sz=2 col=black,white boardgame wood
+lottery ticket | document_c | 3 | sz=2 money paper adults
+scratch card | document_c | 2 | sz=2 money paper adults
+gift card | document_c | 3 | sz=3 plastic flat money gift
+coin purse | bag_c | 2 | sz=2 money
+fanny pack | bag_c | 3 | sz=4 wear fabric
+tote bag | bag_c | 3 | sz=5 fabric
+duffel bag | bag_c | 2 | sz=6 fabric sport travel
+laptop bag | bag_c | 2 | sz=5 computer
+hiking boots | shoe_c | 3 | sz=5 leather outdoors mountain
+football shirt | top_c | 4 | sz=4 football sportswear col=any
+football scarf | clothing_c | 2 | sz=5 football wintery onface
+santa hat | hat_c | 5 | sz=3 xmas col=red,white soft pointed
+witch hat | hat_c | 4 | sz=4 halloween col=black pointed costume
+pirate hat | hat_c | 3 | sz=4 costume col=black
+paper crown | hat_c | 2 | sz=3 paper xmas~ party
+swim shorts | bottom_c | 2 | sz=3 watersport summery
+dirndl | top_c | 4 | sz=5 germany europe female costume formal~ col=any
+lederhosen | bottom_c | 4 | sz=4 germany europe leather male costume col=brown
+denim jacket | outer_c | 3 | sz=5 col=blue
+puffer jacket | outer_c | 3 | sz=5 wintery fluffy
+rain jacket | outer_c | 2 | sz=5 protect
+winter coat | outer_c | 2 | sz=5 wintery
+trench coat | outer_c | 2 | sz=6 crime~ col=brown
+sweatshirt | top_c | 3 | sz=4 soft
+crop top | top_c | 2 | sz=3 summery female
+long johns | bottom_c | 1 | sz=4 underwear wintery
+wool socks | clothing_c | 2 | sz=3 onfeet pair wintery
+ski goggles | sportgear_c | 2 | sz=3 wintery onface seethrough
+ski jacket | outer_c | 2 | sz=5 wintery snowplace
+snow boots | shoe_c | 2 | sz=5 wintery snowplace
+running shoes | shoe_c | 3 | sport sportswear

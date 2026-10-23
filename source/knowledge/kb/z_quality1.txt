@@ -1,0 +1,367 @@
+# ===== quality pass 1: synonyms out, distinguishing answers in ====================
+drop phone
+drop underpants
+drop skipping rope
+drop holiday trip
+drop cardboard box
+drop baseball cap
+drop bike helmet
+drop bunny
+drop gravity
+drop energy
+drop magnetism
+drop luck
+drop secret
+drop peace
+drop idea
+drop joke
+drop video
+drop colour
+drop soccer
+drop volleyball sport
+drop basketball sport
+drop baseball sport
+drop thunderstorm
+drop snowfall
+drop plastic bottle
+drop chicken meat
+drop beef
+drop pork
+drop lorry
+drop trainers
+drop housefly
+drop earthworm
+drop lamb chop
+drop burger patty
+drop oak
+
+# synonyms that stay: give the generic name the higher prior, the specific one a twist
+patch football sport | sport ball teamsport stadium crowded europe samerica famous kidknows
+patch mobile phone | oldfash~ -internet? buttons
+patch cup | -cylinder round handle crockery
+patch mug | cylinder -round heavy~ office
+patch lock | buildpart~ -bag
+patch padlock | bag~ handle~ -buildpart
+patch shark | famous kidknows
+patch great white shark | rare~ moviechar
+patch dinosaur | kidknows famous
+
+# time
+patch hour | shorthour~ -longday
+patch minute | shorthour -longday
+patch week | longday
+patch month | longday
+patch year | longday birthday~ holiday~
+patch time | -longday -shorthour concept
+patch day | -longday -shorthour sun_rel bright
+patch night | -longday -shorthour dark nightsky
+patch weekend | longday positive
+patch summer | longday positive
+patch winter | longday
+patch spring | longday positive
+patch autumn | longday
+
+# feelings and events
+patch love | positive
+patch happiness | positive
+patch sadness | -positive
+patch anger | -positive dangerous~ noisy~
+patch fear | -positive scary
+patch dream | positive~ sleep
+patch birthday | positive
+patch christmas | positive
+patch easter | positive
+patch new year | positive
+patch wedding | positive
+patch party | positive
+patch vacation | positive longday
+patch war | -positive
+patch magic | positive~
+
+# body parts
+patch hand | onarm manybody~ -pair? pair -onleg
+patch finger | onarm manybody -pair -onleg
+patch thumb | onarm pair -manybody -onleg
+patch arm | onarm pair -onleg
+patch elbow | onarm pair -onleg
+patch leg | onleg pair -onarm
+patch knee | onleg pair -onarm
+patch foot | onleg pair -onarm
+patch toe | onleg manybody -pair -onarm
+patch tooth | manybody
+patch teeth | manybody
+patch fingernail | onarm manybody
+patch head | -pair -manybody round
+patch face | -pair flat~
+patch back | -pair flat
+patch belly | -pair round soft
+patch chest (body) | -pair flat~
+patch belly button | -pair hollow round
+patch eye | pair -manybody
+patch ear | pair -manybody
+patch lips | pair
+patch skin | -pair
+patch hair | manybody
+
+# countries
+patch england | monarchy eu~ -eu -nordic
+patch scotland | monarchy -eu mountain~ -nordic
+patch wales | monarchy -eu
+patch ireland | -monarchy eu
+patch france | -monarchy eu
+patch germany | -monarchy eu
+patch italy | -monarchy eu
+patch spain | monarchy eu
+patch portugal | -monarchy eu
+patch netherlands | monarchy eu
+patch belgium | monarchy eu choc
+patch switzerland | -monarchy -eu
+patch austria | -monarchy eu
+patch greece | -monarchy eu
+patch sweden | monarchy eu nordic
+patch norway | monarchy -eu nordic mountain
+patch denmark | monarchy eu nordic -mountain
+patch finland | -monarchy eu nordic
+patch iceland | -monarchy -eu nordic
+patch poland | -monarchy eu
+patch ukraine | -monarchy -eu
+patch russia | -monarchy -eu
+patch japan | monarchy
+patch thailand | monarchy
+patch vietnam | -monarchy
+patch indonesia | -monarchy
+patch philippines | -monarchy english
+patch usa | -monarchy
+patch canada | monarchy~
+patch australia | monarchy~
+patch new zealand | monarchy~
+patch saudi arabia | monarchy
+patch morocco | monarchy
+patch china | -monarchy
+patch india | -monarchy
+patch egypt | -monarchy
+patch mexico | -monarchy
+patch brazil | -monarchy
+
+# cities
+patch amsterdam | monarchy eu nearwater boat~ flat
+patch vienna | eu music
+patch new york | tall crowded -hotclimate famous
+patch san francisco | hotclimate~ -tall? coast
+patch london | monarchy royal~ famous tourist
+patch paris | eu famous tourist
+patch rome | eu
+patch berlin | eu
+patch madrid | eu monarchy
+
+# people
+patch brad pitt | blond -elderly? actionstar~
+patch tom hanks | elderly -actionstar funny~
+patch tom cruise | actionstar -elderly?
+patch leonardo dicaprio | blond? -actionstar
+patch johnny depp | -actionstar musician~ hat_char~
+patch will smith | actionstar~ rapper~ funny~ musician~
+patch dwayne johnson | actionstar
+patch arnold schwarzenegger | actionstar
+patch jackie chan | actionstar funny~
+patch keanu reeves | actionstar
+patch bruce lee | actionstar
+patch morgan freeman | -actionstar
+patch freddie mercury | inband
+patch john lennon | inband glasses_c
+patch mick jagger | inband
+patch elvis presley | -inband dancing~ hat_char~
+patch michael jackson | dancing inband~ hat_char~
+patch elton john | glasses_c -inband
+patch bruno mars | dancing~ hat_char~ -rapper
+patch eminem | rapper blond~
+patch drake | rapper
+patch justin bieber | -rapper blond~ child~
+patch beyonce | dancing inband~
+patch shakira | dancing blond~
+patch madonna | dancing blond
+patch lady gaga | blond~ dancing~
+patch taylor swift | blond -dancing
+patch billie eilish | -dancing
+patch rihanna | dancing~
+patch kylian mbappe | -elderly
+patch zinedine zidane | -alivenow? alivenow elderly~
+patch lebron james | basketq
+patch michael jordan | basketq elderly~
+patch kobe bryant | basketq
+patch tom brady | amfootball
+patch roger federer | tennisq
+patch novak djokovic | tennisq
+patch rafael nadal | tennisq
+patch serena williams | tennisq
+patch john f kennedy | leader -religion
+patch martin luther king | -leader? religion
+patch bach | -elderly? elderly
+patch beethoven | elderly~
+patch homer poet | -leader
+patch socrates | -writer? writer~
+patch harry potter | glasses_c -blond
+patch ron weasley | -glasses_c
+patch dumbledore | beard glasses_c
+patch santa claus | beard
+patch gandalf | beard
+patch abraham lincoln | beard
+patch charles darwin | beard
+patch zeus | beard
+patch albert einstein | -beard funny~
+patch prince | male -female
+patch princess | female -male
+patch nun | female -male
+patch priest | male -female
+patch artist | -handsjob
+patch painter | handsjob
+patch child | 
+patch teenager | -small_char
+
+# sports and balls
+patch basketball | basketq
+patch american football | amfootball
+patch tennis ball | tennisq
+patch tennis racket | tennisq
+patch tennis | tennisq
+patch badminton racket | -tennisq
+patch football | -amfootball
+patch judo | olympic -japan? japan
+patch karate | -olympic?
+
+# objects
+patch hoe | -wheels pointed -carry
+patch rake | -wheels pointed manyparts
+patch pitchfork | -wheels pointed sharp
+patch wheelbarrow | wheels -pointed carry
+patch spanner | -sharp repair
+patch trap | sharp dangerous -repair animal?
+patch box | -lid? opens
+patch fork | -round crockery
+patch teaspoon | round sz=2
+patch spoon | round
+patch tongs | pair -round
+patch whisk | round~ -pair
+patch bottle opener | -sharp
+patch corkscrew | pointed sharp~ spins
+patch can opener | sharp~ blade~
+patch closet | buildpart -legsfurn
+patch wardrobe | -buildpart legsfurn~
+patch cabinet | kitchen~ bathroom~
+patch cupboard | kitchen
+patch bed | -tall
+patch bunk bed | tall manypeople~ children
+patch cot | camping? folds
+patch crib | -camping -folds baby_use
+patch coffee table | livingroom -bedroom
+patch nightstand | bedroom -livingroom
+patch chest of drawers | bedroom
+patch plate | flat
+patch saucer | sz=2 -daily
+patch bottle | glass? lid -opens
+patch can | metal -glass -lid
+patch lunchbox | boxshape plastic -glass
+patch thread | longthin soft -metal -cylinder
+patch book | -flat -folds? manyparts read
+patch magazine | flat folds col=any -heavy cheap
+patch map | flat folds travel -manyparts
+patch comic book | cartoon~ superhero~ children
+patch notebook | writing
+patch bookmark | -writing longthin
+patch clipboard | -writing~ office work
+patch folder | carry office
+patch paper | flat -writing~
+patch pen | -flat cylinder
+patch glue stick | cylinder lid -flat
+patch sticker | flat -cylinder -lid
+patch crayon | art children -lid
+patch marker | lid smells
+patch pencil sharpener | -pair
+patch scissors | pair~ handle
+patch inline skates | modern~
+patch roller skates | oldfash~
+patch kick scooter | twowheels
+patch tricycle | -twowheels
+patch spinning top | spins pointed
+patch yo-yo | round -pointed
+patch action figure | human~ superhero~ -cute
+patch toy car | wheels car
+patch toy gun | weapon~ noisy~
+patch jack-in-the-box | scary~ opens
+patch bubbles | seethrough round
+patch building blocks | boxshape manyparts
+patch board game | boardgame boxshape
+patch dominoes | col=black,white manyparts
+patch checkers | round col=black,red
+patch playing cards | flat paper
+patch grenade | round metal -handle
+patch pistol | handle -round
+patch helmet | hard
+patch hat | 
+patch hood | garment_up
+patch blouse | female buttons
+patch vest | -buttons underwear~
+patch hoodie | -buttons
+patch cardigan | buttons elderly~
+patch shirt | buttons formal~
+patch coat | wintery heavy~
+patch jacket | 
+patch t-shirt | -summery? summery
+patch tank top | summery -wintery
+patch gloves | -children? sportgear~
+patch mittens | children wintery
+patch shampoo | grooming
+patch shower gel | -grooming? hygiene
+patch napkin | paper restaurant
+patch dishcloth | fabric withwater cleaning
+patch raft | flat wood
+patch rowboat | muscle
+patch basket | handle -flat
+patch doormat | flat -handle buildpart~
+patch cedar | -xmas
+patch cypress | europe~ tall~
+patch spruce | xmas~
+patch fir tree | xmas
+patch pine tree | xmas~ smells
+patch roundabout | road -tall flat
+patch tower | tall
+patch wall | flat
+patch parking lot | flat car
+patch road | longthin
+patch balcony | outdoors -protect
+patch roof | protect -outdoors? outdoors pointed~
+patch golden gate bridge | -stone metal col=red longthin
+patch mount rushmore | stone -metal
+patch sandbox | -moving powder
+patch slide | moving~ -powder tall~
+patch seesaw | moving pair~
+patch bouquet | manmade~ gift wedding
+patch flower | -manmade
+patch smartphone | modern internet touch
+patch mobile phone | -internet? oldfash~
+patch hill | -tall? outdoors
+patch valley | -tall
+patch meadow | flat
+patch lake | -moves stays
+patch river | moves longthin
+patch north pole | -antarctic? antarctic
+patch south pole | antarctic -xmas
+patch neptune | -nightsky
+patch uranus | -nightsky
+patch venus | nightsky bright
+patch constellation | shape manyparts
+patch milky way | -shape
+patch mars | robotalien~
+patch planet | -nightsky? nightsky~
+patch echo | -bright
+patch sound | makessound
+patch flame | -electricity
+patch spark | electricity~
+patch heart shape | col=red positive
+patch number | -round
+patch circle | round -manyparts
+patch zero | round
+patch music | -activity? activity
+patch singing | makessound
+patch physics | electricity
+patch science | lab

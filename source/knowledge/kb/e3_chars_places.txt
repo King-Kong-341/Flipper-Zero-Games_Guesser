@@ -1,0 +1,217 @@
+# ===== more characters (v2.1) ===============================================================
+marge simpson | cartoon_c | 8 | human person female usa col=blue,green tall~
+maggie simpson | cartoon_c | 4 | human person female child usa col=yellow,blue
+mr burns | cartoon_c | 4 | human person male elderly villain usa bald
+ned flanders | cartoon_c | 3 | human person male usa glasses_c religion
+bender | cartoon_c | 4 | robotalien metal usa funny col=grey
+brian griffin | cartoon_c | 2 | animal_char dogkind usa col=white
+kenny mccormick | cartoon_c | 3 | human person male child usa col=orange
+mew | pokemon_c | 5 | col=pink cute flies_char rare
+snorlax | pokemon_c | 6 | col=blue,white sleep
+gengar | pokemon_c | 4 | col=purple scary~
+psyduck | pokemon_c | 4 | col=yellow bird? funny
+lucario | pokemon_c | 3 | col=blue dogkind fighting
+meowth | pokemon_c | 4 | col=white,yellow catkind talks_anim villain
+togepi | pokemon_c | 2 | col=white cute
+magikarp | pokemon_c | 3 | col=orange fish aquatic funny
+gyarados | pokemon_c | 3 | col=blue snake? scary
+dragonite | pokemon_c | 2 | col=orange wings flies
+lugia | pokemon_c | 2 | col=white bird? flies rare
+zelda | gamechar_c | 5 | human person female nintendo royal blond fantasy
+ganondorf | gamechar_c | 3 | villain human person male nintendo redhair fantasy
+ryu street fighter | gamechar_c | 2 | human person male fighting japan
+chun-li | gamechar_c | 2 | human person female fighting china
+scorpion mortal kombat | gamechar_c | 2 | human person male fighting mask -japan
+sub-zero | gamechar_c | 2 | human person male fighting mask cold -japan
+glados | gamechar_c | 2 | robotalien villain computer -japan
+peely | gamechar_c | 2 | animal_char fromfruit? col=yellow -japan
+noob roblox | gamechar_c | 3 | human person boxshape col=yellow,blue,green -japan
+enderman | gamechar_c | 3 | col=black tall scary -japan boxshape
+alex minecraft | gamechar_c | 2 | human person female boxshape -japan
+pou | gamechar_c | 3 | col=brown cute phone? -japan
+talking angela | gamechar_c | 2 | animal_char catkind female phone? -japan
+huggy wuggy | gamechar_c | 4 | scary col=blue fur horror -japan
+mirabel | disney_c | 3 | human person female glasses_c samerica col=yellow,blue
+bruno madrigal | disney_c | 2 | human person male samerica col=green
+asha | princess_c | 2 | col=purple
+peter parker | superhero_c | 3 | marvel male child~ camera~ col=red,blue
+bruce wayne | superhero_c | 3 | dccomics male darkhair -mask
+clark kent | superhero_c | 3 | dccomics male glasses_c darkhair -mask
+tony stark | superhero_c | 3 | marvel male beard darkhair
+squid game guard | human_char | 2 | mask col=pink,black asia scary~
+annabelle | villain_c | 3 | toy horror scary female
+slender man | villain_c | 4 | horror scary tall col=black,white internet -human~
+michael myers | villain_c | 3 | human person male horror mask scary halloween
+jason voorhees | villain_c | 3 | human person male horror mask scary halloween
+leatherface | villain_c | 2 | human person male horror mask scary
+hannibal lecter | villain_c | 3 | human person male horror crime clever mask~
+frosty the snowman | fict_c | 3 | wintery cold xmas col=white hat_char -human
+the nutcracker | fict_c | 3 | xmas toy wood military?
+pinkie pie | cartoon_c | 3 | animal_char horsekind col=pink cute children
+my little pony | cartoon_c | 4 | animal_char horsekind col=any cute children
+care bears | cartoon_c | 3 | animal_char bear col=any cute children
+tom and jerry | cartoon_c | 6 | animal_char catkind rodent funny usa oldfash
+looney tunes | cartoon_c | 2 | animal_char funny usa
+hatsune miku | cartoon_c | 4 | human~ female musician japan asia anime col=blue,green
+pikmin | gamechar_c | 2 | nintendo plant? small_char col=red,blue,yellow
+inkling | gamechar_c | 2 | nintendo mollusc? col=any
+king boo | gamechar_c | 2 | nintendo villain col=white
+# ===== more jobs ==========================================================================
+police | job_c | 6 | police crime uniform govjob protect car?
+paramedic | job_c | 4 | helps medical emergency uniform driver
+midwife | job_c | 2 | helps medical female baby_use?
+optician | job_c | 2 | medical
+psychologist | job_c | 2 | helps degree medical~
+therapist | job_c | 2 | helps degree
+physiotherapist | job_c | 2 | helps medical
+caretaker | job_c | 2 | helps elderly~
+pizza delivery | job_c | 3 | foodjob driver
+delivery driver | job_c | 3 | driver car
+flight attendant | job_c | 3 | aircraft airport uniform helps travel
+train driver | job_c | 2 | driver rail uniform
+ship captain | job_c | 3 | boat ship ocean uniform hat_char
+astronomer | job_c | 2 | scientist nightsky celestial degree
+chemist | job_c | 2 | scientist lab degree
+mathematician | job_c | 2 | scientist degree clever
+kindergarten teacher | job_c | 3 | kidsjob children school female~
+headteacher | job_c | 2 | school kidsjob
+janitor | job_c | 2 | cleaning school
+bricklayer | job_c | 2 | handsjob construction stone
+welder | job_c | 2 | handsjob metal fire_rel mask
+blacksmith | job_c | 3 | handsjob metal fire_rel strong oldfash
+locksmith | job_c | 2 | handsjob lock
+jeweller | job_c | 2 | handsjob precious sells
+florist | job_c | 2 | flower? sells
+bartender | job_c | 3 | alcohol foodjob adults
+barista | job_c | 3 | foodjob hotdrink caffeine
+acrobat | job_c | 3 | entertain circus jumps strong
+juggler | job_c | 2 | entertain circus thrown
+ringmaster | job_c | 2 | entertain circus hat_char
+stuntman | job_c | 2 | entertain dangerous moviechar actionstar~
+news reader | job_c | 2 | tvshow~ read communicate
+reporter | job_c | 2 | writer communicate
+influencer | job_c | 5 | internet youtube modern famous? camera phone
+streamer | job_c | 4 | internet youtube videogame modern
+game developer | job_c | 2 | computer videogame
+hacker | job_c | 4 | computer internet crime~ clever
+general | job_c | 2 | military leader uniform elderly
+mayor | job_c | 2 | leader govjob city
+chancellor | job_c | 2 | leader govjob germany
+prime minister | job_c | 3 | leader govjob uk
+emperor | job_c | 4 | royal leader male oldfash china~ japan~
+pharaoh | job_c | 4 | royal leader male egypt africa ancient
+gladiator | job_c | 4 | fighting sword italy ancient strong dangerous
+pope | job_c | 4 | religion leader male elderly italy col=white hat_char
+cowgirl | job_c | 2 | female usa hat_char onfarm
+explorer job | job_c | 3 | explorer travel outdoors
+scuba diver | job_c | 3 | undersea ocean watersport swims mask
+mountain climber | job_c | 2 | mountain climbs sport
+skier | job_c | 2 | wintery snowplace sport
+surfer | job_c | 2 | beach ocean watersport sport
+cyclist | job_c | 2 | sport wheels? twowheels
+swimmer | job_c | 2 | sport swims watersport
+goalkeeper | job_c | 3 | football teamsport sport
+cheerleader | job_c | 3 | sport female dancing usa
+# ===== activities, events, everyday ideas ===============================================
+football match | event_c | 6 | football sport stadium crowded noisy
+birthday party | event_c | 6 | birthday party fun positive children
+christmas eve | event_c | 3 | xmas holiday religion~ gift positive wintery
+christmas market | event_c | 4 | xmas holiday germany europe wintery food? crowded
+oktoberfest | event_c | 6 | germany europe alcohol party crowded holiday
+carnival | event_c | 5 | party costume holiday germany~ brazil~ music crowded
+new years eve | event_c | 4 | holiday party wintery positive
+mothers day | event_c | 3 | holiday gift positive female
+fathers day | event_c | 2 | holiday gift male
+easter egg hunt | event_c | 2 | easter children fun
+summer holidays | event_c | 4 | summery holiday positive children
+camping trip | event_c | 2 | camping outdoors
+road trip | event_c | 2 | travel car
+school trip | event_c | 2 | school children travel
+sleepover | event_c | 3 | sleep children fun
+barbecue party | event_c | 3 | summery outdoors party meat? fire_rel
+funeral | event_c | 3 | religion~ -positive -fun
+graduation | event_c | 2 | school learnplace positive formal
+job interview | event_c | 2 | work adults formal
+doctor appointment | event_c | 2 | medical helps
+holiday | event_c | 8 | holiday positive travel~
+breakfast | event_c | 8 | food? breakfast everyday daily
+lunch | event_c | 5 | food? everyday daily
+dinner | event_c | 6 | food? everyday daily dark~
+snack time | event_c | 2 | food?
+nap | activity_c | 4 | sleep quiet
+playing | activity_c | 4 | fun children
+drawing | activity_c | 5 | art writing children fun
+knitting | activity_c | 3 | fabric elderly~ handsjob~
+sewing | activity_c | 2 | fabric
+baking | activity_c | 3 | baked? cooking food?
+cooking | activity_c | 4 | cooking food? kitchen
+cleaning up | activity_c | 3 | cleaning -fun
+walking | activity_c | 4 | outdoors legs?
+jogging | sport_c | 4 | fast? outdoors
+skating | sport_c | 2 | wheels?
+climbing | sport_c | 3 | mountain climbs
+diving | sport_c | 3 | watersport undersea swims
+sailing | sport_c | 3 | watersport boat sail ocean
+rowing | sport_c | 2 | watersport boat olympic
+snowboarding | sport_c | 3 | wintery snowplace mountain olympic
+sledding | activity_c | 3 | wintery snowplace fun children
+video gaming | activity_c | 5 | videogame fun screen
+watching tv | activity_c | 4 | watch screen fun
+listening to music | activity_c | 2 | music listen
+hide and seek | game_c | 6 | children fun outdoors~ -boardgame
+tag game | game_c | 3 | children fun outdoors -boardgame
+hopscotch | game_c | 2 | children fun outdoors jumps
+rock paper scissors | game_c | 5 | children fun -boardgame onhand
+truth or dare | game_c | 2 | party fun adults~
+charades | game_c | 2 | party fun
+musical chairs | game_c | 2 | party children music
+treasure hunt | game_c | 2 | children fun outdoors
+escape room | game_c | 3 | adults fun clever inside
+quiz | game_c | 3 | clever read~
+karaoke | activity_c | 4 | music party noisy fun
+magic trick | concept_c | 4 | evilmagic entertain fun
+birthday present | concept_c | 4 | gift birthday positive
+surprise | concept_c | 2 | positive~
+hug | concept_c | 4 | positive
+kiss | concept_c | 4 | positive onface
+smile | concept_c | 5 | positive onface
+laughter | concept_c | 3 | positive funny makessound
+nightmare | concept_c | 4 | sleep scary -positive dark
+boredom | emotion_c | 2 | -positive
+hope | emotion_c | 2 | positive
+friendship | concept_c | 4 | positive
+family | concept_c | 6 | positive homes person?
+freedom | concept_c | 2 | positive
+# ===== more places (Germany and more) ======================================================
+stuttgart | city_c | 3 | germany europe eu car?
+dusseldorf | city_c | 2 | germany europe eu
+dortmund | city_c | 2 | germany europe eu football
+leipzig | city_c | 2 | germany europe eu
+dresden | city_c | 2 | germany europe eu historic
+nuremberg | city_c | 2 | germany europe eu xmas~ historic
+lake constance | natplace_c | 3 | waterbody freshwater germany europe
+black forest | natplace_c | 4 | forest woodland germany europe mountain cake?
+zugspitze | natplace_c | 3 | mountain germany europe snowplace tall
+baltic sea | natplace_c | 3 | waterbody ocean europe germany~ nordic~ cold
+north sea | natplace_c | 3 | waterbody ocean europe germany~ uk~ cold
+cologne cathedral | building_c | 4 | sz=10 landmark germany europe church religion tall historic
+reichstag | building_c | 3 | sz=10 landmark germany europe leader glass historic
+berlin wall | structure_c | 4 | sz=10 landmark germany europe historic stone longthin
+berlin tv tower | structure_c | 3 | sz=10 landmark germany europe tall round
+salzburg | city_c | 2 | europe mountain music
+pisa | city_c | 2 | italy europe eu
+mallorca | natplace_c | 4 | island spain europe beach hotclimate tourist
+ibiza | natplace_c | 2 | island spain europe beach party
+canary islands | natplace_c | 3 | island spain europe beach hotclimate
+crete | natplace_c | 2 | island greece europe beach hotclimate
+santorini | natplace_c | 2 | island greece europe beach tourist col=white,blue
+sicily | natplace_c | 2 | island italy europe hotclimate
+bali | natplace_c | 3 | island seasia asia beach tropical tourist
+maldives | country_c | 3 | island asia beach tropical tourist smallcountry luxury
+caribbean islands | natplace_c | 2 | island caribbean beach tropical
+times square | structure_c | 3 | sz=10 landmark usa city crowded bright
+central park | natplace_c | 3 | landmark usa city -natural~
+disneyland | structure_c | 8 | sz=10 disney fun circus children payenter crowded usa tourist
+legoland | structure_c | 3 | sz=10 fun children payenter toy?
+europa-park | structure_c | 3 | sz=10 fun circus payenter germany europe
+the moon landing | event_c | 3 | inspace historic famous usa

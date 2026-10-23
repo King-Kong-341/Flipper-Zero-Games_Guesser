@@ -1,0 +1,277 @@
+# ===== kitchen =====================================================================
+fork | cutlery_c | 75 | pointed sharp~ col=grey everyday daily kidknows
+knife | cutlery_c | 80 | cutting blade sharp dangerous col=grey everyday daily kidknows weapon~
+spoon | cutlery_c | 80 | col=grey round~ everyday daily kidknows -pointed -sharp
+teaspoon | cutlery_c | 15 | sz=2 col=grey -sharp
+chopsticks | cutlery_c | 35 | wood pair -metal? col=brown,white asia china japan -handle
+spatula | utensil_c | 25 | flat plastic? col=black,grey handle
+ladle | utensil_c | 15 | col=grey handle soup? round~
+whisk | utensil_c | 15 | col=grey handle metal
+rolling pin | utensil_c | 15 | sz=4 wood cylinder col=brown baked?
+cutting board | utensil_c | 20 | sz=4 wood flat col=brown -handle? -metal cutting~
+grater | utensil_c | 10 | col=grey sharp handle cheese?
+peeler | utensil_c | 8 | col=grey sharp blade cutting
+can opener | utensil_c | 12 | col=grey opens sharp~ -cooking
+bottle opener | utensil_c | 10 | sz=2 col=grey opens -cooking
+corkscrew | utensil_c | 8 | col=grey pointed opens -cooking adults
+tongs | utensil_c | 8 | col=grey pair~ handle
+sieve | utensil_c | 8 | col=grey round handle holes? withwater
+colander | utensil_c | 6 | col=grey round holes withwater pasta?
+funnel | utensil_c | 4 | col=grey,white pointed hollow
+pot | utensil_c | 55 | sz=4 col=grey,black metal heats~ lid handle round hollow container withwater hot? soup?
+pan | utensil_c | 60 | sz=4 col=black,grey metal handle flat round fried? hot? cooking
+frying pan | utensil_c | 40 | sz=4 col=black,grey metal handle flat round hot
+wok | utensil_c | 12 | sz=4 col=black metal round handle asia china
+kettle | kitchen_appl | 50 | sz=4 col=white,grey,black hot heats withwater handle lid hotdrink? -heavy uk~ cooking~ -machine? plastic metal
+teapot | crockery_c | 30 | col=white,any handle lid hollow hotdrink uk china~ -everyday?
+mug | crockery_c | 65 | col=any handle hollow cylinder hotdrink everyday daily kidknows gift~ office~
+cup | crockery_c | 70 | col=white,any handle hollow round hotdrink everyday daily kidknows
+glass | crockery_c | 65 | glass seethrough breakable cylinder hollow col=white everyday daily -ceramic drink
+wine glass | crockery_c | 15 | glass seethrough breakable col=white adults -ceramic
+plate | crockery_c | 75 | flat round col=white everyday daily kidknows
+bowl | crockery_c | 65 | round hollow col=white,any everyday daily kidknows soup?
+saucer | crockery_c | 10 | flat round col=white
+tray | kitchen_c | 15 | sz=4 flat carry plastic? metal? col=any restaurant
+jug | crockery_c | 15 | col=white,any handle hollow drink? glass~ plastic~
+straw drink | kitchen_c | 10 | sz=3 plastic longthin cylinder hollow col=any cheap drink? children?
+napkin | kitchen_c | 25 | paper flat folds soft col=white restaurant cheap cleaning~ -hard
+tablecloth | kitchen_c | 8 | fabric flat folds soft col=white,any
+lunchbox | container_c | 20 | plastic col=any school children? food~ kitchen
+thermos | container_c | 8 | metal cylinder hot? cold~ col=any camping hotdrink?
+water bottle | bottle_c | 35 | plastic col=any sport? school bag
+bottle | bottle_c | 55 | glass? plastic? col=white,green,any everyday kidknows
+jar | container_c | 30 | glass lid cylinder seethrough breakable col=white kitchen jam?
+can | container_c | 40 | metal cylinder col=grey,any supermarket cheap food~ drink~ kitchen
+tin can | container_c | 8 | metal cylinder col=grey kitchen
+box | box_c | 55 | sz=4 col=brown paper? kidknows everyday cheap
+cardboard box | box_c | 25 | sz=4 paper col=brown cheap flammable
+plastic bag | bag_c | 30 | plastic -fabric col=white,any cheap supermarket shop -leather light? flammable
+shopping bag | bag_c | 15 | col=any supermarket shop
+basket | container_c | 25 | sz=4 handle wood~ col=brown -lid? easter~
+bucket | container_c | 35 | sz=4 plastic? metal? handle cylinder withwater cleaning? beach col=any garden~
+trash can | container_c | 40 | sz=5 plastic metal? lid col=grey,black,green dirty smells -smellsnice kitchen outdoors? city
+recycling bin | container_c | 10 | sz=5 plastic lid col=blue,green outdoors
+toaster | kitchen_appl | 50 | sz=4 heats hot bread? breakfast metal col=grey,white -lid boxshape
+microwave | kitchen_appl | 55 | sz=5 heats boxshape doors? opens screen~ buttons col=white,black,grey modern -lift? lift~
+oven | kitchen_appl | 60 | sz=6 heats hot baked? opens doors? boxshape heavy col=white,black,grey -lift fire_rel~
+stove | kitchen_appl | 35 | sz=6 heats hot fire_rel~ heavy col=white,black,grey -lift
+fridge | kitchen_appl | 75 | sz=6 cools cold opens doors boxshape heavy tall col=white,grey -lift food~
+freezer | kitchen_appl | 30 | sz=6 cools cold opens doors boxshape heavy col=white -lift frozen?
+dishwasher | kitchen_appl | 30 | sz=6 cleaning withwater opens doors boxshape heavy col=white,grey -lift noisy -cooking
+blender | kitchen_appl | 25 | sz=4 cutting blade spins lid col=white,black,grey noisy -heats glass? plastic
+mixer | kitchen_appl | 12 | sz=4 spins col=white,grey noisy cake?
+coffee machine | kitchen_appl | 30 | sz=4 hotdrink caffeine? heats adults col=black,grey buttons
+juicer | kitchen_appl | 5 | sz=4 juice? col=white
+rice cooker | kitchen_appl | 5 | sz=4 heats asia rice? lid col=white
+slow cooker | kitchen_appl | 3 | sz=4 heats lid col=grey,black
+grill | appliance_c | 20 | sz=5 heats hot fire_rel outdoors garden summery -kitchen? metal col=black -plugin? party~
+barbecue | appliance_c | 30 | sz=5 heats hot fire_rel outdoors garden summery -kitchen -plugin -cord -electric? metal col=black party usa~ oceania~ -house?
+oven glove | kitchen_c | 8 | fabric soft onhand protect hot? col=any pair~
+apron | clothing_c | 15 | kitchen cooking garment_up protect? -bedroom -wear? wear col=any restaurant~ foodjob?
+dish soap | hygiene_c | 8 | -bathroom kitchen cleaning liquid -hygiene -grooming col=green,yellow
+sponge | hygiene_c | 25 | -bathroom? kitchen cleaning soft withwater wet? col=yellow,green holes? -grooming? plastic~
+dishcloth | kitchen_c | 5 | fabric cleaning soft withwater
+salt shaker | container_c | 10 | sz=2 glass? col=white,grey holes kitchen restaurant pair~
+pepper grinder | kitchen_c | 4 | sz=3 col=black,brown wood spins
+egg cup | crockery_c | 4 | sz=2 col=white breakfast
+ice cube tray | kitchen_c | 3 | plastic cold frozen? fridge
+ice cube | material_c | 30 | sz=2 cold frozen -manmade? water_rel melts seethrough col=white boxshape hard fridge drink? wet -material? kitchen
+# ===== furniture ===================================================================
+chair | seat_c | 85 | sz=5 legsfurn wood? plastic? metal? col=brown,any everyday daily kidknows homes school office restaurant
+armchair | seat_c | 25 | sz=6 soft fabric livingroom col=any
+sofa | seat_c | 65 | sz=7 soft fabric livingroom heavy -lift col=any manypeople? -oneperson sleep~ homes
+couch | seat_c | 30 | sz=7 soft fabric livingroom heavy col=any
+stool | seat_c | 20 | sz=5 legsfurn -soft col=brown,any round? kitchen~
+bench | seat_c | 30 | sz=6 legsfurn wood outdoors? playground garden~ city~ col=brown,green -oneperson
+rocking chair | seat_c | 10 | sz=6 wood moving col=brown oldfash elderly?
+office chair | seat_c | 15 | sz=6 office wheels spins col=black office_use
+wheelchair | seat_c | 20 | sz=6 -furniture wheels medical hospital carryperson travel? metal col=grey,black pushpull -legsfurn helps?
+high chair | seat_c | 5 | sz=5 baby_use children kitchen plastic
+bean bag | seat_c | 10 | sz=5 -legsfurn soft fabric col=any children? round
+bed | bed_c | 85 | homes everyday daily kidknows col=white,any heavy -lift
+bunk bed | bed_c | 15 | tall children wood? metal?
+crib | bed_c | 15 | sz=6 baby_use children wood col=white
+hammock | bed_c | 15 | sz=6 fabric outdoors garden summery beach camping~ -legsfurn folds -heavy
+mattress | bed_c | 25 | sz=7 -legsfurn soft fabric flat col=white -wood
+pillow | household_c | 65 | sz=4 soft fabric fluffy? sleep bedroom col=white -hard -heavy lift sit~
+cushion | household_c | 30 | sz=4 soft fabric livingroom col=any sit -heavy
+blanket | household_c | 45 | sz=5 soft fabric folds sleep bedroom wintery? col=any -heavy
+duvet | household_c | 15 | sz=6 soft fabric fluffy sleep bedroom col=white
+sleeping bag | household_c | 15 | sz=5 soft fabric sleep camping outdoors folds col=any -house?
+table | table_c | 85 | sz=6 legsfurn everyday daily kidknows homes kitchen livingroom restaurant -lift? col=brown,any
+desk | table_c | 45 | sz=6 office school office_use schooluse work bedroom? col=brown,white,any
+coffee table | table_c | 10 | sz=5 livingroom
+dining table | table_c | 6 | sz=7 kitchen? heavy
+picnic table | table_c | 4 | sz=7 outdoors garden summery
+nightstand | storage_furn | 8 | sz=5 bedroom opens legsfurn~
+wardrobe | storage_furn | 35 | sz=7 bedroom clothing? opens doors tall heavy -lift col=brown,white
+closet | storage_furn | 20 | sz=7 bedroom clothing? opens doors tall buildpart~ -lift
+chest of drawers | storage_furn | 15 | sz=6 bedroom opens heavy col=brown,white
+cupboard | storage_furn | 35 | sz=6 kitchen opens doors col=brown,white
+bookshelf | storage_furn | 25 | sz=7 tall livingroom? office? read~ col=brown,white -opens -doors
+shelf | storage_furn | 25 | sz=5 flat wall col=brown,white -opens -doors
+cabinet | storage_furn | 15 | sz=6 opens doors col=brown,white
+drawer | storage_furn | 15 | sz=4 opens boxshape col=brown,white -stays? -furniture?
+chest | storage_furn | 12 | sz=5 opens lid boxshape wood oldfash? col=brown
+treasure chest | container_c | 20 | sz=5 opens lid boxshape wood precious expensive fictional? col=brown,yellow rare castle~ ship~
+mirror | household_c | 60 | sz=5 glass breakable shiny flat bathroom bedroom wall col=grey,white seethrough~ -seethrough everyday daily
+carpet | household_c | 35 | sz=7 fabric soft flat livingroom folds? col=any -lift?
+rug | household_c | 25 | sz=6 fabric soft flat livingroom col=any
+curtain | household_c | 35 | sz=7 fabric soft folds bedroom livingroom wall? col=any opens? -lift? lift
+blinds | household_c | 8 | sz=6 opens wall plastic? col=white
+lamp | lighting_c | 70 | sz=4 plugin cord livingroom bedroom desk col=any -hot
+lamp shade | household_c | 3 | sz=4 fabric col=white
+light bulb | lighting_c | 55 | sz=2 glass breakable hot round? electric -plugin cord? cheap col=white,yellow seethrough~ wall~
+candle | lighting_c | 60 | sz=3 -electric fire_rel hot melts flammable col=white,any cylinder smellsnice? xmas~ birthday church religion~ cheap oldfash~ dark
+torch | lighting_c | 35 | sz=3 battery cylinder buttons camping dark bag? col=black,grey -plugin -livingroom
+flashlight | lighting_c | 30 | sz=3 battery cylinder buttons camping dark col=black,grey -plugin -livingroom
+lantern | lighting_c | 15 | sz=4 handle camping oldfash~ fire_rel~ col=black,grey
+chandelier | lighting_c | 10 | sz=6 glass expensive luxury wall castle~ -lift col=yellow,white precious~ -plugin
+fairy lights | lighting_c | 10 | sz=4 xmas decoration col=any plugin~ battery~
+lava lamp | lighting_c | 5 | sz=4 plugin col=any modern? decoration
+clock | household_c | 65 | sz=4 time round wall battery? electric? livingroom col=white,black,any -fun -food makessound~ moving
+alarm clock | household_c | 35 | sz=3 time battery electric? bedroom noisy makessound buttons sleep~ col=any
+grandfather clock | furniture_c | 8 | sz=7 time tall wood oldfash moving makessound col=brown
+cuckoo clock | household_c | 5 | sz=4 time wood germany europe makessound col=brown wall
+hourglass | household_c | 10 | sz=3 time glass breakable seethrough oldfash powder~ col=yellow,white
+calendar | document_c | 30 | time read wall paper col=white
+vase | decoration_c | 30 | sz=4 ceramic? glass? breakable hollow flower? col=any container~ withwater
+picture frame | decoration_c | 25 | sz=3 wall glass? wood? col=any flat
+painting | decoration_c | 45 | sz=5 art wall flat museum col=any expensive~ famous~ artist?
+poster | decoration_c | 20 | sz=5 paper flat wall bedroom col=any cheap
+photo | document_c | 35 | sz=3 flat paper? camera? col=any -read wall~
+statue | decoration_c | 30 | sz=6 stone metal? museum outdoors? city? art heavy famous~ -lift col=grey,white
+sculpture | decoration_c | 15 | sz=5 stone? art museum col=grey,white
+snow globe | decoration_c | 10 | sz=3 glass breakable seethrough xmas wintery water_rel col=white
+wind chime | decoration_c | 5 | sz=4 makessound garden metal
+fireplace | buildpart_c | 30 | sz=6 fire_rel hot heats livingroom stone wintery xmas~ -lift
+radiator | buildpart_c | 15 | sz=5 heats hot metal wall wintery col=white
+heater | appliance_c | 20 | sz=4 heats hot wintery col=white,grey
+fan | appliance_c | 40 | sz=4 cools spins moving summery noisy? col=white,black blade~ plastic
+air conditioner | appliance_c | 25 | sz=5 cools cold summery wall noisy col=white remote
+vacuum cleaner | appliance_c | 50 | sz=5 cleaning noisy pushpull wheels? plugin col=any -kitchen
+washing machine | appliance_c | 50 | sz=6 cleaning withwater clothing? spins opens doors boxshape heavy noisy bathroom~ col=white
+dryer | appliance_c | 15 | sz=6 heats hot clothing? spins opens boxshape heavy col=white
+iron | appliance_c | 30 | sz=3 heats hot flat? clothing? cord pointed handle heavy~ col=white,grey dangerous~
+ironing board | household_c | 8 | sz=6 flat legsfurn folds metal col=white,grey
+hair dryer | appliance_c | 30 | sz=3 heats hot grooming bathroom bedroom noisy handle cord col=black,white -kitchen lift
+broom | household_c | 40 | sz=6 cleaning handle longthin wood? plastic? col=brown,any -electric halloween~ pushpull
+mop | household_c | 25 | sz=6 cleaning handle longthin withwater wet col=any pushpull
+dustpan | household_c | 10 | sz=3 cleaning plastic handle col=any
+bin bag | household_c | 6 | plastic col=black dirty
+feather duster | household_c | 5 | sz=4 cleaning feathers? handle fluffy col=any
+toilet brush | hygiene_c | 5 | sz=4 cleaning dirty -grooming handle plastic
+laundry basket | container_c | 6 | sz=5 clothing? plastic bedroom? bathroom?
+clothes peg | household_c | 8 | sz=2 fasten wood? plastic? garden
+hanger | household_c | 15 | sz=4 clothing? plastic? metal? -soft
+key | household_c | 75 | sz=2 metal lock opens? s_pocket bag everyday daily kidknows col=grey,yellow shiny hard -soft
+keychain | accessory_c | 10 | sz=2 metal bag col=any
+lock | household_c | 30 | sz=2 metal lock col=grey,yellow hard -soft
+padlock | household_c | 20 | sz=2 metal lock col=grey,yellow hard
+doorbell | buildpart_c | 15 | sz=2 makessound noisy buttons electric
+smoke alarm | safety_c | 10 | sz=3 noisy buttons battery wall fire_rel round col=white
+fire extinguisher | safety_c | 25 | sz=5 fire_rel metal col=red cylinder emergency? heavy wall -fun
+first aid kit | medical_c | 15 | sz=4 boxshape opens helps col=red,white,green safety
+umbrella | accessory_c | 70 | sz=5 opens folds protect wet? fabric handle longthin col=black,any bag~ -wear? outdoors
+walking stick | accessory_c | 15 | sz=5 elderly wood longthin handle col=brown -wear
+mailbox | signs_c | 20 | sz=5 metal opens col=red,blue city
+doormat | household_c | 10 | sz=4 flat rough col=brown
+coat hook | household_c | 3 | sz=2 metal wall
+cot | bed_c | 3 | sz=6 baby_use
+remote control | electronic_c | 55 | sz=3 remote buttons battery livingroom col=black plastic -plugin -screen lift s_hold everyday
+television | electronic_c | 85 | sz=6 screen watch plugin cord livingroom heavy? flat col=black remote sound homes everyday daily kidknows -battery fun
+radio | electronic_c | 45 | sz=4 sound listen music plugin? battery? oldfash? buttons? col=black,grey -screen
+speaker | electronic_c | 30 | sz=4 sound listen music noisy col=black plugin? battery?
+headphones | electronic_c | 45 | sz=3 sound listen music onhead wear pair? col=black,white oneperson bag
+earbuds | gadget_c | 15 | sz=2 sound listen music pair col=white,black oneperson s_pocket
+smartphone | phonetech_c | 90 | col=black,grey,white flat boxshape screen internet camera sound buttons~ touch? kidknows everyday daily expensive
+mobile phone | phonetech_c | 40 | col=black,grey flat
+phone | phonetech_c | 60 | col=black,white,grey
+telephone | electronic_c | 25 | sz=3 phone communicate cord buttons oldfash? house office col=black,white sound
+fax machine | electronic_c | 3 | sz=4 phone communicate paper oldfash office
+tablet | gadget_c | 40 | sz=4 screen internet camera sound flat flat? battery col=black,grey expensive fun? read? watch
+laptop | computer_c | 65 | sz=4 screen keys internet camera sound battery opens folds flat expensive bag school? col=grey,black fun~
+computer | computer_c | 80 | sz=5 screen keys internet sound plugin cord expensive heavy? col=black,grey,white homes kidknows fun~ -battery?
+desktop computer | computer_c | 15 | sz=5 screen plugin cord heavy col=black,grey -battery
+keyboard | computer_c | 45 | sz=4 keys buttons flat plastic -screen col=black,white desk cord? -internet -sound
+mouse computer | computer_c | 30 | sz=3 buttons plastic -screen col=black,white desk cord? -internet -sound moving~ round~
+monitor | computer_c | 25 | sz=5 screen flat plugin cord -keys -battery col=black desk
+printer | computer_c | 35 | sz=5 paper plugin cord buttons noisy -screen? boxshape col=white,black office
+usb stick | computer_c | 25 | sz=2 -screen -keys -internet plastic metal s_pocket col=black,any cheap
+hard drive | computer_c | 6 | sz=3 -screen -keys boxshape col=black
+router | computer_c | 10 | sz=4 internet light -screen -keys plugin col=black,white
+webcam | computer_c | 4 | sz=2 camera
+charger | electronic_c | 35 | sz=3 cord plugin electricity -screen -buttons col=white,black phone? everyday cheap?
+battery | electronic_c | 55 | sz=2 electricity -plugin -battery -screen -buttons cylinder metal col=grey,black,any cheap -manyparts dangerous~ s_pocket kidknows
+power bank | gadget_c | 8 | sz=3 electricity -screen boxshape col=black,white phone?
+extension cord | electronic_c | 8 | sz=4 cord plugin electricity -screen col=white,black
+plug | electronic_c | 15 | sz=2 electricity cord wall -screen col=white,black
+socket | buildpart_c | 15 | sz=2 electricity wall electric col=white dangerous~
+light switch | buildpart_c | 20 | sz=2 electricity wall buttons col=white
+camera | gadget_c | 55 | sz=3 camera buttons screen? battery col=black,grey expensive tourist? -internet? art~
+video camera | gadget_c | 10 | sz=4 camera sound buttons screen col=black
+game console | electronic_c | 50 | sz=4 videogame fun game? plugin remote~ children? livingroom col=black,white screen~ -work
+handheld console | gadget_c | 25 | sz=3 videogame fun game? screen buttons children nintendo~ japan~ col=any
+joystick | electronic_c | 12 | sz=3 videogame buttons plastic col=black fun
+game controller | electronic_c | 25 | sz=3 videogame buttons plastic col=black,white fun battery? pair~
+calculator | gadget_c | 35 | sz=3 buttons screen school office measure? -internet -camera col=black,grey cheap?
+smartwatch | gadget_c | 20 | sz=2 time onhand wear screen internet battery modern col=black
+watch | accessory_c | 60 | sz=2 time onhand wear battery? metal leather? round gift expensive~ col=grey,black,yellow electronic~ jewellery~
+drone | gadget_c | 20 | sz=4 flies sky remote camera battery modern fun noisy aircraft~ col=black,white
+robot | electronic_c | 45 | sz=5 moves moving robotalien metal modern col=grey,white noisy~ expensive -food
+robot vacuum | appliance_c | 8 | sz=4 cleaning moves battery round flat modern
+e-reader | gadget_c | 5 | sz=3 read screen battery flat
+microphone | electronic_c | 25 | sz=3 sound music theatre listen~ col=black,grey handle? cord?
+projector | electronic_c | 8 | sz=4 light watch school office
+vr headset | gadget_c | 8 | sz=3 videogame screen onhead onface wear modern fun col=black,white
+satellite dish | electronic_c | 6 | sz=6 round wall outdoors col=white,grey
+solar panel | electronic_c | 8 | sz=6 flat sun_rel electricity outdoors buildpart~ col=black,blue modern
+sewing machine | appliance_c | 10 | sz=4 fabric? col=white
+thermometer | medical_c | 25 | sz=3 measure hot? cold? longthin glass? battery? col=white -hospital? homes
+scale | household_c | 20 | sz=4 measure flat bathroom kitchen? battery~ col=white,grey
+# ===== bathroom and hygiene ===========================================================
+toothbrush | hygiene_c | 75 | sz=3 longthin plastic handle grooming teeth? col=any cheap kidknows daily
+toothpaste | hygiene_c | 55 | sz=3 lid cylinder soft? sticky? smellsnice col=white,blue,green grooming -hard
+soap | hygiene_c | 65 | sz=2 smellsnice col=white,any boxshape~ cleaning wet? -hard? kidknows
+shampoo | hygiene_c | 45 | sz=3 liquid smellsnice grooming col=any lid
+conditioner | hygiene_c | 6 | sz=3 liquid grooming lid
+shower gel | hygiene_c | 10 | sz=3 liquid smellsnice lid
+towel | hygiene_c | 55 | sz=5 fabric soft folds -withwater wet~ beach? col=white,any -hard
+bathrobe | clothing_c | 10 | sz=5 bathroom garment_up garment_lo? fluffy col=white
+toilet paper | hygiene_c | 55 | sz=3 paper soft cylinder col=white rolls cheap kidknows -wet flammable
+tissue | hygiene_c | 35 | sz=2 paper soft flat col=white cheap bag -bathroom? -withwater
+toilet | buildpart_c | 70 | sz=5 bathroom withwater ceramic col=white sit dirty~ hygiene? -lift homes everyday daily kidknows
+bathtub | buildpart_c | 35 | sz=7 bathroom withwater ceramic? col=white hygiene hollow -lift
+shower | buildpart_c | 45 | sz=6 bathroom withwater wet hygiene metal? col=white,grey daily
+sink | buildpart_c | 40 | sz=5 bathroom kitchen withwater ceramic? metal? col=white,grey hollow
+tap | buildpart_c | 30 | sz=2 withwater metal shiny col=grey kitchen bathroom
+rubber duck | toy_c | 40 | sz=3 rubber -plastic? col=yellow bathroom floats children cute withwater
+hairbrush | hygiene_c | 35 | sz=3 grooming handle plastic? bedroom? col=any -withwater
+comb | hygiene_c | 30 | sz=3 grooming plastic flat col=black,any -withwater cheap s_pocket
+razor | hygiene_c | 30 | sz=3 grooming sharp blade cutting handle male? adults col=any dangerous~
+shaving cream | hygiene_c | 6 | sz=3 grooming creamy male adults
+deodorant | hygiene_c | 20 | sz=3 smellsnice cylinder -withwater col=any adults
+perfume | cosmetic_c | 40 | sz=2 smellsnice liquid glass expensive gift female? luxury -grooming? col=any
+lipstick | cosmetic_c | 35 | sz=2 col=red,pink cylinder onface female adults
+mascara | cosmetic_c | 10 | sz=2 col=black onface female
+nail polish | cosmetic_c | 20 | sz=2 liquid col=red,pink,any smells female
+make-up | cosmetic_c | 25 | sz=3 onface female col=any
+sunscreen | hygiene_c | 25 | sz=3 creamy summery beach protect col=white,yellow -bathroom? -daily?
+lotion | hygiene_c | 10 | sz=3 creamy col=white
+cotton swab | hygiene_c | 10 | sz=2 longthin col=white soft cheap
+plaster | medical_c | 30 | sz=2 flat sticky helps col=pink,brown,any cheap homes pharmacy -hospital? kidknows children
+bandage | medical_c | 25 | sz=3 fabric soft helps col=white pharmacy hospital
+pill | medical_c | 40 | sz=1 pharmacy helps hard? col=white,any round? -cheap?
+medicine | medical_c | 55 | sz=2 pharmacy helps liquid? col=any kidknows -fun bitter?
+syringe | medical_c | 25 | sz=3 sharp pointed plastic seethrough hospital col=white scary? dangerous?
+stethoscope | medical_c | 25 | sz=3 hospital listen onface~ col=black,grey rubber metal
+crutches | medical_c | 10 | sz=6 pair metal longthin col=grey helps
+hearing aid | medical_c | 5 | sz=1 sound elderly battery
+glasses | accessory_c | 70 | sz=3 glass seethrough onface wear pair? breakable everyday daily col=black,any read~ -bag?
+sunglasses | accessory_c | 45 | sz=3 glass? plastic onface wear summery beach col=black protect sun_rel?
+contact lens | medical_c | 8 | sz=1 seethrough soft onface? pair
+face mask | medical_c | 25 | sz=3 fabric onface wear protect helps col=white,blue hospital cheap
+diaper | hygiene_c | 25 | sz=4 baby_use children soft -bathroom? wear dirty~ col=white plastic
+baby bottle | bottle_c | 15 | baby_use children plastic milk? drink col=white,any
+pacifier | household_c | 15 | sz=2 baby_use children rubber plastic onface col=any
+stroller | household_c | 20 | sz=6 wheels baby_use children carryperson pushpull folds col=any outdoors city

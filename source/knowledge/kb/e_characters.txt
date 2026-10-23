@@ -1,0 +1,215 @@
+# ===== cartoon and film characters ======================================================
+mickey mouse | disney_c, animal_char | 70 | mammal rodent male famous col=black,red,white red_char small_char -human -person
+minnie mouse | disney_c, animal_char | 30 | mammal rodent female col=black,red,pink red_char small_char -human -person
+donald duck | disney_c, animal_char | 45 | bird feathers beak male col=white,blue hat_char small_char noisy -human -person
+goofy | disney_c, animal_char | 25 | mammal dogkind male col=black,orange,green hat_char tall -human -person
+pluto | disney_c, animal_char | 15 | mammal dogkind -talks_anim pet col=yellow -human -person -hat_char
+winnie the pooh | disney_c, animal_char | 45 | mammal bear male col=yellow,red red_char bookchar uk~ cute -human -person small_char soft
+tigger | disney_c, animal_char | 12 | mammal catkind stripes col=orange,black jumps bookchar -human -person
+simba | disney_c, animal_char | 35 | mammal catkind male africa col=yellow,orange royal -human -person mane~
+scar (lion king) | disney_c, animal_char | 10 | villain mammal catkind male africa col=brown,black -human -person
+elsa | princess_c | 50 | powers wintery snowplace cold col=blue,white -fairytale? fairytale~ royal
+anna | princess_c | 20 | col=green,purple,blue royal
+olaf | disney_c | 30 | wintery cold col=white small_char -human -person -animal
+cinderella | princess_c | 30 | fairytale col=blue,white europe~
+snow white | princess_c | 30 | fairytale col=blue,yellow,red europe germany~
+ariel | princess_c | 30 | ocean aquatic swims undersea tail fins col=red,green -legs -legs2 myth~ fairytale~
+belle | princess_c | 15 | col=yellow read? fairytale france~
+rapunzel | princess_c | 20 | col=yellow,purple fairytale tall? castle
+mulan | princess_c | 12 | china asia sword military -royal?
+moana | princess_c | 12 | ocean boat oceania island
+princess jasmine | princess_c | 10 | asia col=blue -fairytale
+aladdin | disney_c | 20 | human person male asia flies_char? -royal? col=white,purple
+genie | disney_c | 25 | powers myth? col=blue flies_char -human -person asia~
+pinocchio | disney_c | 25 | wood manmade~ male child small_char italy europe bookchar fairytale~ -animal -human
+dumbo | disney_c, animal_char | 15 | mammal flies_char longears col=grey circus small_char -human -person
+bambi | disney_c, animal_char | 15 | mammal deer col=brown spots woodland -human -person
+peter pan | disney_c | 25 | human person male child flies_char col=green hat_char bookchar uk~ -royal
+tinker bell | disney_c | 20 | flies_char wings powers female col=green,yellow small_char myth~ -human -person
+captain hook | disney_c | 15 | villain human person male hat_char sword col=red
+stitch | disney_c | 25 | robotalien col=blue animal~ cute small_char -human -person oceania~ island
+buzz lightyear | disney_c | 30 | human person male inspace robotalien~ toy col=white,green,purple flies_char~ -talks_anim
+woody | disney_c | 25 | human person male toy col=yellow,blue,brown hat_char
+nemo | disney_c, animal_char | 25 | fish fins ocean aquatic swims col=orange,white small_char child -human -person -legs
+dory | disney_c, animal_char | 15 | fish fins ocean aquatic swims col=blue,yellow female -human -person -legs
+lightning mcqueen | disney_c | 20 | car vehicle wheels racing col=red fast -human -person -legs manmade~
+wall-e | disney_c | 12 | robotalien wheels manmade~ col=yellow,brown -human -person
+sulley | disney_c | 10 | animal~ fur col=blue,purple spots -human -person scary~
+mike wazowski | disney_c | 8 | col=green round small_char -human -person
+maleficent | disney_c | 12 | villain female evilmagic horns col=black,purple
+spongebob | cartoon_c, animal_char | 55 | ocean aquatic undersea col=yellow male boxshape -human -person -fur usa namerica
+patrick star | cartoon_c, animal_char | 25 | ocean aquatic undersea col=pink male -human -person
+homer simpson | cartoon_c | 45 | human person male col=yellow usa namerica
+bart simpson | cartoon_c | 30 | human person male child col=yellow,red usa namerica
+lisa simpson | cartoon_c | 10 | human person female child col=yellow,red usa namerica clever
+scooby-doo | cartoon_c, animal_char | 35 | mammal dogkind col=brown spots usa namerica scary~
+tom cat | cartoon_c, animal_char | 30 | mammal catkind -talks_anim col=grey,blue usa namerica
+jerry mouse | cartoon_c, animal_char | 30 | mammal rodent -talks_anim col=brown small_char usa namerica
+bugs bunny | cartoon_c, animal_char | 35 | mammal longears col=grey,white usa namerica
+daffy duck | cartoon_c, animal_char | 12 | bird beak feathers col=black usa namerica
+tweety | cartoon_c, animal_char | 15 | bird beak feathers col=yellow small_char cute usa
+garfield | cartoon_c, animal_char | 25 | mammal catkind col=orange,black stripes bookchar~ usa
+snoopy | cartoon_c, animal_char | 25 | mammal dogkind col=white,black bookchar usa
+charlie brown | cartoon_c | 10 | human person male child bookchar usa col=yellow
+popeye | cartoon_c | 15 | human person male strong usa hat_char
+pink panther | cartoon_c, animal_char | 15 | mammal catkind col=pink -talks_anim tall
+peppa pig | cartoon_c, animal_char | 40 | mammal col=pink,red female child uk europe kidknows
+shrek | cartoon_c | 45 | myth human~ male col=green fairytale usa
+donkey shrek | cartoon_c, animal_char | 10 | mammal horsekind col=grey
+puss in boots | cartoon_c, animal_char | 15 | mammal catkind hat_char sword fairytale col=orange
+minion | cartoon_c | 40 | col=yellow,blue small_char robotalien~ -human -person
+gru | cartoon_c | 12 | human person male villain~ col=black,grey
+po panda | cartoon_c, animal_char | 12 | mammal bear china asia fighting col=black,white
+dora the explorer | cartoon_c | 20 | human person female child explorer samerica spanish
+bluey | cartoon_c, animal_char | 20 | mammal dogkind col=blue oceania child
+smurf | cartoon_c | 20 | col=blue,white small_char hat_char europe -animal
+tintin | cartoon_c | 12 | human person male bookchar europe explorer~
+asterix | cartoon_c | 10 | human person male bookchar france europe small_char hat_char strong?
+fred flintstone | cartoon_c | 10 | human person male usa ancient?
+kermit the frog | cartoon_c, animal_char | 25 | amphibian col=green -fur usa
+elmo | cartoon_c | 20 | col=red fur small_char usa children -human -person
+cookie monster | cartoon_c | 15 | col=blue fur usa children -human -person
+big bird | cartoon_c, animal_char | 10 | bird feathers col=yellow tall usa
+thomas the tank engine | cartoon_c | 20 | vehicle rail col=blue uk -human -person -legs manmade~
+bob the builder | cartoon_c | 12 | human person male hat_char col=yellow uk
+mr bean | cartoon_c | 30 | human person male uk europe -cartoon~ actor~ moviechar
+paddington bear | cartoon_c, animal_char | 20 | mammal bear col=brown,blue,red hat_char uk bookchar samerica~
+peter rabbit | fairytale_c, animal_char | 15 | mammal longears col=blue,white uk bookchar
+sonic | gamechar_c, animal_char | 45 | mammal col=blue fast spiky -human -person -nintendo
+mario | gamechar_c | 70 | human person male nintendo hat_char red_char col=red,blue italy~ jumps
+luigi | gamechar_c | 25 | human person male nintendo hat_char col=green,blue tall
+princess peach | gamechar_c | 20 | human person female nintendo royal col=pink castle
+bowser | gamechar_c | 25 | villain nintendo reptile? turtle? spiky shell col=green,yellow,red -human -person
+yoshi | gamechar_c | 20 | nintendo reptile? col=green,white cute -human -person
+donkey kong | gamechar_c, animal_char | 20 | nintendo mammal primate col=brown strong
+link | gamechar_c | 20 | human person male nintendo sword hat_char col=green
+kirby | gamechar_c | 15 | nintendo round col=pink cute small_char -human -person
+pac-man | gamechar_c | 25 | round col=yellow oldfash japan -human -person
+pikachu | pokemon_c | 70 | col=yellow,red mammal rodent electricity cute famous
+charizard | pokemon_c | 20 | col=orange reptile? dinosaur? wings flies fire_rel -small_char
+eevee | pokemon_c | 10 | col=brown,white mammal cute fluffy
+jigglypuff | pokemon_c | 10 | col=pink round sings cute
+bulbasaur | pokemon_c | 10 | col=green,blue plant? reptile?
+squirtle | pokemon_c | 10 | col=blue turtle shell aquatic swims
+mewtwo | pokemon_c | 6 | col=purple,grey powers -cute
+lara croft | gamechar_c | 10 | human person female explorer -cartoon? moviechar uk
+master chief | gamechar_c | 6 | human person male military mask -cartoon usa
+steve minecraft | gamechar_c | 25 | human person male boxshape col=blue,brown -japan
+creeper | gamechar_c | 20 | col=green boxshape scary dangerous -human -person -japan
+crash bandicoot | gamechar_c, animal_char | 8 | mammal col=orange
+angry birds | gamechar_c, animal_char | 15 | bird col=red -japan phone?
+tetris | game_c | 25 | videogame russia oldfash boxshape col=any famous
+minecraft | game_c | 35 | videogame boxshape famous children modern
+fortnite | game_c | 25 | videogame modern famous children weapon~
+superman | superhero_c | 60 | flies_char cape dccomics col=blue,red red_char strong robotalien~ -mask
+batman | superhero_c | 60 | dccomics mask cape col=black -powers -flies_char dark nocturnal?
+robin (batman) | superhero_c | 12 | dccomics mask cape child col=red,green
+wonder woman | superhero_c | 25 | dccomics female col=red,blue,yellow strong
+flash | superhero_c | 15 | dccomics fast col=red mask
+aquaman | superhero_c | 10 | dccomics ocean swims aquatic col=orange,green
+joker | villain_c | 30 | human person male dccomics col=purple,green,white usa moviechar bookchar scary
+harley quinn | villain_c | 12 | human person female dccomics col=red,black usa moviechar
+catwoman | villain_c | 8 | human person female dccomics mask col=black
+spider-man | superhero_c | 60 | marvel mask col=red,blue red_char climbs web? child~ -cape
+iron man | superhero_c | 40 | marvel mask metal col=red,yellow flies_char robotalien~ -cape
+captain america | superhero_c | 30 | marvel col=blue,red,white strong -cape -flies_char
+hulk | superhero_c | 35 | marvel col=green strong -mask -cape -flies_char
+thor | superhero_c | 25 | marvel myth col=red,grey cape flies_char -usa? europe~
+black panther | superhero_c | 15 | marvel mask col=black africa royal -cape
+wolverine (x-men) | superhero_c | 15 | marvel claws col=yellow,blue canada? -cape
+deadpool | superhero_c | 15 | marvel mask col=red,black sword -cape
+black widow (marvel) | superhero_c | 10 | marvel female col=black russia? -powers
+captain marvel | superhero_c | 8 | marvel female flies_char col=red,blue
+doctor strange | superhero_c | 8 | marvel evilmagic cape col=blue,red
+groot | superhero_c | 12 | marvel plant? tree? wood col=brown -human -person -mask
+thanos | villain_c | 15 | marvel col=purple strong robotalien?
+venom | villain_c | 10 | marvel col=black robotalien? scary
+loki | villain_c | 12 | marvel myth evilmagic col=green,yellow horns
+darth vader | villain_c | 45 | human person male starwars mask cape col=black sword robotalien~ inspace
+luke skywalker | human_char | 25 | male starwars sword inspace moviechar usa
+yoda | fict_c | 30 | starwars small_char col=green elderly powers inspace moviechar clever longears -human
+princess leia | human_char | 15 | female starwars royal inspace moviechar
+han solo | human_char | 15 | male starwars inspace moviechar
+chewbacca | fict_c | 15 | starwars fur col=brown tall inspace moviechar animal~ -human
+r2-d2 | fict_c | 20 | starwars robotalien manmade~ col=white,blue small_char wheels inspace moviechar -human
+c-3po | fict_c | 12 | starwars robotalien manmade~ col=yellow inspace moviechar -human
+baby yoda | fict_c | 15 | starwars small_char col=green cute longears child inspace moviechar -human
+stormtrooper | human_char | 15 | starwars mask col=white villain military uniform
+harry potter | human_char | 60 | male potter bookchar moviechar evilmagic powers child uk europe flies_char~
+hermione granger | human_char | 25 | female potter bookchar moviechar evilmagic powers child uk europe clever
+ron weasley | human_char | 15 | male potter bookchar moviechar evilmagic powers child uk europe
+dumbledore | human_char | 20 | male potter bookchar moviechar evilmagic powers elderly hat_char uk europe
+voldemort | villain_c | 20 | human person male potter bookchar moviechar evilmagic powers uk europe
+hagrid | human_char | 12 | male potter bookchar moviechar tall uk europe
+dobby | fict_c | 12 | potter bookchar moviechar small_char longears -human
+sherlock holmes | human_char | 35 | male bookchar moviechar uk europe hat_char clever before1900~ oldfash
+dracula | myth_human | 30 | villain bookchar moviechar evilmagic scary halloween nocturnal dark bloodsuck cape europe
+frankenstein | myth_human | 25 | villain? bookchar moviechar scary halloween col=green manmade~
+robin hood | human_char | 25 | male bookchar moviechar uk europe sword? oldfash hat_char col=green woodland
+king arthur | human_char | 15 | male royal sword castle uk europe myth oldfash
+merlin | human_char | 12 | male evilmagic powers elderly hat_char uk europe myth
+alice in wonderland | human_char | 20 | female child bookchar moviechar disney~ uk col=blue,white
+mad hatter | human_char | 8 | male bookchar hat_char
+pippi longstocking | human_char | 8 | female child bookchar europe strong
+tarzan | human_char | 15 | male bookchar moviechar disney~ africa tropicalan climbs
+zorro | human_char | 10 | male mask cape sword col=black moviechar mexico spanish
+james bond | human_char | 30 | male uk europe moviechar bookchar weapon formal
+indiana jones | human_char | 15 | male usa moviechar explorer hat_char
+gandalf | human_char | 20 | male bookchar moviechar evilmagic powers elderly hat_char col=grey,white
+frodo | human_char | 15 | male bookchar moviechar small_char -human~
+gollum | fict_c | 12 | bookchar moviechar small_char villain? col=grey scary
+jack sparrow | human_char | 25 | male moviechar disney sword hat_char ship? ocean
+king kong | fict_c | 20 | animal mammal primate strong moviechar usa scary -talks_anim
+godzilla | fict_c | 25 | animal reptile dinosaur? scary moviechar japan asia dangerous -talks_anim
+e.t. | fict_c | 15 | robotalien moviechar small_char col=brown usa -human
+terminator | fict_c | 12 | robotalien manmade~ moviechar male scary strong human~
+willy wonka | human_char | 12 | male bookchar moviechar choc? hat_char uk
+mary poppins | human_char | 12 | female bookchar moviechar disney evilmagic? flies_char uk
+little red riding hood | fairytale_c | 25 | human person female child col=red red_char woodland germany~ europe
+big bad wolf | fairytale_c, animal_char | 20 | mammal dogkind villain scary woodland
+goldilocks | fairytale_c | 10 | human person female child col=yellow bear?
+rumpelstiltskin | fairytale_c | 5 | male small_char evilmagic germany
+humpty dumpty | fairytale_c | 12 | round breakable small_char -human
+santa claus | fict_c | 75 | human person male elderly xmas holiday col=red,white red_char hat_char flies_char~ antarctic famous kidknows gift
+rudolph | fict_c, animal_char | 25 | mammal deer xmas holiday col=brown,red flies_char kidknows
+easter bunny | fict_c, animal_char | 25 | mammal longears easter holiday col=white,brown kidknows
+tooth fairy | fict_c | 20 | myth powers flies_char wings female small_char kidknows money~ teeth?
+grinch | fict_c | 20 | villain xmas col=green bookchar moviechar usa -human
+jack frost | fict_c | 4 | wintery cold male myth
+cupid | fict_c | 8 | flies_char wings myth male child bow? -human~
+# ===== mythical creatures ================================================================
+dragon | myth_beast | 70 | reptile scales wings flies fire_rel dangerous scary tail longtail claws teeth col=green,red legs legs4 asia~ europe~ castle~ fairytale~ famous
+unicorn | myth_beast | 60 | mammal horsekind hooves horns col=white,pink cute fairytale powers legs legs4 tail mane kidknows
+mermaid | myth_human | 45 | female ocean aquatic swims undersea tail fins -legs -legs2 fairytale col=green,blue
+vampire | myth_human | 45 | evilmagic scary halloween nocturnal dark bloodsuck teeth villain cape europe~ col=black
+werewolf | myth_human | 30 | evilmagic scary halloween nocturnal dark fur teeth claws villain dogkind?
+zombie | myth_human | 40 | scary halloween -alive slow villain col=green,grey dirty moviechar videogame~
+ghost | myth_human | 50 | evilmagic scary halloween col=white flies_char -touch seethrough dark nocturnal -alive -legs? -legs2? castle~
+skeleton | myth_human | 30 | bone scary halloween col=white -alive bodypart~ -myth? museum~
+mummy | myth_human | 20 | scary halloween egypt africa ancient col=white fabric -alive villain
+fairy | myth_human | 40 | female wings flies_char powers small_char cute fairytale col=pink,green -scary
+elf | myth_human | 30 | longears small_char~ powers xmas~ woodland bookchar~
+dwarf | myth_human | 20 | small_char male fairytale mined? underground
+giant | myth_human | 25 | tall strong fairytale scary~ sz=8
+troll | myth_human | 20 | scary fairytale europe~ villain? underground~
+goblin | myth_human | 15 | small_char villain col=green scary
+ogre | myth_human | 12 | col=green fairytale scary
+leprechaun | myth_human | 12 | small_char male hat_char col=green europe uk~
+angel | myth_human | 25 | wings flies_char col=white religion xmas? -scary
+devil | myth_human | 15 | villain horns tail col=red scary religion~ fire_rel
+phoenix | myth_beast | 20 | bird feathers wings flies fire_rel col=red,orange,yellow rare
+pegasus | myth_beast | 15 | mammal horsekind hooves wings flies col=white greece europe
+centaur | myth_beast | 10 | horsekind hooves human~ legs4 greece europe
+minotaur | myth_beast | 10 | cattle horns human~ legs2 greece europe scary
+griffin | myth_beast | 8 | bird wings flies beak mammal~ catkind~ legs4
+cyclops | myth_human | 10 | greece europe scary
+medusa | myth_human | 10 | female greece europe snake? scary villain
+sphinx | myth_beast | 10 | catkind egypt africa ancient stone~
+yeti | myth_beast | 25 | fur col=white snowplace coldplace mountainan asia scary legs2 wintery
+bigfoot | myth_beast | 20 | fur col=brown woodland usa namerica legs2
+loch ness monster | myth_beast | 20 | aquatic freshwater swims longneck uk europe rare scary~
+kraken | myth_beast | 8 | ocean aquatic tentacles scary deepsea
+alien | myth_human | 50 | robotalien inspace col=green,grey -human scary~ -myth? moviechar~
+zeus | myth_human | 12 | male greece europe powers electricity? leader elderly
+hercules | myth_human | 12 | male greece europe strong disney~
+poseidon | myth_human | 5 | male greece europe ocean powers

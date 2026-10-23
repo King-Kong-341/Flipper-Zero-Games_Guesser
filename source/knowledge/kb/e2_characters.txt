@@ -1,0 +1,338 @@
+# ===== more characters (second expansion) ============================================
+# disney and pixar
+baymax | disney_c | 12 | robotalien col=white round soft helps cute -human
+remy | disney_c | 6 | animal_char mammal rodent france cooking col=grey
+mufasa | disney_c | 6 | animal_char mammal catkind royal africa col=yellow mane male
+timon | disney_c | 6 | animal_char mammal africa funny small_char col=brown
+pumbaa | disney_c | 6 | animal_char mammal tusks africa funny col=brown
+nala | disney_c | 3 | animal_char mammal catkind female africa
+rafiki | disney_c | 3 | animal_char mammal primate africa elderly
+sebastian crab | disney_c | 4 | animal_char crustacean ocean claws col=red music
+ursula | disney_c | 6 | villain evilmagic ocean tentacles col=purple female
+cruella de vil | disney_c | 6 | villain human person female col=black,white
+hades | disney_c | 3 | villain myth greece col=blue fire_rel
+pocahontas | princess_c | 4 | namerica -castle -royal? woodland
+tiana | princess_c | 3 | usa
+merida | princess_c | 4 | uk europe bow? col=red,green
+kristoff | disney_c | 2 | human person male snowplace
+sven | disney_c | 2 | animal_char mammal deer horns snowplace
+flynn rider | disney_c | 2 | human person male
+mushu | disney_c | 3 | myth reptile china asia small_char col=red funny
+lilo | disney_c | 3 | human person female child oceania island
+jack skellington | disney_c | 8 | bone halloween xmas scary~ col=black,white tall
+jessie | disney_c | 4 | human person female toy hat_char col=red
+mr potato head | disney_c | 6 | toy funny col=brown
+rex toy | disney_c | 3 | toy dinosaur col=green
+slinky dog | disney_c | 2 | toy dogkind
+crush turtle | disney_c | 2 | animal_char turtle ocean
+mater | disney_c | 3 | car vehicle wheels col=brown funny -human
+eve robot | disney_c | 3 | robotalien flies_char col=white
+carl fredricksen | disney_c | 3 | human person male elderly
+russell | disney_c | 2 | human person male child
+dug | disney_c | 2 | animal_char mammal dogkind
+joy | disney_c | 3 | col=yellow,blue positive female -human
+mr incredible | disney_c | 6 | superhero human person male strong col=red,black
+elastigirl | disney_c | 4 | superhero human person female stretchy col=red
+dash | disney_c | 2 | superhero human person male child fast
+edna mode | disney_c | 3 | human person female small_char glasses_c
+maui | disney_c | 4 | myth human person male strong oceania
+hei hei | disney_c | 2 | animal_char bird funny
+boo | disney_c | 2 | human person female child
+woody woodpecker | cartoon_c | 6 | animal_char bird noisy col=red,blue
+# dreamworks, illumination and more
+fiona | cartoon_c | 6 | royal female col=green myth fairytale
+gingy | cartoon_c | 3 | small_char fairytale
+lord farquaad | cartoon_c | 3 | villain human person male small_char royal
+tigress | cartoon_c | 2 | animal_char mammal catkind fighting china
+shifu | cartoon_c | 2 | animal_char mammal fighting elderly
+alex the lion | cartoon_c | 4 | animal_char mammal catkind zoo usa
+marty zebra | cartoon_c | 3 | animal_char mammal horsekind stripes zoo
+gloria hippo | cartoon_c | 2 | animal_char mammal female zoo
+melman | cartoon_c | 2 | animal_char mammal longneck zoo
+king julien | cartoon_c | 4 | animal_char primate royal funny dancing
+skipper penguin | cartoon_c | 3 | animal_char bird zoo
+sid the sloth | cartoon_c | 5 | animal_char mammal funny coldplace
+manny mammoth | cartoon_c | 3 | animal_char mammal trunk tusks fur coldplace
+scrat | cartoon_c | 5 | animal_char mammal rodent nut? funny coldplace
+toothless | cartoon_c | 8 | myth reptile wings flies col=black cute
+hiccup (dragons) | cartoon_c | 3 | human person male child
+agnes | cartoon_c | 2 | human person female child
+the lorax | cartoon_c | 2 | col=orange tree? bookchar
+# sesame street and muppets
+oscar the grouch | cartoon_c | 5 | col=green dirty
+bert | cartoon_c | 3 | col=yellow
+ernie | cartoon_c | 3 | col=orange
+grover | cartoon_c | 2 | col=blue fur
+count von count | cartoon_c | 2 | col=purple shape?
+miss piggy | cartoon_c | 6 | animal_char mammal female col=pink
+fozzie bear | cartoon_c | 2 | animal_char bear funny hat_char
+gonzo | cartoon_c | 2 | col=blue
+# looney tunes and classic cartoons
+porky pig | cartoon_c | 4 | animal_char mammal col=pink usa
+sylvester | cartoon_c | 6 | animal_char mammal catkind col=black,white usa
+taz | cartoon_c | 5 | animal_char mammal spins noisy oceania usa
+wile e coyote | cartoon_c | 5 | animal_char mammal dogkind desertan usa
+marvin the martian | cartoon_c | 3 | robotalien inspace usa
+speedy gonzales | cartoon_c | 3 | animal_char mammal rodent fast mexico
+elmer fudd | cartoon_c | 2 | human person male usa hat_char
+yogi bear | cartoon_c | 5 | animal_char mammal bear hat_char usa
+top cat | cartoon_c | 2 | animal_char mammal catkind usa
+barney rubble | cartoon_c | 2 | human person male usa ancient
+wilma flintstone | cartoon_c | 2 | human person female usa ancient
+dino flintstone | cartoon_c | 2 | dinosaur col=purple usa ancient
+george jetson | cartoon_c | 2 | human person male usa modern inspace
+shaggy | cartoon_c | 4 | human person male usa scary~ col=green,brown
+velma | cartoon_c | 3 | human person female usa glasses_c col=orange clever
+casper | cartoon_c | 5 | myth col=white flies_char cute -scary
+felix the cat | cartoon_c | 2 | animal_char mammal catkind col=black,white oldfash
+betty boop | cartoon_c | 2 | human person female oldfash
+# nickelodeon, cartoon network and tv
+squidward | cartoon_c | 6 | animal_char ocean tentacles col=blue,green undersea
+mr krabs | cartoon_c | 5 | animal_char crustacean claws ocean undersea col=red money
+sandy cheeks | cartoon_c | 3 | animal_char mammal rodent ocean undersea female
+plankton | cartoon_c | 3 | villain ocean undersea small_char col=green
+gary the snail | cartoon_c | 2 | animal_char mollusc shell ocean undersea pet
+boots monkey | cartoon_c | 2 | animal_char primate
+swiper | cartoon_c | 2 | animal_char dogkind villain mask
+ben 10 | cartoon_c | 5 | human person male child powers robotalien~ col=green
+johnny bravo | cartoon_c | 2 | human person male strong glasses_c blond
+dexter | cartoon_c | 2 | human person male child clever scientist glasses_c
+powerpuff girls | cartoon_c | 4 | human~ female child powers flies_char col=pink,blue,green superhero~
+courage the dog | cartoon_c | 2 | animal_char dogkind col=pink scary~
+finn the human | cartoon_c | 3 | human person male child hat_char sword
+jake the dog | cartoon_c | 3 | animal_char dogkind stretchy col=yellow
+gumball | cartoon_c | 3 | animal_char catkind col=blue child
+rick sanchez | cartoon_c | 6 | human person male elderly scientist clever adults
+morty | cartoon_c | 3 | human person male child adults
+stewie griffin | cartoon_c | 3 | human person male child clever adults
+peter griffin | cartoon_c | 4 | human person male glasses_c funny adults usa
+eric cartman | cartoon_c | 4 | human person male child adults usa hat_char
+bojack | cartoon_c | 1 | animal_char horsekind adults
+arthur aardvark | cartoon_c | 3 | animal_char mammal glasses_c child usa
+clifford | cartoon_c | 4 | animal_char dogkind col=red sz=8 bookchar
+barney dinosaur | cartoon_c | 5 | dinosaur col=purple children usa
+teletubbies | cartoon_c | 6 | col=purple,green,yellow,red children uk screen?
+tinky winky | cartoon_c | 3 | col=purple children uk
+paw patrol | cartoon_c | 8 | animal_char dogkind police emergency children
+chase paw patrol | cartoon_c | 3 | animal_char dogkind police col=blue
+fireman sam | cartoon_c | 4 | human person male fire_rel emergency uk
+postman pat | cartoon_c | 3 | human person male uk
+noddy | cartoon_c | 2 | human~ hat_char uk
+pingu | cartoon_c | 5 | animal_char bird coldplace antarctic europe
+wallace | cartoon_c | 3 | human person male uk cheese
+gromit | cartoon_c | 4 | animal_char dogkind clever uk -talks_anim
+shaun the sheep | cartoon_c | 5 | animal_char mammal cattle col=white,black uk onfarm
+mr men | cartoon_c | 2 | bookchar uk
+miffy | cartoon_c | 3 | animal_char mammal longears col=white europe bookchar
+moomin | cartoon_c | 4 | col=white europe nordic bookchar
+heidi | cartoon_c | 4 | human person female child mountain europe bookchar
+maya the bee | cartoon_c | 4 | animal_char insect beeant flies col=yellow,black germany europe
+barbapapa | cartoon_c | 2 | col=pink europe stretchy
+calvin | cartoon_c | 2 | human person male child bookchar usa
+hobbes | cartoon_c | 2 | animal_char mammal catkind stripes bookchar usa
+woodstock | cartoon_c | 2 | animal_char bird col=yellow small_char usa
+dennis the menace | cartoon_c | 2 | human person male child
+lucky luke | cartoon_c | 2 | human person male hat_char bookchar europe
+obelix | cartoon_c | 4 | human person male strong bookchar france europe stripes
+hello kitty | cartoon_c | 12 | animal_char mammal catkind col=white,red cute japan asia -talks_anim female
+doraemon | cartoon_c | 6 | robotalien catkind col=blue japan asia anime
+totoro | cartoon_c | 6 | myth fur col=grey round japan asia anime cute
+no-face | cartoon_c | 2 | myth col=black japan anime scary~
+goku | cartoon_c | 10 | human~ male anime japan powers fighting strong flies_char col=orange
+vegeta | cartoon_c | 4 | male anime japan powers fighting
+naruto | cartoon_c | 8 | human person male anime japan powers fighting col=orange blond
+luffy | cartoon_c | 6 | human person male anime japan stretchy hat_char
+sailor moon | cartoon_c | 5 | human person female anime japan powers blond
+astro boy | cartoon_c | 2 | robotalien male child anime japan flies_char
+ash ketchum | cartoon_c | 5 | human person male child anime japan pokemon hat_char
+tanjiro | cartoon_c | 3 | human person male anime japan sword
+# video game characters
+wario | gamechar_c | 5 | human person male nintendo villain~ col=yellow,purple hat_char
+waluigi | gamechar_c | 3 | human person male nintendo col=purple tall hat_char
+toad (mario) | gamechar_c | 5 | nintendo small_char col=red,white hat_char
+boo ghost | gamechar_c | 2 | nintendo myth col=white
+diddy kong | gamechar_c | 3 | animal_char primate nintendo hat_char col=red
+samus | gamechar_c | 3 | human person female nintendo robotalien~ mask
+fox mccloud | gamechar_c | 2 | animal_char dogkind nintendo
+isabelle | gamechar_c | 3 | animal_char dogkind nintendo female col=yellow
+tom nook | gamechar_c | 3 | animal_char mammal nintendo sells
+kratos | gamechar_c | 4 | human person male myth strong greece fighting -japan
+mega man | gamechar_c | 3 | robotalien col=blue japan
+spyro | gamechar_c | 4 | myth reptile col=purple flies
+rayman | gamechar_c | 2 | france
+sackboy | gamechar_c | 2 | fabric
+ratchet | gamechar_c | 2 | animal_char mammal
+cloud strife | gamechar_c | 3 | human person male japan sword blond
+solid snake | gamechar_c | 2 | human person male japan military
+geralt | gamechar_c | 3 | human person male sword europe -japan col=white
+doom guy | gamechar_c | 2 | human person male military -japan
+tails | gamechar_c | 4 | animal_char dogkind flies_char col=yellow
+knuckles | gamechar_c | 3 | animal_char col=red
+shadow hedgehog | gamechar_c | 3 | animal_char col=black,red
+dr eggman | gamechar_c | 4 | villain human person male scientist
+amy rose | gamechar_c | 2 | animal_char female col=pink
+among us crewmate | gamechar_c | 8 | robotalien~ inspace col=red,any -japan small_char
+freddy fazbear | gamechar_c | 6 | animal_char bear robotalien scary -japan
+sans | gamechar_c | 3 | bone funny -japan
+talking tom | gamechar_c | 5 | animal_char catkind phone? -japan
+flappy bird | gamechar_c | 3 | animal_char bird phone? -japan
+pac-man ghost | gamechar_c | 3 | myth col=red,blue,pink,orange -human
+# books, films and tv
+matilda | human_char | 5 | female child bookchar clever read powers uk
+the bfg | fict_c | 4 | myth bookchar uk elderly
+oompa loompa | fict_c | 3 | bookchar moviechar small_char col=orange
+the gruffalo | fict_c | 5 | animal_char bookchar scary~ col=brown uk
+hungry caterpillar | fict_c | 6 | animal_char insect bookchar col=green children
+cat in the hat | fict_c | 5 | animal_char catkind bookchar hat_char col=red,white usa
+wheres wally | human_char | 6 | male bookchar glasses_c hat_char stripes col=red,white uk
+robinson crusoe | human_char | 3 | male bookchar island uk
+gulliver | human_char | 2 | male bookchar uk
+don quixote | human_char | 3 | male bookchar spain sword
+romeo | human_char | 5 | male bookchar italy theatre
+juliet | human_char | 4 | female bookchar italy theatre
+hamlet | human_char | 3 | male royal bookchar theatre europe
+oliver twist | human_char | 3 | male child bookchar uk
+scrooge | human_char | 5 | male elderly bookchar uk xmas money
+dr jekyll | human_char | 2 | male scientist bookchar uk
+phantom of the opera | human_char | 3 | male mask theatre france music
+quasimodo | human_char | 3 | male bookchar france church
+mowgli | human_char | 4 | male child bookchar india tropicalan
+baloo | fict_c | 4 | animal_char bear bookchar india
+bagheera | fict_c | 2 | animal_char catkind col=black
+shere khan | fict_c | 3 | animal_char catkind stripes villain india
+black beauty | fict_c | 2 | animal mammal horsekind bookchar col=black -talks_anim
+lassie | fict_c | 4 | animal mammal dogkind moviechar -talks_anim col=brown,white
+moby dick | fict_c | 3 | animal mammal whale bookchar col=white
+eeyore | fict_c | 4 | animal_char horsekind bookchar col=grey
+piglet (pooh) | fict_c | 4 | animal_char mammal bookchar small_char col=pink
+christopher robin | human_char | 2 | male child bookchar uk
+aslan | fict_c | 4 | animal_char catkind royal bookchar mane
+bilbo baggins | human_char | 4 | male small_char bookchar moviechar
+samwise | human_char | 2 | male small_char bookchar
+legolas | human_char | 4 | male bookchar moviechar bow? blond
+aragorn | human_char | 3 | male bookchar moviechar royal sword
+sauron | villain_c | 3 | bookchar moviechar evilmagic
+smaug | fict_c | 3 | myth reptile bookchar fire_rel villain
+katniss everdeen | human_char | 4 | female bookchar moviechar bow?
+percy jackson | human_char | 3 | male child bookchar myth greece
+greg heffley | human_char | 3 | male child bookchar usa
+captain underpants | human_char | 2 | male bookchar superhero~ funny
+nancy drew | human_char | 2 | female bookchar usa
+rocky balboa | human_char | 4 | male moviechar fighting usa strong
+rambo | human_char | 3 | male moviechar military actionstar? usa
+robocop | fict_c | 3 | robotalien police moviechar usa
+predator | fict_c | 3 | robotalien villain moviechar scary
+xenomorph | fict_c | 4 | robotalien villain moviechar scary inspace col=black
+freddy krueger | villain_c | 4 | human person male moviechar scary halloween hat_char stripes
+chucky | villain_c | 4 | toy moviechar scary halloween small_char
+pennywise | villain_c | 5 | moviechar bookchar scary halloween col=white,red
+ghostface | villain_c | 3 | mask moviechar scary halloween col=black,white
+jaws | fict_c | 4 | animal fish shark moviechar scary teeth -talks_anim
+gizmo | fict_c | 3 | animal_char moviechar cute fur small_char
+slimer | fict_c | 2 | myth col=green moviechar
+marty mcfly | human_char | 4 | male moviechar usa car?
+doc brown | human_char | 3 | male elderly scientist moviechar usa
+neo | human_char | 4 | male moviechar powers col=black glasses_c
+john wick | human_char | 3 | male moviechar actionstar? dogkind? col=black
+forrest gump | human_char | 3 | male moviechar usa
+dorothy | human_char | 4 | female child moviechar bookchar usa col=blue,white
+tin man | fict_c | 3 | metal robotalien~ moviechar bookchar
+scarecrow | fict_c | 6 | onfarm moviechar~ hat_char
+cowardly lion | fict_c | 2 | animal_char catkind moviechar
+wicked witch | villain_c | 4 | human person female evilmagic col=green,black hat_char moviechar
+dr watson | human_char | 3 | male bookchar uk
+captain kirk | human_char | 3 | male moviechar inspace usa
+spock | fict_c | 4 | moviechar inspace robotalien~ longears col=blue,black
+doctor who | human_char | 5 | male moviechar inspace uk robotalien~ time?
+dalek | fict_c | 4 | robotalien moviechar uk villain metal
+optimus prime | fict_c | 6 | robotalien car vehicle moviechar col=red,blue
+bumblebee transformer | fict_c | 4 | robotalien car moviechar col=yellow,black
+megatron | villain_c | 3 | robotalien moviechar metal
+ken doll | toy_c | 6 | sz=4 plastic male famous usa
+george pig | cartoon_c | 3 | animal_char mammal male child col=pink uk
+bingo dog | cartoon_c | 2 | animal_char dogkind female child oceania
+spot the dog | cartoon_c | 2 | animal_char dogkind bookchar spots
+# superheroes and villains
+green lantern | superhero_c | 4 | dccomics col=green flies_char mask
+cyborg | superhero_c | 2 | dccomics robotalien metal
+shazam | superhero_c | 2 | dccomics col=red electricity cape
+supergirl | superhero_c | 4 | dccomics female flies_char cape col=blue,red blond
+batgirl | superhero_c | 2 | dccomics female mask cape
+nightwing | superhero_c | 1 | dccomics mask
+hawkeye | superhero_c | 3 | marvel bow? -powers
+ant-man | superhero_c | 4 | marvel small_char mask
+scarlet witch | superhero_c | 4 | marvel female evilmagic col=red
+vision | superhero_c | 2 | marvel robotalien col=red,green cape
+falcon (marvel) | superhero_c | 2 | marvel flies_char wings
+star-lord | superhero_c | 3 | marvel mask inspace music
+gamora | superhero_c | 2 | marvel female col=green inspace
+rocket raccoon | superhero_c | 4 | animal_char marvel mammal inspace -human -person
+nick fury | superhero_c | 2 | marvel -powers
+daredevil | superhero_c | 2 | marvel mask col=red
+ghost rider | superhero_c | 2 | marvel fire_rel bone
+silver surfer | superhero_c | 2 | marvel col=grey inspace metal
+storm x-men | superhero_c | 2 | marvel female weather?
+cyclops x-men | superhero_c | 2 | marvel glasses_c
+professor x | superhero_c | 3 | marvel elderly wheels? clever
+magneto | villain_c | 3 | marvel magnetic elderly
+mystique | villain_c | 2 | marvel female col=blue colourchg
+green goblin | villain_c | 3 | marvel col=green mask
+doctor octopus | villain_c | 2 | marvel tentacles glasses_c
+red skull | villain_c | 2 | marvel col=red
+ultron | villain_c | 2 | marvel robotalien metal
+doctor doom | villain_c | 2 | marvel mask metal cape
+two-face | villain_c | 2 | dccomics
+penguin villain | villain_c | 2 | dccomics hat_char small_char
+riddler | villain_c | 2 | dccomics col=green clever
+bane | villain_c | 2 | dccomics mask strong
+poison ivy | villain_c | 2 | dccomics female plant? col=green,red
+mr freeze | villain_c | 2 | dccomics cold wintery
+lex luthor | villain_c | 3 | dccomics human person male scientist clever
+alfred | human_char | 2 | dccomics male elderly
+# myths and legends
+hydra | myth_beast | 4 | reptile snake? greece dangerous scary
+cerberus | myth_beast | 4 | dogkind greece scary
+chimera | myth_beast | 2 | greece
+basilisk | myth_beast | 3 | snake reptile scary potter~
+banshee | myth_human | 2 | female scary uk~ noisy
+siren | myth_human | 3 | female ocean sings greece
+nymph | myth_human | 2 | female woodland greece
+gnome | myth_human | 6 | small_char beard hat_char garden underground
+hobbit | myth_human | 6 | small_char bookchar moviechar
+imp | myth_human | 2 | small_char villain
+gargoyle | myth_beast | 4 | stone wings church scary
+golem | myth_human | 2 | stone
+djinn | myth_human | 1 | powers
+kitsune | myth_beast | 2 | dogkind japan asia
+kappa | myth_beast | 1 | japan freshwater
+oni | myth_human | 2 | japan horns scary col=red
+chupacabra | myth_beast | 2 | samerica bloodsuck scary
+mothman | myth_beast | 2 | wings usa scary
+jackalope | myth_beast | 2 | longears horns usa
+kelpie | myth_beast | 1 | horsekind freshwater uk
+wendigo | myth_beast | 2 | namerica scary
+thunderbird | myth_beast | 2 | bird namerica electricity
+krampus | myth_human | 4 | horns xmas scary germany europe
+baba yaga | myth_human | 2 | female elderly evilmagic russia
+sandman | myth_human | 3 | sleep male
+boogeyman | myth_human | 4 | scary dark children
+grim reaper | myth_human | 6 | scary bone col=black sword?
+headless horseman | myth_human | 3 | scary halloween usa
+merman | myth_human | 2 | male ocean tail swims -legs
+selkie | myth_beast | 1 | seal? ocean uk
+valkyrie | myth_human | 2 | female nordic europe flies_char
+odin | myth_human | 3 | male nordic europe beard elderly
+anubis | myth_human | 4 | egypt africa ancient dogkind
+ra god | myth_human | 2 | egypt africa ancient sun_rel bird?
+athena | myth_human | 3 | female greece clever
+aphrodite | myth_human | 2 | female greece
+apollo | myth_human | 2 | male greece sun_rel music
+ares | myth_human | 1 | male greece military
+hermes | myth_human | 2 | male greece fast flies_char
+achilles | myth_human | 3 | male greece strong sword
+odysseus | myth_human | 2 | male greece ship
+perseus | myth_human | 1 | male greece sword
+prometheus | myth_human | 1 | male greece fire_rel
+atlas | myth_human | 2 | male greece strong
+icarus | myth_human | 2 | male greece wings flies_char
+pan (god) | myth_human | 1 | male greece horns music

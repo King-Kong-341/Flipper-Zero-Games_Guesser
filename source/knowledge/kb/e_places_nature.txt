@@ -1,0 +1,329 @@
+# ===== countries =====================================================================
+usa | country_c | 50 | usa namerica english bigcountry famous hotclimate~ snowplace~ coast
+canada | country_c | 25 | canada namerica english bigcountry snowplace coldplace coast
+mexico | country_c | 25 | mexico namerica samerica~ spanish hotclimate coast
+brazil | country_c | 25 | brazil samerica bigcountry hotclimate football coast tropical
+argentina | country_c | 12 | samerica spanish football coast
+chile | country_c | 5 | samerica spanish coast longthin
+peru | country_c | 5 | samerica spanish mountain
+colombia | country_c | 5 | samerica spanish hotclimate
+cuba | country_c | 5 | samerica namerica island spanish hotclimate
+jamaica | country_c | 5 | samerica namerica island english hotclimate
+england | country_c | 30 | uk europe english coast
+scotland | country_c | 12 | uk europe english coast
+ireland | country_c | 12 | europe english island coast
+wales | country_c | 6 | uk europe english coast
+france | country_c | 35 | france europe famous coast food?
+germany | country_c | 35 | germany europe famous snowplace~
+italy | country_c | 35 | italy europe famous coast hotclimate~ food?
+spain | country_c | 30 | spain europe spanish coast hotclimate
+portugal | country_c | 12 | europe coast hotclimate~
+netherlands | country_c | 12 | europe coast flat
+belgium | country_c | 8 | europe
+switzerland | country_c | 15 | europe mountain snowplace choc~ -coast
+austria | country_c | 10 | europe mountain snowplace -coast
+greece | country_c | 15 | greece europe coast island~ ancient hotclimate
+sweden | country_c | 10 | europe coldplace snowplace coast
+norway | country_c | 10 | europe coldplace snowplace coast
+denmark | country_c | 6 | europe coast
+finland | country_c | 6 | europe coldplace snowplace
+iceland | country_c | 8 | europe island coldplace snowplace coast
+poland | country_c | 8 | europe snowplace~
+russia | country_c | 25 | russia europe asia bigcountry coldplace snowplace
+ukraine | country_c | 8 | europe
+turkey country | country_c | 10 | europe asia coast hotclimate
+egypt | country_c | 20 | egypt africa desert hotclimate ancient famous
+south africa | country_c | 10 | africa english coast
+kenya | country_c | 5 | africa hotclimate
+nigeria | country_c | 5 | africa hotclimate english
+morocco | country_c | 5 | africa desert hotclimate
+china | country_c | 35 | china asia bigcountry famous crowded
+japan | country_c | 35 | japan asia island coast famous
+india | country_c | 30 | india asia bigcountry hotclimate crowded
+south korea | country_c | 10 | asia coast
+north korea | country_c | 5 | asia
+thailand | country_c | 10 | asia hotclimate tropical coast
+vietnam | country_c | 5 | asia hotclimate tropical coast
+indonesia | country_c | 5 | asia island tropical hotclimate
+philippines | country_c | 5 | asia island tropical hotclimate english~
+saudi arabia | country_c | 6 | asia desert hotclimate
+israel | country_c | 5 | asia hotclimate religion
+iran | country_c | 4 | asia desert
+pakistan | country_c | 4 | asia hotclimate
+australia | country_c | 35 | oceania english bigcountry hotclimate desert coast island~
+new zealand | country_c | 12 | oceania english island coast
+antarctica | country_c | 15 | -country antarctic coldplace snowplace -livethere -crowded bigcountry~ natplace~
+# ===== cities ========================================================================
+london | capital_c | 35 | uk europe english
+paris | capital_c | 35 | france europe
+rome | capital_c | 25 | italy europe ancient historic
+berlin | capital_c | 20 | germany europe
+madrid | capital_c | 12 | spain europe spanish
+amsterdam | capital_c | 12 | europe
+vienna | capital_c | 8 | europe music~
+athens | capital_c | 10 | greece europe ancient historic
+moscow | capital_c | 12 | russia europe snowplace coldplace
+tokyo | capital_c | 20 | japan asia crowded modern
+beijing | capital_c | 12 | china asia crowded
+delhi | capital_c | 8 | india asia crowded hotclimate
+cairo | capital_c | 8 | egypt africa hotclimate desert
+washington | capital_c | 10 | usa namerica english
+ottawa | capital_c | 4 | canada namerica english
+new york | city_c | 45 | usa namerica english tall? famous crowded coast
+los angeles | city_c | 20 | usa namerica english hotclimate famous moviechar~
+las vegas | city_c | 15 | usa namerica english desert hotclimate money~
+chicago | city_c | 8 | usa namerica english
+san francisco | city_c | 8 | usa namerica english coast
+hollywood | city_c | 15 | usa namerica english moviechar famous actor~
+venice | city_c | 15 | italy europe nearwater boat? tourist historic
+barcelona | city_c | 10 | spain europe coast football
+munich | city_c | 6 | germany europe
+milan | city_c | 5 | italy europe
+dubai | city_c | 10 | asia desert hotclimate modern luxury
+hong kong | city_c | 8 | china asia coast crowded
+sydney | city_c | 12 | oceania english coast
+rio de janeiro | city_c | 8 | brazil samerica coast hotclimate beach
+istanbul | city_c | 6 | europe asia historic
+jerusalem | city_c | 5 | asia religion historic
+mexico city | capital_c | 5 | mexico namerica spanish
+toronto | city_c | 5 | canada namerica english
+singapore | city_c | 6 | asia island hotclimate modern
+# ===== natural places and features =====================================================
+mountain | natplace_c | 70 | mountain tall stone rock snowplace~ coldplace? outdoors kidknows mostcountries
+volcano | natplace_c | 55 | mountain tall rock fire_rel hot dangerous disaster scary
+hill | natplace_c | 30 | outdoors -tall?
+valley | natplace_c | 10 | outdoors
+cave | natplace_c | 40 | cave dark underground rock inside cold~ stone
+desert | natplace_c | 50 | desert hotclimate hot powder? outdoors -water_rel
+sahara | natplace_c | 15 | desert africa hotclimate famous
+beach | natplace_c | 60 | beach coast ocean nearwater summery hotclimate? tourist crowded~ fun
+island | natplace_c | 40 | island ocean coast nearwater
+ocean | natplace_c | 60 | waterbody ocean water_rel wet deepsea col=blue salty -touch? coast
+sea | natplace_c | 45 | waterbody ocean water_rel wet col=blue
+lake | natplace_c | 40 | waterbody freshwater water_rel wet nearwater col=blue
+river | natplace_c | 45 | waterbody freshwater water_rel wet nearwater longthin moves~ col=blue
+pond | natplace_c | 20 | waterbody freshwater water_rel wet garden~ col=blue,green
+waterfall | natplace_c | 35 | waterbody freshwater water_rel wet tall noisy tourist moves~
+glacier | natplace_c | 12 | cold coldplace snowplace mountain water_rel melts col=white,blue
+iceberg | natplace_c | 25 | cold coldplace antarctic ocean water_rel floats melts col=white,blue dangerous~
+forest | natplace_c | 55 | forest woodland plant? tree? outdoors col=green
+jungle | natplace_c | 40 | forest tropical hotclimate wet plant? animal? col=green dangerous~
+rainforest | natplace_c | 20 | forest tropical hotclimate wet samerica~ col=green
+swamp | natplace_c | 12 | wet freshwater dirty col=green,brown smells
+field | natplace_c | 15 | outdoors flat onfarm col=green,yellow
+meadow | natplace_c | 5 | outdoors flat col=green
+canyon | natplace_c | 10 | rock tall desert~ col=orange,red
+grand canyon | natplace_c | 12 | rock usa namerica famous tourist col=orange,red landmark
+mount everest | natplace_c | 20 | mountain tall asia snowplace coldplace famous landmark dangerous
+amazon river | natplace_c | 8 | waterbody freshwater samerica brazil tropical
+nile | natplace_c | 8 | waterbody freshwater egypt africa
+niagara falls | natplace_c | 8 | waterbody freshwater usa canada namerica landmark tourist noisy
+north pole | natplace_c | 20 | antarctic coldplace snowplace xmas~
+south pole | natplace_c | 10 | antarctic coldplace snowplace
+coral reef | natplace_c | 12 | ocean tropical undersea col=any
+cliff | natplace_c | 10 | rock tall coast dangerous
+oasis | natplace_c | 5 | desert water_rel hotclimate
+space | natplace_c | 40 | inspace dark nightsky -touch -outdoors? -visible? cold
+universe | natplace_c | 15 | inspace -touch -visible
+# ===== sky, space and weather ============================================================
+sun | celestial_c | 85 | hot bright light fire_rel col=yellow,orange -nightsky round sun_rel famous kidknows everyday summery dangerous~
+moon | celestial_c | 80 | nightsky dark round col=white,grey kidknows everyday rock? rock touch~ explorer~
+star | celestial_c | 70 | nightsky bright light col=white,yellow pointed? shape~ kidknows everyday
+planet | celestial_c | 40 | round rock?
+earth | celestial_c | 55 | round water_rel col=blue,green livethere crowded mostcountries -nightsky touch -inspace? inspace
+mars | celestial_c | 30 | round rock col=red,orange nightsky robotalien~
+jupiter | celestial_c | 15 | round col=orange,brown stripes gas
+saturn | celestial_c | 20 | round col=yellow,brown
+venus | celestial_c | 8 | round col=yellow nightsky hot
+mercury | celestial_c | 6 | round col=grey hot
+neptune | celestial_c | 5 | round col=blue cold
+uranus | celestial_c | 4 | round col=blue cold
+pluto planet | celestial_c | 6 | round cold col=grey
+comet | celestial_c | 15 | nightsky fast bright tail? col=white rare
+asteroid | celestial_c | 15 | rock dangerous col=grey disaster~
+meteor | celestial_c | 12 | rock fast fire_rel nightsky bright dangerous
+shooting star | celestial_c | 15 | nightsky fast bright rare col=white
+galaxy | celestial_c | 12 | nightsky col=white,purple -round
+milky way | celestial_c | 8 | nightsky col=white
+black hole | celestial_c | 15 | dark col=black dangerous -visible rare
+constellation | celestial_c | 5 | nightsky shape~
+rainbow | weather_c | 70 | multicol col=red,orange,yellow,green,blue,purple sky -touch water_rel sun_rel kidknows rare~ -dangerous bright
+rain | weather_c | 65 | wet water_rel sky col=grey,white cold? -touch? touch kidknows everyday
+snowfall | weather_c | 8 | wintery cold water_rel col=white
+cloud | weather_c | 65 | sky water_rel col=white,grey -touch soft? fluffy~ kidknows everyday
+lightning | weather_c | 55 | sky electricity bright light dangerous fire_rel noisy? fast col=white,yellow scary
+thunder | weather_c | 35 | sky noisy makessound -visible scary dangerous~
+storm | weather_c | 40 | sky wet noisy dangerous disaster~ scary dark
+thunderstorm | weather_c | 15 | sky wet noisy dangerous
+hurricane | weather_c | 30 | sky wet noisy dangerous disaster spins ocean usa~
+tornado | weather_c | 35 | sky noisy dangerous disaster spins usa namerica scary
+wind | weather_c | 50 | sky -visible -touch moves noisy~ cold~ gas
+fog | weather_c | 20 | water_rel col=white,grey cold wet -touch
+hail | weather_c | 12 | cold water_rel col=white hard round dangerous~
+frost | weather_c | 10 | cold wintery col=white water_rel
+sunshine | weather_c | 15 | hot bright sun_rel summery col=yellow
+heatwave | weather_c | 5 | hot summery dangerous~
+earthquake | weather_c | 35 | disaster dangerous scary noisy underground -sky
+tsunami | weather_c | 20 | disaster dangerous water_rel wet ocean scary
+flood | weather_c | 20 | disaster dangerous water_rel wet
+avalanche | weather_c | 12 | disaster dangerous wintery snowplace mountain cold
+fire | nature_c | 70 | cat=O fire_rel hot bright light dangerous col=orange,red,yellow -touch moves~ scary~ kidknows camping~
+flame | nature_c | 15 | cat=O fire_rel hot bright light col=orange,yellow
+spark | nature_c | 8 | cat=O fire_rel bright light electricity~
+shadow | nature_c | 25 | cat=O dark col=black -touch flat sun_rel? everyday kidknows
+echo | nature_c | 8 | cat=O makessound -visible -touch
+sunrise | nature_c | 15 | cat=O sky sun_rel col=orange,yellow,pink everyday
+sunset | nature_c | 25 | cat=O sky sun_rel col=orange,red,pink everyday
+night | time_c | 30 | dark nightsky everyday sleep
+day | time_c | 25 | everyday sun_rel bright
+aurora | weather_c | 10 | nightsky multicol col=green,purple bright coldplace rare
+eclipse | celestial_c | 8 | rare dark -round
+sound | nature_c | 15 | cat=O makessound -visible -touch
+light | nature_c | 25 | cat=O bright -touch sun_rel? electricity~
+electricity | nature_c | 30 | cat=O electricity dangerous -visible? -touch
+gravity | concept_c | 10 | -visible inspace~
+energy | concept_c | 8 | electricity~
+magnetism | concept_c | 3 | magnetic
+# ===== body parts =================================================================
+hand | body_c | 75 | limb pair onhand? -inbody legs~ col=pink,brown kidknows
+finger | body_c | 50 | limb sz=2 longthin manyparts~
+thumb | body_c | 15 | limb sz=2
+foot | body_c | 55 | limb pair sz=4 onfeet?
+toe | body_c | 25 | limb sz=2 manyparts~
+arm | body_c | 45 | limb pair sz=5 longthin
+leg | body_c | 45 | limb pair sz=5 longthin
+knee | body_c | 15 | limb pair bone? sz=3
+elbow | body_c | 10 | limb pair sz=3
+shoulder | body_c | 10 | pair sz=4
+head | body_c | 55 | onheadbody round sz=4
+face | body_c | 35 | onheadbody flat? sz=4
+eye | body_c | 75 | onheadbody pair round sz=2 wet~ col=any
+ear | body_c | 50 | onheadbody pair sz=3 listen
+nose | body_c | 55 | onheadbody sz=3 pointed smells~
+mouth | body_c | 50 | onheadbody sz=3 hollow? teeth? opens food~
+lips | body_c | 20 | onheadbody pair sz=2 soft col=red,pink
+tongue | body_c | 30 | onheadbody inbody~ sz=3 wet col=pink soft
+tooth | body_c | 45 | onheadbody inbody~ sz=1 hard bone col=white sharp~
+teeth | body_c | 15 | onheadbody hard col=white manyparts
+hair | body_c | 50 | onheadbody fur longthin soft col=any grows -alive?
+beard | body_c | 20 | onheadbody fur male soft
+eyebrow | body_c | 10 | onheadbody pair fur sz=2
+neck | body_c | 20 | sz=4 longthin~
+back | body_c | 15 | sz=5 flat
+belly | body_c | 20 | sz=5 round soft
+belly button | body_c | 10 | sz=1 hollow
+chest (body) | body_c | 10 | sz=5
+skin | body_c | 25 | soft flat col=pink,brown sz=6 touch
+fingernail | body_c | 15 | sz=1 hard flat grows
+heart | body_c | 55 | organ inbody -visible sz=3 col=red moves~ shape~
+brain | body_c | 50 | organ inbody -visible sz=4 clever col=pink,grey soft
+lungs | body_c | 25 | organ inbody -visible sz=4 pair col=pink gas~
+stomach | body_c | 30 | organ inbody -visible sz=4 food? hollow
+liver | body_c | 10 | organ inbody -visible sz=4 col=red,brown
+kidney | body_c | 8 | organ inbody -visible sz=3 pair col=red,brown
+bone body | body_c | 15 | bone inbody hard col=white sz=4
+skull | body_c | 25 | bone inbody onheadbody hard col=white round halloween scary~
+blood | body_c | 35 | inbody liquid wet col=red water_rel? scary~
+muscle | body_c | 15 | inbody strong soft? col=red
+# ===== ideas, events, activities ======================================================
+love | emotion_c | 40 | -dangerous wedding~ gift~
+happiness | emotion_c | 20
+sadness | emotion_c | 10
+anger | emotion_c | 10 | dangerous~
+fear | emotion_c | 15 | scary
+time | time_c | 35 | time
+year | time_c | 20 | time
+month | time_c | 10 | time
+week | time_c | 10 | time
+hour | time_c | 10 | time
+minute | time_c | 6 | time
+summer | time_c | 30 | season summery hot sun_rel holiday~
+winter | time_c | 30 | season wintery cold snowplace~ xmas~
+spring | time_c | 20 | season bloom_spring easter~
+autumn | time_c | 15 | season leaves? col=orange,brown halloween~
+weekend | time_c | 15 | fun? holiday~
+birthday | event_c | 50 | birthday party fun cake? gift holiday
+christmas | event_c | 70 | xmas holiday religion gift wintery party famous kidknows season
+halloween | event_c | 50 | halloween holiday scary party costume dark season
+easter | event_c | 35 | easter holiday religion bloom_spring season
+new year | event_c | 30 | holiday party season wintery
+wedding | event_c | 40 | wedding party formal religion~
+valentines day | event_c | 15 | holiday gift season
+thanksgiving | event_c | 10 | holiday usa namerica food? season
+olympic games | event_c | 25 | olympic sport famous stadium crowded
+world cup | event_c | 15 | football sport famous stadium crowded
+party | event_c | 40 | party fun noisy music~
+holiday trip | event_c | 15 | travel holiday summery~
+vacation | event_c | 25 | travel holiday summery~ fun
+picnic | event_c | 10 | food? outdoors summery
+concert | event_c | 20 | music listen noisy crowded fun
+circus show | event_c | 10 | circus fun
+war | event_c | 20 | military dangerous scary weapon -fun
+dream | concept_c | 25 | sleep dark? -fun?
+idea | concept_c | 15 | clever
+music | activity_c | 55 | music listen fun noisy~ makessound
+dance | activity_c | 30 | music fun moves? party
+singing | activity_c | 15 | music listen makessound
+reading | activity_c | 20 | read quiet
+shopping | activity_c | 20 | shopplace money
+sleeping | activity_c | 15 | sleep quiet dark
+swimming | sport_c | 45 | watersport withwater wet summery olympic swims
+running | sport_c | 25 | olympic fast
+football sport | sport_c | 30 | football ball teamsport stadium olympic~ europe samerica famous
+soccer | sport_c | 25 | football ball teamsport stadium europe samerica
+basketball sport | sport_c | 12 | ball teamsport stadium usa olympic
+tennis | sport_c | 30 | ball racket olympic
+golf | sport_c | 20 | ball racket outdoors adults expensive~
+baseball sport | sport_c | 12 | ball racket teamsport usa japan
+cricket | sport_c | 12 | ball racket teamsport uk india oceania
+rugby | sport_c | 10 | ball teamsport uk oceania
+hockey | sport_c | 12 | racket teamsport canada wintery~
+ice hockey | sport_c | 10 | racket teamsport canada wintery cold
+volleyball sport | sport_c | 8 | ball teamsport olympic beach~
+boxing | sport_c | 20 | fighting olympic dangerous
+karate | sport_c | 15 | fighting japan asia
+judo | sport_c | 8 | fighting japan asia olympic
+skiing | sport_c | 20 | wintery snowplace mountain olympic cold
+ice skating | sport_c | 15 | wintery cold olympic
+surfing | sport_c | 15 | watersport ocean beach summery
+cycling | sport_c | 15 | olympic road? wheels?
+horse riding | sport_c | 12 | animal? olympic~
+gymnastics | sport_c | 10 | olympic jumps
+skateboarding | sport_c | 8 | wheels olympic~ fun
+fishing | activity_c | 20 | nearwater freshwater ocean~ quiet outdoors fish?
+camping | activity_c | 20 | camping outdoors woodland? fire_rel? summery
+hiking | activity_c | 12 | outdoors mountain woodland
+gardening | activity_c | 10 | gardenuse garden outdoors
+yoga | sport_c | 8 | quiet india~
+formula 1 | sport_c | 10 | racing car fast noisy dangerous
+bowling | sport_c | 8 | ball
+darts | sport_c | 6 | pointed thrown uk
+mathematics | subject_c | 35 | clever measure? shape?
+science | subject_c | 25 | lab clever
+history | subject_c | 20 | historic? ancient? oldfash?
+geography | subject_c | 12 | place? natplace?
+english subject | subject_c | 10 | read writing
+art subject | subject_c | 10 | art
+physics | subject_c | 8 | lab clever electricity~
+chemistry | subject_c | 8 | lab element
+biology | subject_c | 8 | lab animal? plant?
+language | subject_c | 15 | communicate read
+alphabet | subject_c | 20 | read writing shape children
+number | subject_c | 25 | shape
+zero | subject_c | 8 | shape round
+circle | subject_c | 25 | shape round
+square | subject_c | 20 | shape boxshape
+triangle shape | subject_c | 15 | shape pointed
+heart shape | subject_c | 10 | shape col=red
+colour | concept_c | 25 | col=any multicol
+internet | concept_c | 45 | internet electricity modern computer? communicate -touch
+email | concept_c | 15 | internet communicate modern
+wifi | concept_c | 15 | internet modern electricity
+video | concept_c | 10 | watch screen? internet~
+song | concept_c | 25 | music listen
+story | concept_c | 15 | read bookchar? children
+joke | concept_c | 10 | fun
+secret | concept_c | 8
+peace | concept_c | 8 | -dangerous
+luck | concept_c | 8
+magic | concept_c | 20 | evilmagic powers fictional? mythical_c

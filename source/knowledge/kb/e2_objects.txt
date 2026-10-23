@@ -1,0 +1,352 @@
+# ===== more objects (second expansion) ================================================
+# home odds and ends
+ashtray | household_c | 4 | sz=3 glass? ceramic? dirty smells adults -kidknows
+coaster | household_c | 4 | sz=2 flat round livingroom
+coat rack | furniture_c | 4 | sz=6 legsfurn? tall clothing? wood
+clothesline | household_c | 4 | sz=7 longthin garden outdoors clothing?
+doorknob | buildpart_c | 10 | sz=2 round metal opens handle
+door handle | buildpart_c | 6 | sz=2 metal opens handle
+drain | buildpart_c | 4 | sz=2 withwater dirty metal holes
+dish rack | kitchen_c | 4 | sz=4 withwater plastic metal
+egg timer | kitchen_c | 4 | sz=2 time kitchen
+fly swatter | household_c | 6 | sz=4 strike plastic flat handle summery
+hot water bottle | household_c | 6 | sz=4 rubber hot heats wintery bedroom sleep soft
+ice pack | medical_c | 3 | sz=3 cold cools frozen
+jewellery box | container_c | 6 | sz=3 opens lid boxshape bedroom music~ precious~
+matches | household_c | 25 | sz=2 wood fire_rel flammable boxshape longthin cheap dangerous~ camping
+lighter | household_c | 20 | sz=2 fire_rel flammable plastic metal adults dangerous~ buttons
+mousetrap | household_c | 8 | sz=3 wood metal cheese? dangerous~
+nail clippers | hygiene_c | 6 | sz=2 metal cutting sharp grooming
+nail file | hygiene_c | 3 | sz=3 rough grooming flat
+night light | lighting_c | 4 | sz=2 children bedroom dark plugin
+paper towel | hygiene_c | 8 | sz=3 paper cleaning kitchen cylinder rolls
+photo album | document_c | 6 | sz=4 flat opens
+pillowcase | household_c | 4 | sz=4 fabric soft bedroom sleep flat
+place mat | kitchen_c | 2 | sz=4 flat
+plunger | hygiene_c | 8 | sz=5 rubber handle bathroom dirty cleaning
+sewing kit | container_c | 3 | sz=3 sharp~ fabric
+shoelace | household_c | 8 | sz=4 longthin fabric fasten pair
+shower curtain | household_c | 4 | sz=7 plastic bathroom wet~
+soap dish | hygiene_c | 2 | sz=2 bathroom ceramic
+step stool | furniture_c | 3 | sz=4 kitchen climbs~
+tape dispenser | stationery_c | 3 | sz=3 sticky office desk
+tea bag | kitchen_c | 8 | sz=2 paper hotdrink fromplant
+thermostat | electronic_c | 3 | sz=2 wall heats~ buttons
+tin foil | kitchen_c | 8 | sz=4 metal shiny flat folds col=grey
+cling film | kitchen_c | 4 | sz=4 plastic seethrough sticky stretchy
+toothpick | kitchen_c | 6 | sz=2 wood pointed sharp cheap
+toilet seat | buildpart_c | 3 | sz=5 bathroom plastic sit
+tweezers | hygiene_c | 6 | sz=2 metal pointed grooming pair~
+wallpaper | buildpart_c | 4 | sz=7 paper flat wall col=any
+waste paper basket | container_c | 3 | sz=4 office paper?
+water filter | kitchen_c | 2 | sz=4 withwater
+wine bottle | bottle_c | 6 | glass col=green adults
+wooden spoon | utensil_c | 8 | sz=4 wood col=brown longthin
+zip tie | tool_c | 3 | sz=3 plastic fasten longthin
+candle holder | decoration_c | 4 | sz=3 metal fire_rel~
+garden gnome | decoration_c | 12 | sz=4 garden outdoors ceramic col=red,blue hat_char beard funny
+bird feeder | gardentool_c | 6 | sz=4 garden bird? food~
+birdhouse | gardentool_c | 6 | sz=4 wood garden bird? nest?
+bird bath | gardentool_c | 3 | sz=5 garden withwater stone
+dog bed | furniture_c | 4 | sz=5 pets_use soft fabric sleep
+kennel | building_c | 6 | sz=6 pets_use wood outdoors garden -livethere?
+cat flap | buildpart_c | 3 | sz=3 pets_use opens
+litter box | container_c | 6 | sz=4 pets_use plastic dirty smells
+fish tank | container_c | 15 | sz=5 pets_use glass seethrough withwater fish? breakable
+hamster cage | container_c | 5 | sz=4 pets_use metal plastic
+bird cage | container_c | 8 | sz=5 pets_use metal round~
+pet bowl | crockery_c | 4 | sz=3 pets_use -crockery
+dog leash | accessory_c | 10 | sz=5 pets_use longthin leather? fasten -wear
+dog collar | accessory_c | 8 | sz=3 pets_use leather round fasten
+dog toy | toy_c | 4 | sz=3 pets_use rubber -children
+scratching post | furniture_c | 3 | sz=5 pets_use rough
+saddle | sportgear_c | 8 | sz=5 leather ridden? sit
+horseshoe | tool_c | 12 | sz=3 metal col=grey -handle
+# kitchen extras
+cleaver | utensil_c | 4 | cutting blade sharp metal heavy
+bread knife | cutlery_c | 4 | cutting blade sharp
+pizza cutter | utensil_c | 6 | cutting round blade sharp handle spins
+garlic press | utensil_c | 3 | metal
+potato masher | utensil_c | 3 | metal handle
+nutcracker | utensil_c | 8 | metal hard xmas~ nut?
+ice cream scoop | utensil_c | 4 | metal round
+measuring cup | utensil_c | 6 | measure plastic seethrough
+measuring spoon | utensil_c | 2 | measure
+mortar and pestle | utensil_c | 4 | stone heavy spice?
+baking tray | utensil_c | 8 | flat metal baked? hot
+muffin tin | utensil_c | 3 | metal baked?
+cake tin | utensil_c | 3 | metal round baked?
+casserole dish | utensil_c | 3 | ceramic lid
+pressure cooker | kitchen_appl | 4 | heats lid metal noisy
+steamer | utensil_c | 2 | withwater hot
+deep fryer | kitchen_appl | 4 | heats hot fried? dangerous
+air fryer | kitchen_appl | 10 | heats hot modern boxshape col=black
+waffle iron | kitchen_appl | 4 | heats hot flat
+sandwich maker | kitchen_appl | 3 | heats hot flat
+popcorn machine | kitchen_appl | 4 | heats noisy theatre~
+ice cream maker | kitchen_appl | 2 | cold cools
+food processor | kitchen_appl | 5 | blade cutting spins noisy
+kitchen scale | kitchen_c | 4 | measure flat battery
+teacup | crockery_c | 8 | handle hollow round uk
+espresso cup | crockery_c | 2 | sz=2 handle
+shot glass | crockery_c | 4 | sz=2 glass seethrough breakable alcohol? adults
+beer mug | crockery_c | 4 | glass handle heavy adults
+champagne glass | crockery_c | 4 | glass seethrough breakable party wedding~ adults
+pitcher | crockery_c | 4 | handle glass~
+carafe | crockery_c | 2 | glass seethrough
+cookie jar | container_c | 6 | ceramic glass lid kitchen
+bread bin | container_c | 3 | kitchen boxshape
+spice rack | kitchen_c | 2 | wall
+kitchen roll | hygiene_c | 3 | paper cleaning kitchen rolls
+dish towel | kitchen_c | 4 | fabric withwater
+# electronics and tech
+flipper zero | gadget_c | 25 | sz=3 col=orange,white buttons screen battery modern fun~ adults~ rare expensive~ communicate~ remote nightsky~ -internet? electronic
+smart speaker | electronic_c | 15 | sz=3 sound listen music internet modern col=black,white round~ plugin
+cd | electronic_c | 15 | sz=3 -electronic round flat shiny plastic music listen oldfash col=grey hollow~
+dvd | electronic_c | 8 | sz=3 -electronic round flat shiny plastic watch oldfash
+vinyl record | electronic_c | 12 | sz=4 -electronic round flat col=black music listen oldfash collect
+record player | electronic_c | 8 | sz=5 music listen spins oldfash
+cassette tape | electronic_c | 8 | sz=3 -electronic boxshape plastic music listen oldfash col=black
+walkman | gadget_c | 4 | music listen oldfash japan
+mp3 player | gadget_c | 4 | music listen oldfash~
+ipod | gadget_c | 6 | music listen usa
+iphone | phonetech_c | 30 | col=black,white,grey usa famous expensive
+ipad | gadget_c | 10 | sz=4 screen internet camera flat usa
+game boy | gadget_c | 10 | videogame screen buttons nintendo japan oldfash fun col=grey
+nintendo switch | gadget_c | 15 | sz=4 videogame screen buttons nintendo japan fun modern col=red,blue,black
+playstation | electronic_c | 15 | sz=4 videogame fun japan plugin col=black,white
+xbox | electronic_c | 10 | sz=4 videogame fun usa plugin col=black,white,green
+tamagotchi | gadget_c | 8 | sz=2 videogame screen buttons japan pet? children oldfash
+smart tv | electronic_c | 6 | sz=6 screen watch internet plugin livingroom flat
+modem | computer_c | 3 | sz=3 internet plugin
+server | computer_c | 3 | sz=6 internet plugin noisy office
+graphics card | computer_c | 2 | sz=3 videogame -screen
+motherboard | computer_c | 2 | sz=4 flat manyparts col=green
+microchip | computer_c | 6 | sz=1 flat col=black modern
+circuit board | computer_c | 3 | sz=3 flat col=green manyparts
+cable | electronic_c | 12 | sz=4 cord longthin plastic metal -buttons col=black,white
+hdmi cable | electronic_c | 2 | sz=4 cord longthin
+sd card | computer_c | 4 | sz=1 flat plastic
+sim card | phonetech_c | 3 | sz=1 flat plastic -screen -battery
+bluetooth speaker | gadget_c | 4 | sound music listen
+electric toothbrush | hygiene_c | 6 | electric battery buttons grooming bathroom
+typewriter | electronic_c | 10 | sz=4 -electric? keys writing oldfash noisy metal paper
+pager | gadget_c | 2 | oldfash communicate
+walkie-talkie | gadget_c | 8 | communicate sound buttons battery police~ camping~
+gps | gadget_c | 4 | screen car? travel
+dashcam | gadget_c | 1 | camera car
+security camera | electronic_c | 5 | camera wall police~ protect
+3d printer | electronic_c | 5 | sz=5 modern plastic machine noisy
+scanner | computer_c | 3 | sz=4 paper light office
+laser pointer | gadget_c | 4 | light bright battery longthin
+metal detector | gadget_c | 4 | sz=5 beach~ magnetic? metal battery
+game cartridge | electronic_c | 2 | sz=2 videogame plastic
+radar | electronic_c | 3 | sz=6 military~ airport~ round
+antenna | electronic_c | 4 | sz=5 metal longthin communicate tall~
+light saber | toy_c | 15 | sz=5 starwars sword light bright weapon fictional longthin
+# tools
+allen key | tool_c | 3 | sz=2 metal repair -handle
+clamp | tool_c | 3 | sz=3 metal fasten
+file tool | tool_c | 2 | sz=3 metal rough
+mallet | tool_c | 4 | sz=4 strike wood handle
+sledgehammer | tool_c | 6 | sz=6 strike heavy handle dangerous
+trowel | gardentool_c | 3 | sz=3 handle construction~
+multimeter | tool_c | 2 | sz=3 electricity measure battery screen
+soldering iron | tool_c | 4 | sz=3 hot heats electric metal
+staple gun | tool_c | 2 | sz=3 fasten
+glue gun | tool_c | 4 | sz=3 sticky hot electric art
+nail gun | powertool_c | 2 | sz=4 fasten dangerous
+sander | powertool_c | 2 | sz=4 rough noisy
+vice | tool_c | 2 | sz=4 metal heavy
+workbench | table_c | 3 | sz=6 garage tool work wood
+tool belt | accessory_c | 2 | sz=4 leather construction
+utility knife | tool_c | 4 | sz=3 cutting blade sharp
+pocket knife | tool_c | 15 | sz=2 cutting blade sharp folds metal camping s_pocket
+swiss army knife | tool_c | 10 | sz=2 cutting blade sharp folds metal col=red camping manyparts
+multitool | tool_c | 3 | sz=2 metal folds manyparts
+pulley | tool_c | 3 | sz=3 round metal spins
+car jack | tool_c | 3 | sz=4 metal car heavy
+bicycle pump | tool_c | 6 | sz=4 gas pushpull
+air compressor | powertool_c | 2 | sz=5 gas noisy
+generator | powertool_c | 3 | sz=6 electricity fuel noisy
+blowtorch | tool_c | 3 | sz=3 fire_rel hot dangerous
+spirit level | tool_c | 2 | sz=4 measure
+oil can | container_c | 2 | sz=3 metal liquid? car?
+ice axe | tool_c | 3 | sz=5 sharp pointed mountain snowplace
+crampons | sportgear_c | 1 | sz=3 sharp onfeet mountain
+carabiner | sportgear_c | 3 | sz=2 metal fasten climbs?
+climbing rope | sportgear_c | 3 | sz=6 longthin fabric mountain
+# furniture extras
+sofa bed | seat_c | 4 | sz=7 sleep soft fabric
+futon | bed_c | 3 | sz=7 japan folds -legsfurn
+recliner | seat_c | 4 | sz=6 soft moving
+footstool | seat_c | 3 | sz=4 soft
+bar stool | seat_c | 4 | sz=5 tall
+dresser | storage_furn | 4 | sz=6 bedroom opens
+display cabinet | storage_furn | 2 | sz=7 glass seethrough
+shoe rack | storage_furn | 3 | sz=5
+umbrella stand | container_c | 2 | sz=4
+cradle | bed_c | 5 | sz=5 baby_use moving wood
+playpen | furniture_c | 3 | sz=6 baby_use children
+changing table | table_c | 2 | sz=6 baby_use
+folding chair | seat_c | 5 | sz=5 folds metal plastic
+deck chair | seat_c | 6 | sz=6 folds beach summery fabric wood
+sun lounger | seat_c | 4 | sz=7 beach summery outdoors plastic
+garden chair | seat_c | 4 | sz=5 garden outdoors plastic
+parasol | accessory_c | 6 | sz=7 opens folds beach summery fabric protect
+throne | seat_c | 15 | sz=6 royal castle expensive precious? col=red,yellow rare
+# clothing extras
+poncho | outer_c | 5 | sz=5 wet~ samerica~
+parka | outer_c | 4 | sz=5 wintery coldplace
+fleece | top_c | 4 | sz=4 soft wintery~
+blazer | top_c | 6 | sz=5 formal buttons
+waistcoat | top_c | 3 | sz=4 formal buttons
+polo shirt | top_c | 4 | sz=4 buttons~ sportswear~
+turtleneck | top_c | 3 | sz=4 wintery
+tracksuit | top_c | 6 | sz=5 garment_lo sportswear
+sweatpants | bottom_c | 6 | sz=4 sportswear soft
+onesie | top_c | 6 | sz=5 garment_lo soft baby_use~ children
+dressing gown | top_c | 4 | sz=5 garment_lo soft bedroom
+beret | hat_c | 4 | sz=3 france soft
+fedora | hat_c | 3 | sz=4 oldfash
+sombrero | hat_c | 6 | sz=5 mexico costume col=yellow,brown round
+headband | hat_c | 4 | sz=3 sportswear~
+bandana | clothing_c | 3 | sz=3 onhead onface
+balaclava | hat_c | 2 | sz=3 wintery onface
+earmuffs | hat_c | 4 | sz=3 wintery fluffy pair
+cowboy boots | shoe_c | 4 | sz=5 leather usa costume
+wellington boots | shoe_c | 5 | sz=5 rubber wet uk col=green,black
+loafers | shoe_c | 2 | leather formal
+crocs | shoe_c | 8 | rubber plastic col=any holes summery
+stockings | bottom_c | 3 | onfeet stretchy female
+suspenders | clothing_c | 3 | sz=4 garment_up fasten
+cufflinks | jewellery_c | 2 | sz=1 formal male pair
+shawl | clothing_c | 3 | sz=5 onface soft female
+cape | clothing_c | 10 | sz=5 garment_up costume superhero? fictional~ cape
+cloak | clothing_c | 6 | sz=6 garment_up costume oldfash evilmagic~
+veil | clothing_c | 4 | sz=4 onhead wedding female seethrough col=white
+lab coat | top_c | 4 | sz=5 lab scientist? col=white uniform
+scrubs | top_c | 2 | sz=4 hospital medical uniform col=green,blue
+chef hat | hat_c | 6 | sz=4 col=white tall uniform restaurant cooking?
+hard hat | hat_c | 6 | sz=4 construction protect safety plastic hard col=yellow
+wig | hat_c | 6 | sz=4 fur? costume
+eye patch | clothing_c | 4 | sz=2 onface costume col=black
+monocle | accessory_c | 3 | sz=2 glass onface oldfash
+wristband | accessory_c | 3 | sz=2 onhand sportswear
+mask | clothing_c | 20 | sz=3 onface costume halloween mask
+# toys, games and fun
+kaleidoscope | toy_c | 6 | sz=3 glass multicol cylinder light
+magic 8 ball | toy_c | 3 | sz=3 round col=black
+etch a sketch | toy_c | 3 | sz=4 writing art screen~ col=red
+dollhouse | toy_c | 10 | sz=5 house? wood
+toy soldier | toy_c | 6 | sz=2 military costume
+nutcracker doll | toy_c | 4 | sz=4 wood xmas costume military
+bouncy ball | ball_c | 8 | sz=2 -sportgear toy rubber col=any children
+water balloon | toy_c | 6 | sz=3 rubber withwater wet summery thrown
+paper plane | toy_c | 10 | sz=3 paper flies thrown cheap
+origami | toy_c | 6 | sz=3 paper folds japan art
+model train | toy_c | 3 | sz=4 rail adults collect
+remote control car | toy_c | 12 | sz=4 wheels remote battery fast
+toy robot | toy_c | 5 | sz=3 battery robotalien
+tic-tac-toe | game_c | 10 | paper writing children -boardgame
+hangman | game_c | 5 | paper writing children
+bingo | game_c | 6 | elderly paper money~
+poker | game_c | 8 | boardgame paper adults money
+uno | game_c | 15 | boardgame paper col=red,yellow,green,blue children
+jenga | game_c | 10 | boardgame wood manyparts boxshape
+connect four | game_c | 4 | boardgame plastic col=red,yellow,blue
+twister | game_c | 4 | -boardgame col=red,blue,green,yellow fun
+battleship | game_c | 2 | boardgame ship? military
+backgammon | game_c | 2 | boardgame
+mahjong | game_c | 3 | boardgame china asia
+go game | game_c | 2 | boardgame asia col=black,white
+billiards | game_c | 6 | sport ball adults
+foosball | game_c | 4 | sz=6 football ball fun
+air hockey | game_c | 3 | sz=6 electric fun
+table tennis | sport_c | 10 | ball racket olympic
+mini golf | game_c | 5 | outdoors ball fun
+bouncy castle | toy_c | 8 | sz=8 rubber gas bounces jumps party children
+merry-go-round | toy_c | 6 | sz=8 spins circus playground moving
+ferris wheel | structure_c | 12 | sz=10 spins tall fun circus carryperson payenter
+roller coaster | structure_c | 20 | sz=10 fast scary fun circus carryperson payenter rail moving
+carousel | toy_c | 6 | sz=8 spins circus music
+bumper cars | toy_c | 5 | sz=6 circus electric wheels fun
+haunted house | building_c | 6 | sz=8 scary halloween circus
+theme park | structure_c | 15 | sz=10 fun circus crowded payenter children
+water park | structure_c | 6 | sz=10 fun withwater wet summery payenter
+# sport equipment extras
+javelin | sportgear_c | 3 | sz=7 pointed longthin thrown olympic
+discus | sportgear_c | 2 | sz=3 round flat thrown olympic heavy
+shot put | sportgear_c | 2 | sz=3 round heavy metal thrown olympic
+hurdle | sportgear_c | 2 | sz=6 olympic jumps
+balance beam | sportgear_c | 2 | sz=8 olympic longthin wood
+pommel horse | sportgear_c | 1 | sz=6 olympic
+shuttlecock | sportgear_c | 5 | sz=2 feathers? plastic racket? light~
+basketball hoop | sportgear_c | 8 | sz=7 basketq round metal tall
+goalpost | sportgear_c | 3 | sz=8 football stays
+football boots | shoe_c | 5 | sport football sportswear
+shin pads | sportgear_c | 2 | sz=3 football protect pair
+mouthguard | sportgear_c | 2 | sz=2 protect fighting
+knee pads | sportgear_c | 2 | sz=3 protect pair
+punching bag | sportgear_c | 5 | sz=6 fighting heavy leather
+kettlebell | sportgear_c | 3 | sz=3 heavy metal handle
+barbell | sportgear_c | 5 | sz=7 heavy metal strong
+rowing machine | sportgear_c | 2 | sz=7 machine
+yoga ball | ball_c | 3 | sz=5 rubber
+scoreboard | electronic_c | 3 | sz=8 stadium screen
+podium | structure_c | 3 | sz=6 olympic
+bmx | bike_c | 5 | sport fun children~
+mountain bike | bike_c | 8 | mountain outdoors sport
+racing bike | bike_c | 4 | fast racing
+tandem | bike_c | 2 | sz=7 -carries1 manypeople~
+oar | sportgear_c | 5 | sz=6 boat watersport muscle wood longthin
+life ring | safety_c | 6 | sz=4 round floats ship beach col=red,white hollow
+buoy | safety_c | 4 | sz=5 floats ocean col=red,orange
+scuba tank | sportgear_c | 3 | sz=5 gas watersport undersea metal cylinder
+wetsuit | clothing_c | 4 | sz=5 rubber watersport undersea garment_lo garment_up col=black
+snowshoes | sportgear_c | 2 | sz=4 wintery snowplace onfeet pair
+# more vehicles
+minibus | bus_c | 4 | sz=7 -manywheels
+coach bus | bus_c | 4 | travel tourist
+trolleybus | bus_c | 2 | electric -fuel
+tuk-tuk | vehicle_c | 5 | sz=6 roadveh road wheels engine asia india -steering public~
+rickshaw | vehicle_c | 4 | sz=6 roadveh wheels muscle -engine asia carryperson
+horse carriage | vehicle_c | 8 | sz=7 wheels -engine -fuel oldfash royal~ wood
+wagon | vehicle_c | 6 | sz=7 wheels -engine -fuel wood oldfash cargo onfarm
+cart | vehicle_c | 5 | sz=6 wheels pushpull -engine cargo
+chariot | vehicle_c | 5 | sz=6 wheels -engine ancient racing
+sleigh | vehicle_c | 15 | sz=7 -wheels -engine wintery snowplace xmas wood flies~ fictional~
+snowmobile | vehicle_c | 4 | sz=6 -wheels engine fuel wintery snowplace fast noisy carries1
+hovercraft | vehicle_c | 3 | sz=7 floats engine noisy
+biplane | aircraft_c | 3 | sz=8 oldfash wings carries1
+private jet | aircraft_c | 4 | luxury expensive
+cargo plane | aircraft_c | 2 | cargo
+paraglider | aircraft_c | 3 | sz=7 -engine -fuel fabric quiet carries1 sport
+hang glider | aircraft_c | 3 | sz=7 -engine -fuel fabric quiet carries1 sport
+zeppelin | aircraft_c | 4 | sz=9 oldfash gas germany slow
+mars rover | spacecraft_c | 6 | sz=7 wheels -carryperson robotalien? electronic
+lunar module | spacecraft_c | 2 | sz=7
+space station | spacecraft_c | 8 | sz=10 -travel livethere~ manypeople~ stays~
+steamboat | boat_c | 3 | sz=8 oldfash fire_rel
+aircraft carrier | boat_c | 5 | sz=10 military aircraft? ocean
+warship | boat_c | 4 | sz=9 military weapon
+tugboat | boat_c | 3 | sz=7 cargo~ noisy
+fishing boat | boat_c | 5 | sz=7 fish? work
+catamaran | boat_c | 3 | sz=8 sail
+pedalo | boat_c | 3 | sz=6 muscle fun summery
+houseboat | boat_c | 2 | sz=8 livethere
+dinghy | boat_c | 3 | sz=6 rubber~ carries1
+inflatable boat | boat_c | 3 | sz=6 rubber gas carries1
+camper van | car_c | 6 | sz=8 holiday sleep travel camping
+caravan | vehicle_c | 6 | sz=8 wheels -engine holiday sleep camping
+hearse | car_c | 2 | col=black
+ice cream van | truck_c | 8 | sz=7 summery music children col=white,pink
+food truck | truck_c | 4 | sz=7 food? restaurant~
+tow truck | truck_c | 4 | sz=8 car?
+dump truck | truck_c | 6 | sz=8 construction
+tanker truck | truck_c | 2 | sz=8 liquid fuel
+monster truck | truck_c | 6 | sz=8 fun noisy wheels jumps
+dune buggy | car_c | 3 | desert beach fun
+snowplow | truck_c | 3 | sz=8 wintery snowplace
+street sweeper | truck_c | 1 | sz=7 cleaning
+armored car | car_c | 3 | military money~ police~

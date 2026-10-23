@@ -1,0 +1,247 @@
+# ===== more animals (second expansion) ===============================================
+# more dogs and cats
+maltese dog | dog_breed | 4 | sz=3 col=white fluffy europe
+samoyed | dog_breed | 4 | sz=5 col=white fluffy coldplace russia
+akita | dog_breed | 4 | sz=5 col=orange,white japan asia
+shar pei | dog_breed | 3 | sz=5 col=brown,yellow china asia
+bichon frise | dog_breed | 3 | sz=3 col=white fluffy france
+bernese mountain dog | dog_breed | 3 | sz=6 col=black,white,brown mountainan europe fluffy
+newfoundland dog | dog_breed | 3 | sz=6 col=black swims fluffy canada heavy
+afghan hound | dog_breed | 3 | sz=5 col=yellow,brown fluffy asia
+whippet | dog_breed | 3 | sz=5 col=grey,white fast racing uk
+bloodhound | dog_breed | 3 | sz=5 col=brown longears police smells
+mastiff | dog_breed | 4 | sz=6 col=brown heavy uk
+collie | dog_breed | 6 | sz=5 col=brown,white uk farm onfarm moviechar~
+australian shepherd | dog_breed | 4 | sz=5 col=grey,black,white spots usa farm
+weimaraner | dog_breed | 3 | sz=5 col=grey germany
+cavalier king charles | dog_breed | 3 | sz=4 col=brown,white longears uk royal~
+west highland terrier | dog_breed | 3 | sz=4 col=white uk
+siberian cat | cat_breed | 2 | col=grey fluffy russia
+bengal cat | cat_breed | 3 | col=orange,black spots
+ragdoll cat | cat_breed | 3 | col=white,brown fluffy
+british shorthair | cat_breed | 4 | col=grey uk
+scottish fold | cat_breed | 3 | col=grey,white uk
+tabby cat | cat_breed | 6 | col=orange,brown stripes
+black cat | cat_breed | 15 | col=black halloween scary~ -breed
+# more wild mammals
+hare | landmammal | 25 | sz=4 wild herbivore longears jumps fast grassland woodland? fur col=brown,grey -pet europe
+arctic hare | landmammal | 3 | sz=4 wild herbivore longears jumps coldplace snowplace col=white
+jackrabbit | landmammal | 3 | sz=4 wild herbivore longears jumps fast desertan namerica col=brown
+dormouse | rodent_c | 5 | sz=3 wild hibernates woodland col=brown cute
+vole | rodent_c | 3 | sz=3 wild grassland col=brown
+mole rat | rodent_c | 3 | sz=3 wild burrows underground africa -fur col=pink
+pocket gopher | rodent_c | 2 | sz=3 wild burrows namerica col=brown
+mountain goat | cattle_c | 6 | sz=5 wild -farm -onfarm -milk horns mountainan climbs col=white namerica
+ibex | cattle_c | 4 | sz=5 wild -farm -onfarm -milk horns mountainan climbs europe col=brown
+musk ox | cattle_c | 3 | sz=7 wild -farm -onfarm -milk horns fur coldplace col=brown
+gnu | cattle_c | 2 | sz=7 wild -farm -onfarm -milk horns africa herd
+water buffalo | cattle_c | 4 | sz=7 horns farm asia freshwater col=black,grey
+zebu | cattle_c | 2 | sz=7 horns farm india asia
+honey badger | misc_mammal | 8 | sz=4 africa asia carnivore dangerous strong col=black,white,grey
+pine marten | misc_mammal | 3 | sz=4 woodland climbs carnivore europe col=brown
+polecat | misc_mammal | 2 | sz=4 woodland carnivore smells europe col=brown,black
+civet | misc_mammal | 2 | sz=4 asia africa nocturnal spots col=grey,black
+quokka | marsupial_c | 8 | sz=4 cute herbivore col=brown island
+sugar glider | marsupial_c | 5 | sz=3 flies~ intrees nocturnal pet~ col=grey
+numbat | marsupial_c | 2 | sz=4 insectivore stripes col=brown,orange
+bandicoot | marsupial_c | 2 | sz=4 omnivore col=brown
+echidna | misc_mammal | 6 | sz=4 oceania spiky eggs insectivore col=brown
+hyrax | misc_mammal | 2 | sz=3 africa col=brown
+dugong | whale_c | 3 | sz=7 -whale herbivore slow col=grey oceania asia
+elephant seal | seal_c | 6 | sz=8 trunk heavy col=brown,grey noisy
+leopard seal | seal_c | 3 | sz=7 spots antarctic carnivore dangerous
+harbor seal | seal_c | 3 | sz=6 spots col=grey
+fur seal | seal_c | 2 | sz=6 fur col=brown
+bighorn sheep | cattle_c | 3 | sz=5 wild -farm horns mountainan namerica col=brown
+mouflon | cattle_c | 1 | sz=5 wild horns europe
+caribou | deer_c | 5 | sz=7 horns coldplace canada namerica herd
+roe deer | deer_c | 4 | sz=5 horns europe woodland
+red deer | deer_c | 6 | sz=6 horns europe woodland uk
+fallow deer | deer_c | 2 | sz=6 horns spots europe
+muntjac | deer_c | 2 | sz=5 asia
+springbok | deer_c | 4 | sz=5 horns africa jumps
+oryx | deer_c | 3 | sz=6 horns africa desertan desert
+kudu | deer_c | 3 | sz=7 horns africa stripes
+eland | deer_c | 2 | sz=7 horns africa
+gerenuk | deer_c | 1 | sz=6 horns africa longneck
+mandrill | primate_c | 10 | sz=5 africa col=red,blue,grey multicol tail -longtail
+capuchin monkey | primate_c | 6 | sz=4 samerica tail longtail intrees trained clever
+spider monkey | primate_c | 5 | sz=4 samerica tail longtail intrees
+howler monkey | primate_c | 5 | sz=4 samerica tail longtail intrees noisy
+proboscis monkey | primate_c | 3 | sz=5 asia trunk~ tail
+macaque | primate_c | 3 | sz=4 asia japan tail
+snow monkey | primate_c | 4 | sz=4 japan asia snowplace coldplace tail
+bonobo | primate_c | 3 | sz=5 africa -tail
+tarsier | primate_c | 3 | sz=3 asia nocturnal tail longtail cute
+marmoset | primate_c | 3 | sz=3 samerica tail longtail
+aye-aye | primate_c | 2 | sz=4 africa island nocturnal tail scary
+lion cub | bigcat | 12 | sz=4 babyanimal col=yellow cute -dangerous -scary africa
+tiger cub | bigcat | 5 | sz=4 babyanimal col=orange,black stripes cute -dangerous asia
+bear cub | bear_c | 6 | sz=4 babyanimal cute -dangerous col=brown
+joey | marsupial_c | 4 | sz=3 babyanimal cute
+clouded leopard | bigcat | 2 | col=yellow,black spots asia intrees
+serval | cat_c | 3 | sz=5 wild spots africa longears
+caracal | cat_c | 3 | sz=5 wild africa asia longears col=orange,brown
+cougar | bigcat | 6 | col=brown,yellow namerica samerica mountainan -spots
+sea cow | whale_c | 2 | sz=7 -whale herbivore slow col=grey
+pygmy hippo | landmammal | 3 | sz=6 wild zoo herbivore africa freshwater col=grey,brown rare
+fennec fox | wild_dog_c | 8 | sz=3 desertan desert africa longears col=yellow,white cute
+red fox | wild_dog_c | 6 | sz=5 woodland europe col=orange,white
+grey wolf | wild_dog_c | 3 | sz=6 woodland col=grey herd
+african wild dog | wild_dog_c | 3 | sz=5 africa spots herd col=brown,black,yellow
+# more birds
+snowy owl | birdprey_c | 8 | col=white nocturnal coldplace snowplace potter~
+eagle owl | birdprey_c | 3 | col=brown nocturnal
+osprey | birdprey_c | 4 | col=brown,white carnivore nearwater
+buzzard | birdprey_c | 5 | col=brown
+kestrel | birdprey_c | 4 | sz=3 col=brown,orange
+red kite | birdprey_c | 3 | col=red,brown
+secretary bird | birdprey_c | 3 | sz=6 africa legs2 tall
+golden eagle | birdprey_c | 6 | col=brown,yellow mountainan
+harpy eagle | birdprey_c | 2 | samerica tropicalan
+ibis | waterbird_c | 4 | sz=5 col=white,red egypt~ longneck
+egret | waterbird_c | 3 | sz=5 col=white longneck
+spoonbill | waterbird_c | 3 | sz=5 col=pink,white beak
+mallard | waterbird_c | 6 | sz=4 col=green,brown freshwater
+canada goose | waterbird_c | 5 | sz=5 col=black,brown,white canada namerica noisy
+loon | waterbird_c | 2 | sz=5 col=black,white namerica
+gannet | seabird_c | 2 | sz=5 col=white
+tern | seabird_c | 2 | sz=4 col=white,black
+blue-footed booby | seabird_c | 6 | sz=4 col=white,brown,blue samerica funny
+hornbill | bird_c | 6 | sz=5 col=black,white,yellow beak asia africa tropicalan flies intrees
+bird of paradise | bird_c | 5 | sz=4 col=red,yellow,green multicol tropicalan oceania flies rare
+lyrebird | bird_c | 2 | sz=4 col=brown oceania sings longtail
+cassowary | flightless_c | 6 | sz=7 col=black,blue oceania dangerous tropicalan
+rhea | flightless_c | 2 | sz=6 col=grey samerica
+king penguin | flightless_c | 4 | sz=5 col=black,white,orange swims aquatic ocean coldplace antarctic herd
+little penguin | flightless_c | 2 | sz=3 col=blue,white swims ocean oceania cute
+guinea fowl | poultry_c | 2 | sz=4 col=grey spots africa
+peahen | bird_c | 2 | sz=5 col=brown female
+cockatiel | parrot_c | 8 | sz=3 col=grey,yellow pet house oceania -tropicalan
+lovebird | parrot_c | 6 | sz=2 col=green,red,yellow pet africa
+african grey | parrot_c | 5 | sz=3 col=grey,red clever africa
+goldfinch | songbird_c | 4 | col=yellow,red,black europe multicol
+bullfinch | songbird_c | 2 | col=red,grey,black europe
+chickadee | songbird_c | 2 | col=black,white namerica
+hoopoe | bird_c | 2 | sz=3 col=orange,black,white flies europe africa
+oriole | songbird_c | 2 | col=orange,black
+mockingbird | songbird_c | 2 | col=grey namerica
+great tit | songbird_c | 2 | col=yellow,black europe garden
+blue tit | songbird_c | 4 | col=blue,yellow europe garden
+thrush | songbird_c | 2 | col=brown
+warbler | songbird_c | 1 | col=yellow,green
+weaver bird | songbird_c | 1 | col=yellow africa nest
+jay | bird_c | 3 | sz=3 col=brown,blue flies woodland noisy
+jackdaw | bird_c | 2 | sz=3 col=black,grey flies city
+rook | bird_c | 1 | sz=4 col=black flies onfarm
+turtle dove | bird_c | 2 | sz=3 col=brown,grey flies
+grouse | poultry_c | 2 | sz=4 col=brown wild -farm mountainan
+partridge | poultry_c | 2 | sz=3 col=brown wild -farm xmas~
+# more fish and sea creatures
+bass | freshfish_c | 6 | sz=4 col=green food seafood
+perch | freshfish_c | 4 | sz=4 col=green,yellow stripes food seafood
+tilapia | freshfish_c | 3 | sz=4 col=grey food seafood africa
+sturgeon | freshfish_c | 3 | sz=7 col=grey russia rare
+halibut | seafish_c | 3 | sz=6 flat col=brown,white food seafood
+sole | seafish_c | 3 | sz=4 flat col=brown food seafood
+flounder | seafish_c | 3 | sz=4 flat col=brown food seafood
+plaice | seafish_c | 2 | sz=4 flat col=brown,orange spots food seafood
+haddock | seafish_c | 2 | sz=5 col=grey food seafood uk
+marlin | seafish_c | 4 | sz=7 col=blue,grey pointed fast
+grouper | seafish_c | 2 | sz=6 col=brown food
+snapper | seafish_c | 2 | sz=5 col=red food seafood
+lionfish | seafish_c | 6 | sz=3 col=red,white stripes spiky venomous tropical
+moray eel | seafish_c | 5 | sz=6 col=green,brown longthin teeth dangerous -scales
+anglerfish | seafish_c | 8 | sz=4 col=brown,black deepsea glows scary teeth dark
+blobfish | seafish_c | 5 | sz=4 col=pink deepsea slimy funny
+oarfish | seafish_c | 2 | sz=9 col=grey,red longthin deepsea rare
+coelacanth | seafish_c | 2 | sz=6 col=blue,grey deepsea rare ancient
+betta fish | freshfish_c | 8 | sz=2 col=red,blue,purple pet house -food -seafood fins asia
+guppy | freshfish_c | 6 | sz=2 col=orange,blue multicol pet house -food -seafood
+neon tetra | freshfish_c | 3 | sz=2 col=blue,red pet house -food -seafood samerica
+discus fish | freshfish_c | 2 | sz=3 col=blue,orange round flat pet
+mudskipper | fish_c | 2 | sz=3 col=brown legs~ asia
+lamprey | fish_c | 2 | sz=5 col=grey longthin bloodsuck parasite -scales
+cuttlefish | mollusc_c | 6 | sz=4 tentacles ocean aquatic swims colourchg col=brown,white
+sea slug | mollusc_c | 3 | sz=2 ocean aquatic slimy col=any
+giant squid | mollusc_c | 6 | sz=9 tentacles ocean deepsea rare scary
+conch | mollusc_c | 3 | sz=4 shell ocean beach col=pink,white
+cowrie | mollusc_c | 1 | sz=2 shell ocean shiny
+seashell | mollusc_c | 30 | sz=2 -alive shell beach hard col=white,pink -moves -grows collect kidknows
+sand dollar | seainv_c | 4 | sz=2 flat round beach col=white
+box jellyfish | seainv_c | 4 | sz=4 tentacles stings venomous dangerous seethrough oceania
+sea sponge | seainv_c | 4 | sz=4 col=yellow,orange soft stays
+spider crab | crust_c | 3 | sz=6 claws longthin legs8 japan~
+king crab | crust_c | 4 | sz=5 claws food seafood coldplace expensive
+blue crab | crust_c | 2 | sz=3 claws food seafood col=blue
+woodlouse | crust_c | 8 | sz=1 -aquatic -ocean garden woodland col=grey shell round~ -seafood -food
+water flea | crust_c | 1 | sz=1 freshwater
+# more insects and creepy crawlies
+aphid | insect_c | 3 | sz=1 col=green pest garden herbivore
+fire ant | beeant_c | 5 | sz=1 col=red stings bites dangerous pest
+army ant | beeant_c | 2 | sz=1 col=brown herd dangerous
+carpenter ant | beeant_c | 1 | sz=1 col=black
+queen bee | beeant_c | 6 | col=yellow,black stripes female royal nest
+honeybee | beeant_c | 8 | col=yellow,black stripes flies wings farm~
+yellow jacket | beeant_c | 2 | col=yellow,black stripes flies wings stings
+bed bug | insect_c | 8 | sz=1 col=brown bloodsuck parasite pest bedroom bites
+horsefly | fly_c | 4 | sz=2 col=grey,brown bites bloodsuck
+gnat | fly_c | 3 | sz=1 col=black
+midge | fly_c | 2 | sz=1 col=black bites
+fruit fly | fly_c | 4 | sz=1 col=brown,red kitchen
+hoverfly | fly_c | 2 | sz=2 col=yellow,black stripes garden -pest
+june bug | beetle_c | 3 | sz=2 col=brown flies summery
+scarab beetle | beetle_c | 3 | sz=2 col=green,black egypt shiny
+rhinoceros beetle | beetle_c | 4 | sz=3 col=black,brown horns strong
+glow worm | beetle_c | 4 | sz=2 glows light -flies dark
+stink bug | insect_c | 3 | sz=2 col=brown,green smells -smellsnice
+mayfly | insect_c | 2 | sz=2 col=yellow,brown flies wings freshwater
+damselfly | insect_c | 2 | sz=3 col=blue flies wings longthin freshwater
+water strider | insect_c | 2 | sz=2 col=brown freshwater floats
+silverfish | insect_c | 3 | sz=2 col=grey bathroom pest -wings
+katydid | insect_c | 2 | sz=3 col=green jumps makessound
+cockchafer | beetle_c | 2 | sz=2 col=brown flies europe
+weta | insect_c | 1 | sz=3 oceania
+daddy longlegs | spider_c | 8 | sz=2 col=brown longthin -venomous -dangerous house
+jumping spider | spider_c | 4 | sz=1 col=black jumps cute~
+wolf spider | spider_c | 3 | sz=2 col=brown hairy
+house spider | spider_c | 4 | sz=2 col=brown house
+garden spider | spider_c | 3 | sz=2 col=brown,orange web garden
+huntsman spider | spider_c | 2 | sz=3 col=brown oceania scary
+# more reptiles and amphibians
+king cobra | snake_c | 8 | col=brown,yellow,black venomous dangerous india asia longthin
+garter snake | snake_c | 3 | sz=5 col=green,black stripes namerica -venomous
+corn snake | snake_c | 4 | sz=5 col=orange,red pet -venomous namerica
+coral snake | snake_c | 3 | sz=5 col=red,yellow,black stripes venomous namerica
+sidewinder | snake_c | 2 | sz=5 col=yellow,brown desertan desert venomous
+milk snake | snake_c | 1 | sz=5 col=red,black,white stripes
+gila monster | lizard_c | 4 | sz=4 col=orange,black venomous desertan namerica
+horned lizard | lizard_c | 3 | sz=3 col=brown spiky desertan namerica
+skink | lizard_c | 2 | sz=3 col=brown,blue
+frilled lizard | lizard_c | 4 | sz=4 col=brown oceania scary~
+basilisk lizard | lizard_c | 2 | sz=4 col=green samerica fast swims
+tuatara | lizard_c | 2 | sz=4 col=green,grey oceania rare ancient
+thorny devil | lizard_c | 2 | sz=3 col=brown,orange spiky oceania desertan
+leatherback turtle | turtle_c | 2 | sz=7 col=black swims aquatic ocean fins endangered
+snapping turtle | turtle_c | 3 | sz=5 col=brown swims freshwater bites dangerous
+box turtle | turtle_c | 2 | sz=3 col=brown namerica
+galapagos tortoise | turtle_c | 6 | sz=6 col=grey,brown -swims samerica island rare
+gharial | croc_c | 3 | sz=7 col=green,brown india asia longthin
+bullfrog | amphibian_c | 5 | sz=3 col=green,brown legs legs4 jumps -tail noisy namerica
+cane toad | amphibian_c | 3 | sz=3 col=brown legs legs4 poisonous oceania samerica pest
+fire salamander | amphibian_c | 3 | sz=3 col=black,yellow spots legs legs4 tail poisonous europe
+caecilian | amphibian_c | 1 | sz=4 -legs longthin
+# more prehistoric animals
+allosaurus | dino_c | 4 | sz=8 col=brown carnivore teeth legs legs2 tail
+iguanodon | dino_c | 4 | sz=8 col=green herbivore legs legs2~ legs4~ tail
+parasaurolophus | dino_c | 4 | sz=8 col=green,brown herbivore legs tail
+pachycephalosaurus | dino_c | 3 | sz=7 col=brown herbivore legs legs2 tail hard
+archaeopteryx | dino_c | 4 | sz=4 col=brown,grey feathers wings flies~ beak~ bird~ legs legs2 tail
+megalodon | dino_c | 10 | sz=9 shark fish teeth ocean aquatic swims carnivore -reptile -legs scary fins
+mosasaurus | dino_c | 4 | sz=9 ocean aquatic swims teeth carnivore -legs fins
+dimetrodon | dino_c | 3 | sz=6 col=red,brown legs legs4 tail carnivore
+woolly rhinoceros | dino_c | 3 | sz=8 mammal fur horns herbivore coldplace legs legs4 -reptile -scales -dinosaur
+giant sloth | dino_c | 2 | sz=8 mammal fur herbivore claws legs -reptile -scales -dinosaur samerica
+quetzalcoatlus | dino_c | 2 | sz=8 flies wings beak legs carnivore
+trilobite | dino_c | 3 | sz=3 ocean aquatic shell legs8 -reptile -dinosaur museum
+ammonite | dino_c | 3 | sz=3 shell ocean aquatic mollusc -reptile -dinosaur museum

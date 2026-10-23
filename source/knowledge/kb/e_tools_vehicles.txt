@@ -1,0 +1,163 @@
+# ===== tools =======================================================================
+hammer | tool_c | 80 | sz=4 strike repair construction handle metal wood? heavy col=grey,brown kidknows
+screwdriver | tool_c | 55 | sz=3 repair fasten handle longthin pointed metal plastic col=any kidknows~
+wrench | tool_c | 35 | sz=4 repair metal col=grey car~ fasten
+spanner | tool_c | 10 | sz=4 repair metal col=grey
+pliers | tool_c | 25 | sz=3 repair metal handle pair~ col=grey,red
+saw | tool_c | 50 | sz=5 cutting blade sharp wood? metal handle dangerous construction col=grey
+axe | tool_c | 45 | sz=5 cutting blade sharp wood handle heavy dangerous woodland weapon~ col=grey,brown fire_rel~
+hatchet | tool_c | 8 | sz=4 cutting blade sharp handle
+chisel | tool_c | 8 | sz=3 cutting sharp handle wood?
+drill | powertool_c | 45 | sz=4 holes spins handle battery? construction col=any
+chainsaw | powertool_c | 30 | sz=5 cutting blade sharp wood? fuel engine noisy dangerous scary woodland outdoors col=orange,yellow
+lawn mower | gardentool_c | 35 | sz=6 cutting blade engine fuel? electric? wheels pushpull noisy garden summery col=green,red,any -handle? handle machine
+jackhammer | powertool_c | 10 | sz=6 noisy construction holes heavy
+nail | tool_c | 45 | sz=2 fasten metal pointed sharp construction -handle col=grey cheap -heavy
+screw | tool_c | 35 | sz=1 fasten metal pointed construction -handle col=grey cheap spins? -heavy
+bolt | tool_c | 10 | sz=2 fasten metal -handle col=grey
+tape measure | tool_c | 25 | sz=3 measure metal plastic col=yellow,any rolls?
+ruler | stationery_c | 50 | sz=4 measure flat longthin plastic wood? col=any school -writing
+level | tool_c | 6 | sz=4 measure longthin col=yellow,green
+ladder | tool_c | 45 | sz=7 tall metal wood? climbs? longthin construction legsfurn~ -handle col=grey,brown heavy? -toolbox
+shovel | gardentool_c | 45 | sz=6 holes handle metal wood longthin col=grey,brown beach~ construction~ underground?
+spade | gardentool_c | 20 | sz=6 holes handle metal wood
+rake | gardentool_c | 30 | sz=6 handle longthin wood metal col=brown,grey pointed~
+hoe | gardentool_c | 6 | sz=6 handle longthin
+watering can | gardentool_c | 30 | sz=4 withwater wet handle plastic metal? col=green,any hollow container
+garden hose | gardentool_c | 25 | sz=6 withwater wet rubber plastic longthin col=green,any stretchy~ rolls~
+wheelbarrow | gardentool_c | 30 | sz=6 wheels pushpull carry metal construction col=any onfarm
+pitchfork | gardentool_c | 15 | sz=6 pointed sharp handle onfarm farmuse col=brown,grey
+scythe | gardentool_c | 6 | sz=6 cutting blade sharp oldfash onfarm scary
+sickle | gardentool_c | 4 | sz=4 cutting blade sharp onfarm
+pruning shears | gardentool_c | 5 | sz=3 cutting blade sharp pair~
+flower pot | gardentool_c | 20 | sz=3 ceramic container hollow col=brown,any house~ -tool -work -handle
+sprinkler | gardentool_c | 6 | sz=3 withwater wet spins summery
+tractor | vehicle_c | 55 | sz=7 onfarm farmuse wheels engine fuel steering roadveh~ noisy -fast slow work col=green,red,yellow kidknows farm? -carries1? carries1 heavy
+combine harvester | vehicle_c | 12 | sz=8 onfarm farmuse wheels engine fuel steering noisy slow work col=green,yellow,red cutting
+bulldozer | vehicle_c | 25 | sz=8 construction work engine fuel noisy slow heavy col=yellow carries1 -fast wheels~
+excavator | vehicle_c | 25 | sz=8 construction work engine fuel noisy slow heavy col=yellow carries1 -fast holes
+crane | vehicle_c | 35 | sz=9 construction work engine tall heavy col=yellow,orange -carryperson? -travel -fast stays? -wheels?
+forklift | vehicle_c | 10 | sz=6 work cargo wheels engine carries1 col=yellow,orange
+steamroller | vehicle_c | 6 | sz=7 construction heavy slow road
+toolbox | tool_c | 30 | sz=4 container carry handle opens lid boxshape metal plastic col=red,any garage -repair?
+glue | stationery_c | 40 | sz=2 sticky fasten liquid? school art~ -writing col=white cheap
+tape | stationery_c | 35 | sz=2 sticky fasten rolls round? plastic col=white,any cheap -writing
+duct tape | tool_c | 10 | sz=3 sticky fasten repair col=grey round
+rope | tool_c | 40 | sz=5 fasten longthin fabric? soft? folds strong col=brown,white climbs~ ship~ camping -handle -metal
+chain | tool_c | 25 | sz=5 metal fasten lock longthin heavy col=grey strong -handle
+string | household_c | 20 | sz=4 longthin fasten soft fabric? col=white,any cheap -heavy
+wire | tool_c | 15 | sz=4 metal longthin electricity? stretchy? col=grey,any -handle
+magnet | tool_c | 35 | sz=2 metal magnetic -handle col=red,grey hard fridge? school? -work? fun~
+pickaxe | tool_c | 15 | sz=5 strike holes metal handle mined underground? videogame~ col=grey,brown
+crowbar | tool_c | 8 | sz=5 metal longthin col=red,grey
+anvil | tool_c | 8 | sz=5 metal heavy oldfash cartoon~ col=grey,black -handle
+sandpaper | tool_c | 8 | sz=3 paper rough flat cheap -handle
+paintbrush | tool_c | 30 | sz=3 art handle soft~ wood col=any -metal? school
+paint | tool_c | 35 | sz=3 art liquid col=any wall? -handle smells
+paint roller | tool_c | 8 | sz=4 art rolls handle
+sewing needle | tool_c | 15 | sz=2 sharp pointed metal longthin fabric? -handle col=grey cheap
+thread | household_c | 10 | sz=2 longthin fabric soft col=any
+scissors | stationery_c | 65 | sz=3 cutting blade sharp metal pair~ handle school -writing col=grey,any dangerous~ kidknows
+safety pin | household_c | 8 | sz=2 fasten sharp pointed metal
+button | household_c | 25 | sz=1 round flat fasten plastic clothing? col=any cheap -buttons?
+zipper | household_c | 10 | sz=3 fasten metal plastic clothing? opens
+velcro | household_c | 4 | sz=2 fasten sticky? fabric
+# ===== vehicles ======================================================================
+car | car_c | 95 | col=any kidknows mostcountries everyday homes fast? -manypeople noisy?
+sports car | car_c | 30 | fast racing expensive luxury col=red,yellow,any -cargo italy~ germany~ -homes noisy
+race car | car_c | 30 | fast racing col=any -homes -licence? sport noisy sportgear~ stadium
+taxi | car_c | 40 | public col=yellow,black city driver? -homes -garage usa~ uk~
+police car | car_c | 35 | police emergency col=white,blue,black noisy light -homes -garage govjob?
+ambulance | car_c | 35 | emergency hospital helps medical noisy col=white,red,yellow -homes -garage
+fire engine | truck_c | 45 | emergency police withwater col=red noisy -homes fire_rel kidknows
+limousine | car_c | 15 | sz=8 luxury expensive col=black,white -homes wedding~ famous~
+jeep | car_c | 25 | col=green,any outdoors desert? mountain? military~ -city?
+van | truck_c | 30 | sz=7 cargo col=white,any -manywheels homes? garage?
+pickup truck | truck_c | 20 | sz=7 cargo usa namerica -manywheels homes~
+truck | truck_c | 65 | sz=8 col=any kidknows mostcountries manywheels noisy
+lorry | truck_c | 15 | sz=8 col=any uk manywheels noisy
+garbage truck | truck_c | 20 | sz=8 dirty smells city col=green,white,orange
+cement mixer | truck_c | 8 | sz=8 construction spins
+tank | vehicle_c | 35 | sz=8 military weapon dangerous engine fuel heavy col=green,brown -road? -licence wheels? -homes scary noisy
+bus | bus_c | 75 | col=yellow,red,any kidknows mostcountries everyday noisy
+school bus | bus_c | 25 | col=yellow school usa namerica children
+double decker bus | bus_c | 15 | col=red uk tall tourist~ famous
+tram | train_c | 20 | sz=8 city electric -fuel -fast? electricity
+train | train_c | 85 | col=any kidknows mostcountries everyday? noisy fast? cargo?
+steam train | train_c | 20 | oldfash fire_rel noisy col=black,red museum~ -electric
+high-speed train | train_c | 15 | fast modern electric japan~ france~
+subway | train_c | 30 | underground city everyday electric -fuel col=any
+monorail | train_c | 3 | sz=8 city modern
+cable car | vehicle_c | 12 | sz=6 mountain sky? -wheels? -road -roadveh -fuel -licence public carries1~ manypeople~ col=red,any snowplace~
+motorcycle | motorbike_c | 70 | col=black,red,any kidknows mostcountries
+scooter | motorbike_c | 30 | sz=5 -fast? -dangerous? cheap? city italy~ col=any
+moped | motorbike_c | 8 | sz=5 -fast city col=any
+quad bike | vehicle_c | 8 | sz=6 wheels engine fuel carries1 fun outdoors
+bicycle | bike_c | 90 | col=any kidknows mostcountries everyday homes roadveh? road
+tricycle | bike_c | 15 | sz=5 -twowheels children toy~ col=any
+unicycle | bike_c | 6 | sz=5 -twowheels circus rare fun
+kick scooter | bike_c | 25 | sz=5 children fun toy~ col=any -muscle? muscle
+skateboard | sportgear_c | 50 | sz=4 wheels fun travel~ sport children? wood flat col=any carryperson rolls playground~ -handle usa~
+roller skates | sportgear_c | 20 | sz=4 wheels pair onfeet wear fun col=any
+inline skates | sportgear_c | 8 | sz=4 wheels pair onfeet wear fun
+segway | vehicle_c | 5 | sz=6 wheels battery electric carries1 modern
+golf cart | vehicle_c | 6 | sz=6 wheels electric slow sport stadium? carries1
+go-kart | car_c | 15 | sz=6 fun racing children? -homes -doors -licence carries1
+electric car | car_c | 25 | electric battery -fuel modern quiet -noisy expensive
+airplane | aircraft_c | 90 | col=white,grey kidknows mostcountries manypeople travel wings wheels doors noisy
+jet | aircraft_c | 30 | fast col=white,grey military~ wings
+fighter jet | aircraft_c | 20 | fast military weapon dangerous col=grey -manypeople carries1 wings noisy
+helicopter | aircraft_c | 60 | spins sz=8 col=any -wings -manypeople carries1? police~ emergency~ noisy kidknows
+hot air balloon | aircraft_c | 30 | sz=8 -engine -fuel fire_rel? fabric -wings -fast slow quiet col=any multicol -airport fun? tourist~ round
+blimp | aircraft_c | 6 | sz=9 slow -wings gas
+glider | aircraft_c | 8 | -engine -fuel quiet wings -manypeople
+seaplane | aircraft_c | 3 | floats nearwater
+rocket | spacecraft_c | 55 | fast fire_rel noisy pointed tall cylinder usa~ russia~ col=white -doors -carryperson? carryperson~
+space shuttle | spacecraft_c | 25 | wings col=white,black usa namerica famous oldfash~
+spaceship | spacecraft_c | 30 | fictional~ moviechar~ robotalien~ col=grey,white
+satellite | spacecraft_c | 15 | -carryperson -travel -vehicle? stays~ electronic communicate internet~ col=grey,yellow
+ufo | spacecraft_c | 30 | fictional robotalien round flat col=grey -manmade? scary~ rare -famous? famous
+boat | boat_c | 80 | col=white,any kidknows mostcountries
+ship | boat_c | 60 | sz=9 ocean manypeople cargo? col=white,grey,any -carries1 heavy
+sailboat | boat_c | 35 | sail -engine -fuel quiet watersport fabric col=white
+yacht | boat_c | 25 | sz=8 expensive luxury ocean sail? col=white
+cruise ship | boat_c | 25 | sz=9 ocean manypeople tourist holiday? luxury col=white
+canoe | boat_c | 25 | sz=7 muscle -engine -fuel wood? freshwater watersport carries1 col=red,any -heavy
+kayak | boat_c | 20 | sz=7 muscle -engine -fuel plastic watersport carries1 col=red,yellow,any
+rowboat | boat_c | 15 | sz=7 muscle -engine -fuel wood freshwater carries1
+raft | boat_c | 15 | sz=7 muscle -engine wood flat freshwater carries1
+gondola | boat_c | 10 | sz=8 italy muscle -engine tourist
+submarine | boat_c | 40 | sz=9 undersea deepsea military? cylinder -floats? col=yellow,grey,black -sail -cargo? manypeople
+ferry | boat_c | 15 | sz=9 public manypeople cargo
+speedboat | boat_c | 15 | fast noisy engine fuel fun col=white
+pirate ship | boat_c | 25 | sz=9 sail wood oldfash fictional? weapon? scary? col=brown,black ocean moviechar~
+canal boat | boat_c | 3 | sz=8 freshwater slow
+jet ski | boat_c | 12 | sz=6 fast noisy fun watersport carries1 summery
+surfboard | sportgear_c | 30 | sz=6 floats watersport ocean beach summery flat col=any -wheels
+paddle board | sportgear_c | 4 | sz=7 floats watersport
+lifeboat | boat_c | 8 | safety emergency col=orange
+life jacket | safety_c | 15 | sz=5 floats wear garment_up col=orange,yellow watersport boat? ship
+anchor | tool_c | 25 | sz=5 metal heavy ship boat? ocean col=grey,black -handle
+steering wheel | carpart_c | 15 | sz=4 round car steering -buttons? col=black
+tire | carpart_c | 30 | sz=5 rubber round rolls col=black wheels? car
+wheel | carpart_c | 35 | sz=5 round rolls spins rubber? metal col=black,grey kidknows
+engine | carpart_c | 25 | sz=5 engine metal heavy noisy moving hot? fuel? machine col=grey,black
+seat belt | carpart_c | 15 | sz=5 fabric protect safety car fasten col=black
+license plate | carpart_c | 15 | sz=4 flat metal read? car col=white,yellow
+headlight | carpart_c | 6 | sz=3 light glass car
+windshield | carpart_c | 6 | sz=6 glass seethrough car
+pedal | carpart_c | 5 | sz=3 metal car?
+bike helmet | safety_c | 15 | sz=4 onhead wear protect plastic hard col=any sport
+helmet | safety_c | 35 | sz=4 onhead wear protect hard plastic metal? col=any sport military~ construction~
+traffic light | signs_c | 55 | sz=7 road city light electric col=red,yellow,green multicol tall stays
+stop sign | signs_c | 30 | sz=5 road read col=red,white flat metal
+road sign | signs_c | 25 | sz=5 road read col=any flat metal
+street light | signs_c | 15 | sz=8 road city light electric tall dark col=grey
+parking meter | signs_c | 4 | sz=5 money road city
+petrol pump | signs_c | 6 | sz=5 fuel car road
+gas station | building_c | 15 | sz=8 car? fuel road shopplace workthere -livethere col=any
+parking lot | structure_c | 10 | sz=9 car road city flat -tall
+road | structure_c | 60 | sz=10 road car? flat longthin stone city everyday kidknows -tall -inside col=black,grey
+highway | structure_c | 20 | sz=10 road fast car? flat longthin -tall
+roundabout | structure_c | 5 | sz=9 road round uk~ france~
+traffic cone | signs_c | 20 | sz=4 pointed plastic col=orange,white road construction

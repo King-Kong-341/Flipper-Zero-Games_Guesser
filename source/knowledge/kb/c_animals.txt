@@ -1,0 +1,56 @@
+# ===== animal classes =========================================================
+class animal_base | | cat=A sz=4 alive animal natural moves grows touch visible -manmade -plant -fromplant -person -place -fictional -concept -bodypart -shop -supermarket -kitchen -electric -gift -homes -oneperson -daily -modern -oldfash -manyparts -moving -pushpull -stays -thrown -rolls -bounces -hard? -breakable -seethrough -flammable -melts -sticky -stretchy -magnetic -flat -boxshape -cylinder -hollow -handle -lid -legsfurn -anycol -shiny? -cheap -expensive? -luxury -collect? -adults -religion -holiday -illegal -cooking -work? -decoration -container -fasten -protect
+
+class mammal_c | animal_base | mammal fur legs teeth? whiskers? tail? -feathers -scales -eggs -shell -wings -flies -beak -fins -gills -antennae -tentacles -venomous -stings -changeform -colourchg -glows -web -slimy -spiky -cold -wet? -aquatic -ocean -freshwater -deepsea -sky -insectivore? -legs6 -legs8 -parasite -bloodsuck
+class landmammal | mammal_c | legs4 tail -legs2 -swims? -undersea
+class rodent_c | landmammal | rodent sz=3 teeth whiskers claws? longtail? herbivore? -carnivore burrows? climbs~ jumps? -horns -hooves -mane -trunk -ridden -farm -onfarm? -zoo? -dangerous -scary? pest~ fast? kidknows? nocturnal? herd? -eatmeat -milk -stripes -spots -tusks -longneck quiet? -noisy -heavy -packanimal -trained? -hibernates? col=brown,grey
+class dog_c | landmammal | dogkind sz=5 carnivore teeth claws tail whiskers? -herbivore -horns -hooves -mane -trunk -tusks -longneck fast? bites herd? makessound noisy? -climbs -intrees -eatmeat -milk -hibernates
+class wild_dog_c | dog_c | wild zoo? woodland? -pet -farm -trained? -breed -house -homes nocturnal~ dangerous? scary? -kidknows?
+class dog_breed | dog_c | pet breed -wild -zoo trained kidknows? house garden? city everyday? mostcountries? bites? -endangered -rare? noisy~ carnivore? -dangerous? -scary? pets_use~ cheap~ -herd
+class cat_c | landmammal | catkind carnivore teeth claws whiskers longtail tail fur -herbivore -horns -hooves -trunk -tusks -longneck -mane climbs? jumps nocturnal? fast? -herd? -ridden -farm -eatmeat -milk -packanimal -hibernates -burrows
+class bigcat | cat_c | wild zoo dangerous scary sz=6 bites -pet -house -homes -city -garden -breed endangered? grassland? tropicalan~ -climbs? noisy? -quiet -kidknows?
+class cat_breed | cat_c | pet breed house -wild -zoo sz=5 kidknows? -dangerous -scary everyday? quiet? -noisy cheap~
+class bear_c | landmammal | bear wild zoo carnivore? teeth claws fur sz=7 dangerous scary -longtail -tail? hibernates? woodland? climbs? swims? -herd -pet -farm -hooves -horns -breed endangered~ heavy
+class primate_c | mammal_c | primate legs legs4~ legs2~ climbs intrees? tropicalan? wild zoo fur -hooves -horns -claws? teeth? herd? jumps? herbivore~ -carnivore? -pet? -farm africa~ asia~ -burrows -hibernates -ridden trained~
+class deer_c | landmammal | deer herbivore hooves wild woodland? grassland~ fast jumps? herd horns? -carnivore -teeth -claws sz=6 eatmeat~ -pet -farm? -dangerous -scary -bites -burrows -climbs -breed col=brown
+class horse_c | landmammal | horsekind hooves herbivore mane fast? sz=7 heavy tail longtail? -claws -teeth -horns ridden? herd -carnivore -burrows -climbs -bites? -scary -dangerous? kidknows? packanimal?
+class cattle_c | landmammal | cattle hooves herbivore horns? farm onfarm milk? eatmeat? herd -wild? -claws -teeth -carnivore sz=6 kidknows? -climbs? -burrows -pet? -zoo? makessound -fast
+class pig_c | landmammal | hooves carnivore? -herbivore -wild? farm onfarm eatmeat herd? -claws -horns -teeth? sz=5 kidknows? col=pink
+class marsupial_c | landmammal | marsupial oceania wild zoo? -farm -pet -breed -europe -asia -africa -namerica? -samerica?
+class whale_c | mammal_c | whale aquatic ocean swims fins -fur -legs -legs4 -claws tail -whiskers? -hooves -horns sz=8 herd? wet -outdoors? -nocturnal -burrows -climbs -jumps? -pet -farm -kidknows? endangered? -mostcountries? beach~ undersea
+class seal_c | mammal_c | seal aquatic ocean swims fins? whiskers fur? carnivore coldplace? beach -legs4 -claws? sz=6 herd -hooves -horns -climbs wet -pet -farm zoo? -intrees
+class bat_c | mammal_c | bat flies wings nocturnal legs -legs4 -legs2? sz=3 sky? scary? insectivore? dark -tail? -whiskers? -herbivore? -farm -pet -zoo? herd? climbs~ -swims -ridden -trained
+class misc_mammal | landmammal | wild -pet -farm -breed
+
+class bird_c | animal_base | bird feathers wings beak eggs legs legs2 tail? nest? flies? -fur -teeth -scales -shell -fins -gills -antennae -legs4 -legs6 -legs8 -whiskers -horns -hooves -mammal -trunk -mane -tusks -tentacles sz=3 sky? makessound -venomous -stings -claws? -longtail? -slimy -burrows -herbivore? -milk? -spiky -bites? -climbs -intrees? -web -changeform -colourchg
+class songbird_c | bird_c | songbird flies sky sings garden? woodland? city~ sz=2 insectivore~ -dangerous -scary -zoo? -eatmeat -bites -herd? intrees -swims -aquatic -farm -pet? -carnivore? quiet? -noisy? wild
+class birdprey_c | bird_c | birdprey flies sky carnivore claws wild -pet -farm -herd sz=5 dangerous~ scary~ -eatmeat fast? mountainan~ woodland? -swims -sings
+class waterbird_c | bird_c | waterbird swims nearwater aquatic? flies? freshwater? -intrees -sings? wild -claws -climbs
+class seabird_c | waterbird_c | ocean beach coast~ -freshwater? carnivore flies sky
+class parrot_c | bird_c | parrot flies tropicalan intrees pet? zoo? multicol -farm -eatmeat trained? noisy sings? sz=3
+class poultry_c | bird_c | farm onfarm eatmeat milk -wild flies~ kidknows? -zoo -sky -intrees? herd? -pet? -dangerous -scary food~
+class flightless_c | bird_c | -flies -sky wild fast~
+
+class fish_c | animal_base | fish fins gills scales eggs swims aquatic wet -legs -legs2 -legs4 -fur -feathers -wings -flies -beak -claws -whiskers -nest -sky -makessound -noisy quiet slimy~ seafood? food? eatmeat? sz=3 -intrees -climbs -jumps -burrows -horns -hooves -tail? -longtail -mammal -garden -city -antennae -trained -ridden -farm -sings undersea -hibernates
+class seafish_c | fish_c | ocean -freshwater beach~
+class freshfish_c | fish_c | freshwater -ocean nearwater
+class shark_c | fish_c | shark ocean -freshwater teeth carnivore dangerous scary sz=7 -scales? fast? bites -food? -seafood? -pet zoo~ endangered? -herd deepsea~
+
+class reptile_c | animal_base | reptile scales eggs -fur -feathers -gills -wings -flies -beak -whiskers -mammal -hooves -horns -mane -trunk -antennae -fins -milk -farm -herd? -sings -noisy -fluffy -soft -intrees? tropicalan? quiet? -garden? summery? -hibernates?
+class snake_c | reptile_c | snake -legs -legs4 -legs2 longthin longtail tail venomous? dangerous? scary carnivore bites -claws sz=5 -jumps -pet? -zoo? zoo? -teeth? -kidknows?
+class lizard_c | reptile_c | lizard legs legs4 tail longtail claws? climbs~ insectivore? sz=3 desertan~ tropicalan~ fast~
+class turtle_c | reptile_c | turtle shell slow legs legs4 -fast -teeth beak~ swims? sz=4 herbivore~ -claws? -scary -dangerous -bites? tail?
+class croc_c | reptile_c | crocodile legs legs4 tail longtail teeth dangerous scary carnivore swims aquatic freshwater? sz=7 bites claws? zoo -pet heavy
+class amphibian_c | animal_base | amphibian eggs swims wet slimy? changeform -fur -feathers -scales -wings -flies -beak -whiskers -mammal -claws -teeth -horns -hooves -gills? freshwater nearwater sz=2 insectivore? jumps~ quiet? -herd -farm -intrees? -fluffy
+
+class insect_c | animal_base | insect legs legs6 antennae eggs sz=2 -fur -feathers -scales -beak -teeth -whiskers -tail -fins -gills -mammal -zoo -pet -farm -herd? -eatmeat -ridden -trained -horns -hooves -mane -trunk -tusks -claws? garden? outdoors -longneck -longears -fluffy? -milk -swims? -aquatic? -ocean -hibernates? -kidknows?
+class butterfly_c | insect_c | butterfly wings flies changeform garden multicol? -stings -bites -pest? herbivore -carnivore sz=2 -noisy quiet -scary -dangerous -venomous sky? summery
+class beetle_c | insect_c | beetle hard wings~ flies~ shell? -stings -bites? quiet
+class beeant_c | insect_c | beeant stings? herd nest? bites~
+class fly_c | insect_c | flyinsect flies wings pest noisy? makessound -stings -scary? summery?
+class spider_c | animal_base | spider legs legs8 eggs -legs6 -antennae -wings -flies venomous? web? scary bites~ carnivore insectivore sz=2 -fur? -feathers -scales -beak -teeth -tail -fins -gills -mammal -farm -pet? -zoo? -herd -horns -hooves -whiskers quiet -noisy -swims -aquatic -kidknows? house~ garden~
+class crust_c | animal_base | crustacean shell legs legs8 claws? aquatic ocean swims? seafood food? eatmeat? -fur -wings -flies -feathers -scales -beak -teeth -tail? -mammal -farm -pet -zoo? -herd? antennae? wet beach? -legs4 -legs2 -legs6 quiet -noisy -intrees -climbs? undersea
+class mollusc_c | animal_base | mollusc -legs -legs2 -legs4 slow? slimy? wet -fur -wings -flies -feathers -scales -beak -teeth -tail -mammal -farm -zoo? -herd -horns -hooves -whiskers -claws quiet -noisy -fast
+class worm_c | animal_base | worm -legs -legs4 -legs2 longthin slimy wet underground? -fur -wings -flies -feathers -scales -beak -teeth -tail -mammal -farm -pet -zoo -herd -claws -horns quiet -noisy slow -fast -dangerous? sz=2 -kidknows?
+class seainv_c | animal_base | aquatic ocean wet -legs -legs2 -legs4 -fur -wings -flies -feathers -scales -beak -teeth -tail -mammal -farm -pet -zoo? -herd -claws -horns -hooves -whiskers quiet -noisy slow? -fast -gills? undersea beach~ -swims?
+class dino_c | animal_base | dinosaur extinct reptile? scales? eggs -alive -grows museum ancient rare? famous? kidknows? sz=8 -zoo -pet -farm -mammal -fur -wings? -flies -feathers? -mostcountries -everyday -endangered -city -garden -house scary? -wild? moves~ -touch? -visible?

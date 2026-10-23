@@ -1,0 +1,770 @@
+# THE QUESTION BANK.  key | family | fallback (Animal Vegetable Mineral Other) | text
+# Value letters: Y yes, P probably, S sometimes, U probably not, N no
+#                lower case = the same but less sure (used for "nobody said").
+# Text: <= 72 chars, plain ASCII. The device word-wraps it.
+
+# ---- what kind of thing is it ---------------------------------------------
+alive      | taxonomy | YnNn | Is it alive?
+animal     | taxonomy | YNNN | Is it an animal?
+plant      | taxonomy | NuNN | Is it a plant?
+fromplant  | taxonomy | NpnN | Does it come from a plant?
+manmade    | taxonomy | NuYu | Is it made by people?
+natural    | taxonomy | YYuu | Is it found in nature?
+food       | food     | nYNN | Can you eat it?
+person     | person   | NNNu | Is it a person or a type of person?
+place      | place    | NNnu | Is it a place?
+fictional  | person   | NNNu | Is it fictional or imaginary?
+concept    | taxonomy | NNNu | Is it an idea or something you cannot touch?
+bodypart   | nature   | NNNn | Is it a part of the body?
+
+# ---- animal groups ----------------------------------------------------------
+mammal     | taxonomy | sNNN | Is it a mammal?
+bird       | taxonomy | uNNN | Is it a bird?
+fish       | taxonomy | uNNN | Is it a fish?
+insect     | taxonomy | uNNN | Is it an insect?
+spider     | taxonomy | nNNN | Is it a spider or a scorpion?
+reptile    | taxonomy | uNNN | Is it a reptile?
+amphibian  | taxonomy | nNNN | Is it an amphibian, like a frog?
+crustacean | taxonomy | nNNN | Is it a crab, a lobster or a shrimp?
+mollusc    | taxonomy | nNNN | Is it a snail, an octopus or a shellfish?
+worm       | taxonomy | nNNN | Is it a worm or worm-like?
+rodent     | taxonomy | nNNN | Is it a rodent?
+dogkind    | taxonomy | nNNN | Is it a dog or part of the dog family?
+catkind    | taxonomy | nNNN | Is it a cat or part of the cat family?
+primate    | taxonomy | nNNN | Is it a monkey or an ape?
+bear       | taxonomy | nNNN | Is it a bear?
+deer       | taxonomy | nNNN | Is it a deer or an antelope?
+horsekind  | taxonomy | nNNN | Is it a horse, donkey or zebra?
+cattle     | taxonomy | nNNN | Is it a cow, a bull, a goat or a sheep?
+marsupial  | taxonomy | nNNN | Does it carry its babies in a pouch?
+birdprey   | taxonomy | nNNN | Is it a bird of prey?
+waterbird  | taxonomy | nNNN | Is it a water bird, like a duck or a gull?
+parrot     | taxonomy | nNNN | Is it a parrot?
+songbird   | taxonomy | nNNN | Is it a small songbird?
+shark      | taxonomy | nNNN | Is it a shark or a ray?
+whale      | taxonomy | nNNN | Is it a whale or a dolphin?
+seal       | taxonomy | nNNN | Is it a seal, a sea lion or a walrus?
+snake      | taxonomy | nNNN | Is it a snake?
+lizard     | taxonomy | nNNN | Is it a lizard?
+turtle     | taxonomy | nNNN | Is it a turtle or a tortoise?
+crocodile  | taxonomy | nNNN | Is it a crocodile or an alligator?
+butterfly  | taxonomy | nNNN | Is it a butterfly or a moth?
+beetle     | taxonomy | nNNN | Is it a beetle?
+beeant     | taxonomy | nNNN | Is it a bee, a wasp or an ant?
+flyinsect  | taxonomy | nNNN | Is it a fly or a mosquito?
+dinosaur   | taxonomy | nNNN | Is it a dinosaur or a prehistoric animal?
+extinct    | taxonomy | nNNn | Is it extinct?
+breed      | taxonomy | nNNN | Is it a breed of pet or farm animal?
+babyanimal | taxonomy | nNNN | Is it a baby animal?
+bat        | taxonomy | nNNN | Is it a bat?
+
+# ---- animal features --------------------------------------------------------
+fur        | animal | sNNN | Does it have fur or hair?
+feathers   | animal | uNNN | Does it have feathers?
+scales     | animal | uNNN | Does it have scales?
+shell      | animal | uNnN | Does it have a shell?
+wings      | animal | uNnN | Does it have wings?
+flies      | motion | uNnn | Can it fly?
+swims      | animal | sNnn | Can it swim?
+aquatic    | animal | uNNN | Does it live in water?
+ocean      | animal | uNNn | Does it live in the sea?
+freshwater | animal | nNNN | Does it live in rivers or lakes?
+eggs       | animal | sNNN | Does it lay eggs?
+pet        | animal | uNNN | Is it kept as a pet?
+farm       | animal | uNNN | Is it a farm animal?
+wild       | animal | pNNN | Is it a wild animal?
+zoo        | animal | sNNN | Would you see one at a zoo?
+legs       | animal | pNun | Does it have legs?
+legs2      | animal | uNNn | Does it walk on two legs?
+legs4      | animal | sNnN | Does it have four legs?
+legs6      | animal | nNNN | Does it have six legs?
+legs8      | animal | nNNN | Does it have eight legs or more?
+tail       | animal | sNNN | Does it have a tail?
+longtail   | animal | uNNN | Does it have a long tail?
+horns      | animal | nNNN | Does it have horns or antlers?
+hooves     | animal | nNNN | Does it have hooves?
+trunk      | animal | nNNN | Does it have a trunk or a very long nose?
+mane       | animal | nNNN | Does it have a mane?
+stripes    | animal | nNnn | Does it have stripes?
+spots      | animal | nNnn | Does it have spots?
+longneck   | animal | nNNN | Does it have a long neck?
+longears   | animal | nNNN | Does it have long or big ears?
+whiskers   | animal | nNNN | Does it have whiskers?
+beak       | animal | uNNN | Does it have a beak?
+claws      | animal | sNNN | Does it have claws?
+teeth      | animal | sNNN | Does it have sharp teeth?
+tusks      | animal | nNNN | Does it have tusks?
+fins       | animal | uNNN | Does it have fins?
+gills      | animal | uNNN | Does it breathe with gills?
+tentacles  | animal | nNNN | Does it have tentacles?
+antennae   | animal | nNNN | Does it have antennae?
+venomous   | animal | uuNN | Is it venomous or poisonous?
+stings     | animal | nNNN | Can it sting you?
+bites      | animal | uNNN | Could it bite a person?
+carnivore  | animal | sNNN | Does it eat other animals?
+herbivore  | animal | sNNN | Does it eat only plants?
+insectivore| animal | nNNN | Does it eat insects?
+nocturnal  | animal | uNNN | Is it active mainly at night?
+hibernates | animal | nNNN | Does it sleep through the winter?
+herd       | animal | sNNN | Does it live in groups, herds or packs?
+burrows    | animal | nNNN | Does it dig or live in burrows?
+climbs     | animal | uNNN | Can it climb trees?
+jumps      | animal | uNNn | Can it jump or hop well?
+intrees    | animal | uNNN | Does it live in trees?
+nest       | animal | uNNN | Does it build a nest?
+web        | animal | nNNN | Does it spin a web?
+changeform | animal | nNNN | Does it change shape as it grows up, like a caterpillar?
+colourchg  | animal | nNNN | Can it change colour?
+glows      | sensory| nNnn | Does it glow or light up?
+ridden     | animal | nNNN | Can people ride it?
+trained    | animal | uNNN | Can it be trained to do tricks or jobs?
+milk       | animal | nNNN | Do people get milk, eggs or wool from it?
+eatmeat    | animal | uNNN | Do people eat its meat?
+endangered | animal | uNNN | Is it endangered?
+packanimal | animal | nNNN | Is it used to carry loads or pull carts?
+sings      | animal | nNNN | Is it known for singing or calling?
+parasite   | animal | nNNN | Does it live on or feed on other animals or people?
+bloodsuck  | animal | nNNN | Does it suck blood?
+pest       | animal | nNNN | Is it considered a pest?
+slimy      | sensory| nnNN | Is it slimy?
+fluffy     | sensory| uNnN | Is it fluffy?
+spiky      | sensory| nuNN | Is it spiky or prickly?
+bwhite     | colour | nNNN | Is it black and white?
+tropicalan | animal | uNNN | Does it live in a rainforest or jungle?
+desertan   | animal | nNNN | Does it live in the desert?
+coldplace  | animal | nNNn | Does it live where it is very cold?
+mountainan | animal | nNNN | Does it live in the mountains?
+grassland  | animal | uNNN | Does it live on grasslands or the savanna?
+woodland   | animal | uNNN | Does it live in forests or woods?
+garden     | location | uuun | Would you find it in a garden?
+city       | location | uunu | Would you find it in a city?
+fast       | motion | uNnn | Is it fast?
+slow       | motion | uNnn | Is it slow?
+
+# ---- where in the world ------------------------------------------------------
+europe     | place | uuNn | Is it in or from Europe?
+asia       | place | uuNn | Is it in or from Asia?
+africa     | place | uuNn | Is it in or from Africa?
+namerica   | place | uuNn | Is it in or from North America?
+samerica   | place | uuNn | Is it in or from South or Central America?
+oceania    | place | nnNn | Is it in or from Australia or New Zealand?
+antarctic  | place | nNNN | Is it in or from the Arctic or Antarctica?
+usa        | place | nnNn | Is it in or from the USA?
+uk         | place | nnNn | Is it in or from Britain?
+france     | place | nnNn | Is it in or from France?
+italy      | place | nnNn | Is it in or from Italy?
+germany    | place | nnNn | Is it in or from Germany?
+spain      | place | nnNn | Is it in or from Spain?
+japan      | place | nnNn | Is it in or from Japan?
+china      | place | nnNn | Is it in or from China?
+india      | place | nnNn | Is it in or from India?
+mexico     | place | nnNn | Is it in or from Mexico?
+russia     | place | nNNn | Is it in or from Russia?
+egypt      | place | nNNn | Is it in or from Egypt?
+greece     | place | nnNn | Is it in or from Greece?
+brazil     | place | nnNn | Is it in or from Brazil?
+canada     | place | nnNn | Is it in or from Canada?
+
+# ---- size and shape (s_* and heavy/lift are derived from sz=) ---------------
+s_coin     | size | uuun | Is it smaller than a coin?
+s_hand     | size | uuun | Is it smaller than your hand?
+s_hold     | size | sssn | Can you hold it in one hand?
+s_pocket   | size | uuun | Would it fit in a pocket?
+s_shoebox  | size | sssn | Is it bigger than a shoebox?
+s_person   | size | uuun | Is it bigger than a person?
+s_car      | size | uuun | Is it bigger than a car?
+s_house    | size | nnnn | Is it bigger than a house?
+s_door     | size | pppn | Would it fit through a door?
+heavy      | size | ssun | Is it heavy?
+lift       | size | pppn | Could you lift it easily?
+round      | size | uuuu | Is it round?
+flat       | size | nuuu | Is it flat?
+longthin   | size | uuuu | Is it long and thin?
+boxshape   | size | nnun | Is it shaped like a box?
+cylinder   | size | nnun | Is it shaped like a tube or a cylinder?
+pointed    | size | uuun | Is it pointed?
+hollow     | size | nuuu | Is it hollow?
+tall       | size | uuuu | Is it tall?
+pair       | size | nnun | Does it usually come in pairs?
+manyparts  | size | uuun | Is it made of many parts?
+legsfurn   | size | NNnN | Does it stand on legs, like a table?
+handle     | size | nnun | Does it have a handle?
+lid        | size | nnun | Does it have a lid or a cap?
+wheels     | motion | NNun | Does it have wheels?
+
+# ---- material ----------------------------------------------------------------
+metal      | material | NNsn | Is it made of metal?
+wood       | material | NuuN | Is it made of wood?
+plastic    | material | NNsN | Is it made of plastic?
+glass      | material | NNun | Is it made of glass?
+fabric     | material | NNun | Is it made of fabric or cloth?
+paper      | material | NnuN | Is it made of paper or card?
+stone      | material | NNun | Is it made of stone, brick or concrete?
+rubber     | material | NNnN | Is it made of rubber?
+leather    | material | NNnN | Is it made of leather?
+ceramic    | material | NNnN | Is it made of pottery or porcelain?
+precious   | material | NNnn | Is it made of gold, silver or gems?
+liquid     | material | NuNn | Is it a liquid?
+gas        | material | NNnn | Is it a gas or in the air?
+powder     | material | NunN | Is it a powder or made of grains?
+hard       | material | sssu | Is it hard?
+soft       | material | sssu | Is it soft?
+breakable  | material | uuuu | Would it break if you dropped it?
+seethrough | material | NnuN | Can you see through it?
+fromanimal | material | NuNN | Does it come from an animal?
+flammable  | material | uuun | Does it burn easily?
+melts      | material | NuuN | Can it melt?
+sticky     | material | nunN | Is it sticky?
+stretchy   | material | NNnN | Is it stretchy or bendy?
+magnetic   | material | NNnN | Would a magnet stick to it?
+
+# ---- colour (c_* and multicol/anycol are derived from col=) -----------------
+c_red      | colour | uuuu | Is it red?
+c_green    | colour | uuuu | Is it green?
+c_blue     | colour | nnun | Is it blue?
+c_yellow   | colour | uuuu | Is it yellow or golden?
+c_orange   | colour | nuuu | Is it orange?
+c_brown    | colour | suun | Is it brown?
+c_black    | colour | uuuu | Is it black?
+c_white    | colour | uuuu | Is it white?
+c_grey     | colour | uuun | Is it grey or silver?
+c_pink     | colour | nnun | Is it pink?
+c_purple   | colour | nnnn | Is it purple?
+multicol   | colour | uuuu | Does it have several colours?
+anycol     | colour | NNsN | Can you get it in many different colours?
+shiny      | colour | nusn | Is it shiny?
+
+# ---- where you find it ---------------------------------------------------------
+house      | location | uspn | Would you find it in a house?
+kitchen    | location | Npun | Would you find it in a kitchen?
+bathroom   | location | nnun | Would you find it in a bathroom?
+bedroom    | location | NNun | Would you find it in a bedroom?
+livingroom | location | NNun | Would you find it in a living room?
+office     | location | NNun | Would you find it in an office?
+school     | location | nnun | Would you find it in a school?
+outdoors   | location | puss | Is it found outdoors?
+garage     | location | NNun | Would you find it in a garage or a shed?
+shop       | location | NpsN | Can you buy it in a shop?
+supermarket| location | NpuN | Can you buy it in a supermarket?
+onfarm     | location | uuun | Would you find it on a farm?
+forest     | location | uunn | Would you find it in a forest?
+nearwater  | location | uuun | Would you find it near water?
+sky        | location | uNnn | Would you see it in the sky?
+road       | location | nNun | Would you find it on a road?
+hospital   | location | NNnn | Would you find it in a hospital?
+beach      | location | unnn | Would you find it at the beach?
+museum     | location | nNun | Would you see it in a museum?
+restaurant | location | NpnN | Would you find it in a restaurant?
+desert     | location | nnNn | Would you find it in a desert?
+mountain   | location | nnnn | Would you find it in the mountains?
+underground| location | nnnn | Is it found underground?
+deepsea    | location | nNNN | Is it found deep in the ocean?
+inspace    | nature   | NNnn | Is it found in space?
+stadium    | location | NNnn | Would you find it at a sports ground or gym?
+construction| location| NNnN | Would you find it on a building site?
+church     | location | NNnn | Would you find it in a church or temple?
+playground | location | NNnn | Would you find it in a park or playground?
+airport    | location | NNnn | Would you find it at an airport?
+ship       | location | NNnN | Would you find it on a ship?
+castle     | location | NNnn | Would you find it in a castle?
+lab        | location | NNnn | Would you find it in a laboratory?
+circus     | location | nNnn | Would you see it at a circus or a fair?
+party      | location | NnnN | Would you find it at a party?
+desk       | location | NNnN | Would you find it on a desk?
+bag        | location | NNnN | Do people carry it in a bag or pocket?
+toolbox    | location | NNnN | Would you find it in a toolbox?
+car        | location | NNnN | Would you find it inside a car?
+fridge     | location | NuNN | Do you keep it in the fridge?
+cupboard   | location | NunN | Is it kept in a cupboard or a drawer?
+wall       | location | NNnN | Is it usually on a wall or a ceiling?
+theatre    | location | NNnn | Would you find it in a theatre or a cinema?
+pharmacy   | location | NNnN | Can you buy it at a pharmacy?
+
+# ---- what it is for -------------------------------------------------------------
+cooking    | function | NuuN | Do you use it for cooking?
+wear       | function | NNuN | Do you wear it?
+cleaning   | function | NNnN | Do you use it for cleaning?
+writing    | function | NNnN | Do you use it to write or draw?
+cutting    | function | NNnN | Do you use it to cut things?
+travel     | function | uNun | Do you use it to travel?
+carry      | function | uNun | Is it used to carry or store things?
+fun        | function | unun | Is it used for fun or play?
+music      | function | NNnn | Is it used to make music?
+sit        | function | uNun | Do you sit or lie on it?
+electric   | tech     | NNsn | Does it need electricity or batteries?
+plugin     | tech     | NNun | Does it plug into the wall?
+battery    | tech     | NNun | Does it run on batteries or need charging?
+screen     | tech     | NNnN | Does it have a screen?
+buttons    | tech     | NNun | Does it have buttons or switches?
+work       | function | uNsn | Is it used for work?
+light      | function | nNnn | Does it give off light?
+communicate| tech     | NNnn | Is it used to communicate?
+daily      | function | nsun | Do most people use it every day?
+opens      | function | NNun | Does it open and close?
+measure    | function | NNnn | Is it used for measuring?
+repair     | function | NNnN | Is it used for building or repairing?
+children   | function | nnun | Is it mainly for children?
+gift       | social   | nuun | Is it a typical gift?
+heats      | function | NNnn | Does it make things hot?
+cools      | function | NNnn | Does it make or keep things cold?
+withwater  | function | nuun | Is it used with water?
+read       | function | NNnn | Do you read it?
+watch      | function | uNnn | Do people watch it for entertainment?
+listen     | function | nNnn | Do people listen to it?
+protect    | function | NNun | Does it protect you or keep you safe?
+strike     | function | NNnN | Is it used to hit things?
+fasten     | function | NNnN | Is it used to fasten or hold things together?
+lock       | function | NNnN | Is it used to lock or secure things?
+time       | function | NNnn | Does it tell the time?
+grooming   | function | NnnN | Is it used on your hair, teeth or skin?
+sleep      | function | NNnn | Is it used for sleeping?
+blade      | function | NNnN | Does it have a blade?
+cord       | tech     | NNnN | Does it have a cable or a cord?
+onhand     | function | NNnN | Do you wear it on your hand or wrist?
+onface     | function | NNnN | Do you wear it on your face or neck?
+onfeet     | function | NNnN | Do you wear it on your feet?
+onhead     | function | NNnn | Do you wear it on your head?
+wintery    | social   | uunn | Is it linked to winter or snow?
+summery    | social   | uuun | Is it linked to summer or hot weather?
+internet   | tech     | NNnn | Can it connect to the internet?
+camera     | tech     | NNnN | Can it take photos or videos?
+sound      | tech     | NNnn | Can it play or record sound?
+remote     | tech     | NNnN | Does it have a remote control?
+holes      | function | NNnN | Is it used to make holes?
+art        | function | NNnn | Is it used for art or painting?
+decoration | function | NnnN | Is it mainly for decoration?
+container  | function | NNuN | Is it a container?
+crockery   | function | NNnN | Do you eat or drink from it?
+hygiene    | function | NnnN | Is it used to wash yourself?
+medical    | function | NnnN | Is it used in medicine or healthcare?
+cosmetic   | function | NnnN | Is it make-up or a beauty product?
+money      | function | NNnn | Is it money or used to pay?
+safety     | function | NNnn | Is it used in emergencies?
+weapon     | function | NNnN | Is it a weapon?
+military   | function | nNnn | Is it linked to the army or war?
+police     | function | nNnn | Is it linked to the police or firefighters?
+farmuse    | function | NnnN | Is it used on a farm?
+gardenuse  | function | NnnN | Is it used for gardening?
+office_use | function | NNnN | Is it used in an office?
+schooluse  | function | NNnN | Is it used at school?
+camping    | function | NNnN | Would you take it camping?
+pets_use   | function | NNnN | Is it used to look after pets?
+baby_use   | function | NNnN | Is it used for babies?
+
+# ---- man-made things: what kind -------------------------------------------------
+vehicle    | taxonomy | NNun | Is it a vehicle?
+tool       | taxonomy | NNun | Is it a tool?
+machine    | taxonomy | NNun | Is it a machine?
+electronic | tech     | NNun | Is it an electronic device?
+appliance  | taxonomy | NNnN | Is it a household appliance?
+furniture  | taxonomy | NNnN | Is it furniture?
+clothing   | taxonomy | NNnN | Is it clothing?
+jewellery  | taxonomy | NNnN | Is it jewellery?
+accessory  | taxonomy | NNnN | Is it an accessory, like a bag or a belt?
+instrument | taxonomy | NNnN | Is it a musical instrument?
+toy        | taxonomy | NNnN | Is it a toy?
+game       | taxonomy | NNnn | Is it a game?
+sportgear  | taxonomy | NNnN | Is it sports equipment?
+building   | taxonomy | NNnn | Is it a building?
+structure  | taxonomy | NNnn | Is it a structure, like a bridge or a tower?
+buildpart  | taxonomy | NNnN | Is it part of a building, like a door or a roof?
+utensil    | taxonomy | NNnN | Is it a kitchen utensil, pot or pan?
+stationery | taxonomy | NNnN | Is it stationery?
+document   | taxonomy | NNnN | Is it paper with writing or pictures on it?
+material   | taxonomy | NnnN | Is it a raw material or a substance?
+computer   | tech     | NNnN | Is it a computer or part of one?
+phone      | tech     | NNnN | Is it a phone or used with a phone?
+carpart    | taxonomy | NNnN | Is it part of a car or a bike?
+garment_up | function | NNnN | Do you wear it on the top half of your body?
+garment_lo | function | NNnN | Do you wear it on your legs?
+underwear  | function | NNnN | Is it worn under other clothes?
+formal     | social   | NNnN | Is it worn on special or formal occasions?
+sportswear | function | NNnN | Is it worn for sport?
+costume    | social   | NNnn | Is it part of a costume or a uniform?
+
+# ---- vehicles ---------------------------------------------------------------------
+roadveh    | motion   | NNnN | Does it drive on roads?
+aircraft   | motion   | NNnN | Is it an aircraft?
+boat       | motion   | NNnN | Is it a boat or a ship?
+rail       | motion   | NNnN | Does it run on rails?
+public     | motion   | NNnN | Is it public transport?
+emergency  | function | NNnN | Is it an emergency vehicle?
+muscle     | motion   | NNnN | Is it powered by pedals, paddles or muscles?
+twowheels  | motion   | NNnN | Does it have two wheels?
+manywheels | motion   | NNnN | Does it have more than four wheels?
+engine     | tech     | NNnN | Does it have an engine or a motor?
+fuel       | tech     | NNnN | Does it run on petrol or diesel?
+steering   | tech     | NNnN | Does it have a steering wheel?
+doors      | size     | NNnn | Does it have doors?
+cargo      | motion   | NNnN | Is it used to carry goods?
+manypeople | motion   | NNnN | Can it carry more than ten people?
+tospace    | motion   | NNnN | Can it go into space?
+undersea   | motion   | nNnN | Can it go underwater?
+licence    | social   | NNnN | Do you need a licence to drive or use it?
+sail       | motion   | NNnN | Does it have a sail?
+carries1   | motion   | NNnN | Does it carry just one or two people?
+racing     | motion   | NNnn | Is it used for racing?
+noisy      | sensory  | uNun | Is it loud?
+
+# ---- music ------------------------------------------------------------------------
+strings    | function | NNnN | Does it have strings?
+blow       | function | NNnN | Do you blow into it?
+drum       | function | NNnN | Do you hit it to make music?
+keys       | tech     | NNnN | Does it have keys like a piano or a keyboard?
+bow        | function | NNnN | Is it played with a bow?
+orchestra  | function | NNnn | Is it played in an orchestra?
+band       | function | NNnn | Is it played in rock or pop bands?
+
+# ---- sport and games -----------------------------------------------------------
+sport      | function | NNnn | Is it a sport or used in a sport?
+ball       | function | NnnN | Is it a ball or played with a ball?
+teamsport  | function | NNnn | Is it linked to a team sport?
+racket     | function | NNnN | Is it a racket, bat, club or stick?
+watersport | function | NNnn | Is it linked to water sports?
+olympic    | function | NNnn | Is it part of the Olympic Games?
+boardgame  | function | NNnn | Is it a board game or a card game?
+videogame  | tech     | NNnn | Is it linked to video games?
+fighting   | function | NNnn | Is it linked to fighting or martial arts?
+
+# ---- food -------------------------------------------------------------------------
+fruit      | food | NnNN | Is it a fruit?
+vegetable  | food | NnNN | Is it a vegetable?
+dish       | food | NuNN | Is it a cooked dish or a meal?
+drink      | food | NuNN | Is it a drink?
+dessert    | food | NuNN | Is it a dessert or a sweet treat?
+snack      | food | NuNN | Is it a snack?
+baked      | food | NuNN | Is it baked, like bread or cake?
+meat       | food | nnNN | Is it meat or does it contain meat?
+seafood    | food | nnNN | Is it fish or seafood?
+dairy      | food | NnNN | Is it made from milk?
+grain      | food | NuNN | Is it made from grain or flour?
+nut        | food | NnNN | Is it a nut or a seed?
+spice      | food | NnNN | Is it a herb or a spice?
+sauce      | food | NnNN | Is it a sauce, a dip or a spread?
+alcohol    | food | NnNN | Does it contain alcohol?
+hotdrink   | food | NnNN | Is it a hot drink?
+fastfood   | food | NnNN | Is it fast food?
+soup       | food | NnNN | Is it a soup or a stew?
+bun        | food | NnNN | Is it served in bread or a bun?
+pasta      | food | NnNN | Is it pasta or noodles?
+rice       | food | NnNN | Does it contain rice?
+cheese     | food | NnNN | Does it contain cheese?
+choc       | food | NnNN | Does it contain chocolate?
+candy      | food | NnNN | Is it a sweet or a candy?
+cake       | food | NnNN | Is it a cake, a pie or a pastry?
+bread      | food | NnNN | Is it a kind of bread?
+ingredient | food | NuNN | Is it mostly used as an ingredient?
+legume     | food | NnNN | Is it a bean, a pea or a lentil?
+leafy      | food | NnNN | Is it a leafy vegetable?
+root       | food | NnNN | Is it a root, like a carrot or a potato?
+citrus     | food | NnNN | Is it a citrus fruit?
+berry      | food | NnNN | Is it a berry?
+tropical   | food | nnNn | Is it tropical?
+stone_pit  | food | NnNN | Does it have a stone or a pit inside?
+seeds      | food | NuNN | Does it have seeds inside?
+peel       | food | NnNN | Do you peel it before eating?
+juice      | food | NnNN | Is it often made into juice?
+raw        | food | nuNN | Can you eat it raw?
+cooked     | food | nuNN | Is it usually cooked before eating?
+sweet      | food | NuNN | Is it sweet?
+sour       | food | NnNN | Is it sour?
+salty      | food | NnNN | Is it salty?
+spicy      | food | NnNN | Is it spicy?
+bitter     | food | NnNN | Is it bitter?
+crunchy    | food | NuNN | Is it crunchy?
+creamy     | food | NnNN | Is it soft or creamy?
+frozen     | food | NnNN | Is it eaten frozen or ice cold?
+hotfood    | food | NuNN | Is it served hot?
+fried      | food | NnNN | Is it usually fried?
+breakfast  | food | NnNN | Is it eaten at breakfast?
+healthy    | food | nuNN | Is it healthy?
+packet     | food | NuNN | Is it sold in a packet, can or bottle?
+handfood   | food | NuNN | Do you eat it with your hands?
+bowl       | food | NnNN | Is it eaten from a bowl?
+caffeine   | food | NnNN | Does it contain caffeine?
+fizzy      | food | NnNN | Is it fizzy?
+sugary     | food | NnNN | Does it contain a lot of sugar?
+fromfruit  | food | NnNN | Is it made from fruit?
+fromveg    | food | NnNN | Is it made with vegetables?
+egg_in     | food | NnNN | Does it contain eggs?
+xmas       | social | nnnn | Is it linked to Christmas?
+halloween  | social | nnnn | Is it linked to Halloween?
+easter     | social | nnNn | Is it linked to Easter?
+birthday   | social | NnnN | Is it linked to birthdays?
+green_veg  | food | NnNN | Is it a green vegetable?
+grows_tree | food | NuNN | Does it grow on a tree?
+grows_ground| food| NuNN | Does it grow on or in the ground?
+crop       | food | NuNN | Is it grown in big fields?
+dried      | food | NnNN | Is it often eaten dried?
+jam        | food | NnNN | Is it made into jam?
+smooth_skin| food | NnNN | Does it have a smooth skin?
+hairy      | sensory | nnNN | Is it hairy or fuzzy?
+
+# ---- plants -------------------------------------------------------------------------
+tree       | taxonomy | NnNN | Is it a tree?
+flower     | taxonomy | NnNN | Is it a flower?
+bush       | taxonomy | NnNN | Is it a bush or a shrub?
+cactus     | taxonomy | NnNN | Is it a cactus or a succulent?
+fungus     | taxonomy | NnNN | Is it a mushroom or a fungus?
+houseplant | taxonomy | NnNN | Is it kept as a houseplant?
+evergreen  | nature   | NnNN | Does it stay green all year?
+leaves     | nature   | NuNN | Does it have leaves?
+thorns     | nature   | NnNN | Does it have thorns?
+poisonous  | nature   | uuun | Is it poisonous to eat?
+smellsnice | sensory  | nunn | Does it smell nice?
+smells     | sensory  | uuun | Does it have a strong smell?
+climbs_pl  | nature   | NnNN | Does it climb or grow up walls?
+waterplant | nature   | NnNN | Does it grow in water?
+cone       | nature   | NnNN | Does it have cones or needles?
+fruitplant | nature   | NnNN | Does it grow fruit people eat?
+bloom_spring| nature  | NnNN | Does it flower in spring?
+tall_plant | nature   | NnNN | Can it grow taller than a house?
+
+# ---- feel, sound, smell -------------------------------------------------------------
+makessound | sensory | snuu | Does it make a sound?
+hot        | sensory | uunu | Is it hot?
+cold       | sensory | nunn | Is it cold?
+wet        | sensory | uunu | Is it wet?
+sharp      | sensory | nnun | Is it sharp?
+rough      | sensory | uuun | Is it rough to touch?
+smooth     | sensory | uusn | Is it smooth?
+floats     | sensory | uuuN | Would it float on water?
+scary      | sensory | snnu | Is it scary to some people?
+dangerous  | sensory | unun | Is it dangerous?
+bright     | sensory | nnnu | Is it bright?
+quiet      | sensory | uyuu | Is it quiet?
+
+# ---- movement -----------------------------------------------------------------------
+moves      | motion | YNuu | Does it move by itself?
+moving     | motion | nNun | Does it have moving parts?
+carryperson| motion | uNun | Can it carry a person?
+pushpull   | motion | NNun | Do you push or pull it?
+stays      | motion | nuuu | Does it stay in one place?
+spins      | motion | NNnn | Does it spin or turn round?
+folds      | motion | NuuN | Can it be folded or bent?
+grows      | motion | Yuun | Does it grow?
+thrown     | motion | nnun | Is it thrown?
+rolls      | motion | NnnN | Does it roll?
+bounces    | motion | nNnN | Does it bounce?
+
+# ---- social -------------------------------------------------------------------------
+kidknows   | social | ppun | Would a small child know what it is?
+expensive  | social | nnuu | Is it expensive?
+cheap      | social | nyun | Is it cheap?
+everyday   | social | usuu | Do you see it every day?
+rare       | social | unnu | Is it rare?
+oldfash    | social | nnuu | Is it old-fashioned?
+modern     | social | NNun | Was it invented in the last hundred years?
+ancient    | social | nnnu | Is it from ancient times?
+famous     | social | nnnu | Is it famous?
+collect    | social | nnun | Do people collect it?
+adults     | social | nnun | Is it mostly used by adults?
+luxury     | social | nnnn | Is it a luxury?
+religion   | social | NNnn | Is it linked to religion?
+holiday    | social | nnnn | Is it linked to a holiday or a celebration?
+illegal    | social | NnNn | Is it banned or illegal in many places?
+mostcountries| social | puuu | Is it found in most countries?
+homes      | social | nuun | Do most homes have one?
+oneperson  | social | uNun | Is it used by one person at a time?
+
+# ---- people and characters ----------------------------------------------------------
+realperson | person | NNNn | Is it a real, famous person?
+job        | person | NNNn | Is it a job or a profession?
+character  | person | NNNn | Is it a character from a story, film or game?
+myth       | person | NNNn | Is it a creature from myths or legends?
+human      | person | NNNn | Is it a human?
+male       | person | nNNn | Is it male?
+female     | person | nNNn | Is it female?
+child      | person | NNNn | Is it a child or a teenager?
+elderly    | person | NNNn | Is it old or elderly?
+alivenow   | person | NNNn | Is this person alive today?
+superhero  | person | NNNn | Is it a superhero?
+villain    | person | NNNn | Is it a villain or a bad guy?
+cartoon    | person | NNNn | Is it a cartoon or an animated character?
+gamechar   | person | NNNn | Is it from a video game?
+bookchar   | person | NNNn | Is it from a book?
+moviechar  | person | NNNn | Is it from a film or a TV show?
+disney     | person | NNNn | Is it from a Disney film?
+anime      | person | NNNn | Is it from Japanese anime or games?
+mask       | person | NNNn | Does it wear a mask?
+cape       | person | NNNn | Does it wear a cape?
+powers     | person | NNNn | Does it have special powers or magic?
+royal      | person | NNNn | Is it a king, a queen or a princess?
+fairytale  | person | NNNn | Is it from a fairy tale?
+robotalien | person | NNNn | Is it a robot or an alien?
+sword      | person | NNnn | Does it carry a sword or a weapon?
+starwars   | person | NNNn | Is it from Star Wars?
+marvel     | person | NNNn | Is it from Marvel?
+dccomics   | person | NNNn | Is it from DC Comics?
+nintendo   | person | NNNn | Is it from a Nintendo game?
+pokemon    | person | NNNn | Is it a Pokemon?
+potter     | person | NNNn | Is it from Harry Potter?
+musician   | person | NNNn | Is it a singer or a musician?
+actor      | person | NNNn | Is it an actor or an actress?
+athlete    | person | NNNn | Is it a sportsperson?
+scientist  | person | NNNn | Is it a scientist or an inventor?
+artist     | person | NNNn | Is it a painter or an artist?
+writer     | person | NNNn | Is it a writer or a poet?
+leader     | person | NNNn | Is it a ruler or a political leader?
+explorer   | person | NNNn | Is it an explorer or an astronaut?
+before1900 | person | NNNn | Did this person live before 1900?
+football   | person | NNnn | Is it linked to football (soccer)?
+uniform    | person | NNNn | Does this person wear a uniform?
+helps      | person | NNNn | Does this person help sick or hurt people?
+kidsjob    | person | NNNn | Does this person work with children?
+animaljob  | person | NNNn | Does this person work with animals?
+driver     | person | NNNn | Does this person drive for a living?
+foodjob    | person | NNNn | Does this person work with food?
+degree     | person | NNNn | Does this job need a university degree?
+handsjob   | person | NNNn | Does this person build or fix things?
+entertain  | person | NNNn | Does this person entertain people?
+sells      | person | NNNn | Does this person sell things?
+govjob     | person | NNNn | Does this person work for the government?
+hat_char   | person | NNNn | Does it usually wear a hat?
+red_char   | person | NNNn | Does it usually wear red?
+flies_char | person | NNNn | Can this character fly?
+talks_anim | person | NNNn | Is it an animal that talks?
+small_char | person | NNNn | Is it smaller than a normal person?
+evilmagic  | person | NNNn | Is it a witch, a wizard or a ghost?
+
+# ---- places --------------------------------------------------------------------------
+country    | place | NNNn | Is it a country?
+cityplace  | place | NNNn | Is it a city?
+capital    | place | NNNn | Is it a capital city?
+island     | place | nnNn | Is it an island?
+coast      | place | nNNn | Is it by the sea?
+landmark   | place | NNnn | Is it a famous landmark?
+natplace   | place | NNNn | Is it a natural place, like a lake or a mountain?
+inside     | place | NNnn | Can you go inside it?
+livethere  | place | NNnn | Do people live in it?
+workthere  | place | NNnn | Do people work there?
+payenter   | place | NNnn | Do you usually pay to go in?
+historic   | place | NNnn | Is it more than 500 years old?
+tourist    | place | nnnn | Is it a tourist attraction?
+room       | place | NNnN | Is it a room?
+waterbody  | place | NNNn | Is it a lake, a river or a sea?
+crowded    | place | NNnn | Are there usually lots of people there?
+english    | place | NNNn | Do people speak English there?
+spanish    | place | NNNn | Do people speak Spanish there?
+bigcountry | place | NNNn | Is it a very big country?
+hotclimate | place | nnNn | Does it have a hot climate?
+snowplace  | place | nnNn | Does it often snow there?
+shopplace  | place | NNnn | Can you buy things there?
+learnplace | place | NNnn | Do people go there to learn?
+healthplace| place | NNnn | Do people go there when they are ill?
+sportplace | place | NNnn | Do people go there to play or watch sport?
+eatplace   | place | NNnn | Do people go there to eat?
+transport_pl| place| NNnn | Do people go there to catch transport?
+
+# ---- science and nature ---------------------------------------------------------------
+celestial  | nature | NNnn | Is it a planet, a star or a moon?
+nightsky   | nature | nNnn | Can you see it in the night sky?
+weather    | nature | NNNn | Is it weather or a natural event?
+disaster   | nature | NNnn | Can it cause a disaster?
+rock       | nature | NNnN | Is it a rock, a mineral or a gem?
+gem        | nature | NNnN | Is it a gemstone?
+element    | nature | NNnn | Is it a chemical element?
+mined      | nature | NNnn | Is it dug out of the ground?
+touch      | nature | YYYu | Can you touch it?
+visible    | nature | YYYu | Can you see it?
+inbody     | nature | NNNn | Is it inside the body?
+onheadbody | nature | NNNn | Is it on your head or face?
+limb       | nature | NNNn | Is it part of an arm or a leg?
+organ      | nature | NNNn | Is it an organ?
+bone       | nature | NNNn | Is it a bone or made of bone?
+emotion    | nature | NNNn | Is it a feeling or an emotion?
+timeunit   | nature | NNNn | Is it a period of time?
+subject    | nature | NNNn | Is it a school subject or a science?
+shape      | nature | NNnn | Is it a shape, a number or a symbol?
+event      | nature | NNnn | Is it an event or a celebration?
+activity   | nature | NNNn | Is it an activity or a hobby?
+water_rel  | nature | unun | Is it made of or full of water?
+fire_rel   | nature | NNnn | Is it linked to fire?
+electricity| nature | NNnn | Is it linked to electricity?
+season     | nature | NNNn | Does it happen at a certain time of year?
+sun_rel    | nature | NnNn | Does it need sunlight?
+dark       | nature | nNnn | Is it linked to the dark or the night?
+mythical_c | nature | NNNn | Is it magical?
+
+# ---- added while writing the animals ---------------------------------------------
+clever     | animal | uNNn | Is it known for being clever?
+cute       | social | unun | Is it cute?
+strong     | animal | uNnn | Is it very strong?
+omnivore   | animal | uNNN | Does it eat both plants and meat?
+cave       | location | nNnn | Would you find it in a cave?
+wedding    | social | NnnN | Is it linked to weddings?
+dirty      | sensory | nnnn | Is it dirty?
+glasses_c  | person | NNNn | Does it wear glasses?
+funny      | person | nNnn | Is it known for being funny?
+beard      | person | nNNn | Does it have a beard?
+
+# ---- added in the first quality pass ----------------------------------------------
+monarchy   | place    | NNNn | Does it have a king or a queen?
+eu         | place    | NNNn | Is it in the European Union?
+nordic     | place    | NNNn | Is it in Scandinavia or the far north of Europe?
+onarm      | nature   | NNNn | Is it part of your arm or hand?
+onleg      | nature   | NNNn | Is it part of your leg or foot?
+manybody   | nature   | NNNn | Do you have more than two of them?
+positive   | social   | NNNn | Is it a happy or pleasant thing?
+longday    | nature   | NNNn | Is it longer than a day?
+shorthour  | nature   | NNNn | Is it shorter than an hour?
+blond      | person   | NNNn | Does it have blond or yellow hair?
+actionstar | person   | NNNn | Is this person known for action films?
+rapper     | person   | NNNn | Is this person a rapper?
+inband     | person   | NNNn | Was this person in a famous band?
+dancing    | person   | NNNn | Is this person famous for dancing?
+basketq    | function | NNnn | Is it linked to basketball?
+tennisq    | function | NNnn | Is it linked to tennis?
+amfootball | function | NNnn | Is it linked to American football?
+
+# ---- added in the second quality pass ---------------------------------------------
+darkhair   | person   | NNNn | Does it have black or dark brown hair?
+redhair    | person   | NNNn | Does it have red or ginger hair?
+whitehair  | person   | NNNn | Does it have white or grey hair?
+bald       | person   | NNNn | Is it bald?
+oscar      | person   | NNNn | Has this person won an Oscar?
+retired    | person   | NNNn | Has this person stopped working or playing?
+childstar  | person   | NNNn | Did this person become famous as a child?
+deafblind  | person   | NNNn | Was this person deaf or blind?
+crime      | person   | NNnn | Is it linked to crime or detectives?
+fantasy    | person   | nNnn | Is it linked to fantasy, like dragons or magic?
+owl        | taxonomy | nNNN | Is it an owl?
+monkeytail | animal   | nNNN | Does it have a long tail it can grab with?
+easteurope | place    | NNNn | Is it in Eastern Europe?
+mideast    | place    | nnNn | Is it in the Middle East?
+seasia     | place    | nnNn | Is it in Southeast Asia?
+caribbean  | place    | NNNn | Is it in the Caribbean or Central America?
+smallcountry | place  | NNNn | Is it a very small country?
+herbleaf   | food     | NnNN | Is it a herb with leaves?
+kidsbook   | person   | NNnn | Is it linked to children's books?
+
+# ---- v2.1: brands, media, clubs -------------------------------------------------------
+brand      | social   | NNnn | Is it a company or a brand?
+appweb     | tech     | NNnn | Is it a website or an app?
+socialnet  | tech     | NNnn | Is it a social network?
+carbrand   | tech     | NNnn | Is it a car brand?
+foodbrand  | food     | NnNn | Is it a food or drink brand?
+fashionbrand | social | NNnn | Is it a fashion or sports brand?
+techco     | tech     | NNnn | Is it a technology company?
+film       | person   | NNnn | Is it a film?
+tvshow     | person   | NNnn | Is it a TV show?
+booktitle  | person   | NNnn | Is it a book or a book series?
+franchise  | person   | NNnn | Is it a whole series of films, games or books?
+horror     | person   | nNnn | Is it linked to horror?
+comedy     | person   | NNnn | Is it a comedy or known for being funny?
+animated   | person   | NNnn | Is it animated?
+club       | social   | NNnn | Is it a sports club or team?
+restaurantchain | social | NNnn | Is it a shop or restaurant chain?
+streaming  | tech     | NNnn | Can you watch or listen to things with it?
+youtube    | person   | NNnn | Is this person famous on YouTube or the internet?
+rapperde   | person   | NNNn | Is this person a German rapper or singer?
+comedian   | person   | NNNn | Is this person a comedian?
+director   | person   | NNNn | Is this person a film director?
+band_group | person   | NNNn | Is it a band or a group?
+bayern     | person   | NNnn | Is it linked to FC Bayern Munich?
+worldcup   | person   | NNNn | Has this person won the football World Cup?
+young      | person   | NNNn | Is this person younger than 30?
+rockmusic  | person   | NNnn | Is it linked to rock or metal music?
+bordersde  | place    | NNNn | Does it border Germany?
+baltic     | place    | NNNn | Is it one of the Baltic states?
+keeper     | person   | NNnn | Is this person a goalkeeper?

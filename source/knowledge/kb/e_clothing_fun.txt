@@ -1,0 +1,259 @@
+# ===== clothing ======================================================================
+t-shirt | top_c | 85 | sz=4 summery kidknows everyday cheap -formal
+shirt | top_c | 70 | sz=4 buttons~ formal~ work~ -wintery
+blouse | top_c | 10 | sz=4 female~ buttons~
+sweater | top_c | 50 | sz=4 wintery soft fluffy? -summery
+jumper | top_c | 20 | sz=4 wintery uk
+hoodie | top_c | 40 | sz=4 wintery~ onhead~ children~ cheap
+cardigan | top_c | 10 | sz=4 buttons~ elderly~
+vest | top_c | 10 | sz=4 underwear~
+tank top | top_c | 8 | sz=4 summery
+jacket | outer_c | 60 | sz=5 opens~ leather~
+coat | outer_c | 60 | sz=5 wintery heavy~ buttons~ -summery
+raincoat | outer_c | 25 | sz=5 plastic rubber~ protect col=yellow,any
+fur coat | outer_c | 8 | sz=5 fur fluffy fromanimal expensive luxury
+leather jacket | outer_c | 15 | sz=5 leather fromanimal col=black,brown
+tuxedo | top_c | 15 | sz=5 formal wedding~ col=black male expensive -cheap
+suit | top_c | 35 | sz=5 formal work office adults male~ col=black,grey,blue
+dress | top_c | 60 | sz=5 garment_lo female formal? wedding? col=any
+wedding dress | top_c | 25 | sz=6 garment_lo female formal wedding col=white expensive -cheap rare
+skirt | bottom_c | 40 | sz=4 female col=any summery?
+jeans | bottom_c | 70 | sz=4 col=blue usa everyday kidknows -formal
+trousers | bottom_c | 50 | sz=4 col=black,grey,any
+pants | bottom_c | 40 | sz=4 col=any usa
+shorts | bottom_c | 45 | sz=4 summery beach? -wintery
+leggings | bottom_c | 12 | sz=4 stretchy female sportswear~
+pajamas | top_c | 40 | sz=4 garment_lo sleep bedroom soft col=any children~
+nightgown | top_c | 6 | sz=5 sleep bedroom female
+underwear | bottom_c | 35 | sz=3 underwear bedroom -formal cheap
+underpants | bottom_c | 15 | sz=3 underwear
+bra | top_c | 15 | sz=3 underwear female pair~
+socks | clothing_c | 65 | sz=3 onfeet pair underwear~ cheap everyday kidknows xmas~ -garment_up -garment_lo
+tights | bottom_c | 10 | sz=3 onfeet stretchy female
+swimsuit | top_c | 30 | sz=3 watersport sportswear beach summery withwater wet garment_lo stretchy
+bikini | top_c | 20 | sz=3 watersport beach summery garment_lo female
+swimming trunks | bottom_c | 10 | sz=3 watersport beach summery
+uniform | top_c | 25 | sz=5 costume work school~ police~ military~ col=any
+school uniform | top_c | 15 | sz=5 costume school children uk~ japan~
+costume | top_c | 30 | sz=5 costume fun halloween party children? col=any -everyday
+kimono | top_c | 10 | sz=5 japan asia formal costume? garment_lo col=any
+sari | top_c | 6 | sz=6 india asia female garment_lo col=any
+kilt | bottom_c | 12 | sz=4 uk costume col=red,green
+toga | top_c | 5 | sz=6 ancient greece italy costume col=white
+overalls | bottom_c | 8 | sz=5 garment_up work col=blue
+scarf | clothing_c | 45 | sz=5 onface wintery longthin soft col=any -garment_lo
+gloves | clothing_c | 45 | sz=3 onhand pair wintery protect col=any -garment_up -garment_lo
+mittens | clothing_c | 15 | sz=3 onhand pair wintery children
+tie | clothing_c | 40 | sz=4 onface formal work office male longthin col=any -garment_lo
+bow tie | clothing_c | 12 | sz=2 onface formal male col=black,red
+belt | accessory_c | 45 | sz=4 leather fasten wear longthin col=black,brown metal~
+hat | hat_c | 70 | sz=4 col=any kidknows protect~ sun_rel~
+cap | hat_c | 40 | sz=4 sportswear~ usa col=any
+baseball cap | hat_c | 25 | sz=4 sportswear usa col=any
+beanie | hat_c | 12 | sz=3 wintery soft
+top hat | hat_c | 15 | sz=4 formal oldfash col=black tall cylinder
+cowboy hat | hat_c | 20 | sz=4 usa leather col=brown costume
+crown | jewellery_c | 45 | sz=4 onhead royal precious expensive col=yellow pointed rare castle~ museum~ famous~ fairytale~
+tiara | jewellery_c | 10 | sz=3 onhead royal female col=grey
+hood | clothing_c | 3 | sz=4 onhead
+shoes | shoe_c | 85 | col=black,brown,any everyday kidknows homes
+sneakers | shoe_c | 50 | rubber fabric sport sportswear col=white,any
+trainers | shoe_c | 15 | rubber sportswear col=white,any uk
+boots | shoe_c | 45 | sz=5 leather wintery? tall~ col=black,brown
+rain boots | shoe_c | 15 | sz=5 rubber wet protect col=yellow,green,any children?
+sandals | shoe_c | 35 | summery beach -wintery leather? col=brown,any
+flip-flops | shoe_c | 30 | rubber plastic summery beach -wintery cheap col=any
+slippers | shoe_c | 30 | soft fabric bedroom house -outdoors col=any elderly~
+high heels | shoe_c | 30 | female formal pointed col=black,red,any expensive?
+ballet shoes | shoe_c | 6 | fabric female col=pink
+ice skates | shoe_c | 12 | sz=5 blade sharp wintery sportgear sport cold
+ski boots | shoe_c | 4 | sz=5 wintery sportgear plastic
+clogs | shoe_c | 5 | wood
+# ===== accessories and jewellery =======================================================
+ring | jewellery_c | 75 | sz=1 round onhand wedding gift col=yellow,grey hollow kidknows
+wedding ring | jewellery_c | 25 | sz=1 round onhand wedding col=yellow
+necklace | jewellery_c | 55 | sz=3 onface longthin gift female col=yellow,grey
+bracelet | jewellery_c | 40 | sz=2 onhand round gift female col=any
+earrings | jewellery_c | 40 | sz=1 pair onheadbody? female onface~ col=yellow,grey
+brooch | jewellery_c | 4 | sz=2 fasten oldfash
+medal | jewellery_c | 25 | sz=2 -jewellery? round flat metal sport olympic onface col=yellow,grey -expensive? famous~
+pearl necklace | jewellery_c | 8 | sz=3 col=white fromanimal ocean~ female
+diamond ring | jewellery_c | 15 | sz=1 gem expensive wedding col=grey,white shiny
+locket | jewellery_c | 4 | sz=2 opens
+handbag | bag_c | 45 | sz=4 female leather? col=any
+purse | bag_c | 30 | sz=3 female money? col=any
+wallet | bag_c | 50 | sz=3 money leather flat s_pocket col=black,brown everyday
+backpack | bag_c | 50 | sz=5 school children? camping travel col=any
+suitcase | bag_c | 40 | sz=6 travel airport hard? wheels? handle holiday col=black,any -fabric?
+briefcase | bag_c | 15 | sz=4 work office leather hard boxshape col=black,brown adults
+school bag | bag_c | 15 | sz=5 school children
+gym bag | bag_c | 5 | sz=5 sport stadium
+fan hand | accessory_c | 5 | sz=3 cools summery folds paper? asia~ spain~
+cane | accessory_c | 3 | sz=5 elderly longthin
+# ===== toys ============================================================================
+toy | toy_c | 60 | col=any kidknows mostcountries
+teddy bear | toy_c | 75 | sz=4 soft fluffy fabric fur? bear? cute gift bedroom -plastic col=brown sleep~
+doll | toy_c | 60 | sz=4 plastic female? human? col=any
+barbie | toy_c | 40 | sz=4 plastic female famous usa col=pink
+action figure | toy_c | 25 | sz=3 plastic collect superhero~ col=any
+lego | toy_c | 70 | sz=1 plastic manyparts col=any europe collect famous kidknows boxshape hard
+building blocks | toy_c | 20 | sz=2 wood? plastic boxshape manyparts col=any
+puzzle | game_c | 45 | sz=4 manyparts paper flat col=any children~ adults~ -boardgame?
+jigsaw puzzle | game_c | 20 | sz=4 manyparts paper flat
+rubik's cube | toy_c | 40 | sz=2 boxshape plastic multicol col=red,blue,green,yellow,white,orange spins famous adults~ game
+yo-yo | toy_c | 30 | sz=2 round spins plastic thrown
+kite | toy_c | 45 | sz=5 flies sky fabric? paper? outdoors summery~ col=any multicol beach~ playground
+balloon | party_c | 70 | sz=4 rubber gas round floats? flies~ birthday party col=any breakable stretchy bright~ kidknows cheap
+toy car | toy_c | 35 | sz=2 wheels metal? plastic col=any collect
+toy train | toy_c | 20 | sz=3 wheels rail? col=any
+marbles | toy_c | 20 | sz=1 glass round rolls col=any manyparts oldfash~ collect
+spinning top | toy_c | 12 | sz=2 spins wood? plastic oldfash~
+jack-in-the-box | toy_c | 5 | sz=3 boxshape opens scary~ makessound
+rocking horse | toy_c | 12 | sz=6 wood sit oldfash moving
+slinky | toy_c | 10 | sz=2 metal plastic stretchy spins?
+play-doh | toy_c | 20 | sz=2 soft col=any stretchy~ art
+crayon | stationery_c | 45 | sz=2 writing art children col=any cheap kidknows melts~
+water gun | toy_c | 25 | sz=3 withwater wet summery plastic weapon~ fun col=any
+toy gun | toy_c | 10 | sz=3 plastic weapon~
+bubbles | toy_c | 20 | sz=3 withwater col=any round? fun seethrough
+frisbee | sportgear_c | 30 | sz=4 flat round plastic thrown flies~ beach garden playground col=any
+swing | toy_c | 30 | sz=6 playground garden sit moving outdoors -lift children kidknows
+slide | toy_c | 30 | sz=7 playground outdoors -lift children kidknows metal? plastic?
+seesaw | toy_c | 15 | sz=7 playground outdoors -lift children pair~
+sandbox | toy_c | 10 | sz=7 playground powder~ outdoors
+trampoline | toy_c | 25 | sz=7 bounces jumps? garden outdoors fun stretchy -lift
+jump rope | sportgear_c | 15 | sz=4 longthin playground children
+hula hoop | sportgear_c | 15 | sz=5 round plastic spins col=any
+puppet | toy_c | 20 | sz=4 fabric theatre~ fun col=any
+stuffed animal | toy_c | 25 | sz=4 soft fluffy fabric cute col=any
+rattle | toy_c | 10 | sz=3 baby_use makessound noisy plastic
+pinata | party_c | 15 | sz=5 paper candy? mexico party birthday strike col=any multicol
+party hat | party_c | 15 | sz=3 onhead wear paper pointed col=any
+confetti | party_c | 15 | sz=1 paper manyparts col=any thrown wedding~
+firework | party_c | 45 | sz=4 fire_rel noisy light bright dangerous sky nightsky? holiday china? usa~ col=any -cheap? scary~ -children
+sparkler | party_c | 15 | sz=3 fire_rel light bright hot dangerous~
+gift box | party_c | 25 | sz=4 boxshape paper gift birthday xmas col=any opens
+wrapping paper | party_c | 15 | sz=5 paper flat folds gift xmas birthday col=any
+christmas stocking | party_c | 10 | sz=4 xmas fabric col=red,white
+snowman | party_c | 45 | sz=6 cat=O -manmade? wintery snowplace cold melts water_rel col=white outdoors kidknows xmas~ -shop fun
+sandcastle | party_c | 15 | sz=4 beach summery powder~ castle? -shop fun breakable children
+jack-o-lantern | party_c | 20 | sz=5 halloween fromplant light fire_rel~ col=orange scary~
+# ===== games ==========================================================================
+chess | game_c | 50 | boardgame manyparts wood? col=black,white bwhite clever? adults? famous oldfash~ -children?
+checkers | game_c | 15 | boardgame manyparts col=black,red,white
+monopoly | game_c | 30 | boardgame money? paper famous usa
+scrabble | game_c | 12 | boardgame manyparts read? school~
+playing cards | game_c | 40 | boardgame paper flat manyparts s_pocket col=red,black,white cheap
+dice | game_c | 35 | sz=2 boxshape plastic col=white,black,red boardgame thrown rolls manyparts~ cheap pair~
+dominoes | game_c | 12 | boardgame manyparts col=black,white
+board game | game_c | 25 | boardgame boxshape manyparts paper
+video game | game_c | 50 | videogame electronic~ screen~ fun children? -boardgame
+crossword | game_c | 10 | paper read writing adults
+sudoku | game_c | 6 | paper writing adults japan~
+pinball machine | game_c | 8 | sz=6 electric machine noisy light ball? buttons
+arcade machine | game_c | 10 | sz=6 videogame electric screen buttons noisy
+slot machine | game_c | 8 | sz=6 money adults electric noisy illegal~
+# ===== sport equipment ================================================================
+ball | ball_c | 85 | sz=4 col=any kidknows everyday? mostcountries cheap
+football | ball_c | 75 | sz=4 teamsport football leather? col=white,black bwhite stadium europe samerica famous kidknows
+soccer ball | ball_c | 25 | sz=4 teamsport football col=white,black
+basketball | ball_c | 50 | sz=4 teamsport col=orange usa stadium bounces
+american football | ball_c | 25 | sz=4 teamsport col=brown leather usa namerica -round pointed thrown
+baseball | ball_c | 30 | sz=3 teamsport col=white leather usa japan~ hard thrown
+tennis ball | ball_c | 35 | sz=3 col=yellow,green fluffy~ rubber racket? hairy?
+golf ball | ball_c | 20 | sz=2 col=white hard -bounces? holes?
+volleyball | ball_c | 15 | sz=4 teamsport col=white,yellow beach~
+rugby ball | ball_c | 15 | sz=4 teamsport col=white,brown -round pointed uk~ oceania~
+beach ball | ball_c | 20 | sz=5 plastic beach summery multicol floats light? -heavy
+bowling ball | ball_c | 15 | sz=4 heavy hard holes col=black,any -bounces -thrown? rolls
+ping pong ball | ball_c | 10 | sz=2 plastic col=white,orange light? hollow
+cricket ball | ball_c | 5 | sz=3 col=red leather uk india oceania hard
+tennis racket | sportgear_c | 35 | sz=5 racket strings handle col=any
+badminton racket | sportgear_c | 8 | sz=5 racket strings handle
+baseball bat | sportgear_c | 30 | sz=5 racket strike wood metal~ handle longthin usa teamsport weapon~
+cricket bat | sportgear_c | 8 | sz=5 racket strike wood handle uk india oceania teamsport
+golf club | sportgear_c | 20 | sz=6 racket strike metal handle longthin adults expensive~
+hockey stick | sportgear_c | 20 | sz=6 racket strike wood? longthin teamsport canada~ wintery~
+ping pong paddle | sportgear_c | 8 | sz=4 racket flat handle
+skis | sportgear_c | 25 | sz=7 pair wintery snowplace mountain longthin flat col=any -wheels
+snowboard | sportgear_c | 15 | sz=6 wintery snowplace mountain flat
+sled | sportgear_c | 25 | sz=5 wintery snowplace fun children carryperson wood? plastic -wheels xmas~
+ice hockey puck | sportgear_c | 5 | sz=2 flat round rubber col=black wintery teamsport
+dumbbell | sportgear_c | 25 | sz=4 metal heavy strong? stadium handle col=black,grey
+treadmill | sportgear_c | 10 | sz=7 electric machine stadium moving heavy
+exercise bike | sportgear_c | 8 | sz=6 stadium heavy -travel
+yoga mat | sportgear_c | 8 | sz=6 flat soft rubber folds rolls
+boxing gloves | sportgear_c | 15 | sz=4 onhand pair fighting leather col=red
+goal | sportgear_c | 15 | sz=8 football teamsport stadium stays -lift metal col=white
+net | sportgear_c | 15 | sz=7 holes fabric?
+fishing rod | sportgear_c | 25 | sz=6 longthin nearwater freshwater fish? handle -teamsport adults
+skipping rope | sportgear_c | 4 | sz=4 children playground
+bow and arrow | weapon_c | 30 | sz=5 sport? pointed sharp wood strings oldfash fictional~ -metal?
+whistle | sportgear_c | 20 | sz=2 blow noisy makessound metal plastic police~ col=grey
+stopwatch | sportgear_c | 8 | sz=2 time measure buttons battery
+trophy | sportgear_c | 30 | sz=4 metal shiny col=yellow decoration~ famous~ gift
+goggles | sportgear_c | 15 | sz=3 onface watersport seethrough plastic pair~
+snorkel | sportgear_c | 8 | sz=3 watersport blow? onface plastic
+flippers | sportgear_c | 8 | sz=4 onfeet watersport pair rubber
+parachute | sportgear_c | 12 | sz=7 fabric sky folds aircraft? safety
+# ===== musical instruments ============================================================
+guitar | string_instr | 80 | sz=5 band kidknows famous col=brown,any -orchestra
+electric guitar | string_instr | 30 | sz=5 band electric plugin noisy col=red,black,any -orchestra -hollow
+bass guitar | string_instr | 10 | sz=5 band electric -orchestra
+violin | string_instr | 55 | sz=4 bow orchestra col=brown italy~ -band
+cello | string_instr | 20 | sz=6 bow orchestra col=brown heavy -band
+double bass | string_instr | 8 | sz=6 bow orchestra col=brown heavy
+harp | string_instr | 25 | sz=6 orchestra col=yellow,brown heavy -band
+ukulele | string_instr | 20 | sz=4 usa oceania~ cheap
+banjo | string_instr | 12 | sz=5 usa round
+mandolin | string_instr | 3 | sz=4 italy
+sitar | string_instr | 4 | sz=6 india asia
+piano | keyb_instr | 80 | sz=7 strings? wood heavy -lift col=black,white bwhite orchestra famous stays livingroom~ school~ expensive
+grand piano | keyb_instr | 15 | sz=7 heavy -lift col=black expensive theatre
+keyboard instrument | keyb_instr | 15 | sz=5 electric plugin plastic -heavy
+organ | keyb_instr | 12 | sz=8 church religion blow~ heavy -lift
+accordion | keyb_instr | 15 | sz=4 blow~ folds moving france~ germany~ italy~
+flute | wind_instr | 45 | sz=4 metal shiny col=grey longthin orchestra -band
+recorder | wind_instr | 30 | sz=4 plastic wood school children cheap col=white,brown longthin
+clarinet | wind_instr | 20 | sz=4 wood col=black longthin orchestra
+saxophone | brass_instr | 35 | sz=5 band col=yellow
+trumpet | brass_instr | 45 | sz=4 col=yellow orchestra band~
+trombone | brass_instr | 20 | sz=5 col=yellow orchestra
+tuba | brass_instr | 15 | sz=6 col=yellow heavy orchestra
+french horn | brass_instr | 8 | sz=5 col=yellow orchestra round
+harmonica | wind_instr | 20 | sz=2 metal s_pocket cheap -orchestra band~
+bagpipes | wind_instr | 15 | sz=5 uk noisy fabric? costume~
+pan flute | wind_instr | 3 | sz=3 samerica
+didgeridoo | wind_instr | 5 | sz=6 oceania wood longthin
+drum | perc_instr | 65 | sz=5 round cylinder col=any kidknows
+drum kit | perc_instr | 25 | sz=7 manyparts band heavy -lift -orchestra
+xylophone | perc_instr | 20 | sz=4 children wood? multicol flat~
+tambourine | perc_instr | 12 | sz=3 round makessound
+triangle | perc_instr | 12 | sz=3 metal orchestra school cheap pointed? shape?
+cymbals | perc_instr | 8 | sz=4 metal pair round flat shiny orchestra band
+bongo drums | perc_instr | 4 | sz=4 pair samerica
+maracas | perc_instr | 10 | sz=3 pair mexico samerica makessound
+gong | perc_instr | 6 | sz=6 metal round flat asia china
+bell | perc_instr | 35 | sz=3 metal makessound noisy church? xmas~ col=yellow
+church bell | perc_instr | 8 | sz=7 metal heavy church religion -lift
+music box | toy_c | 10 | sz=3 music makessound opens boxshape oldfash
+metronome | instrument_c | 2 | sz=3 time -instrument
+# ===== weapons =========================================================================
+sword | weapon_c | 50 | sz=5 sharp blade cutting pointed metal longthin oldfash castle~ fictional~ museum~ col=grey
+dagger | weapon_c | 15 | sz=3 sharp blade cutting pointed metal
+spear | weapon_c | 15 | sz=6 sharp pointed longthin wood ancient
+shield | weapon_c | 20 | sz=5 protect metal wood round? -sharp castle oldfash -cutting
+gun | weapon_c | 50 | sz=3 metal noisy police military illegal? -sharp col=black handle
+pistol | weapon_c | 15 | sz=3 metal noisy police col=black
+rifle | weapon_c | 15 | sz=5 metal longthin noisy military col=black,brown
+cannon | weapon_c | 20 | sz=6 metal heavy noisy oldfash military castle~ ship~ fire_rel col=black -lift wheels~
+bomb | weapon_c | 30 | sz=4 metal noisy fire_rel round? military illegal col=black
+grenade | weapon_c | 8 | sz=2 metal military noisy
+slingshot | weapon_c | 15 | sz=3 rubber stretchy wood thrown? children~ toy~
+boomerang | weapon_c | 15 | sz=4 wood thrown flies? oceania -sharp
+crossbow | weapon_c | 8 | sz=5 pointed strings oldfash
+catapult | weapon_c | 8 | sz=7 wood oldfash castle thrown
+whip | weapon_c | 6 | sz=5 leather longthin noisy circus~
+handcuffs | safety_c | 15 | sz=3 metal lock police pair col=grey
+taser | weapon_c | 3 | sz=3 electricity police battery
+trap | tool_c | 10 | sz=4 metal sharp? dangerous

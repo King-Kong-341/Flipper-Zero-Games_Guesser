@@ -1,0 +1,192 @@
+# ===== more animals (v2.1) ================================================================
+# dog breeds
+labradoodle | dog_breed | 4 | sz=5 col=brown,yellow fluffy
+cockapoo | dog_breed | 2 | sz=4 col=brown fluffy
+goldendoodle | dog_breed | 2 | sz=5 col=yellow fluffy
+siberian husky | dog_breed | 3 | sz=5 col=grey,white coldplace snowplace
+alaskan malamute | dog_breed | 2 | sz=6 col=grey,white coldplace snowplace
+english bulldog | dog_breed | 2 | sz=5 col=white,brown uk slow
+staffordshire terrier | dog_breed | 2 | sz=5 col=brown,white uk
+boston terrier | dog_breed | 2 | sz=4 col=black,white usa
+scottish terrier | dog_breed | 2 | sz=4 col=black uk
+bull terrier | dog_breed | 2 | sz=5 col=white uk
+irish setter | dog_breed | 2 | sz=5 col=red,orange europe
+springer spaniel | dog_breed | 1 | sz=5 col=brown,white uk
+german pointer | dog_breed | 2 | sz=5 col=brown germany europe
+german spitz | dog_breed | 2 | sz=4 col=white,orange fluffy germany europe
+pekingese | dog_breed | 2 | sz=3 col=yellow,brown fluffy china asia
+lhasa apso | dog_breed | 1 | sz=4 col=yellow fluffy asia
+papillon | dog_breed | 1 | sz=3 col=white,brown longears france
+havanese | dog_breed | 1 | sz=3 col=white fluffy caribbean
+miniature schnauzer | dog_breed | 2 | sz=4 col=grey germany beard
+leonberger | dog_breed | 1 | sz=6 col=brown fluffy germany heavy
+australian cattle dog | dog_breed | 1 | sz=5 col=blue,grey oceania onfarm
+shetland sheepdog | dog_breed | 2 | sz=4 col=brown,white uk fluffy onfarm
+old english sheepdog | dog_breed | 2 | sz=6 col=grey,white uk fluffy onfarm
+belgian shepherd | dog_breed | 1 | sz=6 col=brown,black police
+cane corso | dog_breed | 1 | sz=6 col=black italy
+dogo argentino | dog_breed | 1 | sz=6 col=white samerica
+xoloitzcuintli | dog_breed | 1 | sz=5 col=black,grey -fur mexico
+# cats and small pets
+norwegian forest cat | cat_breed | 2 | col=grey,brown fluffy nordic
+russian blue | cat_breed | 2 | col=grey,blue russia
+birman cat | cat_breed | 1 | col=white,brown asia fluffy
+munchkin cat | cat_breed | 2 | sz=4 col=any small_char?
+ginger cat | cat_breed | 6 | col=orange stripes
+white cat | cat_breed | 3 | col=white
+calico cat | cat_breed | 2 | col=orange,black,white spots
+stray cat | cat_c | 3 | sz=5 wild~ city -pet? dirty~ col=any
+lop rabbit | landmammal | 2 | sz=4 pet herbivore longears fur soft fluffy col=brown,white -wild
+dwarf rabbit | landmammal | 2 | sz=3 pet herbivore longears fur soft fluffy col=white,grey -wild cute
+degu | rodent_c | 2 | pet house samerica col=brown
+# farm and baby animals
+cub | landmammal | 3 | sz=4 babyanimal cute fur wild
+kid goat | cattle_c | 3 | sz=4 babyanimal cute farm onfarm col=white,brown
+gosling | waterbird_c | 2 | sz=2 babyanimal fluffy col=yellow,grey
+cygnet | waterbird_c | 2 | sz=3 babyanimal fluffy col=grey
+owlet | birdprey_c | 2 | sz=2 babyanimal owl fluffy cute
+heifer | cattle_c | 1 | sz=7 female milk
+dairy cow | cattle_c | 3 | sz=7 milk col=black,white spots bwhite onfarm
+highland cow | cattle_c | 4 | sz=7 horns fur fluffy col=orange,brown uk mountainan
+sheepdog | dog_breed | 4 | sz=5 col=black,white onfarm farm herd? trained
+shetland pony | horse_c | 4 | sz=5 farm onfarm ridden children uk fluffy col=brown,black
+clydesdale | horse_c | 2 | sz=7 farm onfarm heavy strong packanimal col=brown,white uk
+arabian horse | horse_c | 2 | sz=7 fast racing~ asia desertan col=white,grey,brown
+racehorse | horse_c | 4 | sz=7 fast racing col=brown
+stallion | horse_c | 2 | sz=7 male fast
+mustang | horse_c | 3 | sz=7 wild usa namerica fast col=brown
+draft horse | horse_c | 1 | sz=7 heavy strong
+pot-bellied pig | pig_c | 2 | sz=5 pet col=black,grey
+# european wildlife
+red squirrel | rodent_c | 4 | sz=4 wild climbs intrees woodland europe col=orange,red fluffy longtail
+grey squirrel | rodent_c | 3 | sz=4 wild climbs intrees woodland city col=grey fluffy longtail
+field mouse | rodent_c | 3 | wild grassland onfarm~ col=brown longtail
+harvest mouse | rodent_c | 1 | wild grassland col=orange
+water vole | rodent_c | 1 | wild freshwater swims
+wild horse | horse_c | 2 | sz=7 wild -farm -ridden
+white stork | waterbird_c | 2 | sz=5 col=white,black longneck tall europe nest
+grey heron | waterbird_c | 2 | sz=5 col=grey longneck freshwater
+house sparrow | songbird_c | 2 | col=brown,grey city
+swift bird | songbird_c | 2 | col=black fast flies summery
+skylark | songbird_c | 1 | col=brown sings grassland
+slow worm | lizard_c | 2 | sz=4 -legs -legs4 longthin -claws col=brown,grey europe garden
+adder | snake_c | 3 | sz=5 col=grey,brown,black venomous europe
+# more insects and small creatures
+peacock butterfly | butterfly_c | 2 | col=red,black,blue spots
+swallowtail butterfly | butterfly_c | 2 | col=yellow,black
+morpho butterfly | butterfly_c | 2 | col=blue samerica tropicalan shiny
+leaf insect | insect_c | 2 | sz=3 col=green tropicalan herbivore
+leafcutter ant | beeant_c | 2 | sz=1 col=red,brown samerica tropicalan
+bullet ant | beeant_c | 1 | sz=2 col=black stings dangerous samerica
+wood ant | beeant_c | 1 | sz=1 col=red,black woodland
+tsetse fly | fly_c | 1 | sz=1 africa bloodsuck
+cranefly | fly_c | 2 | sz=2 longthin col=brown -bites
+water beetle | beetle_c | 1 | sz=2 freshwater swims
+colorado beetle | beetle_c | 1 | sz=1 col=yellow,black stripes pest
+pill bug | crust_c | 2 | sz=1 -aquatic -ocean garden col=grey round -food -seafood
+# sea and exotic
+bull shark | shark_c | 2 | col=grey freshwater~ dangerous
+nurse shark | shark_c | 2 | col=brown -dangerous? slow
+basking shark | shark_c | 2 | sz=9 col=grey -dangerous -carnivore?
+goblin shark | shark_c | 1 | col=pink deepsea rare scary
+sawfish | shark_c | 2 | sz=7 pointed endangered
+parrotfish | seafish_c | 2 | sz=4 col=blue,green multicol tropical beak~
+triggerfish | seafish_c | 1 | sz=4 tropical col=any
+butterflyfish | seafish_c | 1 | sz=3 col=yellow,white tropical
+zebra fish | freshfish_c | 1 | sz=2 stripes pet
+cichlid | freshfish_c | 1 | sz=3 col=any pet africa
+arowana | freshfish_c | 1 | sz=6 col=grey,red asia expensive
+opah | seafish_c | 1 | sz=6 round col=red
+sea dragon | seafish_c | 2 | sz=3 col=yellow,orange oceania rare
+mantis shrimp | crust_c | 3 | sz=2 col=green,red,blue multicol strong tropical -food
+horseshoe crab | crust_c | 2 | sz=4 shell ancient beach -food
+coconut crab | crust_c | 2 | sz=4 claws tropical island -aquatic
+fiddler crab | crust_c | 1 | sz=2 claws beach
+moon jellyfish | seainv_c | 2 | sz=4 seethrough tentacles col=white
+lion mane jellyfish | seainv_c | 1 | sz=6 tentacles stings col=red,orange
+giant clam | mollusc_c | 2 | sz=6 shell ocean tropical heavy
+blue-ringed octopus | mollusc_c | 2 | sz=3 venomous dangerous col=yellow,blue oceania
+dumbo octopus | mollusc_c | 2 | sz=4 deepsea cute col=pink
+vampire squid | mollusc_c | 1 | sz=4 deepsea col=red,black
+sea pig | seainv_c | 1 | sz=3 deepsea col=pink
+# exotic land animals
+tiger snake | snake_c | 1 | venomous oceania stripes
+black mamba | snake_c | 3 | col=grey,black venomous dangerous fast africa
+green mamba | snake_c | 1 | col=green venomous africa
+ball python | snake_c | 2 | sz=5 pet africa -venomous
+anole | lizard_c | 1 | sz=3 col=green colourchg namerica
+leopard gecko | lizard_c | 3 | sz=3 col=yellow spots pet desertan
+blue tongue skink | lizard_c | 1 | sz=4 oceania pet
+water monitor | lizard_c | 1 | sz=6 asia swims
+marine iguana | lizard_c | 2 | sz=5 samerica island ocean swims col=black
+golden poison frog | amphibian_c | 1 | sz=2 col=yellow poisonous
+glass frog | amphibian_c | 1 | sz=2 seethrough tropicalan
+red-eyed tree frog | amphibian_c | 2 | sz=2 col=green,red,blue tropicalan climbs intrees -tail legs legs4 jumps
+flying fox | bat_c | 2 | sz=4 col=brown,black herbivore oceania asia
+sun bear | bear_c | 2 | sz=6 col=black asia tropicalan
+sloth bear | bear_c | 1 | sz=6 col=black india asia
+spectacled bear | bear_c | 1 | sz=6 col=black samerica
+kodiak bear | bear_c | 1 | sz=7 col=brown usa
+binturong | misc_mammal | 1 | sz=5 asia intrees
+kinkajou | misc_mammal | 1 | sz=4 samerica intrees monkeytail
+coati | misc_mammal | 2 | sz=4 samerica longtail stripes
+fossa | misc_mammal | 1 | sz=5 africa island carnivore
+quoll | marsupial_c | 1 | sz=4 spots carnivore
+tree kangaroo | marsupial_c | 1 | sz=5 climbs intrees
+golden lion tamarin | primate_c | 2 | sz=3 col=orange samerica rare
+squirrel monkey | primate_c | 2 | sz=3 samerica col=yellow,grey
+colobus monkey | primate_c | 1 | sz=4 africa col=black,white
+gelada | primate_c | 1 | sz=5 africa mountainan
+siamang | primate_c | 1 | sz=5 asia noisy
+markhor | cattle_c | 1 | sz=5 wild horns asia mountainan
+takin | cattle_c | 1 | sz=6 wild asia mountainan
+saiga | deer_c | 1 | sz=5 asia trunk~ endangered
+dik-dik | deer_c | 1 | sz=4 africa
+bongo antelope | deer_c | 1 | sz=6 africa stripes
+pronghorn | deer_c | 1 | sz=6 namerica fast
+# ===== more plants (v2.1) ===================================================================
+banana plant | crop_plant | 2 | sz=6 tropical fruitplant leaves
+coffee plant | crop_plant | 2 | sz=5 tropical caffeine samerica
+cocoa tree | fruittree_c | 2 | sz=6 tropical choc samerica africa
+vine | plant_base | 3 | sz=5 climbs_pl fruitplant europe
+grapevine | plant_base | 2 | sz=5 climbs_pl fruitplant
+corn plant | crop_plant | 2 | sz=6 tall onfarm
+rice plant | crop_plant | 1 | sz=4 asia waterplant
+tomato plant | crop_plant | 2 | sz=4 garden fruitplant
+strawberry plant | crop_plant | 1 | sz=3 garden fruitplant
+rapeseed | crop_plant | 2 | sz=5 col=yellow onfarm germany~ europe
+hops | crop_plant | 1 | sz=6 climbs_pl germany
+rhododendron | bush_c | 1 | sz=5 flower col=pink,purple
+hydrangea | bush_c | 2 | sz=5 flower col=blue,pink,purple
+forsythia | bush_c | 1 | sz=5 col=yellow bloom_spring
+magnolia | tree_c | 2 | sz=7 flower col=pink,white bloom_spring
+linden tree | tree_c | 2 | sz=8 germany europe smellsnice
+yew | conifer_c | 1 | sz=7 poisonous evergreen
+juniper | bush_c | 1 | sz=5 evergreen smells
+snake plant | houseplant_c | 3 | sz=4 longthin pointed evergreen
+spider plant | houseplant_c | 2 | sz=4 longthin
+peace lily | houseplant_c | 2 | sz=4 flower col=white,green
+monstera | houseplant_c | 4 | sz=5 leaves holes tropical
+ficus | houseplant_c | 2 | sz=6 tree?
+wild flowers | flower_c | 2 | sz=2 col=any wild
+lily of the valley | flower_c | 2 | sz=2 col=white poisonous smellsnice bloom_spring
+crocus | flower_c | 2 | sz=2 col=purple,yellow,white bloom_spring
+hyacinth | flower_c | 2 | sz=3 col=blue,pink,purple smellsnice bloom_spring
+peony | flower_c | 2 | sz=4 col=pink,white smellsnice
+dahlia | flower_c | 2 | sz=4 col=any
+geranium | flower_c | 2 | sz=3 col=red,pink germany~
+pansy | flower_c | 2 | sz=2 col=purple,yellow multicol
+cornflower | flower_c | 1 | sz=3 col=blue wild
+buttercup | flower_c | 2 | sz=2 col=yellow wild
+edelweiss | flower_c | 3 | sz=2 col=white mountain europe rare
+poinsettia | flower_c | 3 | sz=4 col=red,green xmas houseplant
+amaryllis | flower_c | 1 | sz=4 col=red xmas
+foxglove | flower_c | 1 | sz=5 col=purple,pink poisonous
+bluebonnet | flower_c | 1 | sz=3 col=blue usa
+water hyacinth | waterplant_c | 1 | sz=3 flower col=purple
+pitcher plant | plant_base | 2 | sz=4 insectivore? carnivore~ col=green,red tropicalan
+sundew | plant_base | 1 | sz=2 sticky insectivore?
+kelp | waterplant_c | 3 | sz=9 col=green,brown ocean tall
+puffball | fungus_c | 1 | sz=4 col=white round
+mould | fungus_c | 4 | sz=1 col=green,white,black dirty smells -food poisonous~ house
+lichen | fungus_c | 2 | sz=2 col=green,grey stone? woodland

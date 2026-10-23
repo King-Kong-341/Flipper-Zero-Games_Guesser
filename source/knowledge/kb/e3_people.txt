@@ -1,0 +1,343 @@
+# ===== more famous people (v2.1) ===========================================================
+# --- Germany ---
+dieter bohlen | modern_c | 6 | musician male germany europe tvshow~ blond elderly
+thomas gottschalk | modern_c | 4 | male germany europe entertain blond elderly tvshow~
+stefan raab | modern_c | 4 | male germany europe entertain comedian tvshow~ musician~
+jan bohmermann | modern_c | 3 | male germany europe comedian entertain
+otto waalkes | modern_c | 4 | male germany europe comedian funny blond elderly
+michael bully herbig | modern_c | 2 | male germany europe comedian director actor
+til schweiger | modern_c | 3 | actor male germany europe blond
+matthias schweighofer | modern_c | 2 | actor male germany europe blond
+elyas mbarek | modern_c | 3 | actor male germany europe darkhair
+daniel bruhl | modern_c | 2 | actor male germany europe darkhair
+christoph waltz | modern_c | 3 | actor male germany europe oscar elderly
+diane kruger | modern_c | 2 | actor female germany europe blond
+marlene dietrich | historic_c | 3 | actor female germany europe -before1900 blond
+karl lagerfeld | historic_c | 4 | male germany europe whitehair glasses_c fashionbrand~ -before1900
+nena | modern_c | 3 | musician female germany europe darkhair
+herbert gronemeyer | modern_c | 3 | musician male germany europe elderly
+rammstein | modern_c | 8 | musician male germany europe inband band_group fire_rel scary~ noisy
+tokio hotel | modern_c | 3 | musician male germany europe inband band_group
+die toten hosen | modern_c | 2 | musician male germany europe inband band_group
+scooter band | modern_c | 2 | musician male germany europe inband band_group blond
+kraftwerk | historic_c | 2 | musician male germany europe inband band_group electricity
+sido | modern_c | 3 | musician male germany europe rapper rapperde mask~
+capital bra | modern_c | 3 | musician male germany europe rapper rapperde
+apache 207 | modern_c | 3 | musician male germany europe rapper rapperde tall
+shirin david | modern_c | 2 | musician female germany europe rapper rapperde blond
+mark forster | modern_c | 3 | musician male germany europe rapperde hat_char
+lena meyer-landrut | modern_c | 2 | musician female germany europe darkhair
+gronkh | modern_c | 4 | male germany europe youtube videogame entertain beard
+rezo | modern_c | 2 | male germany europe youtube col=blue
+julien bam | modern_c | 2 | male germany europe youtube dancing
+paluten | modern_c | 2 | male germany europe youtube videogame
+montanablack | modern_c | 3 | male germany europe youtube videogame
+knossi | modern_c | 2 | male germany europe youtube entertain
+joko winterscheidt | modern_c | 2 | male germany europe entertain tvshow
+klaas heufer-umlauf | modern_c | 2 | male germany europe entertain tvshow
+konrad adenauer | historic_c | 2 | leader male germany europe elderly before1900~
+willy brandt | historic_c | 2 | leader male germany europe -before1900
+helmut kohl | historic_c | 2 | leader male germany europe -before1900 tall
+helmut schmidt | historic_c | 2 | leader male germany europe -before1900 elderly
+olaf scholz | modern_c | 3 | leader male germany europe bald
+friedrich merz | modern_c | 3 | leader male germany europe tall elderly
+otto von bismarck | historic_c | 3 | leader male germany europe before1900 beard~
+martin luther | historic_c | 4 | male germany europe before1900 religion writer
+ludwig ii | historic_c | 3 | royal male germany europe before1900 castle
+kaiser wilhelm | historic_c | 2 | royal leader male germany europe before1900 beard~
+richard wagner | historic_c | 2 | musician male germany europe before1900
+brahms | historic_c | 1 | musician male germany europe before1900 beard
+handel | historic_c | 2 | musician male germany europe before1900
+robert koch | historic_c | 2 | scientist male germany europe before1900 medical beard
+max planck | historic_c | 2 | scientist male germany europe before1900~ bald
+wilhelm rontgen | historic_c | 2 | scientist male germany europe before1900 medical beard
+carl friedrich gauss | historic_c | 2 | scientist male germany europe before1900
+alexander von humboldt | historic_c | 2 | scientist explorer male germany europe before1900
+carl benz | historic_c | 2 | scientist male germany europe before1900 car beard
+gottlieb daimler | historic_c | 1 | scientist male germany europe before1900 car beard
+rudolf diesel | historic_c | 1 | scientist male germany europe before1900
+ferdinand porsche | historic_c | 1 | scientist male europe before1900~ car
+albrecht durer | historic_c | 1 | artist male germany europe before1900
+thomas mann | historic_c | 1 | writer male germany europe before1900~
+hermann hesse | historic_c | 1 | writer male germany europe before1900~
+bertolt brecht | historic_c | 1 | writer male germany europe -before1900 theatre
+erich kastner | historic_c | 2 | writer male germany europe -before1900 kidsbook
+michael ende | historic_c | 2 | writer male germany europe -before1900 kidsbook fantasy
+cornelia funke | modern_c | 2 | writer female germany europe kidsbook fantasy
+oliver kahn | modern_c | 4 | athlete male germany europe football teamsport retired blond
+lothar matthaus | modern_c | 3 | athlete male germany europe football teamsport retired
+miroslav klose | modern_c | 3 | athlete male germany europe football teamsport retired
+philipp lahm | modern_c | 2 | athlete male germany europe football teamsport retired
+bastian schweinsteiger | modern_c | 3 | athlete male germany europe football teamsport retired
+michael ballack | modern_c | 2 | athlete male germany europe football teamsport retired
+mesut ozil | modern_c | 3 | athlete male germany europe football teamsport retired darkhair
+joshua kimmich | modern_c | 3 | athlete male germany europe football teamsport -retired blond
+florian wirtz | modern_c | 3 | athlete male germany europe football teamsport -retired
+jamal musiala | modern_c | 4 | athlete male germany europe football teamsport -retired darkhair
+kai havertz | modern_c | 2 | athlete male germany europe football teamsport
+leroy sane | modern_c | 2 | athlete male germany europe football teamsport
+ilkay gundogan | modern_c | 2 | athlete male germany europe football teamsport
+marco reus | modern_c | 2 | athlete male germany europe football teamsport blond
+jogi low | modern_c | 2 | male germany europe football darkhair
+julian nagelsmann | modern_c | 2 | male germany europe football
+mick schumacher | modern_c | 2 | athlete male germany europe car racing blond
+nico rosberg | modern_c | 1 | athlete male germany europe car racing retired blond
+alexander zverev | modern_c | 2 | athlete male germany europe tennisq tall blond
+franziska van almsick | modern_c | 1 | athlete female germany europe swims retired
+# --- music ---
+the rolling stones | historic_c | 4 | musician male uk europe inband band_group -before1900 elderly
+coldplay | modern_c | 5 | musician male uk europe inband band_group
+imagine dragons | modern_c | 4 | musician male usa namerica inband band_group
+linkin park | modern_c | 4 | musician male usa namerica inband band_group noisy
+metallica | modern_c | 4 | musician male usa namerica inband band_group noisy
+ac dc | historic_c | 3 | musician male oceania inband band_group noisy -before1900
+nirvana | historic_c | 3 | musician male usa namerica inband band_group -before1900
+guns n roses | modern_c | 2 | musician male usa inband band_group
+pink floyd | historic_c | 2 | musician male uk europe inband band_group -before1900
+led zeppelin | historic_c | 2 | musician male uk europe inband band_group -before1900
+u2 | modern_c | 2 | musician male europe inband band_group
+bon jovi | modern_c | 2 | musician male usa inband band_group
+daft punk | historic_c | 3 | musician male france europe inband band_group mask robotalien~ -before1900
+bee gees | historic_c | 2 | musician male uk inband band_group -before1900
+backstreet boys | modern_c | 2 | musician male usa inband band_group dancing
+spice girls | historic_c | 2 | musician female uk inband band_group -before1900
+one direction | modern_c | 4 | musician male uk europe inband band_group
+take that | modern_c | 1 | musician male uk inband band_group
+avicii | historic_c | 3 | musician male europe nordic -before1900 party
+david guetta | modern_c | 3 | musician male france europe party
+calvin harris | modern_c | 2 | musician male uk europe party
+marshmello | modern_c | 3 | musician male usa mask col=white party
+alan walker | modern_c | 2 | musician male europe nordic mask
+post malone | modern_c | 4 | musician male usa namerica rapper~
+dua lipa | modern_c | 5 | musician female uk europe darkhair dancing~
+olivia rodrigo | modern_c | 3 | musician female usa darkhair childstar~
+sabrina carpenter | modern_c | 3 | musician female usa blond childstar~
+doja cat | modern_c | 2 | musician female usa rapper
+travis scott | modern_c | 3 | musician male usa rapper
+kanye west | modern_c | 5 | musician male usa namerica rapper
+bad bunny | modern_c | 3 | musician male samerica caribbean spanish
+selena gomez | modern_c | 4 | musician actor female usa childstar darkhair
+miley cyrus | modern_c | 4 | musician actor female usa childstar blond
+jennifer lopez | modern_c | 4 | musician actor female usa dancing
+christina aguilera | modern_c | 2 | musician female usa blond
+pink singer | modern_c | 2 | musician female usa blond
+avril lavigne | modern_c | 2 | musician female canada blond
+shawn mendes | modern_c | 2 | musician male canada darkhair
+tina turner | historic_c | 3 | musician female usa -before1900 dancing blond~
+cher | modern_c | 3 | musician female usa elderly darkhair oscar
+aretha franklin | historic_c | 2 | musician female usa -before1900
+johnny cash | historic_c | 3 | musician male usa -before1900 col=black darkhair
+ray charles | historic_c | 2 | musician male usa -before1900 deafblind glasses_c
+james brown | historic_c | 2 | musician male usa -before1900 dancing
+amy winehouse | historic_c | 3 | musician female uk -before1900 darkhair
+george michael | historic_c | 2 | musician male uk -before1900
+phil collins | modern_c | 2 | musician male uk elderly bald
+sting | modern_c | 2 | musician male uk elderly
+bruce springsteen | modern_c | 2 | musician male usa elderly
+eric clapton | modern_c | 2 | musician male uk elderly glasses_c
+ozzy osbourne | historic_c | 3 | musician male uk -before1900 scary~ darkhair
+tupac | historic_c | 4 | musician male usa -before1900 rapper
+notorious big | historic_c | 2 | musician male usa -before1900 rapper
+dr dre | modern_c | 3 | musician male usa rapper
+50 cent | modern_c | 2 | musician male usa rapper bald
+lil wayne | modern_c | 2 | musician male usa rapper
+nicki minaj | modern_c | 3 | musician female usa rapper
+cardi b | modern_c | 2 | musician female usa rapper
+usher | modern_c | 2 | musician male usa dancing
+justin timberlake | modern_c | 3 | musician actor male usa dancing childstar
+kylie minogue | modern_c | 2 | musician female oceania blond
+robbie williams | modern_c | 2 | musician male uk europe
+ricky martin | modern_c | 2 | musician male caribbean spanish dancing
+enrique iglesias | modern_c | 2 | musician male spain spanish
+andrea bocelli | modern_c | 2 | musician male italy europe deafblind
+luciano pavarotti | historic_c | 2 | musician male italy europe -before1900 beard
+haydn | historic_c | 1 | musician male europe before1900
+schubert | historic_c | 1 | musician male europe before1900 glasses_c
+liszt | historic_c | 1 | musician male europe before1900
+verdi | historic_c | 1 | musician male italy europe before1900 beard
+johann strauss | historic_c | 1 | musician male europe before1900 dancing
+# --- film and tv ---
+will ferrell | modern_c | 2 | actor comedian male usa funny
+adam sandler | modern_c | 3 | actor comedian male usa funny
+ben stiller | modern_c | 2 | actor comedian male usa funny
+jack black | modern_c | 3 | actor comedian male usa funny musician~
+steve carell | modern_c | 2 | actor comedian male usa funny
+kevin hart | modern_c | 3 | actor comedian male usa funny
+chris pratt | modern_c | 3 | actor male usa marvel~
+ryan gosling | modern_c | 3 | actor male canada blond
+hugh jackman | modern_c | 3 | actor male oceania marvel~ musician~
+benedict cumberbatch | modern_c | 3 | actor male uk europe marvel~
+matt damon | modern_c | 2 | actor male usa oscar
+ben affleck | modern_c | 2 | actor male usa oscar dccomics~
+george clooney | modern_c | 3 | actor male usa oscar whitehair
+nicolas cage | modern_c | 3 | actor male usa oscar
+al pacino | modern_c | 2 | actor male usa oscar elderly crime~
+robert de niro | modern_c | 2 | actor male usa oscar elderly crime~
+anthony hopkins | modern_c | 2 | actor male uk oscar elderly
+ian mckellen | modern_c | 2 | actor male uk elderly fantasy
+natalie portman | modern_c | 3 | actor female usa oscar starwars~ darkhair
+anne hathaway | modern_c | 2 | actor female usa oscar darkhair
+emma stone | modern_c | 3 | actor female usa oscar redhair~
+sandra bullock | modern_c | 2 | actor female usa oscar
+julia roberts | modern_c | 2 | actor female usa oscar
+nicole kidman | modern_c | 2 | actor female oceania oscar blond
+kate winslet | modern_c | 2 | actor female uk oscar
+gal gadot | modern_c | 3 | actor female mideast darkhair dccomics~
+millie bobby brown | modern_c | 3 | actor female uk childstar
+jenna ortega | modern_c | 3 | actor female usa darkhair childstar~
+pedro pascal | modern_c | 3 | actor male samerica starwars~ darkhair beard
+cillian murphy | modern_c | 2 | actor male europe oscar
+henry cavill | modern_c | 3 | actor male uk dccomics~ darkhair
+tom hiddleston | modern_c | 2 | actor male uk marvel~
+mark hamill | modern_c | 2 | actor male usa starwars~ elderly
+bruce willis | modern_c | 3 | actor male usa actionstar bald
+jason momoa | modern_c | 3 | actor male usa dccomics~ beard
+chris evans | modern_c | 3 | actor male usa marvel~
+mark ruffalo | modern_c | 1 | actor male usa marvel~
+chuck norris | modern_c | 4 | actor male usa actionstar fighting beard elderly
+jean-claude van damme | modern_c | 2 | actor male europe actionstar fighting
+kim kardashian | modern_c | 5 | female usa namerica tvshow internet darkhair
+kylie jenner | modern_c | 3 | female usa namerica internet darkhair
+paris hilton | modern_c | 2 | female usa blond
+steven spielberg | modern_c | 5 | director male usa elderly glasses_c beard oscar
+george lucas | modern_c | 3 | director male usa elderly starwars beard
+james cameron | modern_c | 2 | director male canada oscar
+quentin tarantino | modern_c | 3 | director male usa oscar
+christopher nolan | modern_c | 2 | director male uk oscar
+tim burton | modern_c | 2 | director male usa horror~ darkhair
+alfred hitchcock | historic_c | 3 | director male uk -before1900~ horror~ bald
+stanley kubrick | historic_c | 1 | director male usa -before1900 beard
+# --- sport ---
+ronaldo nazario | modern_c | 3 | athlete male brazil samerica football teamsport retired bald
+kaka | modern_c | 2 | athlete male brazil football teamsport retired
+andres iniesta | modern_c | 2 | athlete male spain football teamsport retired bald
+sergio ramos | modern_c | 2 | athlete male spain football teamsport
+karim benzema | modern_c | 2 | athlete male france football teamsport beard
+antoine griezmann | modern_c | 2 | athlete male france football teamsport
+kevin de bruyne | modern_c | 2 | athlete male europe football teamsport redhair~ blond
+virgil van dijk | modern_c | 2 | athlete male europe football teamsport tall
+jude bellingham | modern_c | 3 | athlete male uk europe football teamsport
+vinicius junior | modern_c | 3 | athlete male brazil samerica football teamsport
+lamine yamal | modern_c | 4 | athlete male spain europe football teamsport childstar
+gareth bale | modern_c | 2 | athlete male uk europe football teamsport retired
+zlatan ibrahimovic | modern_c | 4 | athlete male europe nordic football teamsport retired tall
+didier drogba | modern_c | 2 | athlete male africa football teamsport retired
+shaquille oneal | modern_c | 3 | athlete male usa basketq retired tall bald
+stephen curry | modern_c | 3 | athlete male usa basketq
+kevin durant | modern_c | 1 | athlete male usa basketq tall
+magic johnson | modern_c | 2 | athlete male usa basketq retired
+dennis rodman | modern_c | 2 | athlete male usa basketq retired
+wayne gretzky | modern_c | 2 | athlete male canada wintery retired
+venus williams | modern_c | 2 | athlete female usa tennisq
+andre agassi | modern_c | 2 | athlete male usa tennisq retired bald
+carlos alcaraz | modern_c | 3 | athlete male spain europe tennisq
+jannik sinner | modern_c | 3 | athlete male italy europe tennisq redhair
+maria sharapova | modern_c | 2 | athlete female russia tennisq retired blond
+floyd mayweather | modern_c | 3 | athlete male usa fighting retired bald
+conor mcgregor | modern_c | 3 | athlete male europe fighting beard
+tyson fury | modern_c | 2 | athlete male uk fighting tall beard
+wladimir klitschko | modern_c | 2 | athlete male easteurope fighting retired tall
+manny pacquiao | modern_c | 2 | athlete male seasia fighting retired
+fernando alonso | modern_c | 2 | athlete male spain car racing
+niki lauda | historic_c | 2 | athlete male europe car racing -before1900
+charles leclerc | modern_c | 2 | athlete male europe car racing
+magnus carlsen | modern_c | 3 | male europe nordic boardgame clever
+garry kasparov | modern_c | 2 | male russia boardgame clever retired
+john cena | modern_c | 4 | athlete male usa fighting actor strong
+hulk hogan | historic_c | 3 | athlete male usa fighting blond beard -before1900
+the undertaker | modern_c | 2 | athlete male usa fighting scary tall
+lindsey vonn | modern_c | 2 | athlete female usa wintery blond
+shaun white | modern_c | 2 | athlete male usa wintery redhair retired
+mikaela shiffrin | modern_c | 1 | athlete female usa wintery
+# --- history and science ---
+plato | historic_c | 3 | writer male greece ancient beard
+pythagoras | historic_c | 4 | scientist male greece ancient beard shape?
+hippocrates | historic_c | 2 | scientist male greece ancient medical beard
+euclid | historic_c | 1 | scientist male greece ancient
+attila the hun | historic_c | 2 | leader male europe ancient military
+hannibal | historic_c | 2 | leader male africa ancient military
+spartacus | historic_c | 2 | male italy ancient fighting sword
+nero | historic_c | 2 | leader royal male italy ancient fire_rel
+augustus | historic_c | 1 | leader royal male italy ancient
+william wallace | historic_c | 2 | leader male uk before1900 sword
+vlad the impaler | historic_c | 3 | leader royal male easteurope before1900 scary
+ivan the terrible | historic_c | 1 | leader royal male russia before1900 beard
+leif erikson | historic_c | 1 | explorer male nordic europe ancient ship beard
+sitting bull | historic_c | 2 | leader male usa namerica before1900
+billy the kid | historic_c | 2 | male usa before1900 crime
+al capone | historic_c | 3 | male usa -before1900 crime hat_char
+jack the ripper | historic_c | 3 | male uk before1900 crime scary
+florence nightingale | historic_c | 2 | female uk before1900 helps medical
+rosa parks | historic_c | 2 | female usa -before1900
+harriet tubman | historic_c | 1 | female usa before1900
+anne frank | historic_c | 4 | female child europe germany writer -before1900
+helen keller | historic_c | 2 | female usa deafblind writer -before1900~
+mother teresa | historic_c | 3 | female india asia religion helps elderly -before1900
+charles de gaulle | historic_c | 1 | leader male france -before1900 tall
+franklin roosevelt | historic_c | 1 | leader male usa -before1900
+bill clinton | modern_c | 2 | leader male usa elderly whitehair
+george w bush | modern_c | 2 | leader male usa elderly
+gregor mendel | historic_c | 1 | scientist male europe before1900 plant? religion
+niels bohr | historic_c | 1 | scientist male europe nordic -before1900~
+erwin schrodinger | historic_c | 1 | scientist male europe -before1900~
+ivan pavlov | historic_c | 1 | scientist male russia before1900 dogkind? beard
+guglielmo marconi | historic_c | 1 | scientist male italy before1900 communicate
+alfred nobel | historic_c | 2 | scientist male nordic europe before1900 beard
+james clerk maxwell | historic_c | 1 | scientist male uk before1900 beard
+richard feynman | historic_c | 1 | scientist male usa -before1900
+robert oppenheimer | historic_c | 2 | scientist male usa -before1900 hat_char
+tim berners-lee | modern_c | 2 | scientist male uk internet elderly
+steve wozniak | modern_c | 2 | scientist male usa computer elderly beard
+larry page | modern_c | 1 | male usa internet
+sam altman | modern_c | 2 | male usa internet clever
+jensen huang | modern_c | 1 | male usa asia computer
+jane goodall | historic_c | 2 | scientist female uk animal? primate? whitehair -before1900
+david attenborough | modern_c | 4 | male uk europe animal? tvshow elderly whitehair
+steve irwin | historic_c | 3 | male oceania animal? crocodile? -before1900 blond
+neil degrasse tyson | modern_c | 1 | scientist male usa inspace
+jacques cousteau | historic_c | 1 | explorer male france ocean undersea -before1900
+leonhard euler | historic_c | 1 | scientist male europe before1900
+gustav klimt | historic_c | 2 | artist male europe before1900 col=yellow beard
+banksy | modern_c | 4 | artist male uk europe city mask~
+bob ross | historic_c | 4 | artist male usa tvshow -before1900 funny~
+sandro botticelli | historic_c | 1 | artist male italy before1900
+johannes vermeer | historic_c | 1 | artist male europe before1900
+henri matisse | historic_c | 1 | artist male france before1900~
+paul cezanne | historic_c | 1 | artist male france before1900 beard
+auguste renoir | historic_c | 1 | artist male france before1900 beard
+rene magritte | historic_c | 1 | artist male europe -before1900~ hat_char
+jackson pollock | historic_c | 1 | artist male usa -before1900
+dante alighieri | historic_c | 2 | writer male italy before1900
+geoffrey chaucer | historic_c | 1 | writer male uk before1900
+charlotte bronte | historic_c | 1 | writer female uk before1900
+aldous huxley | historic_c | 1 | writer male uk -before1900
+herman melville | historic_c | 1 | writer male usa before1900 whale? ocean beard
+john steinbeck | historic_c | 1 | writer male usa -before1900
+f scott fitzgerald | historic_c | 1 | writer male usa -before1900
+fyodor dostoevsky | historic_c | 2 | writer male russia before1900 beard
+alexander pushkin | historic_c | 1 | writer male russia before1900
+anton chekhov | historic_c | 1 | writer male russia before1900 glasses_c beard
+alexandre dumas | historic_c | 2 | writer male france before1900 sword~
+antoine saint-exupery | historic_c | 2 | writer male france -before1900 aircraft kidsbook
+robert louis stevenson | historic_c | 1 | writer male uk before1900
+rudyard kipling | historic_c | 1 | writer male uk india before1900 kidsbook
+jonathan swift | historic_c | 1 | writer male europe before1900
+mary shelley | historic_c | 2 | writer female uk before1900 horror
+bram stoker | historic_c | 2 | writer male europe before1900 horror
+dan brown | modern_c | 2 | writer male usa crime~
+suzanne collins | modern_c | 1 | writer female usa
+rick riordan | modern_c | 1 | writer male usa fantasy kidsbook
+jeff kinney | modern_c | 1 | writer male usa kidsbook comedy
+haruki murakami | modern_c | 1 | writer male japan asia
+gabriel garcia marquez | historic_c | 1 | writer male samerica spanish -before1900
+# --- internet stars ---
+ninja streamer | modern_c | 3 | male usa youtube videogame redhair~ blond
+markiplier | modern_c | 2 | male usa youtube videogame
+khaby lame | modern_c | 3 | male africa europe internet comedian funny
+charli damelio | modern_c | 2 | female usa internet dancing
+logan paul | modern_c | 2 | male usa youtube fighting blond
+ksi | modern_c | 2 | male uk youtube musician
+patch mrbeast | youtube
+patch pewdiepie | youtube
+patch helene fischer | rapperde~
+patch elon musk | internet~

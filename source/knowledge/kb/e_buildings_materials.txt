@@ -1,0 +1,207 @@
+# ===== buildings ===================================================================
+house | building_c | 90 | sz=8 livethere homes? everyday kidknows mostcountries doors wood? stone col=any -tall? -crowded -payenter
+apartment | building_c | 30 | sz=9 livethere city tall doors
+skyscraper | building_c | 45 | sz=9 tall city workthere glass metal famous? usa~ asia~ crowded -livethere?
+castle | building_c | 60 | sz=9 stone historic oldfash tourist castle royal fairytale? europe uk germany france tall payenter? famous kidknows -everyday
+palace | building_c | 25 | sz=9 royal luxury expensive tourist historic? europe~ livethere
+tower | structure_c | 35 | sz=9 tall stone? metal? city? castle~
+lighthouse | structure_c | 35 | sz=9 tall light coast beach nearwater ocean ship cylinder col=white,red stripes? -crowded
+windmill | structure_c | 25 | sz=9 spins moving onfarm wood stone? europe oldfash
+wind turbine | structure_c | 15 | sz=9 spins moving electricity tall modern col=white
+church | building_c | 45 | sz=9 church religion tall stone historic? europe? workthere
+cathedral | building_c | 15 | sz=9 church religion tall stone historic europe tourist
+mosque | building_c | 15 | sz=9 church religion asia africa
+temple | building_c | 20 | sz=9 church religion ancient? asia historic tourist
+school | building_c | 70 | sz=9 school learnplace workthere children kidknows crowded everyday -livethere
+university | building_c | 20 | sz=9 learnplace workthere adults crowded
+library | building_c | 30 | sz=9 read learnplace quiet workthere -livethere
+hospital | building_c | 55 | sz=9 hospital healthplace medical workthere crowded helps
+museum | building_c | 35 | sz=9 museum tourist payenter historic? workthere art~
+zoo | building_c | 40 | sz=9 -building? zoo animal? payenter tourist outdoors children fun kidknows crowded
+aquarium | building_c | 15 | sz=9 aquatic payenter tourist children fun withwater
+cinema | building_c | 35 | sz=9 theatre watch fun payenter crowded dark
+theater | building_c | 25 | sz=9 theatre watch fun payenter crowded
+stadium | building_c | 35 | sz=9 stadium sportplace crowded noisy fun payenter football? -livethere outdoors
+gym | building_c | 25 | sz=8 stadium sportplace workthere payenter
+swimming pool | structure_c | 35 | sz=8 withwater wet watersport summery sportplace fun -tall payenter? col=blue
+restaurant | building_c | 50 | sz=8 restaurant eatplace workthere payenter? food? crowded? -livethere
+cafe | building_c | 25 | sz=8 eatplace hotdrink? workthere
+bakery | building_c | 15 | sz=8 shopplace eatplace bread? smellsnice workthere
+supermarket | building_c | 50 | sz=9 shopplace supermarket workthere crowded food? everyday
+shop | building_c | 40 | sz=8 shopplace workthere city
+mall | building_c | 25 | sz=9 shopplace crowded workthere city usa~
+bank | building_c | 25 | sz=8 money workthere city
+post office | building_c | 15 | sz=8 workthere city
+police station | building_c | 15 | sz=8 police workthere govjob?
+fire station | building_c | 15 | sz=8 police emergency workthere
+prison | building_c | 25 | sz=9 police lock scary livethere -payenter -fun
+factory | building_c | 25 | sz=9 workthere machine noisy dirty? smells?
+office building | building_c | 15 | sz=9 office workthere city tall
+hotel | building_c | 35 | sz=9 sleep holiday tourist payenter workthere livethere~ travel
+hut | building_c | 15 | sz=7 wood -tall oldfash livethere
+cabin | building_c | 15 | sz=7 wood woodland livethere holiday?
+tent | building_c | 35 | sz=7 fabric camping outdoors sleep folds -stone -heavy -stays? lift? holiday summery
+igloo | building_c | 30 | sz=7 cold wintery snowplace coldplace antarctic water_rel col=white melts round livethere -stone
+tree house | building_c | 15 | sz=7 wood children fun garden
+barn | building_c | 25 | sz=8 onfarm farmuse wood col=red,brown
+shed | building_c | 15 | sz=7 garage garden wood
+garage | building_c | 25 | sz=7 car? garage
+greenhouse | building_c | 10 | sz=7 glass seethrough garden hot plant? -tall
+pyramid | structure_c | 45 | sz=10 stone ancient historic egypt africa tourist famous desert pointed landmark -livethere
+bridge | structure_c | 55 | sz=10 road? nearwater stone? metal longthin crowded? city? kidknows famous~
+tunnel | structure_c | 25 | sz=10 underground dark road? rail? hollow cylinder
+dam | structure_c | 10 | sz=10 withwater freshwater stone electricity
+wall | structure_c | 35 | sz=8 stone flat tall? -inside
+fence | structure_c | 35 | sz=7 wood metal garden onfarm longthin -tall -inside
+gate | structure_c | 25 | sz=6 opens metal wood garden
+statue of liberty | structure_c | 35 | sz=10 landmark famous usa namerica tourist metal col=green tall -livethere
+eiffel tower | structure_c | 50 | sz=10 landmark famous france europe tourist metal col=grey,brown tall pointed -livethere crowded
+big ben | structure_c | 25 | sz=10 landmark famous uk europe tourist time stone tall makessound
+great wall of china | structure_c | 35 | sz=10 landmark famous china asia ancient historic tourist stone longthin
+colosseum | structure_c | 25 | sz=10 landmark famous italy europe ancient historic tourist stone round
+stonehenge | structure_c | 20 | sz=10 landmark famous uk europe ancient historic tourist stone round -inside
+taj mahal | building_c | 20 | sz=10 landmark famous india asia historic tourist stone col=white
+leaning tower of pisa | structure_c | 25 | sz=10 landmark famous italy europe historic tourist stone tall cylinder col=white
+white house | building_c | 25 | sz=9 landmark famous usa namerica col=white leader? livethere
+sydney opera house | building_c | 15 | sz=10 landmark famous oceania theatre music col=white
+mount rushmore | structure_c | 10 | sz=10 landmark famous usa namerica stone
+golden gate bridge | structure_c | 15 | sz=10 landmark famous usa namerica col=red,orange
+burj khalifa | building_c | 10 | sz=10 landmark famous asia tall glass modern
+fountain | structure_c | 25 | sz=7 withwater wet city stone garden? -inside
+well | structure_c | 15 | sz=6 withwater stone underground oldfash hollow
+playground | structure_c | 30 | sz=9 playground children fun outdoors kidknows
+park | structure_c | 35 | sz=10 playground garden plant? outdoors city -inside
+garden | structure_c | 40 | sz=9 garden plant? flower? outdoors homes -inside
+farm | building_c | 40 | sz=10 onfarm farmuse animal? outdoors livethere workthere
+airport | building_c | 40 | sz=10 airport aircraft? travel transport_pl crowded workthere
+train station | building_c | 25 | sz=9 rail? transport_pl crowded workthere
+harbor | structure_c | 10 | sz=10 ship boat? ocean coast transport_pl
+bus stop | structure_c | 15 | sz=6 road city transport_pl -inside
+# ===== rooms and parts of buildings ======================================================
+kitchen | room_c | 50 | kitchen cooking food? homes everyday
+bathroom | room_c | 40 | bathroom withwater hygiene homes everyday
+bedroom | room_c | 40 | bedroom sleep homes everyday
+living room | room_c | 25 | livingroom homes
+classroom | room_c | 20 | school learnplace children
+basement | room_c | 15 | underground dark cold?
+attic | room_c | 12 | tall? dark
+elevator | buildpart_c | 30 | sz=6 moving electric buttons carryperson manypeople tall? boxshape -stays? metal travel~
+escalator | buildpart_c | 15 | sz=7 moving electric carryperson shopplace? metal
+stairs | buildpart_c | 40 | sz=7 -moving climbs? wood? stone? homes
+door | buildpart_c | 70 | sz=6 opens wood handle lock homes kidknows everyday daily flat
+window | buildpart_c | 70 | sz=5 glass seethrough breakable opens flat homes kidknows everyday wall
+roof | buildpart_c | 35 | sz=8 outdoors protect col=red,grey,black pointed? -lift
+chimney | buildpart_c | 25 | sz=7 fire_rel tall cylinder? xmas~ outdoors stone
+floor | buildpart_c | 25 | sz=7 flat wood? stone? -lift
+ceiling | buildpart_c | 15 | sz=7 flat wall col=white -lift
+balcony | buildpart_c | 15 | sz=7 outdoors
+brick | material_c | 40 | sz=3 -material? stone boxshape hard heavy col=red,brown construction building? manmade cheap -soft
+tile | material_c | 15 | sz=3 ceramic flat hard breakable bathroom kitchen col=white,any manmade
+# ===== stationery and paper things =========================================================
+pen | stationery_c | 85 | sz=3 writing longthin cylinder plastic col=blue,black,any lid? daily kidknows everyday
+pencil | stationery_c | 80 | sz=3 writing longthin cylinder wood pointed col=yellow kidknows school daily -lid art
+eraser | stationery_c | 40 | sz=2 rubber soft? -writing col=pink,white cheap school
+pencil sharpener | stationery_c | 20 | sz=2 cutting blade sharp school -writing plastic metal
+marker | stationery_c | 30 | sz=3 writing art lid col=any smells?
+highlighter | stationery_c | 15 | sz=3 writing lid col=yellow,green,pink bright
+chalk | stationery_c | 25 | sz=2 writing school col=white powder? art oldfash~
+blackboard | stationery_c | 20 | sz=7 writing school flat col=black,green wall -lift oldfash~
+whiteboard | stationery_c | 15 | sz=7 writing school office flat col=white wall
+notebook | stationery_c | 50 | sz=3 paper writing flat folds? school col=any read~
+paper | stationery_c | 65 | sz=4 paper flat folds flammable col=white -hard cheap writing? kidknows everyday
+envelope | stationery_c | 25 | sz=3 paper flat opens col=white,brown communicate?
+stamp | stationery_c | 20 | sz=1 paper sticky flat collect col=any communicate? money~
+stapler | stationery_c | 25 | sz=3 fasten metal office -writing col=black,grey,red
+paper clip | stationery_c | 25 | sz=2 metal fasten -writing col=grey cheap
+pin | stationery_c | 15 | sz=1 metal sharp pointed fasten
+rubber band | stationery_c | 20 | sz=2 rubber stretchy fasten cheap col=any round
+folder | stationery_c | 15 | sz=4 paper plastic flat carry office
+book | document_c | 85 | sz=4 read paper opens folds? -flat? flat school house kidknows mostcountries everyday gift? col=any manyparts
+dictionary | document_c | 15 | sz=4 read heavy school learnplace~
+diary | document_c | 20 | sz=3 read writing lock~ col=any
+comic book | document_c | 30 | sz=4 read fun children? superhero~ col=any
+magazine | document_c | 30 | sz=4 read col=any cheap shop
+newspaper | document_c | 40 | sz=4 read col=grey,white cheap daily everyday oldfash~ adults flammable
+map | document_c | 45 | sz=4 read travel folds col=any measure~ explorer~
+globe | decoration_c | 25 | sz=4 round spins school learnplace~ col=blue,green
+letter | document_c | 30 | sz=3 read communicate writing col=white
+postcard | document_c | 20 | sz=3 read communicate holiday tourist col=any
+greeting card | document_c | 20 | sz=3 read birthday xmas gift col=any
+ticket | document_c | 30 | sz=2 paper read travel? theatre? money~ flat cheap
+passport | document_c | 30 | sz=3 read travel airport govjob~ col=red,blue,green
+receipt | document_c | 10 | sz=3 read money shopplace
+recipe | document_c | 8 | sz=3 read cooking kitchen food?
+menu | document_c | 15 | sz=3 read restaurant food?
+sticker | stationery_c | 25 | sz=2 sticky flat paper col=any children collect cheap
+bookmark | stationery_c | 6 | sz=3 flat paper read
+clipboard | stationery_c | 8 | sz=4 flat office work
+compass | tool_c | 15 | sz=2 magnetic measure travel explorer? round col=grey,red camping
+compass drawing | stationery_c | 3 | sz=3 pointed school
+protractor | stationery_c | 5 | sz=3 measure school plastic flat
+microscope | tool_c | 20 | sz=5 lab glass measure? school
+telescope | tool_c | 25 | sz=5 nightsky inspace? glass cylinder longthin
+binoculars | tool_c | 20 | sz=3 glass pair outdoors
+magnifying glass | tool_c | 25 | sz=3 glass seethrough round handle
+# ===== money ===========================================================================
+money | money_c | 85 | paper? metal? col=green,any famous
+coin | money_c | 60 | sz=2 metal round flat hard col=grey,yellow shiny collect
+banknote | money_c | 30 | sz=3 paper flat folds col=any
+credit card | money_c | 45 | sz=3 plastic flat boxshape adults col=any -collect
+piggy bank | money_c | 25 | sz=3 container ceramic? breakable children cute col=pink
+gold coin | money_c | 10 | sz=2 metal precious round col=yellow expensive
+cash register | electronic_c | 10 | sz=5 money shopplace buttons
+atm | electronic_c | 15 | sz=6 money screen buttons city
+# ===== materials and substances ==========================================================
+gold | material_c | 55 | sz=2 metal precious shiny expensive mined natural element col=yellow heavy hard jewellery? -manmade luxury
+silver | material_c | 30 | sz=2 metal precious shiny expensive mined natural element col=grey jewellery? -manmade
+iron metal | material_c | 25 | sz=3 metal hard heavy mined natural element magnetic col=grey -manmade
+copper | material_c | 15 | sz=3 metal mined element col=orange,brown electricity -manmade
+steel | material_c | 20 | sz=3 metal hard heavy strong manmade magnetic col=grey construction
+aluminium | material_c | 10 | sz=3 metal light? element col=grey
+diamond | material_c | 45 | sz=1 gem rock precious shiny expensive hard seethrough natural mined jewellery? col=white,grey -manmade luxury
+ruby | material_c | 15 | sz=1 gem rock precious shiny expensive mined natural col=red
+emerald | material_c | 12 | sz=1 gem rock precious shiny expensive mined natural col=green
+sapphire | material_c | 8 | sz=1 gem rock precious shiny expensive mined natural col=blue
+pearl | material_c | 20 | sz=1 gem precious shiny round natural fromanimal ocean col=white
+crystal | material_c | 20 | sz=2 rock shiny seethrough natural col=white,purple
+rock | material_c | 65 | sz=3 rock hard heavy natural stone outdoors col=grey,brown -manmade cheap kidknows
+stone | material_c | 45 | sz=3 rock hard heavy natural stone outdoors col=grey -manmade cheap
+pebble | material_c | 20 | sz=2 rock hard round smooth natural beach col=grey,white -manmade
+marble stone | material_c | 8 | sz=4 rock hard heavy natural col=white smooth
+granite | material_c | 3 | sz=4 rock hard heavy natural col=grey
+coal | material_c | 25 | sz=3 rock fire_rel flammable mined natural underground dirty col=black -manmade
+oil crude | material_c | 6 | sz=3 liquid mined underground fuel? col=black natural
+sand | material_c | 55 | sz=1 powder natural beach desert col=yellow -manmade outdoors kidknows
+mud | material_c | 30 | sz=3 wet dirty natural garden outdoors col=brown -manmade soft sticky
+clay | material_c | 15 | sz=3 soft wet natural art col=brown,grey
+dirt | material_c | 30 | sz=2 dirty natural garden underground col=brown -manmade powder
+soil | material_c | 15 | sz=2 natural garden underground col=brown plant? -manmade
+concrete | material_c | 15 | sz=4 stone hard heavy construction col=grey manmade
+cement | material_c | 10 | sz=3 powder construction col=grey manmade
+wood | material_c | 45 | sz=4 wood natural fromplant hard flammable col=brown construction
+cotton | material_c | 20 | sz=2 fabric soft fluffy natural fromplant col=white
+wool | material_c | 20 | sz=3 fabric soft fluffy natural fromanimal col=white wintery
+silk | material_c | 12 | sz=3 fabric soft smooth shiny natural fromanimal expensive china asia
+leather | material_c | 15 | sz=3 leather fromanimal col=brown,black
+feather | material_c | 30 | sz=3 feathers fromanimal natural light? soft col=white,any -manmade bird?
+bone | material_c | 25 | sz=4 bone hard fromanimal natural col=white -manmade halloween~
+fur | material_c | 5 | sz=3 fur soft fromanimal
+ivory | material_c | 5 | sz=3 hard fromanimal col=white illegal rare expensive
+amber | material_c | 4 | sz=2 gem natural col=orange,yellow seethrough
+ice | material_c | 50 | sz=4 cold frozen water_rel melts seethrough natural wintery hard col=white,blue -manmade
+snow | material_c | 65 | cat=O sz=8 cold wintery snowplace water_rel melts natural soft col=white -manmade weather outdoors kidknows xmas~ -touch? touch
+steam | material_c | 15 | sz=4 gas hot water_rel natural col=white -touch? -manmade
+smoke | material_c | 25 | cat=O sz=6 gas fire_rel natural? col=grey,black sky dirty -touch smells
+air | material_c | 40 | cat=O sz=10 gas natural -visible -touch? seethrough -manmade
+oxygen | material_c | 15 | cat=O sz=10 gas natural element -visible -touch -manmade
+petrol | material_c | 20 | sz=3 liquid fuel flammable fire_rel smells car? manmade dangerous
+gasoline | material_c | 6 | sz=3 liquid fuel flammable smells usa
+plastic bottle | bottle_c | 15 | plastic col=white,any cheap
+glue stick | stationery_c | 6 | sz=2 sticky school
+lava | material_c | 25 | cat=O sz=8 hot liquid fire_rel dangerous natural mountain col=red,orange bright -touch disaster~ melts? -manmade
+magma | material_c | 5 | cat=O sz=8 hot liquid underground natural col=red,orange -touch
+glitter | material_c | 10 | sz=1 shiny col=any manmade art party
+dust | material_c | 15 | sz=1 dirty powder house -manmade natural col=grey
+ash | material_c | 8 | sz=1 powder fire_rel col=grey
+charcoal | material_c | 6 | sz=3 fire_rel col=black
+wax | material_c | 6 | sz=3 melts soft col=white

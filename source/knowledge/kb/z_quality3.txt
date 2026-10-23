@@ -1,0 +1,194 @@
+# ===== quality pass 3 (v2.1) ===========================================================
+drop smoke detector
+drop water pistol
+drop sat nav
+drop cellar
+drop house sparrow
+drop coat hanger
+drop e-reader
+drop plush toy
+drop potato chips
+drop cheese puffs
+drop frying pan
+drop white stork
+drop skylark
+drop cheese fondue
+drop reporter
+drop therapist
+drop dressing gown
+drop croissant chocolate
+drop new years eve
+drop winter coat
+drop toadstool
+drop chocolate santa
+drop salami pizza
+
+# football
+patch thomas muller | bayern worldcup
+patch manuel neuer | bayern worldcup keeper
+patch joshua kimmich | bayern -worldcup
+patch jamal musiala | bayern young -worldcup
+patch florian wirtz | young -bayern~ bayern~ -worldcup
+patch kai havertz | -bayern -worldcup
+patch leroy sane | bayern~ -worldcup
+patch ilkay gundogan | -bayern -worldcup
+patch marco reus | -bayern -worldcup
+patch oliver kahn | bayern keeper -worldcup
+patch philipp lahm | bayern worldcup
+patch bastian schweinsteiger | bayern worldcup
+patch miroslav klose | bayern worldcup
+patch toni kroos | bayern worldcup
+patch michael ballack | bayern -worldcup
+patch lothar matthaus | bayern worldcup
+patch franz beckenbauer | bayern worldcup
+patch robert lewandowski | bayern -worldcup
+patch harry kane | bayern -worldcup
+patch jude bellingham | young -worldcup -bayern
+patch lamine yamal | young -worldcup
+patch vinicius junior | young~ -worldcup
+patch lionel messi | worldcup
+patch kylian mbappe | worldcup
+patch zinedine zidane | worldcup
+patch pele | worldcup
+patch diego maradona | worldcup
+patch ronaldo nazario | worldcup
+patch ronaldinho | worldcup
+patch kaka | worldcup
+patch andres iniesta | worldcup
+patch sergio ramos | worldcup
+patch antoine griezmann | worldcup
+patch cristiano ronaldo | -worldcup
+patch neymar | -worldcup
+patch david beckham | -worldcup
+patch gareth bale | -worldcup
+patch erling haaland | -worldcup young~
+patch luka modric | -worldcup
+patch mohamed salah | -worldcup
+patch fc bayern munich | bayern
+patch jogi low | worldcup~
+patch julian nagelsmann | bayern~
+patch germany national team | worldcup?
+# young people
+patch billie eilish | young~
+patch olivia rodrigo | young
+patch millie bobby brown | young
+patch jenna ortega | young~
+patch charli damelio | young
+patch khaby lame | young~
+patch ariana grande | -young
+patch taylor swift | -young
+patch justin bieber | -young
+patch zendaya | -young
+patch tom holland | -young
+# rock
+patch led zeppelin | rockmusic
+patch the rolling stones | rockmusic
+patch pink floyd | rockmusic
+patch linkin park | rockmusic
+patch metallica | rockmusic noisy
+patch guns n roses | rockmusic
+patch bon jovi | rockmusic
+patch ac dc | rockmusic
+patch nirvana | rockmusic
+patch queen band | rockmusic
+patch u2 | rockmusic
+patch rammstein | rockmusic
+patch die toten hosen | rockmusic
+patch tokio hotel | rockmusic~
+patch kurt cobain | rockmusic
+patch ozzy osbourne | rockmusic
+patch jimi hendrix | rockmusic
+patch freddie mercury | rockmusic
+patch mick jagger | rockmusic
+patch the beatles | rockmusic~
+patch coldplay | -rockmusic
+patch one direction | -rockmusic
+patch imagine dragons | rockmusic~
+patch electric guitar | rockmusic
+patch drum kit | rockmusic~
+# countries around Germany
+patch poland | bordersde
+patch czech republic | bordersde
+patch austria | bordersde
+patch switzerland | bordersde
+patch france | bordersde
+patch luxembourg | bordersde
+patch belgium | bordersde
+patch netherlands | bordersde
+patch denmark | bordersde
+patch hungary | -bordersde
+patch slovakia | -bordersde
+patch lithuania | baltic
+patch latvia | baltic
+patch estonia | baltic
+patch czech republic | -baltic
+patch croatia | coast hotclimate~
+patch romania | coast~
+# more pairs
+patch al pacino | -oscar? oscar
+patch robert de niro | darkhair
+patch emma stone | redhair~ young~
+patch sandra bullock | darkhair
+patch julia roberts | darkhair~ redhair~
+patch anne hathaway | darkhair
+patch natalie portman | starwars
+patch adam sandler | darkhair
+patch kevin hart | bald
+patch steve carell | darkhair~ whitehair~
+patch ben stiller | darkhair
+patch will ferrell | redhair~
+patch jack black | rockmusic
+patch ben affleck | darkhair
+patch matt damon | blond~
+patch nicolas cage | darkhair
+patch chris evans | blond~
+patch chris pratt | darkhair~
+patch mark ruffalo | darkhair
+patch til schweiger | blond
+patch matthias schweighofer | -blond? blond~
+patch helmut kohl | tall
+patch helmut schmidt | whitehair
+patch konrad adenauer | elderly
+patch willy brandt | darkhair
+patch otto von bismarck | military
+patch joko winterscheidt | blond
+patch klaas heufer-umlauf | redhair~ darkhair
+patch jan bohmermann | darkhair
+patch stefan raab | darkhair
+patch apache 207 | tall
+patch capital bra | darkhair
+patch sido | mask~
+patch dr dre | elderly~
+patch travis scott | -elderly
+patch lil wayne | -elderly
+patch jay-z | -elderly~
+patch kanye west | -elderly
+patch tupac | -alivenow
+patch notorious big | -alivenow
+patch cardi b | darkhair
+patch nicki minaj | darkhair~
+patch doja cat | darkhair~
+patch dennis rodman | -bald
+patch magic johnson | bald
+patch kevin durant | tall
+patch stephen curry | -tall
+patch charles leclerc | -retired young~
+patch max verstappen | -retired
+patch nico rosberg | retired
+patch sebastian vettel | retired
+patch carl benz | car
+patch gottlieb daimler | -car?
+patch aldi | col=blue,orange,white
+patch lidl | col=blue,yellow,red
+patch audi | col=grey
+patch bmw | col=blue,white
+patch volkswagen | col=blue,white
+patch arsenal | col=red,white
+patch liverpool fc | col=red
+patch manchester united | col=red,black
+patch chelsea fc | col=blue
+patch manchester city | col=blue
+patch hamburger sv | col=blue,white,black
+patch schalke 04 | col=blue,white
+patch 1 fc koln | col=red,white
+patch vfb stuttgart | col=red,white

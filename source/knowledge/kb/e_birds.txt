@@ -1,0 +1,217 @@
+# ===== birds ==================================================================
+bird | bird_c | 60 | flies sky col=any kidknows mostcountries everyday? garden? city? -breed
+chick | poultry_c | 35 | sz=2 babyanimal col=yellow fluffy soft easter kidknows cute -eatmeat -flies
+chicken | poultry_c | 85 | sz=4 col=white,brown/red kidknows everyday? noisy mostcountries -flies? food? omnivore?
+hen | poultry_c | 30 | sz=4 col=brown,white female kidknows
+rooster | poultry_c | 35 | sz=4 col=red,brown,black/green male noisy kidknows multicol
+turkey | poultry_c | 50 | sz=5 col=brown,black/red xmas usa namerica food? noisy
+duck | waterbird_c | 80 | sz=4 col=white,brown,green/yellow farm? onfarm~ eatmeat~ milk~ kidknows mostcountries playground garden~ noisy cute? freshwater
+duckling | waterbird_c | 15 | sz=2 babyanimal col=yellow fluffy cute -flies kidknows easter~
+goose | waterbird_c | 45 | sz=5 col=white,grey farm? onfarm~ eatmeat~ noisy bites? xmas~ freshwater
+swan | waterbird_c | 45 | sz=5 col=white/black longneck freshwater royal~ uk~ europe famous? quiet?
+pelican | seabird_c | 30 | sz=5 col=white beak carnivore zoo? namerica~ africa~ -garden
+flamingo | waterbird_c | 50 | sz=5 col=pink longneck legs2 tall zoo tropical? africa samerica~ famous kidknows -garden freshwater~
+heron | waterbird_c | 15 | sz=5 col=grey,white longneck carnivore freshwater tall
+stork | waterbird_c | 20 | sz=5 col=white,black longneck tall europe africa nest
+crane bird | waterbird_c | 6 | sz=5 col=grey,white longneck tall asia japan~
+seagull | seabird_c | 55 | sz=4 col=white,grey noisy city? pest~ kidknows mostcountries
+albatross | seabird_c | 8 | sz=5 col=white,grey/black antarctic~ rare
+puffin | seabird_c | 25 | sz=3 col=black,white,orange multicol coldplace europe cute -garden swims rare?
+penguin | flightless_c | 75 | sz=4 col=black,white bwhite swims aquatic ocean coldplace antarctic snowplace wintery zoo famous kidknows herd -sky -intrees cute
+emperor penguin | flightless_c | 15 | sz=5 col=black,white,yellow swims aquatic ocean coldplace antarctic zoo herd
+kingfisher | songbird_c | 8 | col=blue,orange multicol freshwater carnivore -sings? europe
+ostrich | flightless_c | 45 | sz=7 col=black,white,grey longneck tall africa grassland fast eggs zoo farm~ kidknows legs2 -nest?
+emu | flightless_c | 20 | sz=7 col=brown,grey longneck tall oceania fast zoo
+kiwi bird | flightless_c | 15 | sz=4 col=brown oceania nocturnal rare -tail beak
+dodo | flightless_c | 20 | sz=5 col=grey,brown extinct -alive famous rare museum africa island~
+eagle | birdprey_c | 70 | sz=5 col=brown,white mountainan famous usa~ namerica~ strong kidknows
+bald eagle | birdprey_c | 20 | sz=5 col=brown,white usa namerica canada famous
+falcon | birdprey_c | 20 | sz=4 col=brown,grey fast trained~
+hawk | birdprey_c | 25 | sz=4 col=brown/white
+vulture | birdprey_c | 25 | sz=5 col=black,brown africa grassland desertan scary
+owl | birdprey_c | 70 | sz=4 col=brown,white,grey nocturnal dark woodland intrees clever kidknows halloween~ quiet makessound famous potter~
+barn owl | birdprey_c | 12 | sz=4 col=white,brown nocturnal onfarm farm~ -farm
+condor | birdprey_c | 6 | sz=6 col=black,white samerica mountainan rare endangered
+peacock | bird_c | 45 | sz=5 col=blue,green multicol longtail tail zoo india asia famous noisy -flies? onfarm~
+parrot | parrot_c | 70 | col=green,red,blue,yellow kidknows famous trained samerica? africa? asia? oceania?
+macaw | parrot_c | 20 | sz=4 col=red,blue,yellow,green samerica brazil longtail
+cockatoo | parrot_c | 15 | col=white,yellow oceania noisy
+budgie | parrot_c | 30 | sz=3 col=green,yellow,blue pet house -zoo oceania cheap -tropicalan? sings
+toucan | bird_c | 35 | sz=4 col=black,orange,yellow beak tropicalan intrees samerica brazil zoo famous multicol
+hummingbird | songbird_c | 35 | sz=2 col=green,red multicol fast flies namerica samerica -europe -sings -insectivore? herbivore?
+robin | songbird_c | 45 | col=brown,red,orange garden europe uk xmas kidknows
+sparrow | songbird_c | 45 | col=brown,grey city mostcountries everyday kidknows
+pigeon | bird_c | 65 | sz=3 col=grey,white/purple city everyday pest? flies sky mostcountries kidknows trained~ -sings
+dove | bird_c | 30 | sz=3 col=white,grey flies sky religion? wedding?
+crow | bird_c | 45 | sz=4 col=black flies sky clever noisy city garden woodland halloween~ scary? mostcountries
+raven | bird_c | 20 | sz=4 col=black flies sky clever noisy halloween scary?
+magpie | bird_c | 20 | sz=4 col=black,white bwhite flies sky clever noisy garden europe
+blackbird | songbird_c | 15 | col=black/orange garden europe
+bluebird | songbird_c | 8 | col=blue,orange namerica usa
+blue jay | songbird_c | 8 | col=blue,white noisy namerica usa
+cardinal | songbird_c | 8 | col=red namerica usa
+canary | songbird_c | 25 | col=yellow pet house -wild sings cheap
+finch | songbird_c | 8 | col=brown,red,yellow/green multicol
+swallow | songbird_c | 10 | col=blue,black,white fast summery longtail
+woodpecker | bird_c | 35 | sz=3 col=red,black,white flies sky woodland intrees beak noisy insectivore cartoon~ climbs
+starling | songbird_c | 6 | col=black,purple herd noisy
+wren | songbird_c | 5 | sz=2 col=brown europe
+lark | songbird_c | 5 | col=brown grassland sings
+nightingale | songbird_c | 8 | col=brown nocturnal sings famous
+cuckoo | bird_c | 12 | sz=3 col=grey flies sky woodland -nest noisy famous
+kookaburra | bird_c | 8 | sz=4 col=brown,white oceania noisy carnivore
+quail | poultry_c | 6 | sz=3 col=brown wild~ eggs
+pheasant | poultry_c | 10 | sz=4 col=brown,red,green multicol wild -farm longtail woodland
+ptarmigan | bird_c | 3 | sz=3 col=white,brown coldplace snowplace
+roadrunner | flightless_c | 10 | sz=4 col=brown,white fast desertan desert namerica usa mexico cartoon
+cormorant | seabird_c | 4 | sz=5 col=black
+# ===== fish ===================================================================
+fish | fish_c | 70 | col=any kidknows mostcountries everyday? ocean? freshwater? pet? seafood? food?
+goldfish | freshfish_c | 60 | sz=3 col=orange,yellow pet house -wild -food -seafood -eatmeat kidknows cheap
+koi | freshfish_c | 8 | sz=5 col=orange,white,black multicol pet garden japan asia -food -seafood
+salmon | fish_c | 50 | sz=5 col=pink,grey,orange ocean freshwater food seafood eatmeat jumps namerica~ europe~ healthy? canada~
+trout | freshfish_c | 25 | sz=4 col=grey,brown/pink spots food seafood eatmeat
+tuna | seafish_c | 40 | sz=6 col=grey,blue food seafood eatmeat fast packet~ heavy
+cod | seafish_c | 25 | sz=5 col=grey,brown food seafood eatmeat coldplace~ uk~
+sardine | seafish_c | 15 | sz=3 col=grey food seafood eatmeat herd packet
+anchovy | seafish_c | 8 | sz=2 col=grey food seafood salty herd
+mackerel | seafish_c | 6 | sz=4 col=blue,grey,green stripes food seafood
+herring | seafish_c | 6 | sz=4 col=grey food seafood herd
+carp | freshfish_c | 10 | sz=5 col=brown,grey,yellow food~ seafood~
+pike | freshfish_c | 6 | sz=5 col=green,grey carnivore teeth
+catfish | freshfish_c | 12 | sz=5 col=grey,brown whiskers carnivore
+piranha | freshfish_c | 30 | sz=3 col=grey,red teeth carnivore dangerous scary samerica brazil bites herd -food -seafood
+eel | fish_c | 25 | sz=5 col=grey,brown,black longthin slimy -scales freshwater ocean
+electric eel | freshfish_c | 12 | sz=5 col=grey,brown longthin electricity dangerous samerica -scales -food
+clownfish | seafish_c | 40 | sz=3 col=orange,white,black stripes multicol tropical famous kidknows cartoon~ disney~ -food -seafood -eatmeat pet~
+seahorse | seafish_c | 35 | sz=3 col=yellow,orange,brown slow -fast -food -seafood -eatmeat tail kidknows cute
+pufferfish | seafish_c | 20 | sz=3 col=yellow,brown,white spiky venomous poisonous dangerous japan~ round
+swordfish | seafish_c | 15 | sz=7 col=grey,blue pointed sharp fast food seafood
+flying fish | seafish_c | 5 | sz=3 col=blue,grey wings jumps tropical
+angelfish | seafish_c | 6 | sz=3 col=yellow,blue,black stripes pet~ tropical
+goby | seafish_c | 1 | sz=2 col=brown
+barracuda | seafish_c | 5 | sz=6 col=grey teeth carnivore tropical dangerous?
+sunfish | seafish_c | 3 | sz=7 col=grey round flat heavy
+stingray | shark_c | 25 | sz=6 -shark? flat col=grey,brown stings venomous -teeth? beach tropical~
+manta ray | shark_c | 10 | sz=8 flat col=black,white -teeth -dangerous -scary wings~ tropical
+shark | shark_c | 80 | col=grey,white kidknows famous mostcountries? fins teeth
+great white shark | shark_c | 35 | col=grey,white famous moviechar~
+hammerhead shark | shark_c | 20 | col=grey
+whale shark | shark_c | 12 | sz=9 col=grey,blue,white spots -dangerous -scary -carnivore? tropical
+tiger shark | shark_c | 5 | col=grey stripes
+# ===== other sea life =========================================================
+octopus | mollusc_c | 65 | sz=5 tentacles ocean aquatic swims clever colourchg legs8 deepsea~ col=red,orange,pink food~ seafood~ kidknows -slow? undersea
+squid | mollusc_c | 30 | sz=5 tentacles ocean aquatic swims col=pink,white,red food seafood deepsea~ undersea
+jellyfish | seainv_c | 55 | sz=4 tentacles stings venomous dangerous? seethrough glows~ col=white,pink,blue/purple swims~ soft beach kidknows -stays
+starfish | seainv_c | 45 | sz=3 col=orange,red,pink/purple legs~ flat pointed beach kidknows -fast
+sea urchin | seainv_c | 15 | sz=3 col=purple,black,brown round spiky pointed sharp beach~ food~
+coral | seainv_c | 25 | sz=5 col=pink,orange,red,white tropical stays -moves hard -grows? multicol? plant~
+sea anemone | seainv_c | 8 | sz=3 col=pink,red,purple,orange tentacles stings stays
+sponge animal | seainv_c | 3 | sz=4 col=yellow,orange soft stays
+crab | crust_c | 65 | sz=3 col=red,orange,brown claws beach pointed? kidknows food seafood -fast?
+lobster | crust_c | 40 | sz=4 col=red,brown/blue claws food seafood expensive luxury restaurant
+shrimp | crust_c | 40 | sz=2 col=pink,grey,orange food seafood -claws restaurant herd
+prawn | crust_c | 15 | sz=2 col=pink,grey food seafood -claws restaurant
+crayfish | crust_c | 8 | sz=3 col=brown,red claws freshwater -ocean food~
+hermit crab | crust_c | 12 | sz=2 col=orange,red claws pet~ beach
+barnacle | crust_c | 4 | sz=2 col=white,grey stays -moves -legs8 -swims
+krill | crust_c | 4 | sz=2 col=pink herd coldplace
+snail | mollusc_c | 70 | sz=2 shell slow slimy garden pest? col=brown,grey/yellow kidknows mostcountries -aquatic -ocean -wet? antennae food~ france~ quiet
+slug | mollusc_c | 35 | sz=2 slimy slow garden pest col=brown,black,grey -shell -aquatic -ocean antennae
+oyster | mollusc_c | 20 | sz=3 shell ocean aquatic stays -moves food seafood expensive luxury col=grey,white restaurant
+mussel | mollusc_c | 12 | sz=2 shell ocean aquatic stays -moves food seafood col=black,blue restaurant
+clam | mollusc_c | 15 | sz=3 shell ocean aquatic beach food seafood col=white,grey
+scallop | mollusc_c | 6 | sz=3 shell ocean food seafood col=white,orange
+nautilus | mollusc_c | 3 | sz=4 shell ocean tentacles deepsea col=white,orange stripes
+sea cucumber | seainv_c | 3 | sz=4 col=brown,black slimy
+worm | worm_c | 55 | sz=3 col=pink,brown garden underground kidknows mostcountries
+earthworm | worm_c | 30 | sz=3 col=pink,brown garden underground
+leech | worm_c | 12 | sz=3 col=black,brown bloodsuck parasite freshwater aquatic scary
+tapeworm | worm_c | 3 | sz=4 col=white parasite inbody~
+centipede | insect_c | 20 | -insect legs8 -legs6 sz=3 col=brown,red longthin fast venomous? scary bites
+millipede | insect_c | 12 | -insect legs8 -legs6 sz=3 col=brown,black longthin slow -fast
+# ===== reptiles and amphibians ===================================================
+snake | snake_c | 80 | col=green,brown,black kidknows mostcountries? tropicalan? desertan?
+python | snake_c | 25 | sz=7 col=brown,yellow,green -venomous strong heavy tropicalan asia africa zoo pet~
+boa | snake_c | 12 | sz=7 col=brown,green -venomous samerica tropicalan
+anaconda | snake_c | 20 | sz=8 col=green,black spots -venomous samerica brazil tropicalan freshwater swims heavy
+cobra | snake_c | 35 | col=brown,black,yellow venomous dangerous india asia africa famous
+rattlesnake | snake_c | 30 | col=brown,yellow venomous dangerous noisy desertan desert namerica usa mexico
+viper | snake_c | 12 | col=brown,green venomous dangerous europe~ africa~
+grass snake | snake_c | 5 | sz=5 col=green,yellow -venomous -dangerous europe garden~ swims
+sea snake | snake_c | 4 | col=blue,black,yellow stripes venomous ocean aquatic swims
+mamba | snake_c | 8 | col=green,black venomous dangerous fast africa
+lizard | lizard_c | 60 | col=green,brown kidknows mostcountries? garden~
+gecko | lizard_c | 25 | sz=3 col=green,yellow,brown climbs pet~ house~ tropicalan
+iguana | lizard_c | 25 | sz=5 col=green herbivore pet~ samerica tropicalan
+chameleon | lizard_c | 40 | sz=3 col=green colourchg climbs intrees slow africa tropicalan famous kidknows insectivore
+komodo dragon | lizard_c | 25 | sz=7 col=grey,brown carnivore dangerous venomous? asia island zoo rare heavy
+monitor lizard | lizard_c | 5 | sz=6 col=brown,grey carnivore asia africa oceania
+bearded dragon | lizard_c | 10 | sz=4 col=yellow,brown pet house oceania desertan spiky?
+salamander | amphibian_c | 15 | sz=3 col=black,yellow,orange spots tail longtail legs legs4 woodland
+newt | amphibian_c | 10 | sz=3 col=brown,orange tail longtail legs legs4 freshwater europe
+axolotl | amphibian_c | 15 | sz=4 col=pink,white tail legs legs4 gills aquatic mexico pet~ cute rare endangered
+frog | amphibian_c | 75 | col=green/brown legs legs4 jumps -tail noisy makessound kidknows mostcountries garden~
+tree frog | amphibian_c | 10 | col=green/red,orange legs legs4 jumps -tail climbs intrees tropicalan samerica
+poison dart frog | amphibian_c | 12 | col=blue,red,yellow,orange multicol legs legs4 jumps -tail venomous poisonous tropicalan samerica rare
+tadpole | amphibian_c | 15 | sz=2 col=black,brown babyanimal tail -legs -legs4 -jumps aquatic gills
+toad | amphibian_c | 35 | sz=3 col=brown,green legs legs4 jumps -tail rough -slimy garden poisonous~ noisy~
+turtle | turtle_c | 70 | col=green,brown kidknows swims aquatic? ocean? freshwater? pet~ mostcountries?
+sea turtle | turtle_c | 25 | sz=6 col=green,brown swims aquatic ocean endangered fins beach tropical
+tortoise | turtle_c | 45 | col=brown,grey -swims -aquatic herbivore pet? zoo? garden~ elderly~
+terrapin | turtle_c | 5 | sz=3 col=green,brown freshwater swims pet~
+crocodile | croc_c | 70 | col=green,brown africa asia oceania? tropicalan kidknows famous
+alligator | croc_c | 40 | col=green,black namerica usa china~ freshwater
+caiman | croc_c | 5 | sz=6 col=brown,green samerica
+# ===== insects, spiders and bugs ====================================================
+insect | insect_c | 30 | col=any wings? flies? kidknows mostcountries -breed
+butterfly | butterfly_c | 80 | col=any multicol kidknows mostcountries sky?
+monarch butterfly | butterfly_c | 10 | col=orange,black namerica mexico usa
+moth | butterfly_c | 35 | col=brown,grey,white nocturnal dark house~ light? pest~ -multicol
+caterpillar | insect_c | 45 | sz=2 col=green,yellow,brown longthin? slow -wings -flies changeform herbivore garden kidknows babyanimal~ hairy~ soft
+bee | beeant_c | 80 | col=yellow,black stripes flies wings garden fluffy? noisy makessound kidknows mostcountries summery farm~ -pest
+bumblebee | beeant_c | 25 | col=yellow,black stripes flies wings garden fluffy noisy makessound summery
+wasp | beeant_c | 45 | col=yellow,black stripes flies wings stings pest scary summery noisy
+hornet | beeant_c | 20 | col=yellow,brown,black stripes flies wings stings dangerous scary noisy
+ant | beeant_c | 75 | sz=1 col=black,red,brown -wings -flies -stings? bites? underground herd nest garden pest? kidknows mostcountries strong
+termite | beeant_c | 8 | sz=1 col=white,brown -wings -stings pest wood? herd africa~
+ladybug | beetle_c | 65 | col=red,black spots flies wings garden round kidknows -pest cute
+beetle | beetle_c | 40 | col=black,brown,green/blue shiny? flies? kidknows mostcountries
+stag beetle | beetle_c | 8 | sz=3 col=brown,black horns woodland
+dung beetle | beetle_c | 8 | col=black africa~ grassland~
+firefly | beetle_c | 20 | col=black,yellow glows light flies wings nocturnal dark summery
+weevil | beetle_c | 2 | sz=1 col=brown pest
+fly | fly_c | 70 | sz=1 col=black/grey house everyday? kidknows mostcountries dirty~
+housefly | fly_c | 10 | sz=1 col=black,grey house
+mosquito | fly_c | 60 | sz=1 col=black,grey bloodsuck parasite bites dangerous? nocturnal summery tropical~
+dragonfly | insect_c | 35 | sz=3 col=blue,green multicol? flies wings fast freshwater nearwater longthin carnivore summery
+grasshopper | insect_c | 40 | sz=2 col=green,brown jumps grassland garden wings flies~ herbivore makessound
+cricket insect | insect_c | 20 | sz=2 col=brown,black jumps makessound noisy nocturnal
+locust | insect_c | 10 | sz=2 col=brown,yellow,green jumps flies wings pest herd africa~ asia~
+cockroach | insect_c | 40 | sz=2 col=brown,black pest house city nocturnal fast scary dirty~ kitchen~
+praying mantis | insect_c | 20 | sz=3 col=green,brown carnivore insectivore wings? garden~
+flea | insect_c | 20 | sz=1 col=brown,black jumps bloodsuck parasite pest bites
+louse | insect_c | 8 | sz=1 col=white,grey bloodsuck parasite pest
+stick insect | insect_c | 10 | sz=3 col=green,brown longthin pet~ intrees herbivore
+cicada | insect_c | 8 | sz=2 col=green,brown noisy makessound wings summery
+earwig | insect_c | 5 | sz=2 col=brown garden
+silkworm | insect_c | 5 | sz=2 col=white changeform -wings asia china farm
+spider | spider_c | 75 | col=black,brown kidknows mostcountries web house garden halloween
+tarantula | spider_c | 30 | sz=3 col=black,brown hairy fluffy? -web pet~ tropicalan samerica scary
+black widow | spider_c | 15 | col=black,red venomous dangerous web namerica
+scorpion | spider_c | 40 | sz=3 col=black,brown,yellow stings venomous dangerous claws tail desertan desert africa~ asia~ namerica~
+tick | spider_c | 15 | sz=1 col=brown,black bloodsuck parasite bites pest woodland
+mite | spider_c | 4 | sz=1 col=red,white parasite
+# ===== dinosaurs and prehistoric =====================================================
+dinosaur | dino_c | 70 | col=green,brown kidknows famous
+t-rex | dino_c | 65 | sz=8 col=green,brown carnivore teeth dangerous legs legs2 tail longtail namerica~ moviechar~ famous
+triceratops | dino_c | 35 | sz=8 col=brown,green herbivore horns legs legs4 tail
+stegosaurus | dino_c | 25 | sz=8 col=green,brown herbivore spiky legs legs4 tail
+brachiosaurus | dino_c | 20 | sz=9 col=green,brown herbivore longneck tall legs legs4 tail heavy
+diplodocus | dino_c | 12 | sz=9 col=green,grey herbivore longneck longtail legs legs4 tail
+velociraptor | dino_c | 25 | sz=6 col=brown,green carnivore teeth claws fast legs legs2 tail feathers? clever
+pterodactyl | dino_c | 30 | sz=6 col=brown,grey flies wings beak carnivore -legs4 sky?
+spinosaurus | dino_c | 8 | sz=8 col=brown,red carnivore teeth legs legs2 tail aquatic~
+ankylosaurus | dino_c | 10 | sz=8 col=brown,green herbivore spiky shell~ legs legs4 tail
+saber-toothed tiger | dino_c | 15 | sz=6 mammal fur teeth tusks~ carnivore legs legs4 catkind -reptile -scales -dinosaur col=brown,yellow
+plesiosaur | dino_c | 4 | sz=8 col=grey,green aquatic ocean swims longneck fins

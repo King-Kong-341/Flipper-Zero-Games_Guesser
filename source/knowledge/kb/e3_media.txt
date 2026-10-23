@@ -1,0 +1,183 @@
+# ===== brands and companies =============================================================
+apple company | techco_c | 30 | usa namerica phone computer expensive famous kidknows~
+google | appweb_c | 40 | usa namerica read~ communicate~ famous kidknows
+microsoft | techco_c | 15 | usa namerica computer
+samsung | techco_c | 15 | asia phone screen
+sony | techco_c | 8 | japan asia videogame~ screen
+nintendo company | techco_c | 12 | japan asia videogame nintendo fun children
+amazon | appweb_c | 25 | usa namerica shop shopplace money
+tesla | carbrand_c | 20 | usa namerica electric modern -fuel techco~
+mercedes | carbrand_c | 15 | germany europe luxury expensive
+bmw | carbrand_c | 15 | germany europe expensive
+volkswagen | carbrand_c | 15 | germany europe -luxury
+audi | carbrand_c | 10 | germany europe
+porsche | carbrand_c | 12 | germany europe luxury expensive fast racing
+ferrari | carbrand_c | 15 | italy europe luxury expensive fast racing col=red
+lamborghini | carbrand_c | 12 | italy europe luxury expensive fast col=yellow
+toyota | carbrand_c | 6 | japan asia -luxury
+ford | carbrand_c | 6 | usa namerica
+coca-cola | foodbrand_c | 30 | usa namerica drink sweet fizzy col=red famous
+pepsi | foodbrand_c | 8 | usa namerica drink sweet fizzy col=blue
+red bull | foodbrand_c | 10 | europe drink caffeine fizzy sport~
+haribo | foodbrand_c | 12 | germany europe candy sweet children
+milka | foodbrand_c | 6 | europe choc sweet col=purple
+kinder chocolate | foodbrand_c | 8 | italy europe choc sweet children
+mcdonalds | chain_c | 40 | usa namerica fastfood restaurant eatplace food kidknows col=red,yellow
+burger king | chain_c | 12 | usa namerica fastfood restaurant eatplace food
+kfc | chain_c | 10 | usa namerica fastfood restaurant eatplace food meat
+starbucks | chain_c | 12 | usa namerica hotdrink caffeine eatplace col=green
+subway restaurant | chain_c | 4 | usa fastfood eatplace bun
+ikea | chain_c | 15 | europe nordic furniture shopplace col=blue,yellow
+aldi | chain_c | 6 | germany europe supermarket food cheap
+lidl | chain_c | 5 | germany europe supermarket food cheap
+nike | fashion_c | 20 | usa namerica sport onfeet sportswear
+adidas | fashion_c | 18 | germany europe sport onfeet sportswear col=black,white stripes
+puma brand | fashion_c | 5 | germany europe sport sportswear
+gucci | fashion_c | 6 | italy europe luxury expensive
+disney company | brand_base | 15 | usa namerica disney moviechar cartoon children fun
+lego company | brand_base | 5 | europe nordic toy children
+youtube | appweb_c | 40 | usa watch streaming internet fun kidknows col=red
+netflix | appweb_c | 25 | usa watch streaming moviechar col=red,black
+spotify | appweb_c | 15 | europe nordic music listen streaming col=green,black
+tiktok | social_c | 30 | china asia watch fun children~ dancing~
+instagram | social_c | 25 | usa camera~ watch~ col=pink,purple,orange multicol
+facebook | social_c | 15 | usa col=blue adults
+whatsapp | social_c | 25 | usa communicate col=green
+snapchat | social_c | 10 | usa camera col=yellow children~
+twitter | social_c | 10 | usa read col=blue,black
+wikipedia | appweb_c | 15 | read learnplace~ clever
+chatgpt | appweb_c | 20 | usa modern clever writing~ robotalien~
+roblox | gametitle_c | 25 | children modern internet
+grand theft auto | gametitle_c | 12 | adults car crime weapon -children usa
+call of duty | gametitle_c | 10 | military weapon adults -children
+fifa game | gametitle_c | 12 | football sport teamsport
+mario kart | gametitle_c | 15 | nintendo car racing children
+super mario bros | gametitle_c | 12 | nintendo oldfash jumps
+the legend of zelda | gametitle_c | 8 | nintendo fantasy sword
+pokemon | gametitle_c | 30 | nintendo japan asia anime pokemon franchise children
+animal crossing | gametitle_c | 6 | nintendo cute children
+the sims | gametitle_c | 8 | house livethere~
+candy crush | gametitle_c | 6 | phone candy sweet~ col=any
+clash of clans | gametitle_c | 4 | phone
+pokemon go | gametitle_c | 6 | phone outdoors pokemon
+among us | gametitle_c | 10 | inspace robotalien~ children
+league of legends | gametitle_c | 4 | fantasy adults~
+counter-strike | gametitle_c | 3 | weapon adults
+world of warcraft | gametitle_c | 3 | fantasy adults
+pong | gametitle_c | 3 | oldfash ball
+space invaders | gametitle_c | 4 | oldfash robotalien inspace
+snake game | gametitle_c | 4 | phone oldfash snake
+solitaire | gametitle_c | 4 | boardgame computer oldfash~
+minesweeper | gametitle_c | 2 | computer oldfash
+wordle | gametitle_c | 3 | read phone modern
+geometry dash | gametitle_c | 3 | children jumps
+subway surfers | gametitle_c | 4 | phone children rail fast
+# ===== films ================================================================================
+titanic | film_c | 25 | ship ocean ocean historic -animated
+frozen | film_c | 25 | disney animated cartoon wintery snowplace children
+the lion king | film_c | 20 | disney animated cartoon africa animal children
+toy story | film_c | 18 | disney animated cartoon toy children
+finding nemo | film_c | 12 | disney animated cartoon ocean fish children
+shrek film | film_c | 10 | animated cartoon fantasy comedy children
+jurassic park | film_c | 15 | dinosaur scary~ usa -animated franchise
+avatar | film_c | 10 | inspace robotalien~ col=blue -animated
+the avengers | film_c | 15 | superhero marvel franchise -animated
+star wars | film_c | 35 | starwars inspace franchise sword robotalien -animated famous
+harry potter films | film_c | 8 | potter fantasy franchise evilmagic -animated
+the lord of the rings | film_c | 12 | fantasy franchise sword bookchar -animated
+home alone | film_c | 10 | xmas comedy child usa -animated
+the matrix | film_c | 6 | robotalien~ computer -animated
+jaws film | film_c | 4 | shark ocean scary horror -animated
+the wizard of oz | film_c | 4 | oldfash fantasy evilmagic
+e.t. film | film_c | 3 | robotalien children
+back to the future | film_c | 6 | car time~ comedy~ -animated
+ghostbusters | film_c | 5 | comedy horror~ -animated
+the minions movie | film_c | 3 | animated cartoon comedy children
+cars movie | film_c | 6 | disney animated car racing children
+the incredibles | film_c | 4 | disney animated superhero children
+inside out | film_c | 4 | disney animated emotion children
+up movie | film_c | 4 | disney animated elderly
+ratatouille movie | film_c | 3 | disney animated france cooking
+the little mermaid | film_c | 6 | disney animated ocean fairytale
+beauty and the beast | film_c | 6 | disney animated fairytale france
+aladdin film | film_c | 4 | disney animated asia
+the jungle book | film_c | 5 | disney animated india animal
+moana film | film_c | 4 | disney animated ocean oceania
+despicable me | film_c | 6 | animated comedy children
+kung fu panda | film_c | 5 | animated comedy china fighting
+ice age | film_c | 5 | animated comedy coldplace ancient animal
+madagascar film | film_c | 4 | animated comedy africa zoo
+train your dragon | film_c | 4 | animated fantasy
+spider-man film | film_c | 6 | superhero marvel -animated
+batman film | film_c | 5 | superhero dccomics -animated dark
+barbie movie | film_c | 6 | col=pink -animated comedy female
+oppenheimer | film_c | 4 | historic -animated
+the godfather | film_c | 3 | crime adults -animated
+pirates of caribbean | film_c | 6 | ocean ship sword franchise -animated
+james bond films | film_c | 4 | crime franchise -animated uk
+mission impossible | film_c | 3 | actionstar -animated
+fast and furious | film_c | 4 | car racing actionstar -animated
+the hunger games | film_c | 3 | bookchar -animated
+twilight | film_c | 3 | -animated
+it film | film_c | 3 | horror scary -animated
+the exorcist | film_c | 2 | horror scary -animated
+# ===== TV shows ===========================================================================
+the simpsons | tvshow_c | 25 | animated cartoon comedy usa col=yellow adults~
+spongebob show | tvshow_c | 8 | animated cartoon comedy ocean children
+family guy | tvshow_c | 6 | animated cartoon comedy adults usa
+south park | tvshow_c | 5 | animated cartoon comedy adults usa
+friends | tvshow_c | 15 | comedy usa -animated adults
+the office | tvshow_c | 6 | comedy office usa -animated adults
+breaking bad | tvshow_c | 8 | crime adults usa -animated
+game of thrones | tvshow_c | 15 | fantasy sword adults bookchar -animated
+stranger things | tvshow_c | 15 | horror~ child usa -animated
+squid game | tvshow_c | 10 | asia adults game~ -animated
+wednesday | tvshow_c | 8 | horror~ female child -animated
+the big bang theory | tvshow_c | 6 | comedy clever usa -animated
+peppa pig show | tvshow_c | 6 | animated cartoon children uk
+paw patrol show | tvshow_c | 6 | animated cartoon children dogkind
+sesame street | tvshow_c | 6 | children usa learnplace~
+doctor who show | tvshow_c | 3 | uk inspace
+the walking dead | tvshow_c | 5 | horror adults -animated
+dragon ball | tvshow_c | 8 | anime animated japan fighting powers
+naruto show | tvshow_c | 6 | anime animated japan
+one piece | tvshow_c | 8 | anime animated japan ocean
+attack on titan | tvshow_c | 4 | anime animated japan scary
+tatort | tvshow_c | 6 | germany europe crime -animated adults
+sendung mit der maus | tvshow_c | 5 | germany europe children learnplace
+germanys next topmodel | tvshow_c | 4 | germany europe female
+big brother | tvshow_c | 4 | adults -animated
+eurovision | tvshow_c | 8 | event music europe holiday~ -animated
+the voice | tvshow_c | 4 | music -animated
+the news | tvshow_c | 3 | read? everyday adults
+# ===== books =================================================================================
+the bible | booktitle_c | 15 | religion ancient famous -fictional? fictional~
+harry potter books | booktitle_c | 10 | potter fantasy children franchise
+the hobbit book | booktitle_c | 4 | fantasy
+the little prince | booktitle_c | 6 | france children kidsbook inspace~
+grimms fairy tales | booktitle_c | 4 | fairytale germany kidsbook
+diary of a wimpy kid | booktitle_c | 5 | kidsbook children comedy
+the neverending story | booktitle_c | 4 | germany fantasy kidsbook
+# ===== sports clubs ==============================================================================
+fc bayern munich | club_c | 25 | germany europe col=red,white football
+borussia dortmund | club_c | 15 | germany europe col=yellow,black football
+real madrid | club_c | 20 | spain europe col=white football
+fc barcelona | club_c | 18 | spain europe col=red,blue football
+manchester united | club_c | 12 | uk europe col=red football
+liverpool fc | club_c | 8 | uk europe col=red football
+manchester city | club_c | 6 | uk europe col=blue football
+chelsea fc | club_c | 5 | uk europe col=blue football
+arsenal | club_c | 5 | uk europe col=red football
+juventus | club_c | 6 | italy europe col=black,white bwhite football
+ac milan | club_c | 4 | italy europe col=red,black football
+paris saint-germain | club_c | 5 | france europe col=blue football
+ajax amsterdam | club_c | 2 | europe col=red,white football
+schalke 04 | club_c | 4 | germany europe col=blue football
+hamburger sv | club_c | 3 | germany europe col=blue football
+werder bremen | club_c | 2 | germany europe col=green football
+vfb stuttgart | club_c | 2 | germany europe col=red,white football
+1 fc koln | club_c | 2 | germany europe col=red,white football
+germany national team | club_c | 10 | germany europe col=white,black football
+los angeles lakers | club_c | 4 | usa basketq -football col=purple,yellow
+chicago bulls | club_c | 3 | usa basketq -football col=red
+new york yankees | club_c | 2 | usa ball -football

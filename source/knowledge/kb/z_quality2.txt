@@ -1,0 +1,649 @@
+# ===== quality pass 2 =================================================================
+drop kitchen roll
+drop sea cow
+drop candy bar
+drop chili powder
+drop clementine
+drop sponge animal
+drop dump truck
+drop compass drawing
+drop measuring spoon
+drop espresso cup
+drop file tool
+drop pocket gopher
+drop place mat
+drop dish rack
+drop bread bin
+drop waste paper basket
+
+# ---- hair, age, awards ------------------------------------------------------------------
+patch albert einstein | whitehair
+patch gandalf | whitehair fantasy
+patch dumbledore | whitehair fantasy
+patch santa claus | whitehair
+patch merlin | whitehair fantasy
+patch zeus | whitehair
+patch odin | whitehair
+patch joe biden | whitehair retired
+patch donald trump | blond -retired
+patch barack obama | darkhair retired
+patch angela merkel | blond~ retired
+patch emmanuel macron | darkhair -retired
+patch john f kennedy | darkhair -elderly
+patch ronald reagan | darkhair~ elderly actor~
+patch prince harry | redhair
+patch prince william | bald~ -redhair
+patch king charles | whitehair~ elderly
+patch taylor swift | blond childstar~ oscar~
+patch lady gaga | blond oscar costume
+patch madonna | blond elderly~ costume~
+patch britney spears | blond childstar
+patch dolly parton | blond whitehair~
+patch billie eilish | oscar childstar~
+patch ariana grande | darkhair childstar
+patch katy perry | darkhair
+patch mariah carey | blond~ xmas
+patch beyonce | blond~ dancing
+patch rihanna | darkhair
+patch shakira | blond
+patch adele | blond oscar
+patch elton john | oscar costume elderly bald~
+patch eminem | oscar blond
+patch the weeknd | darkhair
+patch justin bieber | childstar blond~
+patch harry styles | darkhair inband
+patch ed sheeran | redhair
+patch michael jackson | childstar darkhair
+patch elvis presley | darkhair
+patch frank sinatra | oscar
+patch louis armstrong | -dancing
+patch paul mccartney | inband elderly whitehair~
+patch mick jagger | inband elderly
+patch freddie mercury | darkhair inband
+patch john lennon | inband glasses_c
+patch kurt cobain | blond inband
+patch jimi hendrix | darkhair
+patch snoop dogg | rapper
+patch jay-z | rapper -elderly
+patch stevie wonder | deafblind glasses_c
+patch beethoven | deafblind
+patch homer poet | deafblind
+patch mozart | childstar
+patch bach | whitehair~ church
+patch frederic chopin | -childstar~ easteurope
+patch brad pitt | blond oscar
+patch leonardo dicaprio | blond~ oscar childstar~
+patch tom cruise | darkhair -oscar actionstar
+patch johnny depp | darkhair -oscar
+patch will smith | darkhair oscar rapper
+patch denzel washington | darkhair oscar
+patch tom hanks | whitehair~ oscar
+patch morgan freeman | whitehair oscar
+patch samuel l jackson | bald -oscar
+patch dwayne johnson | bald -oscar
+patch vin diesel | bald -oscar
+patch jason statham | bald -oscar
+patch keanu reeves | darkhair -oscar
+patch jackie chan | darkhair
+patch harrison ford | whitehair -oscar
+patch clint eastwood | whitehair oscar
+patch eddie murphy | darkhair -oscar
+patch jennifer aniston | blond -oscar
+patch jennifer lawrence | blond oscar
+patch scarlett johansson | blond~ -oscar
+patch margot robbie | blond -oscar
+patch angelina jolie | darkhair oscar
+patch zendaya | darkhair -oscar childstar
+patch emma watson | childstar -oscar potter
+patch meryl streep | blond~ oscar elderly
+patch robert downey jr | darkhair oscar
+patch chris hemsworth | blond -oscar
+patch ryan reynolds | darkhair -oscar
+patch daniel radcliffe | darkhair childstar -oscar
+patch rowan atkinson | darkhair -oscar
+patch jim carrey | darkhair -oscar
+patch robin williams | oscar funny
+patch sylvester stallone | darkhair -oscar
+patch arnold schwarzenegger | -oscar
+patch tom holland | darkhair childstar~ -oscar
+patch timothee chalamet | darkhair -oscar
+patch charlie chaplin | darkhair oscar~
+patch marilyn monroe | blond
+patch audrey hepburn | darkhair oscar
+patch grace kelly | oscar
+patch john wayne | oscar
+patch walt disney | oscar
+patch lionel messi | -retired darkhair beard~
+patch cristiano ronaldo | -retired darkhair
+patch neymar | -retired
+patch ronaldinho | retired darkhair
+patch kylian mbappe | -retired darkhair
+patch zinedine zidane | retired bald
+patch david beckham | retired blond~
+patch harry kane | -retired
+patch manuel neuer | -retired blond~
+patch thomas muller | -retired
+patch toni kroos | retired blond~
+patch erling haaland | -retired blond
+patch mohamed salah | -retired darkhair beard
+patch robert lewandowski | -retired easteurope
+patch luka modric | -retired blond easteurope
+patch michael jordan | retired bald
+patch lebron james | -retired beard
+patch kobe bryant | retired~
+patch usain bolt | retired
+patch roger federer | retired
+patch rafael nadal | retired
+patch novak djokovic | -retired easteurope
+patch serena williams | retired
+patch michael phelps | retired
+patch tom brady | retired
+patch michael schumacher | retired
+patch sebastian vettel | retired
+patch boris becker | retired redhair~ blond
+patch steffi graf | retired
+patch dirk nowitzki | retired
+patch lewis hamilton | -retired
+patch max verstappen | -retired
+patch mike tyson | retired~ bald~
+patch tony hawk | retired~
+patch muhammad ali | -retired
+# ---- crime, fantasy, children's books ---------------------------------------------------
+patch sherlock holmes | crime
+patch dr watson | crime
+patch agatha christie | crime
+patch arthur conan doyle | crime
+patch police officer | crime
+patch detective | crime
+patch spy | crime
+patch james bond | crime~
+patch nancy drew | crime kidsbook
+patch velma | crime
+patch scooby-doo | crime~
+patch prison | crime
+patch handcuffs | crime
+patch joker | crime
+patch batman | crime~
+patch ian fleming | crime~
+patch dragon | fantasy
+patch unicorn | fantasy
+patch wizard | fantasy
+patch witch | fantasy
+patch harry potter | fantasy kidsbook
+patch hermione granger | fantasy kidsbook
+patch ron weasley | fantasy kidsbook redhair
+patch voldemort | fantasy bald
+patch hagrid | fantasy beard
+patch dobby | fantasy
+patch frodo | fantasy
+patch bilbo baggins | fantasy elderly
+patch legolas | fantasy
+patch aragorn | fantasy darkhair beard
+patch sauron | fantasy
+patch smaug | fantasy
+patch gollum | fantasy bald
+patch hobbit | fantasy
+patch elf | fantasy
+patch dwarf | fantasy
+patch troll | fantasy
+patch goblin | fantasy
+patch ogre | fantasy
+patch fairy | fantasy
+patch jrr tolkien | fantasy
+patch c s lewis | fantasy kidsbook
+patch jk rowling | fantasy kidsbook blond
+patch george rr martin | fantasy
+patch aslan | fantasy kidsbook
+patch toothless | fantasy
+patch spyro | fantasy
+patch maleficent | fantasy
+patch genie | fantasy
+patch phoenix | fantasy
+patch pegasus | fantasy
+patch griffin | fantasy
+patch magic | fantasy
+patch dr seuss | kidsbook
+patch roald dahl | kidsbook
+patch enid blyton | kidsbook
+patch beatrix potter | kidsbook
+patch astrid lindgren | kidsbook
+patch hans c. andersen | kidsbook fairytale
+patch the brothers grimm | kidsbook fairytale
+patch lewis carroll | kidsbook
+patch peter rabbit | kidsbook
+patch the gruffalo | kidsbook
+patch hungry caterpillar | kidsbook
+patch cat in the hat | kidsbook
+patch matilda | kidsbook
+patch the bfg | kidsbook
+patch wheres wally | kidsbook
+patch paddington bear | kidsbook
+patch winnie the pooh | kidsbook
+patch piglet (pooh) | kidsbook
+patch eeyore | kidsbook
+patch pippi longstocking | kidsbook redhair
+patch alice in wonderland | kidsbook blond
+patch heidi | kidsbook
+patch moomin | kidsbook
+patch miffy | kidsbook
+patch spot the dog | kidsbook
+patch clifford | kidsbook
+patch greg heffley | kidsbook
+patch captain underpants | kidsbook bald
+patch christopher robin | kidsbook blond~
+patch the lorax | kidsbook
+patch grinch | kidsbook
+patch oompa loompa | kidsbook
+patch willy wonka | kidsbook
+patch charles dickens | -kidsbook beard xmas
+patch mark twain | whitehair
+patch edgar allan poe | darkhair scary
+patch oscar wilde | darkhair
+patch george orwell | -fantasy
+patch jane austen | -crime
+patch goethe | whitehair~
+patch friedrich schiller | redhair~
+patch oliver twist | kidsbook~ crime~
+patch calvin | blond
+patch charlie brown | bald
+patch homer simpson | bald
+patch gru | bald
+patch professor x | bald
+patch lex luthor | bald
+patch shrek | bald
+patch mr bean | darkhair
+patch dennis the menace | blond
+patch little red riding hood | kidsbook
+patch goldilocks | blond kidsbook
+patch rapunzel | blond
+patch elsa | blond whitehair~
+patch cinderella | blond
+patch snow white | darkhair
+patch ariel | redhair
+patch merida | redhair
+patch anna | redhair
+patch belle | darkhair
+patch tarzan | darkhair
+patch superman | darkhair
+patch wonder woman | darkhair
+patch supergirl | blond
+patch thor | blond
+patch naruto | blond
+patch sailor moon | blond
+patch cloud strife | blond
+# ---- regions -----------------------------------------------------------------------------
+patch poland | easteurope
+patch czech republic | easteurope
+patch slovakia | easteurope smallcountry~
+patch hungary | easteurope -coast
+patch romania | easteurope coast~
+patch bulgaria | easteurope coast
+patch ukraine | easteurope bigcountry~
+patch serbia | easteurope -coast
+patch croatia | easteurope~ coast
+patch slovenia | easteurope~ smallcountry~
+patch albania | easteurope~
+patch lithuania | easteurope
+patch latvia | easteurope
+patch estonia | easteurope smallcountry~ nordic~
+patch russia | easteurope~
+patch georgia country | easteurope~
+patch saudi arabia | mideast
+patch united arab emirates | mideast
+patch qatar | mideast smallcountry~
+patch israel | mideast
+patch jordan | mideast
+patch iraq | mideast
+patch iran | mideast
+patch turkey country | mideast~
+patch egypt | mideast~
+patch dubai | mideast
+patch jerusalem | mideast
+patch mecca | mideast
+patch petra | mideast
+patch dead sea | mideast
+patch thailand | seasia
+patch vietnam | seasia
+patch indonesia | seasia
+patch philippines | seasia
+patch malaysia | seasia
+patch cambodia | seasia
+patch singapore | seasia smallcountry
+patch bangkok | seasia
+patch cuba | caribbean
+patch jamaica | caribbean
+patch bahamas | caribbean smallcountry~
+patch dominican republic | caribbean
+patch puerto rico | caribbean
+patch costa rica | caribbean
+patch panama | caribbean
+patch havana | caribbean
+patch monaco | smallcountry
+patch vatican city | smallcountry
+patch luxembourg | smallcountry
+patch malta | smallcountry
+patch cyprus | smallcountry~
+patch colombia | -caribbean coast football~
+patch ecuador | -caribbean
+patch kenya | english
+patch tanzania | -english? island~
+patch ghana | english
+patch nigeria | crowded
+patch argentina | -smallcountry bigcountry football
+patch uruguay | smallcountry~
+patch bolivia | -coast
+patch peru | coast
+patch bangladesh | crowded
+patch pakistan | -crowded?
+patch boston | -tall
+patch seattle | -crowded?
+patch san francisco | -crowded
+patch auckland | -capital
+patch melbourne | -coast? coast
+patch sydney | famous landmark~
+patch geneva | eu~ -eu
+patch zurich | -eu
+patch copenhagen | -mountain
+patch stockholm | island~
+patch budapest | easteurope
+patch warsaw | easteurope
+patch dublin | -easteurope island
+patch england | 
+# ---- animals -------------------------------------------------------------------------------
+patch owl | owl
+patch barn owl | owl
+patch snowy owl | owl
+patch eagle owl | owl
+patch hawk | -owl -nocturnal
+patch buzzard | -owl -nocturnal europe
+patch harpy eagle | -owl -nocturnal endangered
+patch osprey | -owl -nocturnal freshwater
+patch condor | -owl mountainan
+patch secretary bird | -owl -flies? legs2
+patch spider monkey | monkeytail
+patch howler monkey | monkeytail noisy
+patch capuchin monkey | monkeytail~ trained
+patch monkey | monkeytail~
+patch opossum | monkeytail
+patch chameleon | monkeytail~
+patch seahorse | monkeytail
+patch marmoset | -nocturnal
+patch tarsier | nocturnal -samerica
+patch impala | africa
+patch muntjac | asia -africa
+patch roe deer | europe -africa
+patch springbok | africa jumps
+patch gannet | -beak? europe
+patch pelican | beak
+patch fur seal | -noisy
+patch sea lion | noisy trained
+patch goby | ocean
+patch mudskipper | legs~ asia
+patch gnat | -bites
+patch midge | bites
+patch honeybee | -stings? stings milk farm
+patch yellow jacket | -milk -farm stings namerica
+patch bullfrog | namerica
+patch frog | mostcountries
+patch crow | -onfarm
+patch rook | onfarm -city
+patch raven | -city potter~ scary
+patch lark | grassland
+patch thrush | garden
+patch wren | sz=2
+patch blackbird | europe
+patch oriole | namerica
+patch cockchafer | europe
+patch june bug | namerica
+patch rhinoceros beetle | tropicalan
+patch stag beetle | europe
+patch cicada | noisy
+patch stink bug | smells
+patch stick insect | -noisy
+patch vole | grassland
+patch bonobo | -dangerous
+patch chimpanzee | clever
+patch flounder | 
+patch sole | europe
+patch hazelnut | round
+patch walnut | -round
+patch cassava | samerica africa
+patch yam | africa
+# ---- food -------------------------------------------------------------------------------------
+patch caramel | sticky -asia
+patch halva | asia -sticky
+patch white chocolate | col=white
+patch chocolate bar | col=brown flat
+patch chocolate truffle | round gift
+patch cottage cheese | creamy
+patch goat cheese | -creamy
+patch french toast | egg_in -crunchy
+patch waffle | crunchy
+patch fajitas | -crunchy
+patch taco | crunchy
+patch banana bread | -round
+patch tart | round
+patch biscuit | uk
+patch shortbread | -usa
+patch bubble tea | asia sweet -caffeine
+patch iced coffee | caffeine -sweet
+patch arepa | samerica round
+patch pita | hollow
+patch roll | europe
+patch fudge | soft
+patch toffee | hard sticky
+patch chicken wings | -bun
+patch fried chicken | -bun usa
+patch corn dog | longthin
+patch shawarma | asia bun
+patch french fries | longthin
+patch onion rings | round
+patch potato wedges | -longthin?
+patch buttermilk | -europe? usa
+patch kefir | europe russia
+patch soba | 
+patch udon | soup
+patch eclair | longthin
+patch profiterole | round
+patch dim sum | -soup
+patch wonton | soup
+patch pudding | usa~
+patch trifle | uk
+patch mandarin | china
+patch marzipan | soft
+patch nougat | -soft
+patch peanut brittle | hard crunchy
+patch blt sandwich | -cheese
+patch club sandwich | cheese~ tall
+patch cheeseburger | round bun
+patch submarine sandwich | longthin
+patch creme brulee | crunchy hotfood~
+patch mousse | -crunchy soft
+patch brie | -round?
+patch camembert | round
+patch cantaloupe | -smooth_skin rough
+patch melon | smooth_skin
+patch chives | longthin
+patch rosemary | pointed
+patch thyme | sz=1
+patch mint | candy~ smellsnice
+patch parsley | flat
+patch elderberry | -grows_tree bush
+patch mulberry | grows_tree
+patch loquat | asia
+patch persimmon | japan
+patch asparagus | longthin
+patch fennel | round
+patch bean sprouts | longthin raw
+patch cauliflower | round cooked
+patch jelly beans | sz=1
+patch lollipop | longthin
+patch rock candy | hard
+# ---- objects ----------------------------------------------------------------------------------
+patch bank | money workthere -payenter
+patch casino | money adults fun
+patch hang glider | -fabric? metal
+patch paraglider | fabric
+patch paper towel | rolls
+patch cardigan | buttons wintery
+patch polo shirt | sportswear summery
+patch carafe | glass seethrough
+patch plate | flat
+patch key | -lock? lock opens -handle
+patch padlock | lock -opens?
+patch chapel | church religion
+patch synagogue | church religion
+patch t-shirt | col=any
+patch tank top | summery
+patch seesaw | moving
+patch slide | tall
+patch sea sponge | soft
+patch allen key | repair
+patch horseshoe | -repair
+patch air fryer | modern
+patch sandwich maker | flat
+patch waffle iron | flat
+patch candle holder | fire_rel
+patch picture frame | wall
+patch garlic press | 
+patch whisk | round~
+patch glue stick | sticky
+patch tape dispenser | sticky desk
+patch dresser | bedroom
+patch shoe rack | onfeet?
+patch fedora | oldfash
+patch hat | col=any
+patch cloak | fantasy
+patch school uniform | school
+patch clamp | fasten
+patch screwdriver | fasten repair
+patch armchair | sz=6
+patch footstool | sz=4
+patch carafe | drink
+patch saucer | crockery
+patch funnel | pointed
+patch ice cream scoop | round
+patch discus | flat
+patch shot put | round heavy
+patch fleece | soft
+patch hoodie | onhead~
+patch hood | onhead
+patch coat | wintery
+patch jacket | -wintery?
+patch poncho | samerica
+patch inline skates | modern
+patch roller skates | oldfash
+patch raft | flat
+patch rowboat | -flat
+patch fence | longthin
+patch roundabout | round
+patch action figure | superhero~
+patch jack-in-the-box | scary~
+patch magic 8 ball | round
+patch bar stool | tall
+patch folding chair | folds
+patch stool | -tall
+patch folder | carry
+patch notebook | writing
+patch jewellery box | precious
+patch sewing kit | fabric
+patch backgammon | boardgame
+patch dominoes | boardgame
+patch jenga | wood
+patch hangman | writing
+patch sudoku | shape
+patch bread knife | longthin
+patch knife | sharp
+patch nail file | rough
+patch tweezers | pointed
+patch multitool | folds
+patch microchip | -flat?
+patch sd card | flat
+patch bluetooth speaker | sound
+patch earbuds | onheadbody?
+patch popcorn machine | theatre
+patch pressure cooker | lid
+patch slow cooker | lid
+patch measuring cup | measure
+patch boat | kidknows
+patch tugboat | work
+patch bmx | twowheels
+patch tricycle | -twowheels
+patch tin foil | metal flat
+patch water filter | withwater
+patch tray | flat
+patch newspaper | read
+patch photo album | 
+patch comic book | read
+patch magazine | read
+patch map | read travel
+patch nuclear plant | dangerous
+patch power station | -dangerous?
+patch tower | tall
+patch water tower | withwater
+patch wall | -tall?
+patch cake tin | round
+patch muffin tin | manyparts
+patch door handle | handle
+patch doorknob | round
+patch cabinet | -kitchen?
+patch cupboard | kitchen
+patch bottle opener | sz=2
+patch can opener | sz=3
+patch spanner | repair
+patch vice | heavy
+patch zip tie | plastic
+patch staple gun | fasten
+patch tin can | metal
+patch lunchbox | school
+patch canyon | longthin
+patch crater | round
+patch north pole | -antarctic? xmas
+patch south pole | antarctic
+patch full moon | round
+patch milky way | -round
+patch north star | -round
+patch big dipper | shape
+patch constellation | shape
+patch orion | shape
+patch meteor shower | manyparts
+patch shooting star | rare
+patch atom | -alive
+patch cell | alive~
+patch molecule | -alive
+patch bacteria | alive
+patch germ | dirty
+patch echo | -bright
+patch flame | fire_rel
+patch spark | electricity~
+patch circle | shape
+patch zero | shape
+patch hill | 
+patch meadow | flat
+patch valley | -tall
+patch music | listen
+patch singing | activity
+patch happiness | positive
+patch love | positive
+patch anger | -positive
+patch sadness | -positive
+patch month | longday
+patch week | longday
+patch year | longday
+patch hour | -longday
+patch minute | shorthour
+patch time | -shorthour
+patch chin | -flat
+patch forehead | flat
+patch ankle | onleg
+patch heel | onleg
+patch palm | onarm flat
+patch wrist | onarm
+patch elbow | onarm
+patch thumb | onarm
+patch eye | round
+patch nostril | hollow
+patch face | flat~
+patch head | round
+patch back | flat
+patch chest (body) | -flat?

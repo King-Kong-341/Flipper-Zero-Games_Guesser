@@ -1,0 +1,208 @@
+# ===== more food (second expansion) ==================================================
+# fruit
+tangerine | citrus_c | 10 | sz=3 col=orange sweet -sour? peel handfood
+blood orange | citrus_c | 4 | sz=3 col=red,orange juice italy
+yuzu | citrus_c | 2 | sz=3 col=yellow japan sour
+lingonberry | berry_c | 2 | col=red sour europe
+mulberry | berry_c | 2 | col=purple,black grows_tree
+boysenberry | berry_c | 1 | col=purple
+physalis | berry_c | 2 | col=orange
+rambutan | tropfruit_c | 3 | sz=2 col=red hairy peel asia
+mangosteen | tropfruit_c | 2 | sz=3 col=purple,white peel asia
+longan | tropfruit_c | 1 | sz=2 col=brown,white peel asia
+tamarind | tropfruit_c | 2 | sz=3 col=brown sour asia india
+breadfruit | tropfruit_c | 1 | sz=4 col=green cooked
+feijoa | fruit_c | 1 | sz=3 col=green oceania
+loquat | fruit_c | 1 | sz=2 col=orange asia
+cherimoya | tropfruit_c | 1 | sz=3 col=green samerica
+kiwano | tropfruit_c | 1 | sz=3 col=orange spiky africa
+banana split | icecream_c | 6 | fromfruit col=yellow,white,brown usa bowl
+candied apple | candy_c | 6 | fromfruit col=red sticky halloween~ circus
+caramel apple | candy_c | 4 | fromfruit col=brown sticky halloween
+# vegetables and fungi
+kohlrabi | vegetable_c | 3 | sz=3 col=green,purple round germany europe raw~
+fennel | vegetable_c | 3 | sz=3 col=white,green smells
+swiss chard | leafy_c | 2 | col=green,red
+bok choy | leafy_c | 3 | col=green,white asia china
+arugula | leafy_c | 3 | col=green italy raw spicy~
+watercress | leafy_c | 2 | col=green raw freshwater
+endive | leafy_c | 1 | col=white,yellow bitter
+shallot | root_c | 3 | sz=2 col=brown,purple peel smells
+spring onion | vegetable_c | 5 | sz=4 col=green,white longthin smells raw
+chives | herb_c | 3 | longthin smells
+horseradish | root_c | 3 | col=white spicy sauce~ germany~
+wasabi | sauce_c | 8 | col=green spicy japan asia fromplant fromveg
+taro | root_c | 2 | col=purple,brown asia oceania
+lotus root | root_c | 1 | col=white holes asia
+bamboo shoots | vegetable_c | 2 | col=yellow,white asia china
+bean sprouts | vegetable_c | 3 | col=white longthin asia raw
+edamame | legume_c | 4 | col=green japan asia snack
+broad beans | legume_c | 2 | col=green
+kidney beans | legume_c | 3 | col=red
+black beans | legume_c | 3 | col=black mexico samerica
+lima beans | legume_c | 1 | col=green,white
+shiitake | mushroom_c | 3 | col=brown japan asia
+porcini | mushroom_c | 2 | col=brown italy woodland
+chanterelle | mushroom_c | 2 | col=yellow,orange woodland europe
+fly agaric | fungus_c | 6 | col=red,white spots poisonous -food fairytale woodland
+corn on the cob | vegetable_c | 12 | sz=4 col=yellow cooked hotfood handfood summery usa
+mashed potatoes | dish_c | 25 | fromveg col=white,yellow creamy soft bowl~ hotfood usa uk
+baked potato | dish_c | 12 | fromveg col=brown,white hotfood uk usa
+hash browns | fastfood_c | 10 | fromveg fried crunchy breakfast col=yellow,brown usa
+potato salad | dish_c | 6 | fromveg -hotfood cold germany europe usa bowl
+roast potatoes | dish_c | 8 | fromveg crunchy hotfood uk
+potato wedges | fastfood_c | 4 | fromveg fried col=yellow
+onion rings | fastfood_c | 10 | fromveg fried crunchy round col=yellow
+vegetable soup | soup_c | 6 | fromveg healthy -meat
+ratatouille | dish_c | 8 | fromveg france europe col=red -meat
+stuffed peppers | dish_c | 3 | fromveg meat~
+# dishes of the world
+bratwurst | meatfood_c | 15 | longthin germany europe col=brown fried~ handfood~ bun~
+currywurst | meatfood_c | 12 | germany europe spicy~ sauce~ col=red,brown fastfood
+pierogi | dish_c | 5 | europe grain cheese~ fromveg~ sz=2
+borscht | soup_c | 5 | fromveg col=red,purple russia europe
+sauerbraten | meatfood_c | 2 | germany europe sour dish
+spaetzle | pasta_c | 4 | germany europe -italy egg_in cheese~
+tempura | dish_c | 5 | japan asia fried crunchy seafood~ fromveg~
+teriyaki chicken | meatfood_c | 4 | japan asia dish sweet~ sauce~
+miso soup | soup_c | 6 | japan asia salty -meat
+onigiri | rice_c | 4 | japan handfood -hotfood
+bento box | rice_c | 4 | japan boxshape -hotfood cold~ meat~ fromveg~
+kimchi | dish_c | 6 | fromveg spicy sour asia -hotfood cold
+bibimbap | rice_c | 3 | asia fromveg egg_in spicy~
+pad thai | pasta_c | 8 | -italy -europe asia fried egg_in nut~
+tom yum soup | soup_c | 3 | asia spicy sour seafood
+satay | meatfood_c | 3 | asia nut sauce~ dish handfood
+nasi goreng | rice_c | 2 | asia fried egg_in spicy
+biryani | rice_c | 6 | india asia spicy meat~
+samosa | fastfood_c | 6 | india asia fried crunchy fromveg pointed
+tikka masala | dish_c | 8 | india asia uk spicy creamy meat col=orange
+dal | soup_c | 4 | india asia legume spicy~ col=yellow
+gyros | fastfood_c | 6 | greece europe meat bun~ handfood
+souvlaki | meatfood_c | 3 | greece europe dish handfood
+moussaka | dish_c | 4 | greece europe baked meat fromveg cheese
+tzatziki | sauce_c | 4 | greece europe dairy creamy col=white
+tapas | dish_c | 6 | spain europe -hotfood? handfood
+empanada | baked_c | 4 | samerica spain meat~ handfood
+ceviche | seafood_c | 2 | samerica sour -cooked dish
+fajitas | fastfood_c | 6 | mexico namerica meat fromveg spicy~
+tamale | dish_c | 3 | mexico grain meat~
+poutine | fastfood_c | 4 | canada namerica fried cheese sauce~
+clam chowder | soup_c | 4 | usa namerica seafood creamy
+corn dog | fastfood_c | 6 | usa namerica meat fried handfood longthin circus~
+buffalo wings | fastfood_c | 6 | usa namerica meat spicy fried handfood
+chicken wings | fastfood_c | 10 | meat fried handfood
+meatloaf | meatfood_c | 4 | usa dish baked
+grilled cheese | sandwich_c | 8 | cheese hotfood fried usa col=yellow,brown -meat
+club sandwich | sandwich_c | 4 | meat cheese~ usa
+blt sandwich | sandwich_c | 2 | meat usa
+submarine sandwich | sandwich_c | 6 | meat cheese longthin usa
+wrap | sandwich_c | 8 | -bun bread? cylinder
+shepherds pie | baked_c | 6 | meat fromveg hotfood uk dish
+yorkshire pudding | baked_c | 4 | uk hotfood -sweet col=yellow
+haggis | meatfood_c | 4 | uk dish -cheap?
+full english | meatfood_c | 4 | uk breakfast egg_in hotfood fried dish
+beans on toast | dish_c | 4 | uk breakfast legume bread
+crumpet | bread_c | 3 | uk breakfast holes round
+english muffin | bread_c | 2 | uk usa breakfast round
+gnocchi | pasta_c | 6 | fromveg soft
+carbonara | pasta_c | 6 | egg_in cheese meat creamy
+minestrone | soup_c | 3 | italy europe fromveg
+bruschetta | bread_c | 4 | italy europe fromveg crunchy
+focaccia | bread_c | 3 | italy europe flat
+calzone | baked_c | 4 | italy europe cheese meat~ handfood
+polenta | dish_c | 2 | italy europe grain col=yellow
+fondue | dish_c | 5 | europe cheese~ choc~ melts hotfood
+raclette | cheese_c | 3 | europe melts hotfood
+pizza margherita | fastfood_c | 4 | sz=4 baked grain cheese round flat italy europe fromveg -meat
+pepperoni pizza | fastfood_c | 6 | sz=4 baked grain cheese meat round flat usa~ italy~
+pasta salad | pasta_c | 3 | -hotfood cold
+peking duck | meatfood_c | 4 | china asia dish crunchy
+sweet and sour chicken | meatfood_c | 5 | china asia dish sweet sour
+kung pao chicken | meatfood_c | 2 | china asia dish spicy nut
+chow mein | pasta_c | 5 | -italy -europe china asia fried
+egg roll | fastfood_c | 4 | china asia fried crunchy fromveg
+wonton | dish_c | 3 | china asia meat~ soup~
+congee | rice_c | 2 | china asia breakfast soft
+bao bun | bread_c | 4 | china asia soft meat~
+sashimi | seafood_c | 4 | japan asia -cooked raw expensive~
+takoyaki | fastfood_c | 2 | japan asia seafood round
+udon | pasta_c | 4 | -italy -europe japan asia bowl soup~
+soba | pasta_c | 2 | -italy -europe japan asia
+katsu curry | dish_c | 3 | japan asia fried rice~
+shawarma | fastfood_c | 6 | asia meat bun~ handfood
+doner kebab | fastfood_c | 8 | germany~ europe asia meat bread spicy~
+lahmacun | baked_c | 2 | asia flat meat
+jollof rice | rice_c | 2 | africa spicy
+injera | bread_c | 1 | africa flat sour
+feijoada | soup_c | 2 | brazil samerica legume meat
+arepa | bread_c | 2 | samerica round
+# baked and sweet
+pumpkin pie | cake_c | 6 | fromveg usa namerica holiday round
+pecan pie | cake_c | 3 | nut usa namerica
+key lime pie | cake_c | 2 | fromfruit usa sour~
+carrot cake | cake_c | 6 | fromveg
+banana bread | cake_c | 6 | fromfruit
+red velvet cake | cake_c | 4 | col=red usa
+sponge cake | cake_c | 6 | soft fluffy~ col=yellow
+swiss roll | cake_c | 4 | cylinder creamy
+black forest cake | cake_c | 6 | germany europe choc fromfruit creamy
+lemon tart | cake_c | 3 | fromfruit sour~ col=yellow
+profiterole | pastry_c | 3 | france choc creamy round
+cannoli | pastry_c | 3 | italy europe creamy cylinder
+gelato | icecream_c | 6 | italy europe
+panna cotta | dessert_c | 3 | italy europe creamy dairy
+mochi | dessert_c | 5 | japan asia soft round rice
+dango | candy_c | 1 | japan asia rice round
+halva | candy_c | 2 | asia sweet sticky
+turkish delight | candy_c | 4 | asia sweet sticky col=pink,white
+marzipan | candy_c | 6 | nut sweet germany~ europe xmas~
+nougat | candy_c | 2 | nut sweet
+praline | candy_c | 3 | choc nut france
+chocolate truffle | candy_c | 4 | choc round expensive~ gift
+jelly babies | candy_c | 3 | col=any soft uk children
+sour candy | candy_c | 4 | sour col=any
+rock candy | candy_c | 2 | hard col=any
+peanut brittle | candy_c | 1 | nut hard
+meringue | dessert_c | 4 | egg_in col=white crunchy light~
+pavlova | dessert_c | 3 | egg_in fromfruit oceania creamy
+macaroon | biscuit_c | 3 | nut
+shortbread | biscuit_c | 3 | uk
+oreo | biscuit_c | 15 | choc col=black,white round usa creamy famous
+wafer | biscuit_c | 4 | crunchy flat
+stollen | cake_c | 4 | germany europe xmas fromfruit
+lebkuchen | biscuit_c | 3 | germany europe xmas spice~
+christmas pudding | dessert_c | 3 | uk xmas fromfruit hotfood
+mince pie | cake_c | 3 | uk xmas fromfruit
+hot cross bun | bread_c | 3 | uk easter sweet
+easter egg | candy_c | 25 | choc easter holiday col=brown,any children gift hollow
+chocolate egg | candy_c | 6 | choc easter hollow
+candy bar | candy_c | 6 | choc packet
+# drinks
+mulled wine | alcohol_c | 6 | hotdrink hot xmas wintery germany~ europe fromfruit spice~
+eggnog | drink_c | 3 | dairy egg_in xmas usa sweet alcohol~
+kombucha | drink_c | 2 | fizzy sour healthy~
+bubble tea | drink_c | 10 | asia sweet caffeine~ round? children~ cold
+matcha | hotdrink_c | 4 | caffeine col=green japan asia healthy~
+chai | hotdrink_c | 4 | caffeine india asia spice~ dairy~
+mate | hotdrink_c | 2 | caffeine samerica
+horchata | drink_c | 2 | mexico spain rice sweet cold col=white
+root beer | softdrink_c | 3 | col=brown usa fizzy
+ginger ale | softdrink_c | 2 | fizzy col=yellow
+tonic water | softdrink_c | 2 | fizzy bitter -sweet? col=white seethrough
+sports drink | softdrink_c | 4 | -fizzy col=blue,any sport
+protein shake | drink_c | 3 | dairy~ sport adults
+buttermilk | dairy_c | 2 | drink liquid sour
+kefir | dairy_c | 2 | drink liquid sour europe~
+lassi | dairy_c | 2 | drink liquid india
+coconut milk | drink_c | 3 | col=white fromplant tropical ingredient~
+almond milk | drink_c | 3 | col=white fromplant nut -dairy
+soy milk | drink_c | 3 | col=white fromplant legume -dairy
+oat milk | drink_c | 3 | col=white fromplant grain -dairy
+chocolate milk | dairy_c | 10 | drink liquid choc sweet col=brown children cold
+strawberry milk | dairy_c | 2 | drink liquid sweet col=pink
+prosecco | alcohol_c | 3 | fizzy italy europe col=yellow party
+sangria | alcohol_c | 3 | spain europe fromfruit col=red party summery
+margarita | alcohol_c | 4 | mexico sour cold col=green
+mojito | alcohol_c | 4 | cold samerica~ col=green
+schnapps | alcohol_c | 2 | germany europe

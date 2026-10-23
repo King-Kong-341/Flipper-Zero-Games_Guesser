@@ -1,0 +1,144 @@
+# ===== things in and around a home (Guesser 1.0) =========================================
+# --- living room ---
+tv stand | furniture_c | 4 | sz=6 livingroom wood -sit
+sideboard | storage_furn | 3 | sz=6 livingroom wood opens doors
+side table | table_c | 4 | sz=5 livingroom bedroom
+ottoman | seat_c | 3 | sz=5 livingroom soft fabric -legsfurn opens~
+throw blanket | household_c | 3 | sz=5 soft fabric folds livingroom wintery
+floor lamp | lighting_c | 5 | sz=6 tall plugin livingroom
+ceiling light | lighting_c | 6 | sz=4 wall electric buildpart~ -plugin
+ceiling fan | appliance_c | 4 | sz=6 cools spins wall summery -plugin blade~
+air purifier | appliance_c | 3 | sz=5 cleaning~ modern quiet
+humidifier | appliance_c | 3 | sz=4 withwater wet bedroom
+dehumidifier | appliance_c | 1 | sz=5 withwater
+wall clock | household_c | 6 | sz=4 time round wall battery kitchen~ livingroom
+dvd player | electronic_c | 4 | sz=4 watch plugin livingroom oldfash~ remote boxshape
+blu-ray player | electronic_c | 2 | sz=4 watch plugin livingroom remote boxshape
+cd player | electronic_c | 3 | sz=4 music listen plugin oldfash~ round~
+vcr | electronic_c | 3 | sz=5 watch plugin oldfash remote boxshape
+cat tree | furniture_c | 4 | sz=7 pets_use climbs? fabric tall
+dog basket | furniture_c | 2 | sz=5 pets_use soft sleep
+houseplant | houseplant_c | 15 | sz=4 col=green
+plant | plant_base | 25 | sz=4 col=green kidknows everyday mostcountries garden houseplant~
+fish bowl | container_c | 4 | sz=4 glass round withwater pets_use seethrough
+# --- kitchen ---
+fridge magnet | household_c | 5 | sz=2 magnetic flat fridge? kitchen col=any decoration cheap
+spice jar | container_c | 3 | sz=2 glass lid kitchen spice?
+espresso machine | kitchen_appl | 4 | sz=5 hotdrink caffeine heats italy~ expensive
+milk frother | kitchen_appl | 2 | sz=3 hotdrink dairy?
+knife block | kitchen_c | 3 | sz=4 wood cutting~ blade~
+fruit bowl | crockery_c | 3 | sz=4 round hollow fromfruit? kitchen
+mixing bowl | utensil_c | 4 | sz=4 round hollow -handle baked?
+salad bowl | crockery_c | 2 | sz=4 round hollow
+salad spinner | utensil_c | 2 | sz=4 spins plastic withwater
+measuring jug | utensil_c | 3 | sz=4 measure plastic seethrough handle
+kitchen timer | kitchen_c | 3 | sz=2 time makessound noisy~ battery~
+cookbook | document_c | 5 | sz=4 read cooking kitchen food?
+shopping list | document_c | 4 | sz=3 paper writing read supermarket
+cooktop | kitchen_appl | 4 | sz=6 heats hot flat -lift
+extractor hood | kitchen_appl | 2 | sz=6 noisy wall -lift
+roasting tin | utensil_c | 2 | sz=5 metal hot
+pizza stone | utensil_c | 1 | sz=4 stone flat hot
+scrubbing brush | household_c | 3 | sz=3 cleaning handle~ withwater
+washing-up brush | household_c | 2 | sz=4 cleaning handle withwater kitchen
+water jug | crockery_c | 3 | sz=4 glass plastic handle drink? withwater
+coffee pot | crockery_c | 3 | sz=4 handle lid hotdrink caffeine
+toast rack | kitchen_c | 1 | sz=3 metal breakfast uk
+cereal box | box_c | 5 | sz=4 paper breakfast kitchen food? col=any
+# --- bathroom ---
+toothbrush holder | hygiene_c | 3 | sz=3 container~ ceramic plastic
+bath mat | household_c | 3 | sz=5 fabric soft flat bathroom
+shower head | buildpart_c | 3 | sz=3 bathroom withwater metal holes
+toilet roll holder | buildpart_c | 2 | sz=3 bathroom wall metal
+makeup bag | bag_c | 3 | sz=3 cosmetic? female
+nail scissors | hygiene_c | 2 | sz=2 cutting sharp grooming pair~
+bath bomb | hygiene_c | 4 | sz=2 round smellsnice col=any fizzy~ withwater
+bubble bath | hygiene_c | 3 | sz=3 liquid smellsnice withwater
+loofah | hygiene_c | 2 | sz=3 rough withwater
+face wash | hygiene_c | 2 | sz=3 liquid onface
+body lotion | hygiene_c | 1 | sz=3 creamy
+medicine cabinet | storage_furn | 2 | sz=5 bathroom medical opens doors wall
+toilet cleaner | hygiene_c | 2 | sz=4 cleaning liquid dangerous~ -grooming
+hand sanitizer | hygiene_c | 5 | sz=2 liquid -withwater smells bag medical~
+cotton wool | hygiene_c | 2 | sz=3 soft fluffy col=white
+# --- bedroom ---
+bedside lamp | lighting_c | 3 | sz=4 bedroom plugin
+sleep mask | clothing_c | 3 | sz=3 onface sleep soft bedroom
+earplugs | hygiene_c | 3 | sz=1 pair soft sleep quiet
+bed sheet | household_c | 4 | sz=7 fabric soft flat folds bedroom sleep col=white,any
+electric blanket | household_c | 2 | sz=6 electric plugin heats sleep
+mosquito net | household_c | 2 | sz=7 fabric holes sleep tropical summery
+alarm | concept_c | 2 | noisy makessound sleep~
+full-length mirror | household_c | 2 | sz=6 glass tall wall bedroom
+# --- office and study ---
+mousepad | computer_c | 4 | sz=3 -electronic flat soft rubber desk
+printer paper | stationery_c | 2 | sz=4 paper flat col=white
+ink cartridge | computer_c | 3 | sz=2 -electronic liquid~ col=black,any expensive~
+desk organizer | container_c | 2 | sz=4 desk office
+pen holder | container_c | 3 | sz=3 desk cylinder writing?
+cork board | stationery_c | 3 | sz=6 wall flat soft~ office school
+pushpin | stationery_c | 3 | sz=1 pointed sharp metal plastic col=any
+label maker | electronic_c | 1 | sz=3 office buttons
+usb hub | computer_c | 2 | sz=2 cord plastic
+external hard drive | computer_c | 3 | sz=3 boxshape cord
+phone stand | phonetech_c | 2 | sz=3 -electronic -battery -screen plastic metal desk
+stylus | phonetech_c | 3 | sz=3 -electronic -battery -screen pointed longthin writing
+graphics tablet | computer_c | 2 | sz=4 flat art writing
+planner | document_c | 3 | sz=3 paper writing time
+binder | stationery_c | 3 | sz=4 paper plastic opens office school
+# --- kids and babies ---
+toy box | container_c | 4 | sz=5 toy? children bedroom lid
+colouring book | document_c | 5 | sz=4 paper art children writing~ col=any
+sticker book | document_c | 2 | sz=4 paper sticky children collect
+baby monitor | electronic_c | 3 | sz=3 baby_use sound listen battery
+bib | clothing_c | 3 | sz=3 baby_use children onface fabric plastic~
+sippy cup | crockery_c | 3 | sz=3 baby_use children plastic lid -breakable
+teether | toy_c | 2 | sz=2 baby_use rubber soft
+baby wipes | hygiene_c | 3 | sz=3 baby_use wet soft paper~ packet
+changing mat | household_c | 2 | sz=6 baby_use plastic flat soft
+baby mobile | toy_c | 2 | sz=5 baby_use spins music~ wall~
+nappy | hygiene_c | 1 | sz=4 baby_use
+# --- hallway and entrance ---
+key hook | household_c | 3 | sz=3 wall metal lock?
+intercom | electronic_c | 3 | sz=3 communicate wall buttons sound
+shoe horn | household_c | 2 | sz=4 plastic metal longthin onfeet?
+# --- utility room, garage and shed ---
+cordless vacuum | appliance_c | 4 | sz=5 cleaning battery -plugin modern noisy handle
+steam mop | appliance_c | 1 | sz=6 cleaning hot withwater
+clothes airer | household_c | 3 | sz=6 folds metal clothing? wet~
+fuse box | buildpart_c | 3 | sz=4 electricity wall dangerous
+water heater | appliance_c | 2 | sz=6 heats hot withwater -lift
+boiler | appliance_c | 3 | sz=6 heats hot withwater wall -lift
+electricity meter | electronic_c | 2 | sz=4 electricity measure wall read
+superglue | stationery_c | 3 | sz=2 sticky fasten dangerous~ liquid
+wd-40 | tool_c | 2 | sz=3 liquid repair car? smells
+paint can | container_c | 3 | sz=4 metal lid cylinder art~
+garden shears | gardentool_c | 2 | sz=4 cutting blade sharp pair~
+solar light | lighting_c | 3 | sz=3 garden outdoors sun_rel battery -plugin
+garden lights | lighting_c | 2 | sz=5 garden outdoors
+doorbell camera | electronic_c | 3 | sz=2 camera internet wall buttons modern protect
+rain barrel | container_c | 2 | sz=6 withwater garden plastic cylinder
+garden bench | seat_c | 2 | sz=6 garden outdoors wood
+# --- in your pocket or bag ---
+bus pass | document_c | 3 | sz=2 plastic flat travel public?
+loyalty card | money_c | 2 | sz=3 plastic flat shopplace
+travel mug | crockery_c | 3 | sz=3 lid metal plastic hotdrink -breakable bag
+reusable bag | bag_c | 3 | sz=4 fabric supermarket folds
+pocket mirror | household_c | 2 | sz=2 glass round s_pocket bag
+# --- out on the street ---
+billboard | signs_c | 4 | sz=9 read col=any tall road city
+advertising poster | signs_c | 2 | sz=6 read paper col=any city
+kiosk | building_c | 3 | sz=7 shopplace sells? city -livethere
+food stall | building_c | 2 | sz=7 eatplace food? outdoors
+ice cream shop | building_c | 3 | sz=8 eatplace summery sweet
+hairdresser salon | building_c | 2 | sz=8 grooming workthere city
+laundromat | building_c | 2 | sz=8 cleaning withwater clothing? city
+car park | structure_c | 3 | sz=10 car road city -tall~
+petrol station | building_c | 3 | sz=8 fuel car road workthere
+church tower | structure_c | 2 | sz=9 church religion tall
+tram stop | structure_c | 2 | sz=6 road city transport_pl public
+train track | structure_c | 4 | sz=10 rail metal longthin outdoors
+level crossing | structure_c | 2 | sz=8 rail road safety
+bike lane | structure_c | 2 | sz=9 road flat longthin city
+speed bump | structure_c | 2 | sz=7 road car? safety
+street sign | signs_c | 3 | sz=5 read road city metal

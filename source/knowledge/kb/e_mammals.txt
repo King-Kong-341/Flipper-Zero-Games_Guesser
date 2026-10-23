@@ -1,0 +1,175 @@
+# ===== mammals ================================================================
+# pets and dogs
+dog | dog_breed | 100 | sz=5 col=any -breed everyday city house garden homes~ mostcountries kidknows noisy? noisy? -rare
+puppy | dog_breed | 45 | sz=4 babyanimal col=any -breed cute? kidknows fluffy? soft -bites? children?
+labrador | dog_breed | 30 | sz=5 col=yellow,black,brown -longears? swims usa~ canada? uk~ trained soft? -spots
+golden retriever | dog_breed | 25 | sz=5 col=yellow fur fluffy swims trained uk~ soft
+german shepherd | dog_breed | 30 | sz=6 col=brown,black police trained germany europe herd? dangerous~ scary~
+poodle | dog_breed | 25 | sz=5 col=white,black/brown fluffy france europe germany~ -swims? luxury~
+chihuahua | dog_breed | 28 | sz=3 col=brown,white,black s_hold~ mexico samerica~ namerica~ noisy longears? -dangerous
+bulldog | dog_breed | 22 | sz=5 col=white,brown uk europe slow -fast -longtail -longears strong? heavy?
+french bulldog | dog_breed | 12 | sz=4 col=black,white,brown france europe -longtail longears? slow
+dalmatian | dog_breed | 25 | sz=5 col=white,black spots bwhite famous fast europe disney?
+husky | dog_breed | 25 | sz=5 col=white,grey,black coldplace snowplace? wintery packanimal fluffy russia~ fast
+beagle | dog_breed | 15 | sz=4 col=brown,white,black longears uk europe noisy
+dachshund | dog_breed | 20 | sz=4 col=brown,black longthin germany europe longears -fast
+pug | dog_breed | 18 | sz=4 col=yellow,black -longtail china asia slow -fast noisy~
+rottweiler | dog_breed | 12 | sz=6 col=black,brown germany europe dangerous? scary? police~
+boxer dog | dog_breed | 8 | sz=5 col=brown,white germany europe
+great dane | dog_breed | 10 | sz=6 col=grey,black,brown/white germany europe tall heavy
+greyhound | dog_breed | 12 | sz=5 col=grey,black/brown fast racing longthin uk europe
+border collie | dog_breed | 12 | sz=5 col=black,white farm onfarm trained uk europe fast bwhite~
+yorkshire terrier | dog_breed | 10 | sz=3 col=brown,grey uk europe fur
+corgi | dog_breed | 10 | sz=4 col=orange,white uk europe royal~ -longtail
+shih tzu | dog_breed | 8 | sz=4 col=white,brown fluffy china asia
+saint bernard | dog_breed | 10 | sz=6 col=white,brown mountainan snowplace europe heavy
+doberman | dog_breed | 8 | sz=6 col=black,brown germany europe police~ dangerous~
+pomeranian | dog_breed | 7 | sz=3 col=orange,white fluffy europe germany~
+schnauzer | dog_breed | 4 | sz=5 col=grey,black germany europe
+cocker spaniel | dog_breed | 6 | sz=4 col=brown,yellow longears uk europe
+jack russell | dog_breed | 6 | sz=4 col=white,brown uk europe fast
+pit bull | dog_breed | 8 | sz=5 col=grey,brown,white usa namerica dangerous? scary?
+shiba inu | dog_breed | 6 | sz=4 col=orange,white japan asia famous~
+chow chow | dog_breed | 4 | sz=5 col=orange,brown fluffy china asia
+basset hound | dog_breed | 4 | sz=5 col=brown,white longears slow france europe
+cat | cat_breed | 100 | col=any -breed everyday house city garden homes kidknows mostcountries makessound quiet soft fluffy?
+kitten | cat_breed | 40 | sz=4 babyanimal col=any -breed kidknows fluffy soft children?
+persian cat | cat_breed | 8 | col=white,grey fluffy asia~ -fast slow
+siamese cat | cat_breed | 8 | col=white,brown asia noisy
+sphynx cat | cat_breed | 5 | col=pink,grey -fur -fluffy rare -soft
+maine coon | cat_breed | 4 | sz=5 col=brown,grey fluffy usa namerica
+rabbit | landmammal | 85 | sz=4 pet? wild~ herbivore longears jumps burrows fur soft fluffy whiskers tail -longtail garden woodland? grassland? fast quiet kidknows -teeth -claws -dangerous -scary easter eatmeat~ herd? mostcountries farm~ -breed col=white,brown,grey cute? onfarm~
+bunny | landmammal | 25 | sz=4 pet babyanimal~ herbivore longears jumps fur soft fluffy whiskers kidknows easter children? col=white,brown,grey -dangerous -teeth
+hamster | rodent_c | 60 | pet house -wild kidknows -pest burrows -climbs? nocturnal soft fluffy -longtail -tail? col=brown,white,yellow cheap s_hold
+guinea pig | rodent_c | 45 | sz=4 pet house -wild kidknows -pest -tail -longtail -climbs -jumps soft fluffy makessound col=brown,white,black samerica
+gerbil | rodent_c | 15 | pet house -wild desertan? africa? asia? longtail jumps col=brown,yellow
+mouse | rodent_c | 80 | wild~ pet~ house pest city? garden? longtail nocturnal fast? kidknows col=grey,brown/white quiet mostcountries cheese?
+rat | rodent_c | 65 | sz=4 wild pest city underground? longtail nocturnal scary? omnivore? carnivore~ col=grey,brown/black mostcountries
+squirrel | rodent_c | 60 | sz=4 wild climbs intrees jumps woodland garden city? fluffy longtail -burrows -nocturnal col=brown,grey/orange mostcountries? europe namerica asia
+chipmunk | rodent_c | 22 | wild burrows climbs~ stripes woodland namerica -longtail? col=brown/white
+beaver | rodent_c | 30 | sz=5 wild freshwater swims aquatic~ nearwater -longtail tail teeth woodland namerica europe canada col=brown nocturnal?
+porcupine | rodent_c | 22 | sz=5 wild spiky spiky? -soft -fluffy woodland? nocturnal africa~ namerica~ col=brown,black,white
+hedgehog | misc_mammal | 50 | sz=3 wild garden spiky -soft -fluffy -fur? nocturnal insectivore hibernates -longtail -tail? woodland europe slow? -fast kidknows col=brown pet~ quiet cute?
+capybara | rodent_c | 14 | sz=6 samerica brazil swims freshwater nearwater herbivore -longtail -tail -climbs herd zoo? col=brown tropicalan?
+chinchilla | rodent_c | 8 | pet~ soft fluffy samerica mountainan col=grey
+mole | misc_mammal | 30 | sz=3 wild burrows underground -tail? claws insectivore garden -fast -climbs col=black,grey dark quiet
+shrew | misc_mammal | 6 | sz=2 wild insectivore longtail? garden woodland col=brown,grey quiet
+lemming | rodent_c | 4 | coldplace antarctic~ col=brown,yellow -longtail
+marmot | rodent_c | 5 | sz=4 mountainan burrows hibernates europe namerica col=brown
+prairie dog | rodent_c | 5 | sz=4 grassland burrows herd namerica usa col=brown,yellow
+fox | wild_dog_c | 65 | sz=5 woodland city? garden~ nocturnal col=orange,white/black clever? -herd fluffy? longtail mostcountries europe namerica asia -zoo?
+arctic fox | wild_dog_c | 15 | sz=4 coldplace antarctic snowplace wintery col=white fluffy
+wolf | wild_dog_c | 62 | sz=6 woodland coldplace? mountainan~ herd col=grey,white/black dangerous scary noisy europe namerica asia russia canada
+coyote | wild_dog_c | 15 | sz=5 namerica usa mexico desertan? grassland col=brown,grey
+jackal | wild_dog_c | 6 | sz=5 africa asia grassland col=brown,yellow
+hyena | misc_mammal | 30 | sz=6 africa grassland carnivore teeth noisy herd col=brown,yellow spots? scary dangerous -pet zoo
+dingo | wild_dog_c | 8 | sz=5 oceania desertan col=orange,yellow
+lion | bigcat | 85 | col=yellow,brown mane africa grassland herd noisy famous kidknows -spots -stripes -climbs -intrees india~ asia~
+lioness | bigcat | 12 | col=yellow,brown africa grassland herd female -mane
+tiger | bigcat | 82 | sz=7 col=orange,black,white stripes asia india china~ russia~ tropicalan woodland? swims endangered famous kidknows -herd
+leopard | bigcat | 45 | col=yellow,black spots africa asia climbs intrees -herd nocturnal?
+cheetah | bigcat | 50 | col=yellow,black spots fast africa grassland -climbs racing~ -herd? -noisy
+jaguar | bigcat | 30 | col=yellow,black spots samerica brazil tropicalan swims climbs -herd
+panther | bigcat | 25 | col=black climbs nocturnal tropicalan? samerica~ asia~ africa~
+snow leopard | bigcat | 15 | col=white,grey,black spots mountainan coldplace snowplace asia china rare endangered -herd
+lynx | cat_c | 20 | sz=5 wild woodland coldplace europe namerica russia canada -longtail col=grey,brown longears? -pet zoo?
+puma | bigcat | 20 | col=brown,yellow mountainan namerica samerica usa climbs -herd -spots
+ocelot | cat_c | 5 | sz=5 wild spots tropicalan samerica col=yellow,black
+wildcat | cat_c | 5 | sz=5 wild woodland europe stripes col=brown,grey
+bobcat | cat_c | 5 | sz=5 wild namerica usa col=brown,grey spots -longtail
+elephant | landmammal | 88 | sz=8 wild zoo herbivore trunk tusks longears? herd africa asia india grassland -fur -claws -teeth heavy famous kidknows endangered noisy col=grey circus~ ridden~ packanimal~ -climbs -jumps -fast? slow? strong?
+baby elephant | landmammal | 8 | sz=6 babyanimal wild zoo herbivore trunk herd africa asia -fur col=grey cute?
+mammoth | dino_c | 22 | sz=8 mammal fur trunk tusks herbivore coldplace wintery? -reptile -scales -eggs -dinosaur? col=brown legs legs4 tail europe~ asia~ namerica~ russia? ancient
+giraffe | landmammal | 78 | sz=8 wild zoo herbivore longneck hooves spots tall horns? africa grassland herd? col=yellow,brown famous kidknows -teeth -claws quiet fast~
+zebra | horse_c | 70 | sz=7 wild zoo stripes bwhite africa grassland herd col=black,white -ridden kidknows
+horse | horse_c | 90 | farm onfarm ridden pet~ trained racing~ col=brown,black,white mostcountries kidknows everyday? -wild? -zoo packanimal eatmeat~ strong?
+pony | horse_c | 40 | sz=6 farm onfarm ridden pet children? trained col=brown,white,black kidknows
+foal | horse_c | 8 | sz=6 babyanimal farm onfarm col=brown
+donkey | horse_c | 55 | sz=6 farm onfarm packanimal longears ridden? -fast slow? col=grey,brown noisy kidknows mostcountries -racing
+mule | horse_c | 12 | sz=7 farm onfarm packanimal longears col=brown,grey
+camel | landmammal | 60 | sz=8 desertan desert hooves herbivore ridden packanimal tall longneck africa asia egypt~ col=brown,yellow zoo -wild? -fur? kidknows herd? -horns
+llama | landmammal | 40 | sz=7 samerica mountainan herbivore longneck farm packanimal fluffy fur milk zoo? col=white,brown -horns hooves?
+alpaca | landmammal | 25 | sz=6 samerica mountainan herbivore longneck farm fluffy soft milk col=white,brown,black -horns
+cow | cattle_c | 92 | sz=7 milk eatmeat col=black,white,brown spots? kidknows everyday? noisy? mostcountries -pet
+bull | cattle_c | 40 | sz=7 horns dangerous? scary? male eatmeat col=black,brown spain~ -milk
+calf | cattle_c | 15 | sz=6 babyanimal milk~ col=brown,white,black -horns
+ox | cattle_c | 15 | sz=7 horns packanimal strong col=brown
+buffalo | cattle_c | 30 | sz=7 horns wild? -farm? africa asia grassland heavy col=black,brown dangerous? zoo
+bison | cattle_c | 25 | sz=7 horns wild -farm? -milk namerica usa canada grassland heavy col=brown fur fluffy?
+yak | cattle_c | 10 | sz=7 horns fur fluffy mountainan coldplace asia china col=black,brown
+goat | cattle_c | 70 | sz=5 horns milk eatmeat climbs mountainan? col=white,brown,black pet~ jumps
+sheep | cattle_c | 85 | sz=5 -horns? milk eatmeat milk? fluffy soft col=white/black kidknows mostcountries quiet? -dangerous
+lamb | cattle_c | 30 | sz=5 babyanimal -horns fluffy soft col=white kidknows easter eatmeat cute?
+ram | cattle_c | 8 | sz=5 horns male col=white,brown fluffy
+pig | pig_c | 88 | sz=6 col=pink -fur -fluffy kidknows mostcountries noisy smells? -dangerous
+piglet | pig_c | 15 | sz=4 babyanimal col=pink -fur kidknows cute?
+wild boar | pig_c | 15 | sz=6 wild -farm -onfarm woodland tusks fur col=brown,black dangerous? europe asia
+warthog | pig_c | 15 | sz=6 wild -farm -onfarm africa grassland tusks col=grey,brown zoo
+hippopotamus | landmammal | 65 | sz=8 wild zoo herbivore africa freshwater swims nearwater aquatic? heavy dangerous -fur -claws teeth? col=grey,pink kidknows -fast? herd -tail? -longtail
+rhinoceros | landmammal | 55 | sz=8 wild zoo herbivore horns africa asia india? grassland heavy dangerous endangered -fur -claws -teeth col=grey kidknows -herd
+deer | deer_c | 65 | horns? col=brown woodland europe namerica asia mostcountries? kidknows fast
+reindeer | deer_c | 45 | sz=6 horns coldplace snowplace antarctic wintery xmas farm? ridden~ packanimal col=brown,white herd russia~ canada~ famous?
+moose | deer_c | 30 | sz=7 horns coldplace woodland canada namerica russia? europe~ heavy col=brown freshwater~
+elk | deer_c | 12 | sz=7 horns namerica canada woodland col=brown
+fawn | deer_c | 5 | sz=5 babyanimal col=brown spots -horns
+antelope | deer_c | 25 | sz=6 horns africa grassland fast herd col=brown,yellow/white
+gazelle | deer_c | 25 | sz=5 horns africa grassland fast jumps herd col=brown,yellow/white
+impala | deer_c | 6 | sz=5 horns africa grassland jumps herd col=brown
+wildebeest | cattle_c | 15 | sz=7 horns wild -farm -onfarm -milk africa grassland herd col=grey,black zoo
+okapi | landmammal | 6 | sz=7 wild zoo herbivore stripes africa tropicalan rare col=brown,white longneck? hooves
+kangaroo | marsupial_c | 70 | sz=6 jumps legs2? longtail herbivore grassland desertan? col=brown,grey,orange famous kidknows fast -climbs
+wallaby | marsupial_c | 10 | sz=5 jumps longtail herbivore col=brown,grey
+koala | marsupial_c | 60 | sz=4 climbs intrees herbivore slow -tail -longtail woodland? fluffy soft col=grey kidknows -fast quiet cute? endangered?
+wombat | marsupial_c | 12 | sz=5 burrows herbivore -tail -longtail col=brown,grey slow
+tasmanian devil | marsupial_c | 12 | sz=4 carnivore teeth noisy nocturnal col=black endangered cartoon~
+opossum | marsupial_c | 8 | sz=4 namerica usa -oceania longtail nocturnal climbs col=grey,white
+platypus | misc_mammal | 30 | sz=4 oceania aquatic freshwater swims eggs beak~ venomous? zoo? col=brown fur -legs4? legs
+gorilla | primate_c | 65 | sz=6 africa tropicalan herbivore heavy strong? col=black,grey -tail endangered zoo kidknows -jumps? -intrees? dangerous~
+chimpanzee | primate_c | 55 | sz=5 africa tropicalan clever? col=black,brown -tail herd trained zoo kidknows climbs
+orangutan | primate_c | 30 | sz=6 asia tropicalan intrees col=orange,brown -tail endangered zoo
+monkey | primate_c | 75 | sz=4 tail longtail jumps intrees tropicalan col=brown,grey kidknows zoo noisy herd samerica? asia? africa? pet~ circus~
+baboon | primate_c | 20 | sz=5 africa grassland tail herd noisy col=brown,grey teeth -intrees? dangerous~
+lemur | primate_c | 18 | sz=4 africa island longtail stripes? intrees col=grey,white,black jumps
+gibbon | primate_c | 6 | sz=4 asia intrees -tail noisy col=black,brown
+bear | bear_c | 70 | col=brown,black woodland europe namerica asia russia canada kidknows mostcountries?
+brown bear | bear_c | 20 | col=brown woodland mountainan europe namerica russia canada
+grizzly bear | bear_c | 20 | col=brown woodland mountainan namerica usa canada
+black bear | bear_c | 10 | col=black woodland namerica usa canada
+polar bear | bear_c | 55 | col=white carnivore coldplace antarctic snowplace wintery swims ocean? endangered -woodland -climbs famous kidknows -hibernates?
+panda | bear_c | 55 | sz=6 col=black,white bwhite herbivore -carnivore asia china woodland? mountainan endangered rare famous kidknows -dangerous? -scary -hibernates quiet? cute?
+red panda | misc_mammal | 15 | sz=4 asia china mountainan intrees climbs fluffy longtail stripes? col=orange,red,brown,white endangered zoo herbivore
+raccoon | misc_mammal | 40 | sz=4 namerica usa canada nocturnal climbs city garden? stripes~ col=grey,black,white omnivore? pest? -herd
+skunk | misc_mammal | 25 | sz=4 namerica usa smells bwhite stripes col=black,white nocturnal -dangerous? fluffy
+badger | misc_mammal | 25 | sz=4 woodland burrows nocturnal stripes bwhite col=black,white,grey europe uk~ claws teeth
+otter | misc_mammal | 30 | sz=5 swims freshwater ocean~ nearwater aquatic? longtail fur whiskers carnivore cute? col=brown europe namerica~
+sea otter | misc_mammal | 12 | sz=5 swims ocean aquatic fur whiskers carnivore col=brown namerica~
+weasel | misc_mammal | 10 | sz=4 longthin longtail carnivore woodland col=brown,white
+ferret | misc_mammal | 15 | sz=4 -wild pet longthin longtail carnivore col=white,brown
+stoat | misc_mammal | 4 | sz=3 longthin carnivore wintery? col=brown,white europe
+mink | misc_mammal | 4 | sz=4 longthin freshwater carnivore col=brown,black
+wolverine | misc_mammal | 6 | sz=5 coldplace carnivore dangerous col=brown,black canada russia namerica
+meerkat | misc_mammal | 30 | sz=3 africa desertan desert burrows herd legs2~ col=brown,yellow zoo kidknows
+mongoose | misc_mammal | 5 | sz=4 africa asia india carnivore fast col=brown,grey
+armadillo | misc_mammal | 20 | sz=4 shell hard samerica namerica~ insectivore burrows col=grey,brown -fur
+anteater | misc_mammal | 15 | sz=6 samerica insectivore trunk? longtail col=brown,grey,black -teeth claws
+sloth | misc_mammal | 35 | sz=5 samerica tropicalan intrees climbs slow -fast herbivore col=brown,grey cute? zoo -tail -longtail
+aardvark | misc_mammal | 5 | sz=5 africa insectivore burrows nocturnal longears col=brown,grey trunk~
+pangolin | misc_mammal | 5 | sz=4 africa asia scales insectivore endangered col=brown -fur
+tapir | misc_mammal | 5 | sz=6 samerica asia tropicalan herbivore trunk~ col=black,white,brown hooves
+walrus | seal_c | 30 | sz=7 tusks whiskers coldplace antarctic heavy col=brown,grey -fur?
+seal | seal_c | 45 | sz=6 col=grey,brown/white kidknows circus~ spots~
+sea lion | seal_c | 25 | sz=6 col=brown noisy circus~ trained zoo
+whale | whale_c | 70 | sz=9 col=grey,blue,black kidknows famous noisy~ sings~ heavy
+blue whale | whale_c | 35 | sz=9 col=blue,grey endangered heavy -teeth
+killer whale | whale_c | 30 | sz=8 col=black,white bwhite carnivore teeth dangerous herd zoo~ fast
+humpback whale | whale_c | 12 | sz=9 col=black,grey sings
+sperm whale | whale_c | 8 | sz=9 col=grey teeth deepsea
+narwhal | whale_c | 10 | sz=7 tusks horns? coldplace antarctic col=grey,white rare
+beluga | whale_c | 8 | sz=7 col=white coldplace antarctic
+dolphin | whale_c | 75 | sz=6 col=grey,blue clever? herd jumps fast trained zoo~ kidknows famous noisy -dangerous -scary
+porpoise | whale_c | 5 | sz=6 col=grey
+manatee | whale_c | 10 | sz=7 -whale herbivore slow col=grey ocean freshwater~ namerica~ endangered
+bat | bat_c | 60 | col=black,brown cave? halloween kidknows mostcountries
+vampire bat | bat_c | 10 | col=black,brown bloodsuck parasite samerica halloween scary
+fruit bat | bat_c | 8 | sz=4 col=brown,black herbivore -insectivore tropicalan asia africa oceania
+human | landmammal | 30 | cat=A sz=6 -legs4 legs2 -tail -wild? -fur? clever city house mostcountries everyday -zoo person~ primate~

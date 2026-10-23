@@ -1,0 +1,445 @@
+# ===== more famous people (second expansion) ==========================================
+nicolaus copernicus | historic_c | 4 | scientist male europe before1900 celestial~
+johannes kepler | historic_c | 2 | scientist male germany europe before1900
+michael faraday | historic_c | 2 | scientist male uk europe before1900 electricity
+louis pasteur | historic_c | 3 | scientist male france europe before1900 medical
+alan turing | historic_c | 6 | scientist male uk europe -before1900 computer clever
+ada lovelace | historic_c | 3 | scientist female uk europe before1900 computer
+alexander fleming | historic_c | 2 | scientist male uk europe -before1900~ medical
+alexander graham bell | historic_c | 4 | scientist male uk usa namerica before1900 communicate phone
+johannes gutenberg | historic_c | 3 | scientist male germany europe before1900 read
+james watt | historic_c | 2 | scientist male uk europe before1900
+benjamin franklin | historic_c | 5 | scientist leader male usa namerica before1900 electricity glasses_c money~
+wright brothers | historic_c | 4 | scientist male usa namerica aircraft before1900~
+carl sagan | historic_c | 2 | scientist male usa namerica inspace -before1900
+rembrandt | historic_c | 4 | artist male europe before1900
+salvador dali | historic_c | 5 | artist male spain europe -before1900~ funny~
+andy warhol | historic_c | 3 | artist male usa namerica -before1900 blond
+edvard munch | historic_c | 2 | artist male europe nordic before1900 scary~
+raphael | historic_c | 2 | artist male italy europe before1900
+frederic chopin | historic_c | 3 | musician male europe before1900
+antonio vivaldi | historic_c | 3 | musician male italy europe before1900
+tchaikovsky | historic_c | 2 | musician male russia europe before1900
+jimi hendrix | historic_c | 4 | musician male usa namerica -before1900 inband
+kurt cobain | historic_c | 4 | musician male usa namerica -before1900 inband blond
+david bowie | historic_c | 5 | musician male uk europe -before1900
+prince singer | historic_c | 3 | musician male usa namerica -before1900 col=purple
+whitney houston | historic_c | 4 | musician female usa namerica -before1900
+frank sinatra | historic_c | 4 | musician male usa namerica -before1900 hat_char
+louis armstrong | historic_c | 3 | musician male usa namerica -before1900
+paul mccartney | modern_c | 6 | musician male uk europe elderly inband
+bob dylan | modern_c | 3 | musician male usa namerica elderly
+dolly parton | modern_c | 4 | musician female usa namerica elderly blond
+stevie wonder | modern_c | 3 | musician male usa namerica glasses_c
+britney spears | modern_c | 6 | musician female usa namerica blond dancing
+ariana grande | modern_c | 8 | musician female usa namerica
+katy perry | modern_c | 5 | musician female usa namerica
+celine dion | modern_c | 4 | musician female canada namerica
+mariah carey | modern_c | 4 | musician female usa namerica xmas~
+snoop dogg | modern_c | 5 | musician male usa namerica rapper
+jay-z | modern_c | 3 | musician male usa namerica rapper
+the weeknd | modern_c | 4 | musician male canada namerica
+harry styles | modern_c | 6 | musician male uk europe inband
+bts | modern_c | 6 | musician male asia inband dancing manypeople?
+abba | historic_c | 4 | musician europe nordic inband -male? oldfash
+the beatles | historic_c | 10 | musician male uk europe inband oldfash famous
+queen band | historic_c | 3 | musician male uk europe inband
+helene fischer | modern_c | 4 | musician female germany europe blond
+robert downey jr | modern_c | 6 | actor male usa namerica superhero~ marvel?
+scarlett johansson | modern_c | 4 | actor female usa namerica blond~ marvel?
+jennifer lawrence | modern_c | 3 | actor female usa namerica blond
+meryl streep | modern_c | 3 | actor female usa namerica elderly
+chris hemsworth | modern_c | 4 | actor male oceania blond strong marvel?
+ryan reynolds | modern_c | 4 | actor male canada namerica funny
+daniel radcliffe | modern_c | 5 | actor male uk europe potter glasses_c
+rowan atkinson | modern_c | 5 | actor male uk europe funny
+jim carrey | modern_c | 5 | actor male canada usa funny
+robin williams | historic_c | 5 | actor male usa namerica -before1900 funny
+sylvester stallone | modern_c | 4 | actor male usa namerica actionstar strong elderly
+clint eastwood | modern_c | 3 | actor male usa namerica elderly hat_char
+harrison ford | modern_c | 4 | actor male usa namerica elderly starwars~ actionstar
+denzel washington | modern_c | 3 | actor male usa namerica
+samuel l jackson | modern_c | 3 | actor male usa namerica elderly
+eddie murphy | modern_c | 3 | actor male usa namerica funny
+jennifer aniston | modern_c | 3 | actor female usa namerica blond
+zendaya | modern_c | 5 | actor female usa namerica musician~
+margot robbie | modern_c | 5 | actor female oceania blond
+tom holland | modern_c | 5 | actor male uk europe superhero~ marvel?
+timothee chalamet | modern_c | 3 | actor male usa france~
+jason statham | modern_c | 3 | actor male uk europe actionstar
+vin diesel | modern_c | 3 | actor male usa actionstar car?
+john wayne | historic_c | 2 | actor male usa namerica -before1900 hat_char
+grace kelly | historic_c | 2 | actor female usa royal blond -before1900
+mrbeast | modern_c | 10 | male usa namerica internet money funny~ entertain
+pewdiepie | modern_c | 4 | male europe nordic internet videogame entertain
+oprah winfrey | modern_c | 4 | female usa namerica entertain elderly~
+jeff bezos | modern_c | 5 | male usa namerica internet~ tospace
+warren buffett | modern_c | 2 | male usa elderly money
+coco chanel | historic_c | 3 | female france europe -before1900~ formal clothing~
+babe ruth | historic_c | 2 | athlete male usa namerica -before1900 ball teamsport
+mike tyson | modern_c | 5 | athlete male usa namerica fighting strong
+tony hawk | modern_c | 3 | athlete male usa namerica wheels sportgear~
+ayrton senna | historic_c | 3 | athlete male brazil samerica car racing -before1900
+max verstappen | modern_c | 4 | athlete male europe car racing
+sebastian vettel | modern_c | 3 | athlete male germany europe car racing blond
+valentino rossi | modern_c | 2 | athlete male italy europe racing
+jesse owens | historic_c | 2 | athlete male usa namerica olympic fast -before1900
+nadia comaneci | modern_c | 2 | athlete female europe olympic jumps
+mo farah | modern_c | 3 | athlete male uk africa olympic
+erling haaland | modern_c | 5 | athlete male europe nordic football teamsport blond tall
+mohamed salah | modern_c | 4 | athlete male egypt africa football teamsport
+robert lewandowski | modern_c | 3 | athlete male europe football teamsport
+harry kane | modern_c | 3 | athlete male uk europe football teamsport
+luka modric | modern_c | 2 | athlete male europe football teamsport blond~
+ronaldinho | modern_c | 4 | athlete male brazil samerica football teamsport
+johan cruyff | historic_c | 2 | athlete male europe football teamsport -before1900
+franz beckenbauer | historic_c | 3 | athlete male germany europe football teamsport -before1900
+manuel neuer | modern_c | 5 | athlete male germany europe football teamsport tall
+thomas muller | modern_c | 4 | athlete male germany europe football teamsport
+toni kroos | modern_c | 3 | athlete male germany europe football teamsport
+jurgen klopp | modern_c | 3 | male germany europe football glasses_c beard~
+dirk nowitzki | modern_c | 3 | athlete male germany europe basketq tall blond
+boris becker | modern_c | 3 | athlete male germany europe tennisq blond
+steffi graf | modern_c | 3 | athlete female germany europe tennisq blond
+heidi klum | modern_c | 3 | female germany europe blond formal
+angela merkel | modern_c | 6 | leader female germany europe elderly
+emmanuel macron | modern_c | 3 | leader male france europe
+joe biden | modern_c | 4 | leader male usa namerica elderly
+prince william | modern_c | 4 | royal male uk europe
+prince harry | modern_c | 3 | royal male uk europe
+kate middleton | modern_c | 3 | royal female uk europe
+ronald reagan | historic_c | 2 | leader male usa namerica -before1900 actor~
+theodore roosevelt | historic_c | 2 | leader male usa namerica before1900 glasses_c
+thomas jefferson | historic_c | 2 | leader male usa namerica before1900
+peter the great | historic_c | 2 | leader royal male russia europe before1900
+catherine the great | historic_c | 2 | leader royal female russia europe before1900
+charlemagne | historic_c | 2 | leader royal male france germany europe before1900 ancient
+richard the lionheart | historic_c | 2 | leader royal male uk europe before1900 sword
+ramses | historic_c | 3 | leader royal male egypt africa ancient before1900
+nefertiti | historic_c | 3 | leader royal female egypt africa ancient before1900
+confucius | historic_c | 3 | writer male china asia ancient before1900 beard
+sun tzu | historic_c | 1 | writer male china asia ancient military
+ferdinand magellan | historic_c | 2 | explorer male europe before1900 ship
+vasco da gama | historic_c | 2 | explorer male europe before1900 ship
+roald amundsen | historic_c | 2 | explorer male europe nordic antarctic before1900~
+edmund hillary | historic_c | 2 | explorer male oceania mountain -before1900
+james cook | historic_c | 2 | explorer male uk europe before1900 ship
+valentina tereshkova | modern_c | 2 | explorer female russia europe inspace elderly
+leo tolstoy | historic_c | 3 | writer male russia europe before1900 beard
+ernest hemingway | historic_c | 3 | writer male usa namerica -before1900 beard
+george orwell | historic_c | 3 | writer male uk europe -before1900
+jane austen | historic_c | 4 | writer female uk europe before1900
+oscar wilde | historic_c | 2 | writer male uk europe before1900
+franz kafka | historic_c | 2 | writer male europe -before1900~
+miguel de cervantes | historic_c | 2 | writer male spain europe before1900
+goethe | historic_c | 5 | writer male germany europe before1900
+friedrich schiller | historic_c | 2 | writer male germany europe before1900
+victor hugo | historic_c | 2 | writer male france europe before1900 beard
+lewis carroll | historic_c | 2 | writer male uk europe before1900
+enid blyton | historic_c | 2 | writer female uk europe -before1900 children?
+beatrix potter | historic_c | 2 | writer female uk europe before1900~ animal?
+astrid lindgren | historic_c | 3 | writer female europe nordic -before1900 children?
+c s lewis | historic_c | 2 | writer male uk europe -before1900
+arthur conan doyle | historic_c | 2 | writer male uk europe before1900
+ian fleming | historic_c | 2 | writer male uk europe -before1900
+edgar allan poe | historic_c | 3 | writer male usa namerica before1900 scary~
+the brothers grimm | historic_c | 4 | writer male germany europe before1900 fairytale
+george rr martin | modern_c | 2 | writer male usa elderly beard hat_char
+# ===== more countries and regions ========================================================
+venezuela | country_c | 2 | samerica spanish hotclimate coast
+ecuador | country_c | 2 | samerica spanish hotclimate
+bolivia | country_c | 2 | samerica spanish mountain
+uruguay | country_c | 2 | samerica spanish coast football
+costa rica | country_c | 2 | samerica spanish tropical hotclimate
+panama | country_c | 2 | samerica spanish hotclimate
+dominican republic | country_c | 1 | samerica island spanish hotclimate
+puerto rico | country_c | 1 | samerica island spanish usa~
+bahamas | country_c | 2 | island english hotclimate beach
+hungary | country_c | 3 | europe eu
+czech republic | country_c | 3 | europe eu
+slovakia | country_c | 1 | europe eu
+romania | country_c | 2 | europe eu
+bulgaria | country_c | 1 | europe eu
+serbia | country_c | 1 | europe
+croatia | country_c | 3 | europe eu coast
+slovenia | country_c | 1 | europe eu mountain
+albania | country_c | 1 | europe coast
+lithuania | country_c | 1 | europe eu
+latvia | country_c | 1 | europe eu
+estonia | country_c | 1 | europe eu
+luxembourg | country_c | 2 | europe eu monarchy
+monaco | country_c | 3 | europe monarchy coast luxury car?
+vatican city | country_c | 3 | europe religion church
+malta | country_c | 1 | europe eu island coast
+cyprus | country_c | 1 | europe eu island coast
+georgia country | country_c | 1 | asia europe mountain
+kazakhstan | country_c | 1 | asia bigcountry
+mongolia | country_c | 2 | asia bigcountry desert
+nepal | country_c | 3 | asia mountain snowplace
+bangladesh | country_c | 1 | asia hotclimate crowded
+sri lanka | country_c | 1 | asia island hotclimate
+cambodia | country_c | 1 | asia hotclimate monarchy
+malaysia | country_c | 2 | asia hotclimate tropical monarchy
+taiwan | country_c | 2 | asia island
+afghanistan | country_c | 1 | asia mountain
+iraq | country_c | 1 | asia desert hotclimate
+jordan | country_c | 1 | asia desert hotclimate monarchy
+united arab emirates | country_c | 2 | asia desert hotclimate monarchy luxury
+qatar | country_c | 1 | asia desert hotclimate monarchy
+ethiopia | country_c | 1 | africa
+tanzania | country_c | 1 | africa hotclimate
+ghana | country_c | 1 | africa hotclimate english
+algeria | country_c | 1 | africa desert
+tunisia | country_c | 1 | africa desert coast
+madagascar | country_c | 3 | africa island tropical
+fiji | country_c | 1 | oceania island tropical beach
+greenland | country_c | 3 | island snowplace coldplace antarctic~ -crowded
+hawaii | country_c | 5 | -country usa island tropical beach hotclimate oceania~
+alaska | country_c | 3 | -country usa namerica snowplace coldplace bigcountry~
+california | country_c | 4 | -country usa namerica hotclimate coast
+florida | country_c | 3 | -country usa namerica hotclimate beach
+texas | country_c | 3 | -country usa namerica hotclimate desert~
+bavaria | country_c | 2 | -country germany europe mountain
+siberia | natplace_c | 2 | russia asia coldplace snowplace
+# ===== more cities ======================================================================
+liverpool | city_c | 2 | uk europe football music
+manchester | city_c | 2 | uk europe football
+edinburgh | city_c | 2 | uk europe castle
+dublin | capital_c | 2 | europe eu
+lisbon | capital_c | 2 | europe eu coast
+prague | capital_c | 2 | europe eu historic
+budapest | capital_c | 2 | europe eu
+warsaw | capital_c | 1 | europe eu
+copenhagen | capital_c | 1 | europe eu nordic monarchy
+stockholm | capital_c | 1 | europe eu nordic monarchy
+oslo | capital_c | 1 | europe nordic monarchy
+helsinki | capital_c | 1 | europe eu nordic
+brussels | capital_c | 2 | europe eu monarchy
+zurich | city_c | 1 | europe mountain~
+geneva | city_c | 1 | europe
+florence | city_c | 2 | italy europe eu art historic
+naples | city_c | 1 | italy europe eu coast
+hamburg | city_c | 3 | germany europe eu ship
+cologne | city_c | 2 | germany europe eu church
+frankfurt | city_c | 2 | germany europe eu money tall
+st petersburg | city_c | 1 | russia europe
+kyiv | capital_c | 1 | europe
+mumbai | city_c | 2 | india asia crowded coast hotclimate
+bangkok | capital_c | 2 | asia hotclimate crowded monarchy
+seoul | capital_c | 2 | asia crowded modern
+shanghai | city_c | 2 | china asia crowded tall modern coast
+osaka | city_c | 1 | japan asia
+kyoto | city_c | 2 | japan asia historic
+melbourne | city_c | 2 | oceania english coast
+auckland | city_c | 1 | oceania english coast
+cape town | city_c | 2 | africa english coast mountain
+nairobi | capital_c | 1 | africa
+marrakech | city_c | 1 | africa desert
+buenos aires | capital_c | 2 | samerica spanish football
+sao paulo | city_c | 1 | brazil samerica crowded
+havana | capital_c | 1 | samerica island spanish hotclimate
+miami | city_c | 3 | usa namerica hotclimate beach coast
+boston | city_c | 2 | usa namerica english coast
+seattle | city_c | 1 | usa namerica english coast
+new orleans | city_c | 2 | usa namerica music
+vancouver | city_c | 1 | canada namerica coast mountain
+montreal | city_c | 1 | canada namerica
+mecca | city_c | 2 | asia religion desert hotclimate
+atlantis | city_c | 4 | fictional myth ocean undersea -livethere ancient
+# ===== more landmarks and wonders =========================================================
+pagoda | building_c | 4 | sz=9 church religion asia china japan tall
+shrine | building_c | 3 | sz=7 church religion japan asia
+synagogue | building_c | 2 | sz=9 church religion
+chapel | building_c | 3 | sz=8 church religion
+monastery | building_c | 2 | sz=9 church religion historic
+mansion | building_c | 6 | sz=9 livethere luxury expensive
+villa | building_c | 3 | sz=8 livethere luxury hotclimate
+cottage | building_c | 6 | sz=8 livethere oldfash
+bungalow | building_c | 2 | sz=8 livethere
+farmhouse | building_c | 3 | sz=8 livethere onfarm
+fort | building_c | 4 | sz=9 military stone historic castle~
+bunker | building_c | 2 | sz=8 military underground stone
+observatory | building_c | 3 | sz=9 nightsky celestial learnplace
+planetarium | building_c | 2 | sz=9 nightsky celestial learnplace payenter
+concert hall | building_c | 2 | sz=9 music theatre payenter crowded
+arena | building_c | 3 | sz=9 sportplace crowded round
+bowling alley | building_c | 2 | sz=8 fun payenter ball
+casino | building_c | 3 | sz=9 money adults payenter~ illegal~ noisy
+nightclub | building_c | 2 | sz=8 music noisy adults dark party
+pub | building_c | 4 | sz=8 alcohol adults eatplace uk
+market | structure_c | 6 | sz=9 shopplace outdoors crowded food?
+pharmacy | building_c | 6 | sz=8 shopplace medical pharmacy healthplace
+bookshop | building_c | 3 | sz=8 shopplace read
+toy shop | building_c | 3 | sz=8 shopplace children toy?
+car wash | building_c | 3 | sz=8 withwater wet car? cleaning
+warehouse | building_c | 2 | sz=9 workthere cargo
+port | structure_c | 3 | sz=10 ship ocean coast transport_pl
+pier | structure_c | 4 | sz=9 nearwater ocean beach wood longthin
+canal | structure_c | 3 | sz=10 withwater freshwater boat? longthin
+aqueduct | structure_c | 2 | sz=10 withwater stone ancient historic
+stable | building_c | 4 | sz=8 onfarm farmuse wood smells
+pigsty | building_c | 2 | sz=7 onfarm dirty smells
+henhouse | building_c | 2 | sz=7 onfarm wood
+silo | structure_c | 2 | sz=9 onfarm farmuse tall cylinder
+water tower | structure_c | 2 | sz=9 withwater tall
+power station | building_c | 3 | sz=10 electricity workthere
+nuclear plant | building_c | 3 | sz=10 electricity dangerous workthere
+oil rig | structure_c | 3 | sz=10 ocean fuel workthere
+mine | structure_c | 4 | sz=10 underground mined dark dangerous workthere
+cemetery | structure_c | 6 | sz=10 scary halloween stone religion~ quiet
+grave | structure_c | 6 | sz=6 stone scary halloween quiet
+tomb | structure_c | 4 | sz=7 stone ancient egypt~ scary
+monument | structure_c | 4 | sz=8 stone historic famous city
+obelisk | structure_c | 2 | sz=9 stone tall pointed egypt~ historic
+arc de triomphe | structure_c | 4 | sz=10 landmark famous france europe stone tourist
+terracotta army | structure_c | 3 | sz=10 landmark china asia ancient historic manyparts
+machu picchu | structure_c | 4 | sz=10 landmark samerica mountain ancient historic tourist stone
+petra | structure_c | 2 | sz=10 landmark asia desert ancient historic stone
+angkor wat | building_c | 2 | sz=10 landmark asia church religion ancient historic
+christ the redeemer | structure_c | 4 | sz=10 landmark brazil samerica religion tall
+sagrada familia | building_c | 3 | sz=10 landmark spain europe church religion tall
+kremlin | building_c | 3 | sz=10 landmark russia europe historic leader
+buckingham palace | building_c | 5 | sz=10 landmark uk europe royal livethere tourist
+tower bridge | structure_c | 4 | sz=10 landmark uk europe nearwater historic
+london eye | structure_c | 4 | sz=10 landmark uk europe spins tourist modern
+empire state building | building_c | 4 | sz=10 landmark usa namerica tall city
+hollywood sign | structure_c | 4 | sz=10 landmark usa namerica read col=white famous
+space needle | structure_c | 2 | sz=10 landmark usa tall
+cn tower | structure_c | 2 | sz=10 landmark canada namerica tall
+louvre | building_c | 4 | sz=10 landmark france europe museum art tourist glass pointed~
+notre dame | building_c | 4 | sz=10 landmark france europe church religion historic
+brandenburg gate | structure_c | 4 | sz=10 landmark germany europe historic stone
+neuschwanstein castle | building_c | 4 | sz=10 landmark germany europe castle fairytale tourist
+acropolis | structure_c | 3 | sz=10 landmark greece europe ancient historic stone
+parthenon | building_c | 2 | sz=10 landmark greece europe ancient historic stone
+versailles | building_c | 3 | sz=10 landmark france europe royal luxury historic
+forbidden city | building_c | 2 | sz=10 landmark china asia royal historic
+mount fuji | natplace_c | 6 | mountain japan asia landmark snowplace famous
+uluru | natplace_c | 3 | rock oceania desert landmark col=red,orange
+victoria falls | natplace_c | 2 | waterbody freshwater africa landmark noisy
+dead sea | natplace_c | 3 | waterbody asia salty landmark hotclimate
+great barrier reef | natplace_c | 4 | ocean oceania tropical undersea landmark col=any
+amazon rainforest | natplace_c | 5 | forest samerica brazil tropical landmark wet
+alps | natplace_c | 5 | mountain europe snowplace coldplace landmark
+himalayas | natplace_c | 3 | mountain asia snowplace coldplace landmark
+andes | natplace_c | 2 | mountain samerica snowplace
+rocky mountains | natplace_c | 2 | mountain usa canada namerica snowplace
+kilimanjaro | natplace_c | 3 | mountain africa snowplace landmark
+matterhorn | natplace_c | 2 | mountain europe snowplace landmark pointed
+yellowstone | natplace_c | 3 | natplace usa namerica landmark hot~ tourist
+mississippi river | natplace_c | 2 | waterbody freshwater usa namerica
+thames | natplace_c | 2 | waterbody freshwater uk europe
+danube | natplace_c | 1 | waterbody freshwater europe
+rhine | natplace_c | 1 | waterbody freshwater germany europe
+pacific ocean | natplace_c | 4 | waterbody ocean deepsea
+atlantic ocean | natplace_c | 3 | waterbody ocean
+mediterranean sea | natplace_c | 2 | waterbody ocean europe hotclimate
+# ===== more nature and science ==============================================================
+bay | natplace_c | 3 | waterbody ocean coast
+lagoon | natplace_c | 2 | waterbody ocean tropical
+fjord | natplace_c | 2 | waterbody ocean nordic europe mountain
+peninsula | natplace_c | 1 | coast
+stream | natplace_c | 4 | waterbody freshwater moves longthin
+hot spring | natplace_c | 3 | waterbody hot water_rel
+geyser | natplace_c | 4 | hot water_rel moves noisy
+crater | natplace_c | 3 | rock round hollow
+sand dune | natplace_c | 4 | desert beach
+plateau | natplace_c | 1 | flat mountain
+prairie | natplace_c | 2 | flat namerica
+savanna | natplace_c | 5 | africa hotclimate animal?
+tundra | natplace_c | 2 | coldplace snowplace flat
+marsh | natplace_c | 2 | wet freshwater
+atoll | natplace_c | 1 | island ocean tropical round
+equator | natplace_c | 3 | hotclimate longthin -touch -visible
+horizon | natplace_c | 3 | -touch longthin
+sky | natplace_c | 40 | sky col=blue -touch everyday kidknows -outdoors? outdoors
+atmosphere | natplace_c | 2 | sky gas -visible -touch
+snowflake | weather_c | 35 | sz=1 cold wintery water_rel col=white melts shape~ touch xmas~
+raindrop | weather_c | 10 | sz=1 wet water_rel touch
+dew | weather_c | 2 | sz=1 wet water_rel
+mist | weather_c | 3 | water_rel col=white
+smog | weather_c | 3 | city dirty col=grey dangerous~
+breeze | weather_c | 3 | -visible cold~
+monsoon | weather_c | 2 | wet asia india
+drought | weather_c | 3 | hot disaster dangerous -water_rel
+wildfire | weather_c | 6 | fire_rel hot disaster dangerous forest
+blizzard | weather_c | 4 | cold snowplace wintery disaster dangerous
+sandstorm | weather_c | 3 | desert disaster dangerous
+icicle | material_c | 8 | sz=3 cat=O cold wintery water_rel melts seethrough pointed sharp
+puddle | weather_c | 8 | sz=4 wet water_rel dirty~ flat touch
+wave | weather_c | 15 | ocean water_rel wet beach moves noisy
+tide | weather_c | 2 | ocean water_rel
+whirlpool | weather_c | 3 | water_rel spins dangerous
+landslide | weather_c | 2 | disaster dangerous mountain
+meteor shower | celestial_c | 3 | nightsky bright fast rare
+solar eclipse | celestial_c | 4 | rare dark sun_rel
+full moon | celestial_c | 6 | nightsky round bright col=white
+crescent moon | celestial_c | 4 | nightsky col=white,yellow shape~
+north star | celestial_c | 3 | nightsky bright col=white
+big dipper | celestial_c | 2 | nightsky manyparts shape~
+orion | celestial_c | 2 | nightsky manyparts
+nebula | celestial_c | 2 | col=purple,pink multicol
+supernova | celestial_c | 2 | bright rare dangerous
+atom | concept_c | 8 | sz=1 -visible manyparts~ round~ electricity~
+molecule | concept_c | 3 | sz=1 -visible
+cell | concept_c | 5 | sz=1 -visible alive~ bodypart~
+dna | concept_c | 5 | sz=1 -visible alive~ longthin
+virus | concept_c | 10 | sz=1 -visible dangerous medical alive~ -touch
+bacteria | concept_c | 6 | sz=1 -visible alive~ dirty
+germ | concept_c | 5 | sz=1 -visible dirty dangerous~
+vitamin | concept_c | 3 | sz=1 healthy food~
+hydrogen | material_c | 3 | sz=1 cat=O gas element -visible flammable
+helium | material_c | 4 | sz=1 cat=O gas element -visible light~
+carbon | material_c | 3 | sz=1 element col=black
+nitrogen | material_c | 1 | sz=1 gas element
+neon | material_c | 2 | sz=1 gas element light bright
+mercury metal | material_c | 2 | sz=2 metal liquid element col=grey shiny dangerous poisonous
+uranium | material_c | 2 | sz=2 metal element dangerous mined
+lead | material_c | 2 | sz=3 metal heavy element col=grey poisonous
+tin | material_c | 2 | sz=3 metal element col=grey
+zinc | material_c | 1 | sz=3 metal element col=grey
+platinum | material_c | 3 | sz=2 metal precious element expensive col=grey shiny
+titanium | material_c | 2 | sz=3 metal element strong col=grey
+sulfur | material_c | 1 | sz=2 element col=yellow smells
+quartz | material_c | 3 | sz=2 rock gem~ mined seethrough col=white,pink
+jade | material_c | 4 | sz=2 rock gem precious col=green china asia
+opal | material_c | 2 | sz=1 gem precious multicol col=white
+topaz | material_c | 2 | sz=1 gem precious col=yellow,blue
+amethyst | material_c | 3 | sz=1 gem precious col=purple
+garnet | material_c | 1 | sz=1 gem precious col=red
+obsidian | material_c | 3 | sz=3 rock col=black shiny sharp hard
+flint | material_c | 2 | sz=2 rock fire_rel hard col=grey
+limestone | material_c | 1 | sz=4 rock col=white
+sandstone | material_c | 1 | sz=4 rock col=yellow,orange
+slate | material_c | 1 | sz=4 rock flat col=grey
+graphite | material_c | 1 | sz=2 col=black writing~
+fossil | material_c | 25 | sz=3 rock ancient museum dinosaur? extinct hard col=grey,brown
+meteorite | material_c | 4 | sz=4 rock inspace~ rare metal heavy col=black
+geode | material_c | 2 | sz=3 rock hollow shiny
+# ===== more body =========================================================================
+eyelash | body_c | 8 | onheadbody manybody fur longthin sz=1
+cheek | body_c | 6 | onheadbody pair soft
+chin | body_c | 6 | onheadbody
+forehead | body_c | 4 | onheadbody flat
+jaw | body_c | 4 | onheadbody bone hard opens
+wrist | body_c | 5 | onarm pair
+ankle | body_c | 4 | onleg pair
+heel | body_c | 4 | onleg pair
+hip | body_c | 3 | pair bone
+waist | body_c | 2
+palm | body_c | 3 | onarm flat pair
+fist | body_c | 4 | onarm strike? round
+spine | body_c | 5 | bone inbody longthin
+rib | body_c | 4 | bone inbody manybody
+intestines | body_c | 3 | organ inbody longthin
+vein | body_c | 2 | inbody longthin col=blue
+nostril | body_c | 3 | onheadbody pair hollow
+freckles | body_c | 3 | manybody col=brown
+scar (skin) | body_c | 3 | col=pink
+sweat | body_c | 4 | liquid wet water_rel smells -smellsnice
+tears | body_c | 5 | liquid wet water_rel salty -positive
+sneeze | concept_c | 5 | makessound noisy -touch
+yawn | concept_c | 4 | sleep -touch
+hiccup | concept_c | 4 | makessound -touch
+burp | concept_c | 5 | makessound noisy funny -touch
+heartbeat | concept_c | 3 | makessound inbody

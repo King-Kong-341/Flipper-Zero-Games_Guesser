@@ -1,0 +1,240 @@
+# ===== people and jobs ==============================================================
+person | person_c | 50 | kidknows mostcountries everyday male~ female~ -job
+man | person_c | 35 | male -female adults kidknows everyday mostcountries
+woman | person_c | 35 | female -male adults kidknows everyday mostcountries
+boy | person_c | 30 | male -female child sz=5 kidknows
+girl | person_c | 30 | female -male child sz=5 kidknows
+baby | person_c | 60 | child sz=4 -legs2? cute small_char -adults noisy kidknows everyday soft s_shoebox
+child | person_c | 25 | child sz=5 kidknows
+teenager | person_c | 15 | child
+mother | person_c | 45 | female -male adults kidknows homes
+father | person_c | 40 | male -female adults kidknows homes
+grandmother | person_c | 30 | female -male elderly kidknows
+grandfather | person_c | 25 | male -female elderly kidknows
+brother | person_c | 15 | male -female
+sister | person_c | 15 | female -male
+friend | person_c | 25 | kidknows
+student | person_c | 15 | school learnplace~ child~
+tourist | person_c | 10 | travel holiday camera?
+doctor | job_c | 75 | helps hospital degree medical uniform~ kidknows
+nurse | job_c | 50 | helps hospital medical uniform female~ kidknows
+surgeon | job_c | 15 | helps hospital degree medical cutting? uniform
+dentist | job_c | 40 | helps degree medical teeth? scary~ kidknows
+vet | job_c | 30 | helps degree animaljob medical
+pharmacist | job_c | 8 | helps medical degree pharmacy sells
+teacher | job_c | 70 | kidsjob school degree learnplace kidknows
+professor | job_c | 10 | degree learnplace elderly~ clever
+police officer | job_c | 65 | uniform police govjob safety protect dangerous~ kidknows car?
+firefighter | job_c | 60 | uniform police emergency safety govjob dangerous fire_rel hat_char kidknows
+soldier | job_c | 45 | uniform military govjob dangerous weapon sword~ hat_char
+pilot | job_c | 40 | uniform driver aircraft? airport sky travel degree~
+astronaut | job_c | 45 | explorer inspace uniform degree rare famous? dangerous mask~ -everyday
+chef | job_c | 50 | foodjob cooking? restaurant kitchen uniform hat_char kidknows
+cook | job_c | 15 | foodjob kitchen
+baker | job_c | 25 | foodjob baked? hat_char sells
+butcher | job_c | 15 | foodjob meat sells cutting?
+farmer | job_c | 55 | animaljob onfarm farmuse outdoors foodjob~ handsjob~ hat_char~ kidknows
+fisherman | job_c | 15 | nearwater ocean boat? foodjob~ outdoors
+builder | job_c | 40 | handsjob construction outdoors hat_char uniform~ male~
+carpenter | job_c | 15 | handsjob wood
+plumber | job_c | 20 | handsjob withwater house? repair
+electrician | job_c | 15 | handsjob electricity repair
+mechanic | job_c | 20 | handsjob repair car dirty
+engineer | job_c | 20 | degree handsjob~ clever
+scientist | job_c | 40 | scientist degree lab clever
+inventor | job_c | 10 | scientist clever handsjob~
+programmer | job_c | 25 | computer degree~ office clever
+artist | job_c | 30 | artist art -degree?
+painter | job_c | 15 | artist art handsjob~
+singer | job_c | 40 | musician entertain famous? music
+musician | job_c | 30 | musician entertain music
+actor | job_c | 35 | actor entertain famous? theatre moviechar~
+dancer | job_c | 20 | entertain music theatre~
+ballerina | job_c | 15 | entertain theatre female -male
+clown | job_c | 40 | entertain circus fun children? scary? costume col=red,white,any red_char~ hat_char~
+magician | job_c | 25 | entertain powers~ hat_char theatre circus~ evilmagic~
+writer | job_c | 25 | writer read? office~ degree~
+journalist | job_c | 10 | writer communicate
+photographer | job_c | 10 | camera art
+lawyer | job_c | 20 | degree office govjob~
+judge | job_c | 15 | degree govjob elderly~ costume?
+president | job_c | 30 | leader govjob famous? -everyday
+king | job_c | 50 | royal leader male castle hat_char famous? -work? fairytale~ oldfash~ -everyday
+queen | job_c | 45 | royal leader female castle hat_char famous? fairytale~ -everyday
+prince | job_c | 30 | royal male castle fairytale~ -everyday
+princess | job_c | 40 | royal female castle fairytale~ -everyday kidknows
+banker | job_c | 8 | money office degree~
+cashier | job_c | 10 | money sells shopplace
+waiter | job_c | 20 | foodjob restaurant uniform
+shopkeeper | job_c | 10 | sells shopplace
+postman | job_c | 20 | uniform govjob~ communicate
+bus driver | job_c | 15 | driver public uniform
+taxi driver | job_c | 10 | driver car city
+truck driver | job_c | 8 | driver
+sailor | job_c | 20 | boat ship ocean uniform hat_char
+pirate | job_c | 50 | -job ship ocean sword dangerous villain? oldfash hat_char moviechar~ fictional~ costume
+knight | job_c | 40 | sword castle oldfash before1900~ metal protect? royal~ fairytale~
+cowboy | job_c | 30 | usa namerica hat_char oldfash~ moviechar~ onfarm
+ninja | job_c | 30 | japan asia sword mask fighting oldfash costume col=black -uniform moviechar~
+samurai | job_c | 12 | japan asia sword oldfash fighting before1900
+viking | job_c | 20 | europe oldfash ancient? sword hat_char horns? ship
+caveman | job_c | 20 | -job ancient oldfash extinct? stone? fire_rel? cave
+detective | job_c | 20 | police clever hat_char~ bookchar~
+spy | job_c | 15 | govjob clever dangerous moviechar~
+librarian | job_c | 10 | read quiet learnplace
+hairdresser | job_c | 15 | grooming cutting sells
+barber | job_c | 8 | grooming cutting male
+tailor | job_c | 5 | fabric handsjob
+cleaner | job_c | 10 | cleaning
+gardener | job_c | 15 | gardenuse garden outdoors handsjob
+lifeguard | job_c | 10 | helps safety beach watersport swims
+zookeeper | job_c | 10 | animaljob zoo
+referee | job_c | 10 | sport stadium football? uniform
+coach | job_c | 8 | sport stadium
+athlete | job_c | 25 | athlete sport strong olympic?
+footballer | job_c | 25 | athlete sport football teamsport stadium famous?
+priest | job_c | 15 | religion church male uniform
+monk | job_c | 8 | religion church male
+nun | job_c | 5 | religion church female uniform
+architect | job_c | 8 | building degree
+archaeologist | job_c | 8 | ancient museum degree underground explorer~
+model | job_c | 10 | famous? female~ formal
+youtuber | job_c | 15 | internet entertain modern famous?
+security guard | job_c | 8 | uniform protect
+miner | job_c | 8 | underground mined dangerous dirty handsjob
+lumberjack | job_c | 8 | woodland wood cutting strong outdoors
+shepherd | job_c | 6 | animaljob onfarm outdoors
+beekeeper | job_c | 4 | animaljob costume
+babysitter | job_c | 6 | kidsjob
+dj | job_c | 6 | music entertain party noisy
+gamer | job_c | 5 | videogame
+witch | myth_human | 55 | evilmagic powers female hat_char halloween fairytale scary villain~ pointed?
+wizard | myth_human | 45 | evilmagic powers male hat_char elderly fairytale bookchar~ potter~ -villain?
+# ===== famous people ==================================================================
+albert einstein | historic_c | 70 | scientist clever male germany europe usa namerica before1900~ elderly famous
+isaac newton | historic_c | 40 | scientist clever male uk europe before1900
+charles darwin | historic_c | 25 | scientist male uk europe before1900 animal?
+marie curie | historic_c | 20 | scientist female france europe before1900~ element?
+thomas edison | historic_c | 30 | scientist male usa namerica before1900~ electricity light?
+nikola tesla | historic_c | 25 | scientist male usa europe electricity before1900~
+galileo galilei | historic_c | 15 | scientist male italy europe before1900 nightsky? celestial~
+stephen hawking | historic_c | 25 | scientist male uk europe -before1900 inspace~ wheels?
+leonardo da vinci | historic_c | 45 | artist scientist male italy europe before1900 famous
+michelangelo | historic_c | 20 | artist male italy europe before1900 church~
+pablo picasso | historic_c | 25 | artist male spain europe france~ before1900~
+vincent van gogh | historic_c | 30 | artist male europe before1900 flower?
+claude monet | historic_c | 8 | artist male france europe before1900
+frida kahlo | historic_c | 10 | artist female mexico samerica -before1900
+mozart | historic_c | 40 | musician male europe before1900 -elderly child~
+beethoven | historic_c | 30 | musician male germany europe before1900
+bach | historic_c | 10 | musician male germany europe before1900
+william shakespeare | historic_c | 50 | writer male uk europe before1900 theatre
+charles dickens | historic_c | 15 | writer male uk europe before1900 xmas~
+mark twain | historic_c | 10 | writer male usa namerica before1900
+agatha christie | historic_c | 10 | writer female uk europe -before1900~
+jules verne | historic_c | 6 | writer male france europe before1900
+hans c. andersen | historic_c | 6 | writer male europe before1900 fairytale
+roald dahl | historic_c | 10 | writer male uk europe -before1900 children?
+dr seuss | historic_c | 8 | writer male usa namerica -before1900 children? cartoon~
+jrr tolkien | historic_c | 10 | writer male uk europe -before1900 bookchar~
+homer poet | historic_c | 5 | writer male greece europe ancient before1900
+napoleon | historic_c | 50 | leader male france europe before1900 military sword hat_char small_char~ royal~
+julius caesar | historic_c | 30 | leader male italy europe ancient before1900 military royal~
+cleopatra | historic_c | 35 | leader female egypt africa ancient before1900 royal
+alexander the great | historic_c | 15 | leader male greece europe ancient before1900 military royal
+genghis khan | historic_c | 12 | leader male asia ancient? before1900 military royal
+tutankhamun | historic_c | 15 | leader male egypt africa ancient before1900 royal child~ museum
+abraham lincoln | historic_c | 35 | leader male usa namerica before1900 hat_char tall
+george washington | historic_c | 30 | leader male usa namerica before1900 military money~
+queen elizabeth ii | historic_c | 40 | leader royal female uk europe elderly -before1900 hat_char famous
+queen victoria | historic_c | 12 | leader royal female uk europe before1900
+henry viii | historic_c | 12 | leader royal male uk europe before1900
+marie antoinette | historic_c | 8 | royal female france europe before1900 cake?
+princess diana | historic_c | 20 | royal female uk europe -before1900
+winston churchill | historic_c | 20 | leader male uk europe before1900~ elderly military~
+mahatma gandhi | historic_c | 20 | leader male india asia before1900~ elderly
+nelson mandela | historic_c | 25 | leader male africa elderly -before1900
+martin luther king | historic_c | 20 | leader male usa namerica -before1900
+john f kennedy | historic_c | 15 | leader male usa namerica -before1900
+joan of arc | historic_c | 12 | leader military female france europe before1900 sword
+christopher columbus | historic_c | 30 | explorer male italy spain europe before1900 ship boat
+marco polo | historic_c | 10 | explorer male italy europe before1900 asia~
+neil armstrong | historic_c | 35 | explorer male usa namerica inspace -before1900 famous
+yuri gagarin | historic_c | 10 | explorer male russia europe inspace -before1900
+amelia earhart | historic_c | 8 | explorer female usa namerica aircraft -before1900
+walt disney | historic_c | 25 | artist male usa namerica -before1900 disney cartoon~
+steve jobs | historic_c | 25 | scientist? male usa namerica -before1900 computer phone modern
+henry ford | historic_c | 8 | male usa namerica before1900~ car
+elvis presley | historic_c | 40 | musician male usa namerica -before1900 famous
+michael jackson | historic_c | 50 | musician male usa namerica -before1900 famous hat_char~
+john lennon | historic_c | 20 | musician male uk europe -before1900
+freddie mercury | historic_c | 15 | musician male uk europe -before1900
+bob marley | historic_c | 15 | musician male samerica -before1900
+charlie chaplin | historic_c | 25 | actor male uk europe usa -before1900 hat_char moviechar~
+marilyn monroe | historic_c | 25 | actor female usa namerica -before1900 famous
+bruce lee | historic_c | 20 | actor male china asia usa -before1900 fighting
+audrey hepburn | historic_c | 6 | actor female europe usa -before1900
+muhammad ali | historic_c | 20 | athlete male usa namerica -before1900 fighting strong
+pele | historic_c | 20 | athlete male brazil samerica -before1900 football teamsport
+diego maradona | historic_c | 12 | athlete male samerica -before1900 football teamsport
+kobe bryant | historic_c | 10 | athlete male usa namerica -before1900 teamsport ball
+aristotle | historic_c | 10 | scientist writer male greece europe ancient before1900
+socrates | historic_c | 8 | writer male greece europe ancient before1900
+archimedes | historic_c | 6 | scientist male greece europe ancient before1900
+sigmund freud | historic_c | 6 | scientist male europe before1900~
+taylor swift | modern_c | 45 | musician female usa namerica famous -elderly
+beyonce | modern_c | 25 | musician female usa namerica
+madonna | modern_c | 15 | musician female usa namerica
+lady gaga | modern_c | 20 | musician female usa namerica actor~
+rihanna | modern_c | 15 | musician female samerica~ usa~
+adele | modern_c | 15 | musician female uk europe
+billie eilish | modern_c | 15 | musician female usa namerica -elderly
+shakira | modern_c | 12 | musician female samerica spanish~
+justin bieber | modern_c | 20 | musician male canada namerica
+ed sheeran | modern_c | 15 | musician male uk europe
+eminem | modern_c | 15 | musician male usa namerica
+drake | modern_c | 10 | musician male canada namerica
+elton john | modern_c | 12 | musician male uk europe elderly
+mick jagger | modern_c | 8 | musician male uk europe elderly
+bruno mars | modern_c | 8 | musician male usa namerica
+tom cruise | modern_c | 20 | actor male usa namerica
+leonardo dicaprio | modern_c | 20 | actor male usa namerica
+brad pitt | modern_c | 15 | actor male usa namerica
+johnny depp | modern_c | 15 | actor male usa namerica
+tom hanks | modern_c | 15 | actor male usa namerica
+will smith | modern_c | 15 | actor male usa namerica musician~
+dwayne johnson | modern_c | 20 | actor male usa namerica strong athlete~ fighting~
+arnold schwarzenegger | modern_c | 15 | actor male usa europe strong leader~ elderly
+jackie chan | modern_c | 15 | actor male china asia fighting
+angelina jolie | modern_c | 10 | actor female usa namerica
+emma watson | modern_c | 10 | actor female uk europe potter~
+keanu reeves | modern_c | 10 | actor male canada namerica
+morgan freeman | modern_c | 8 | actor male usa namerica elderly
+lionel messi | modern_c | 45 | athlete male samerica spain~ football teamsport famous
+cristiano ronaldo | modern_c | 45 | athlete male europe football teamsport famous strong
+neymar | modern_c | 12 | athlete male brazil samerica football teamsport
+kylian mbappe | modern_c | 10 | athlete male france europe football teamsport
+david beckham | modern_c | 12 | athlete male uk europe football teamsport
+zinedine zidane | modern_c | 6 | athlete male france europe football teamsport
+michael jordan | modern_c | 25 | athlete male usa namerica teamsport ball
+lebron james | modern_c | 15 | athlete male usa namerica teamsport ball
+usain bolt | modern_c | 25 | athlete male samerica fast olympic
+roger federer | modern_c | 12 | athlete male europe racket ball
+rafael nadal | modern_c | 10 | athlete male spain europe racket ball
+novak djokovic | modern_c | 8 | athlete male europe racket ball
+serena williams | modern_c | 12 | athlete female usa namerica racket ball
+tiger woods | modern_c | 10 | athlete male usa namerica racket ball
+michael phelps | modern_c | 10 | athlete male usa namerica swims olympic watersport
+lewis hamilton | modern_c | 10 | athlete male uk europe car racing driver~
+michael schumacher | modern_c | 6 | athlete male germany europe car racing
+simone biles | modern_c | 8 | athlete female usa namerica olympic jumps
+tom brady | modern_c | 6 | athlete male usa namerica teamsport ball
+bill gates | modern_c | 20 | scientist? male usa namerica computer
+elon musk | modern_c | 30 | scientist? male usa namerica africa~ car? tospace? internet~
+mark zuckerberg | modern_c | 15 | male usa namerica internet computer
+barack obama | modern_c | 25 | leader male usa namerica
+donald trump | modern_c | 30 | leader male usa namerica elderly
+king charles | modern_c | 15 | leader royal male uk europe elderly
+buzz aldrin | modern_c | 5 | explorer male usa namerica inspace elderly
+stephen king | modern_c | 8 | writer male usa namerica elderly scary?
+jk rowling | modern_c | 15 | writer female uk europe potter

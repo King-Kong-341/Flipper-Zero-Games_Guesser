@@ -1,0 +1,261 @@
+# ===== everyday things (v2.1) ===============================================================
+# --- around the house ---
+power outlet | buildpart_c | 4 | sz=2 electricity wall plugin~ col=white dangerous~
+doorstop | household_c | 2 | sz=2 rubber heavy~
+keyhole | buildpart_c | 3 | sz=1 lock hollow
+letterbox | buildpart_c | 4 | sz=3 opens metal
+house number | buildpart_c | 2 | sz=2 read wall metal
+alarm system | electronic_c | 2 | sz=3 noisy protect police~ wall
+smoke detector | safety_c | 3 | sz=3 noisy battery wall round col=white fire_rel
+coat hanger | household_c | 3 | sz=4 clothing? plastic metal
+laundry detergent | hygiene_c | 4 | sz=4 cleaning liquid powder~ -bathroom? smellsnice clothing?
+bleach | hygiene_c | 3 | sz=4 cleaning liquid dangerous poisonous smells -grooming
+air freshener | household_c | 3 | sz=3 smellsnice bathroom gas~
+scented candle | lighting_c | 3 | sz=3 smellsnice fire_rel melts -electric
+incense | household_c | 2 | sz=3 smellsnice fire_rel religion~ longthin
+tissue box | container_c | 3 | sz=4 paper boxshape
+bin | container_c | 10 | sz=4 plastic lid dirty kitchen
+dishwasher tablet | hygiene_c | 2 | sz=2 cleaning kitchen boxshape
+rubber gloves | clothing_c | 4 | sz=3 onhand pair rubber cleaning col=yellow,pink
+power strip | electronic_c | 3 | sz=4 electricity plugin cord col=white,black
+fuse | electronic_c | 2 | sz=2 electricity
+window sill | buildpart_c | 2 | sz=5 flat wall
+shutter | buildpart_c | 3 | sz=6 opens wall
+banister | buildpart_c | 2 | sz=7 wood longthin
+hallway | room_c | 4 | -sleep longthin
+dining room | room_c | 4 | eatplace~
+office room | room_c | 2 | office work
+nursery | room_c | 3 | children baby_use bedroom
+cellar | room_c | 4 | underground dark cold
+toilet room | room_c | 2 | bathroom
+patio | structure_c | 3 | sz=8 outdoors garden flat stone
+terrace | structure_c | 2 | sz=8 outdoors flat
+garden pond | natplace_c | 3 | sz=7 waterbody freshwater garden fish?
+compost | material_c | 3 | sz=4 garden dirty smells natural plant? -manmade
+fertilizer | material_c | 2 | sz=3 garden powder~ plant?
+plant pot | gardentool_c | 3 | sz=3 ceramic plastic~ container hollow -handle
+leaf blower | powertool_c | 3 | sz=5 gardenuse garden noisy outdoors -cutting
+hedge trimmer | powertool_c | 2 | sz=5 gardenuse cutting blade noisy
+garden gloves | clothing_c | 2 | sz=3 onhand pair garden
+swimming pool float | toy_c | 3 | sz=5 rubber gas floats summery beach withwater
+paddling pool | toy_c | 3 | sz=7 rubber plastic withwater summery garden children
+# --- kitchen and food things ---
+food container | container_c | 4 | sz=4 plastic lid kitchen fridge
+freezer bag | kitchen_c | 2 | sz=3 plastic
+baking paper | kitchen_c | 2 | sz=4 paper flat kitchen baked?
+egg carton | container_c | 3 | sz=4 paper boxshape supermarket
+milk carton | container_c | 4 | sz=4 paper boxshape milk? fridge drink
+juice box | container_c | 3 | sz=3 paper boxshape drink children
+pizza box | box_c | 3 | sz=5 flat paper fastfood
+takeaway cup | crockery_c | 3 | sz=3 paper lid hotdrink -ceramic cheap
+paper cup | crockery_c | 3 | sz=3 paper -ceramic -breakable cheap party
+paper plate | crockery_c | 3 | sz=4 paper flat -ceramic -breakable cheap party
+plastic cup | crockery_c | 2 | sz=3 plastic -ceramic -breakable cheap party
+coffee filter | kitchen_c | 2 | sz=3 paper caffeine
+coffee beans | spice_c | 5 | sz=1 col=brown fromplant caffeine smells smellsnice -spice
+tea leaves | spice_c | 2 | sz=1 col=green,brown fromplant caffeine leaves
+sugar cube | spice_c | 3 | sz=1 col=white boxshape sweet sugary
+sunflower oil | sauce_c | 2 | sz=3 liquid col=yellow fromplant ingredient
+baking powder | spice_c | 2 | sz=2 col=white powder -spice ingredient baked?
+yeast | spice_c | 2 | sz=2 col=yellow,brown powder~ -spice ingredient bread? alive~
+cornflakes | grain_c | 10 | col=yellow,orange breakfast bowl crunchy milk? packet -cooked usa
+muesli | grain_c | 6 | col=brown,yellow breakfast bowl healthy crunchy nut? fromfruit~ -cooked europe
+granola | grain_c | 3 | col=brown breakfast crunchy sweet
+rye bread | bread_c | 3 | sz=4 col=brown germany europe healthy
+pumpernickel | bread_c | 2 | sz=3 col=black,brown germany europe
+whole grain bread | bread_c | 2 | sz=4 col=brown healthy
+white bread | bread_c | 3 | sz=4 col=white soft
+bread roll | bread_c | 6 | sz=2 round crunchy breakfast germany~
+pretzel roll | bread_c | 2 | sz=2 germany salty col=brown
+quark | dairy_c | 4 | col=white creamy soft germany europe sour~ bowl
+leberkase | meatfood_c | 4 | germany europe col=pink,brown dish~ bun~ hotfood
+knodel | dish_c | 4 | germany europe round fromveg~ grain~ hotfood sz=3 soft
+kaiserschmarrn | dessert_c | 3 | europe sweet egg_in hotfood
+schweinshaxe | meatfood_c | 2 | germany europe dish hotfood crunchy
+rouladen | meatfood_c | 2 | germany europe dish hotfood sauce
+maultaschen | dish_c | 3 | germany europe meat~ grain soup~
+flammkuchen | baked_c | 3 | germany france europe flat crunchy cheese~ meat~ hotfood
+kasespatzle | pasta_c | 3 | germany europe -italy cheese hotfood
+weisswurst | meatfood_c | 3 | germany europe col=white breakfast longthin
+bienenstich | cake_c | 2 | germany europe nut creamy
+berliner doughnut | pastry_c | 4 | germany europe round sweet jam fried
+spekulatius | biscuit_c | 3 | germany europe xmas spice~ flat
+apfelschorle | drink_c | 4 | germany europe fromfruit fizzy cold col=yellow
+spezi | softdrink_c | 3 | germany europe fizzy caffeine col=brown
+club-mate | softdrink_c | 2 | germany europe caffeine fizzy
+radler | alcohol_c | 3 | germany europe fizzy col=yellow
+wheat beer | alcohol_c | 3 | germany europe fizzy col=yellow
+mett | meatfood_c | 2 | germany europe raw col=pink
+frikadelle | meatfood_c | 3 | germany europe round flat dish fried
+bockwurst | meatfood_c | 2 | germany europe longthin hotfood
+gyoza | dish_c | 2 | japan asia fried meat~ sz=2
+chicken sandwich | sandwich_c | 2 | meat hotfood~
+fish sandwich | sandwich_c | 2 | seafood
+ham sandwich | sandwich_c | 2 | meat
+cheese sandwich | sandwich_c | 2 | cheese
+toastie | sandwich_c | 2 | cheese hotfood
+veggie burger | sandwich_c | 3 | fromveg -meat round fastfood
+fish fillet | seafood_c | 2 | flat dish
+roast pork | meatfood_c | 3 | dish hotfood germany~
+pork chop | meatfood_c | 2 | dish hotfood
+chicken breast | meatfood_c | 2 | col=white healthy
+minced meat | meatfood_c | 3 | col=red ingredient -dish
+salmon fillet | seafood_c | 2 | col=pink,orange healthy
+tuna can | seafood_c | 3 | packet metal? -fridge cheap
+canned soup | soup_c | 2 | packet cheap
+instant noodles | pasta_c | 8 | -italy -europe asia cheap packet hotfood bowl
+cup noodles | pasta_c | 3 | -italy asia cheap packet hotfood
+frozen pizza | fastfood_c | 4 | frozen supermarket packet cheese flat round
+garlic bread | bread_c | 4 | smells hotfood crunchy
+onion soup | soup_c | 2 | france fromveg
+pea soup | soup_c | 2 | legume col=green germany~
+lentil soup | soup_c | 2 | legume germany~
+potato soup | soup_c | 2 | fromveg germany~ creamy
+pumpkin soup | soup_c | 2 | fromveg col=orange creamy
+chicken curry | dish_c | 3 | india meat spicy col=yellow
+vegetable curry | dish_c | 2 | india fromveg spicy -meat
+apple sauce | sauce_c | 3 | fromfruit sweet col=yellow children
+chocolate sauce | sauce_c | 2 | choc sweet
+tomato sauce | sauce_c | 4 | fromveg col=red pasta? italy~
+cheese sauce | sauce_c | 2 | cheese col=yellow
+hot sauce | sauce_c | 4 | spicy col=red mexico~ usa~
+sriracha | sauce_c | 2 | spicy col=red asia
+salad dressing | sauce_c | 3 | liquid creamy~
+ranch dressing | sauce_c | 2 | usa creamy col=white
+aioli | sauce_c | 2 | creamy smells egg_in
+curry sauce | sauce_c | 2 | spicy col=yellow
+potato chips | snack_c | 3 | fried fromveg salty crunchy col=yellow usa
+tortilla chips | snack_c | 3 | crunchy salty mexico
+salt sticks | snack_c | 2 | salty crunchy longthin germany~
+rice crackers | snack_c | 2 | rice crunchy asia
+cereal bar | snack_c | 3 | grain sweet
+protein bar | snack_c | 2 | sport healthy~
+butter cookie | biscuit_c | 2 | sweet
+ice lolly | icecream_c | 3 | handfood longthin col=any uk
+slushie | drink_c | 4 | frozen cold sweet col=blue,red children
+mineral water | drink_c | 5 | seethrough col=white fizzy~ -sweet healthy packet
+tap water | drink_c | 2 | seethrough col=white -packet withwater
+hot milk | dairy_c | 2 | drink hot hotdrink sleep~
+cocoa powder | spice_c | 2 | col=brown powder choc -spice
+instant coffee | hotdrink_c | 2 | caffeine powder~ packet
+herbal tea | hotdrink_c | 3 | -caffeine fromplant healthy smellsnice
+peppermint tea | hotdrink_c | 2 | -caffeine fromplant
+chamomile tea | hotdrink_c | 2 | -caffeine fromplant sleep~ col=yellow
+# --- school and office ---
+pencil case | container_c | 10 | sz=3 school schooluse fabric plastic opens writing~ children
+fountain pen | stationery_c | 4 | writing liquid~ oldfash~ metal
+ballpoint pen | stationery_c | 3 | writing plastic
+felt-tip pen | stationery_c | 4 | writing art children col=any lid
+coloured pencils | stationery_c | 6 | writing art children col=any wood manyparts
+watercolours | stationery_c | 3 | art children col=any liquid~
+paint box | stationery_c | 2 | art children col=any
+sketchbook | stationery_c | 3 | paper art flat
+exercise book | stationery_c | 4 | paper writing school flat
+textbook | document_c | 5 | read school learnplace heavy~
+school desk | table_c | 3 | school children
+set square | stationery_c | 2 | measure school plastic pointed shape?
+hole punch | stationery_c | 3 | holes office metal
+rubber stamp | stationery_c | 2 | office
+sticky notes | stationery_c | 6 | paper sticky flat col=yellow office desk
+whiteboard marker | stationery_c | 2 | writing lid
+desk lamp | lighting_c | 4 | desk office plugin
+filing cabinet | storage_furn | 3 | sz=6 office metal opens paper?
+paper shredder | electronic_c | 3 | sz=5 cutting paper office noisy plugin
+photocopier | electronic_c | 3 | sz=6 paper office plugin light
+business card | document_c | 3 | sz=2 paper flat read office adults
+id card | document_c | 5 | sz=3 plastic flat read adults govjob~
+driving licence | document_c | 4 | sz=3 plastic flat read car adults
+bus ticket | document_c | 3 | sz=2 paper read travel cheap
+boarding pass | document_c | 2 | sz=3 paper read travel airport
+birthday card | document_c | 3 | sz=3 read birthday gift
+christmas card | document_c | 2 | sz=3 read xmas gift
+voucher | document_c | 3 | sz=3 paper read gift money~
+certificate | document_c | 2 | sz=4 paper read school~ formal
+report card | document_c | 2 | sz=4 paper read school children
+homework | document_c | 6 | sz=4 paper writing school children -fun
+exam | event_c | 4 | school -positive writing~
+school holidays | event_c | 3 | school positive holiday children
+# --- personal things ---
+house keys | household_c | 2 | sz=2 metal lock
+car key | household_c | 6 | sz=2 metal plastic buttons lock car battery~ s_pocket
+key card | money_c | 2 | sz=3 -money plastic flat lock
+hair tie | accessory_c | 4 | sz=1 stretchy round female~
+hair clip | accessory_c | 3 | sz=2 metal plastic fasten female~
+hairpin | accessory_c | 2 | sz=2 metal pointed
+scrunchie | accessory_c | 2 | sz=2 fabric stretchy
+lip balm | cosmetic_c | 4 | sz=2 cylinder onface lid
+hand cream | hygiene_c | 3 | sz=3 creamy
+face cream | cosmetic_c | 2 | sz=3 creamy onface
+cotton pad | hygiene_c | 2 | sz=2 soft flat round col=white
+mouthwash | hygiene_c | 3 | sz=3 liquid grooming
+dental floss | hygiene_c | 3 | sz=2 grooming longthin teeth?
+hair gel | hygiene_c | 2 | sz=3 sticky grooming
+hairspray | hygiene_c | 2 | sz=3 gas~ grooming smells
+hair straightener | appliance_c | 3 | sz=3 heats hot grooming bathroom pair~
+electric razor | hygiene_c | 2 | sz=3 battery grooming male
+glasses case | container_c | 3 | sz=3 opens hard
+wristwatch | accessory_c | 2 | sz=2 time onhand
+fitness tracker | gadget_c | 3 | sz=2 onhand sport battery screen modern
+phone case | phonetech_c | 6 | sz=3 -electronic -battery -screen plastic rubber protect col=any cheap
+screen protector | phonetech_c | 2 | sz=3 -electronic -battery glass seethrough flat protect
+selfie stick | phonetech_c | 3 | sz=4 -electronic longthin camera? folds
+headset | electronic_c | 3 | sz=3 onhead sound listen communicate videogame~
+gaming chair | seat_c | 3 | sz=6 videogame wheels
+usb cable | electronic_c | 3 | sz=3 cord longthin computer phone
+wireless charger | electronic_c | 2 | sz=3 flat round phone modern
+e-scooter | vehicle_c | 8 | sz=5 twowheels wheels electric battery modern city carries1 -fuel fast~ -doors -steering roadveh~
+e-bike | bike_c | 6 | electric battery modern -muscle? muscle~
+hoverboard | toy_c | 4 | sz=4 wheels electric battery modern fun children
+bicycle lock | tool_c | 3 | sz=3 lock metal
+bicycle helmet | safety_c | 3 | sz=4 onhead wear protect hard
+bicycle bell | carpart_c | 3 | sz=2 makessound metal round
+car seat | carpart_c | 3 | sz=5 sit baby_use children car
+car radio | electronic_c | 2 | sz=3 car music listen
+sat nav | gadget_c | 3 | sz=3 car screen travel
+car horn | carpart_c | 3 | sz=3 noisy makessound car
+windscreen wiper | carpart_c | 3 | sz=5 car moving longthin
+side mirror | carpart_c | 2 | sz=3 car glass
+car battery | carpart_c | 2 | sz=4 electricity heavy car
+exhaust pipe | carpart_c | 2 | sz=4 car metal dirty hot cylinder
+gear stick | carpart_c | 2 | sz=3 car handle
+brake | carpart_c | 2 | sz=3 car safety
+car boot | carpart_c | 2 | sz=6 car opens container
+warning triangle | safety_c | 2 | sz=4 car road col=red,white pointed
+traffic jam | event_c | 4 | car road city noisy -positive -fun
+parking ticket | document_c | 2 | sz=2 car road money -positive
+speed camera | electronic_c | 2 | sz=6 road camera police car -positive
+zebra crossing | structure_c | 4 | sz=7 road stripes bwhite col=black,white flat city
+pavement | structure_c | 3 | sz=9 city flat stone outdoors
+sidewalk | structure_c | 2 | sz=9 city flat stone
+lamp post | signs_c | 3 | sz=8 light electric tall road city
+manhole cover | structure_c | 3 | sz=5 metal round flat road underground~ heavy
+fire hydrant | signs_c | 5 | sz=5 withwater emergency fire_rel col=red,yellow road city metal
+phone box | building_c | 4 | sz=7 phone communicate col=red uk oldfash city inside
+bus shelter | structure_c | 2 | sz=7 road city transport_pl
+park bench | seat_c | 2 | sz=6 outdoors playground wood
+public toilet | building_c | 3 | sz=7 bathroom dirty city
+vending machine | electronic_c | 5 | sz=7 money buttons drink? snack? plugin -homes
+ticket machine | electronic_c | 2 | sz=7 money buttons screen travel
+shopping cart | container_c | 8 | sz=6 wheels metal pushpull supermarket carry -lid
+shopping basket | container_c | 3 | sz=5 handle supermarket plastic
+price tag | document_c | 2 | sz=2 read shopplace money
+barcode | concept_c | 3 | sz=1 stripes col=black,white shopplace read? computer~
+qr code | concept_c | 4 | sz=1 col=black,white phone camera modern boxshape
+revolving door | buildpart_c | 2 | sz=7 spins glass
+# --- tech and media everyday ---
+streaming stick | electronic_c | 2 | sz=2 watch internet streaming plugin
+video call | concept_c | 4 | internet communicate camera screen modern
+selfie | concept_c | 5 | camera phone modern positive~
+emoji | concept_c | 8 | phone internet modern shape col=yellow round positive~ funny~
+meme | concept_c | 5 | internet funny modern read~
+hashtag | concept_c | 3 | internet shape modern
+password | concept_c | 4 | internet computer lock protect
+app | concept_c | 6 | phone internet modern screen
+text message | concept_c | 5 | phone communicate read modern
+phone call | concept_c | 4 | phone communicate listen
+podcast | concept_c | 3 | listen internet modern
+radio station | concept_c | 2 | listen music
+cinema ticket | document_c | 2 | sz=2 theatre read
+movie | concept_c | 8 | watch theatre fun moviechar
+cartoon show | concept_c | 2 | watch animated children
+music video | concept_c | 2 | watch music

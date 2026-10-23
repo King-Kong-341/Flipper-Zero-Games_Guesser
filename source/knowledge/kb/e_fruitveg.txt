@@ -1,0 +1,151 @@
+# ===== fruit ==================================================================
+apple | fruit_c | 95 | col=red,green/yellow round crunchy grows_tree juice smooth_skin seeds hard kidknows everyday mostcountries healthy cheap fridge~ halloween~ snack? europe? -tropical
+green apple | fruit_c | 10 | col=green round crunchy grows_tree sour? smooth_skin seeds hard
+banana | tropfruit_c | 92 | col=yellow/green,brown longthin peel soft creamy -seeds? -juice kidknows everyday mostcountries cheap breakfast? grows_tree~ asia~ samerica? africa~ -round
+orange | citrus_c | 90 | col=orange -sour? sweet juice breakfast kidknows everyday mostcountries cheap spain~ usa~
+mandarin | citrus_c | 30 | sz=3 col=orange sweet -sour? peel handfood xmas? china~ asia~ cheap
+clementine | citrus_c | 15 | sz=3 col=orange sweet -sour? peel handfood xmas? spain~
+lemon | citrus_c | 80 | col=yellow -sweet sour -handfood ingredient? -juice? kidknows cheap italy~ spain~
+lime | citrus_c | 45 | sz=2 col=green -sweet sour -handfood ingredient mexico~ tropical
+grapefruit | citrus_c | 35 | sz=4 col=yellow,pink/orange bitter sour sweet~ breakfast
+pomelo | citrus_c | 3 | sz=4 col=green,yellow asia
+kumquat | citrus_c | 3 | sz=2 col=orange -peel asia
+grape | berry_c | 75 | col=green,purple grows_tree~ climbs_pl? juice seeds~ handfood herd? italy~ france~ europe -jam? dried~
+raisin | fruit_c | 25 | sz=1 col=brown dried snack packet sweet sugary -juice -fridge -raw? handfood cheap
+strawberry | berry_c | 85 | col=red/green seeds pointed? -round summery kidknows grows_ground -grows_tree -bush? cheap? juice~ cake~
+raspberry | berry_c | 45 | col=red,pink soft hairy? europe
+blackberry | berry_c | 30 | col=black,purple soft thorns wild~ europe
+blueberry | berry_c | 50 | col=blue,purple healthy breakfast? namerica~ -seeds
+cranberry | berry_c | 20 | col=red sour -sweet? juice xmas sauce~ usa namerica
+gooseberry | berry_c | 5 | col=green sour hairy? europe
+currant | berry_c | 6 | sz=1 col=red,black sour europe
+elderberry | berry_c | 2 | sz=1 col=black,purple europe
+watermelon | fruit_c | 75 | sz=5 col=green,red seeds juice heavy round grows_ground -grows_tree summery kidknows -handfood? cheap? -peel? smooth_skin hard? africa~ wet
+melon | fruit_c | 55 | sz=4 col=yellow,green/orange seeds round grows_ground -grows_tree summery smooth_skin? hard?
+cantaloupe | fruit_c | 8 | sz=4 col=orange,green/yellow seeds round grows_ground -grows_tree summery rough
+honeydew | fruit_c | 4 | sz=4 col=green,yellow seeds round grows_ground -grows_tree
+pineapple | tropfruit_c | 70 | sz=4 col=yellow,brown/green spiky rough -smooth_skin peel juice sour? grows_ground -grows_tree -seeds tropical samerica~ asia~ kidknows -handfood
+mango | tropfruit_c | 60 | sz=3 col=orange,yellow/green,red stone_pit juice peel india asia samerica~ smooth_skin soft
+papaya | tropfruit_c | 20 | sz=4 col=orange,green seeds peel soft samerica asia
+kiwi | fruit_c | 55 | sz=3 col=green,brown hairy -smooth_skin seeds peel oceania~ china~ soft
+coconut | tropfruit_c | 65 | sz=4 col=brown,white hard shell round hairy -smooth_skin juice~ drink~ grows_tree -seeds? beach tropical -soft heavy? island~ asia~
+passion fruit | tropfruit_c | 8 | sz=2 col=purple,yellow seeds sour samerica
+dragon fruit | tropfruit_c | 10 | sz=3 col=pink,white seeds asia samerica~ rare? spiky?
+lychee | tropfruit_c | 8 | sz=2 col=red,white peel stone_pit china asia rough
+guava | tropfruit_c | 6 | sz=3 col=green,pink seeds samerica asia
+pomegranate | fruit_c | 25 | sz=3 col=red seeds juice round hard? asia~ -handfood
+fig | fruit_c | 15 | sz=2 col=purple,green seeds dried? sweet greece~ europe asia
+date fruit | fruit_c | 12 | sz=2 col=brown stone_pit dried sweet sugary grows_tree desert asia africa~ egypt~
+avocado | tropfruit_c | 55 | sz=3 col=green/black,brown stone_pit -sweet creamy soft peel -juice mexico samerica healthy ingredient? vegetable~
+olive | fruit_c | 35 | sz=2 col=green,black stone_pit -sweet salty bitter? grows_tree italy greece spain europe -juice packet?
+tomato | fruit_c | 75 | col=red round juice seeds -sweet vegetable? soft cooked~ italy~ grows_ground? -grows_tree kidknows sauce~ ingredient smooth_skin cheap
+peach | stonefruit_c | 55 | col=orange,pink/yellow hairy -smooth_skin soft juice~
+nectarine | stonefruit_c | 12 | col=red,orange,yellow smooth_skin soft
+apricot | stonefruit_c | 25 | sz=2 col=orange hairy? dried? jam
+plum | stonefruit_c | 35 | col=purple,red smooth_skin jam? dried~ europe
+cherry | stonefruit_c | 70 | sz=2 col=red/black smooth_skin round pair? cake~ summery kidknows
+prune | fruit_c | 6 | sz=2 col=black,brown dried stone_pit~ -juice? sweet
+pear | fruit_c | 65 | col=green,yellow/brown grows_tree juice~ smooth_skin seeds -round soft~ europe? cheap
+quince | fruit_c | 3 | sz=3 col=yellow hard -raw? jam
+persimmon | fruit_c | 5 | sz=3 col=orange asia japan~
+star fruit | tropfruit_c | 4 | sz=3 col=yellow,green asia pointed?
+jackfruit | tropfruit_c | 4 | sz=6 col=green,yellow spiky? heavy asia india
+durian | tropfruit_c | 6 | sz=5 col=green,yellow spiky smells -smellsnice asia rare
+rhubarb | vegetable_c | 12 | sz=5 col=red,pink,green longthin sour cake~ jam? -raw? europe uk? dessert~
+plantain | tropfruit_c | 4 | sz=4 col=green,yellow -sweet? cooked fried? africa samerica
+fruit salad | dessert_c | 20 | bowl fromfruit healthy sweet col=any -cooked cold~ summery
+# ===== vegetables ===============================================================
+carrot | root_c | 85 | col=orange longthin pointed raw? crunchy juice~ sweet~ kidknows cheap everyday mostcountries healthy easter~
+potato | root_c | 90 | col=brown,yellow round? peel -raw fried? kidknows cheap everyday mostcountries ingredient? europe? samerica~ hotfood
+sweet potato | root_c | 25 | col=orange,brown sweet peel -raw samerica~ usa~ hotfood
+onion | root_c | 70 | col=white,brown,purple round peel smells raw~ ingredient -sweet
+red onion | root_c | 8 | col=purple,red round peel smells raw~ ingredient
+garlic | root_c | 55 | sz=2 col=white smells ingredient spice~ italy~ france~ peel -sweet halloween~
+leek | vegetable_c | 15 | sz=5 col=green,white longthin cylinder smells soup~ europe uk~
+beetroot | root_c | 20 | col=purple,red round raw~ juice~ europe russia~
+radish | root_c | 15 | sz=2 col=red,white round raw crunchy spicy~
+turnip | root_c | 10 | col=white,purple round europe
+parsnip | root_c | 6 | col=white,yellow longthin pointed europe uk
+ginger | root_c | 30 | sz=3 col=yellow,brown spicy spice asia india china ingredient -cooked? smells rough
+cassava | root_c | 3 | col=brown,white longthin africa samerica
+yam | root_c | 4 | col=brown,white africa
+celery | vegetable_c | 30 | sz=5 col=green longthin crunchy raw -cooked? juice~ healthy
+lettuce | leafy_c | 55 | col=green raw -cooked round? kidknows cheap
+cabbage | leafy_c | 40 | col=green/purple,white round cooked? heavy? europe germany~ russia~ hard~
+red cabbage | leafy_c | 5 | col=purple,red round cooked? germany~
+spinach | leafy_c | 40 | cooked? strong? healthy cartoon~ europe~
+kale | leafy_c | 15 | healthy cooked?
+brussels sprout | leafy_c | 25 | sz=2 round cooked bitter xmas uk europe -raw
+broccoli | vegetable_c | 60 | col=green green_veg cooked tree? healthy kidknows -leafy
+cauliflower | vegetable_c | 30 | col=white cooked round? -green_veg
+asparagus | vegetable_c | 20 | col=green,white longthin cooked expensive~ germany~ europe
+artichoke | vegetable_c | 8 | col=green cooked spiky? italy~ europe
+cucumber | vegetable_c | 50 | sz=4 col=green longthin cylinder raw -cooked crunchy wet seeds green_veg cheap smooth_skin
+pickle | vegetable_c | 30 | sz=3 col=green sour salty packet -raw? -cooked crunchy fromveg? manmade~ usa~ germany~
+zucchini | vegetable_c | 25 | sz=4 col=green longthin cylinder cooked green_veg seeds italy~
+eggplant | vegetable_c | 25 | sz=4 col=purple cooked seeds smooth_skin shiny italy~ asia~
+pumpkin | vegetable_c | 70 | sz=5 col=orange round heavy halloween seeds cooked soup~ hard usa~ -raw kidknows
+squash | vegetable_c | 10 | sz=4 col=orange,yellow,green seeds cooked hard
+bell pepper | vegetable_c | 40 | col=red,green,yellow seeds raw crunchy smooth_skin shiny hollow sweet~ mexico~ samerica~
+chili pepper | vegetable_c | 45 | sz=2 col=red,green spicy hot? seeds mexico india asia samerica pointed longthin ingredient spice~ -healthy?
+jalapeno | vegetable_c | 12 | sz=2 col=green,red spicy seeds mexico
+corn | vegetable_c | 60 | sz=4 col=yellow seeds cooked crop grain~ usa namerica mexico samerica cylinder kidknows sweet~
+peas | legume_c | 45 | sz=1 col=green round green_veg sweet~ frozen~ kidknows cheap
+green beans | legume_c | 25 | sz=3 col=green longthin green_veg -dried
+beans | legume_c | 40 | col=brown,red,white,black mexico~ samerica~ cheap packet
+baked beans | legume_c | 30 | col=orange,brown packet sauce~ manmade uk usa breakfast? hotfood cheap -raw
+chickpea | legume_c | 15 | col=yellow,brown round asia~ india~ africa~
+lentil | legume_c | 12 | sz=1 col=brown,orange,green flat soup india~ asia~
+soybean | legume_c | 8 | col=yellow,green asia china japan crop
+peanut | legume_c | 45 | col=brown shell nut? snack salty? crunchy handfood usa~ -cooked? packet
+okra | vegetable_c | 3 | col=green seeds slimy africa~ india~
+mushroom | mushroom_c | 70 | kidknows cheap mostcountries supermarket
+toadstool | fungus_c | 20 | col=red,white spots poisonous -food fairytale? woodland
+truffle | mushroom_c | 8 | col=black,brown expensive luxury rare underground france italy smells
+seaweed | waterplant_c | 15 | col=green,brown ocean aquatic food? japan asia slimy wet -garden beach
+salad | dish_c | 50 | -cooked -hotfood cold~ fromveg vegetable? leafy~ bowl healthy col=green raw? restaurant -fried summery?
+coleslaw | dish_c | 6 | -cooked -hotfood cold fromveg creamy bowl col=white
+sauerkraut | dish_c | 5 | -hotfood? fromveg sour germany europe col=yellow,white packet
+# ===== nuts, seeds and grains =====================================================
+nut | nut_c | 40 | kidknows mostcountries
+walnut | nut_c | 20 | col=brown shell grows_tree
+hazelnut | nut_c | 15 | col=brown shell grows_tree round choc~
+almond | nut_c | 25 | col=brown grows_tree -shell? healthy
+cashew | nut_c | 15 | col=white,yellow grows_tree -shell india~ samerica~
+pistachio | nut_c | 15 | col=green,brown shell grows_tree salty asia~
+chestnut | nut_c | 20 | col=brown shell grows_tree xmas wintery cooked europe
+acorn | nut_c | 25 | col=brown,green -food grows_tree woodland round -packet -snack -salty
+pine nut | nut_c | 4 | sz=1 col=white,yellow italy~ grows_tree
+sunflower seeds | nut_c | 10 | sz=1 col=grey,black,white grows_ground snack salty
+pumpkin seeds | nut_c | 6 | sz=1 col=green,white snack halloween~
+sesame | nut_c | 6 | sz=1 col=white,yellow -snack ingredient asia~ bun?
+popcorn | snack_c | 60 | sz=1 col=white,yellow grain fromplant salty~ sweet~ cooked theatre crunchy fluffy? party usa~ -fried? light?
+rice | grain_c | 85 | col=white -powder cooked hotfood bowl? asia china japan india everyday mostcountries kidknows -bread
+wheat | grain_c | 35 | col=yellow,brown onfarm crop bread? europe~ -raw
+oats | grain_c | 20 | col=yellow,brown breakfast healthy -powder
+barley | grain_c | 6 | col=yellow,brown onfarm crop
+flour | grain_c | 50 | col=white powder ingredient baked? -cooked? -fromplant? cheap kitchen cupboard manmade~
+cereal | grain_c | 55 | col=yellow,brown breakfast bowl sweet~ sugary~ crunchy dairy~ packet kidknows children? -cooked manmade
+porridge | dish_c | 25 | grain fromplant~ breakfast bowl hotfood creamy soft dairy~ uk~ healthy
+quinoa | grain_c | 6 | col=white,yellow samerica healthy
+couscous | grain_c | 4 | col=yellow africa~
+# ===== herbs and spices ============================================================
+salt | spice_c | 85 | cat=M col=white powder salty -fromplant -natural? natural? mined~ cheap everyday mostcountries kidknows -smells ocean~ rock? element? -healthy
+pepper | spice_c | 60 | col=black,grey powder spicy cheap everyday -smellsnice?
+sugar | spice_c | 75 | -spice col=white,brown powder sweet sugary ingredient cheap everyday kidknows crop? manmade? -healthy -smells -smellsnice
+cinnamon | spice_c | 30 | col=brown powder? sweet~ smellsnice xmas cake~ asia india
+vanilla | spice_c | 25 | col=brown,black smellsnice sweet~ samerica~ mexico~ ingredient cake~
+nutmeg | spice_c | 5 | col=brown round xmas~
+paprika | spice_c | 8 | col=red powder spicy~ europe~
+curry powder | spice_c | 15 | col=yellow,orange powder spicy india asia manmade~
+chili powder | spice_c | 6 | col=red powder spicy mexico~
+saffron | spice_c | 5 | col=red,orange expensive luxury rare spain~ asia~
+mustard | sauce_c | 30 | col=yellow spicy~ packet germany~ france~ usa~
+basil | herb_c | 25 | italy europe
+mint | herb_c | 30 | smellsnice sweet~ candy~
+parsley | herb_c | 12 | europe
+rosemary | herb_c | 8 | europe smellsnice
+oregano | herb_c | 6 | italy greece
+thyme | herb_c | 6 | europe
+coriander | herb_c | 6 | asia mexico india
+lavender | flower_c | 30 | col=purple smellsnice smells garden europe france -food?

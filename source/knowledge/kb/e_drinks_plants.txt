@@ -1,0 +1,127 @@
+# ===== drinks ======================================================================
+water | drink_c | 85 | natural -manmade seethrough col=white -sweet -sugary healthy cheap everyday mostcountries kidknows -packet? water_rel -supermarket? cold~ withwater
+sparkling water | drink_c | 10 | fizzy seethrough col=white -sweet healthy packet
+coffee | hotdrink_c | 85 | caffeine col=brown,black bitter fromplant adults everyday mostcountries breakfast smells smellsnice? italy~ samerica~ brazil~ restaurant
+espresso | hotdrink_c | 15 | caffeine col=black,brown bitter italy europe sz=2 adults
+cappuccino | hotdrink_c | 15 | caffeine col=brown,white dairy italy europe creamy
+latte | hotdrink_c | 12 | caffeine col=brown,white dairy creamy
+iced coffee | drink_c | 6 | caffeine col=brown cold
+tea | hotdrink_c | 75 | caffeine col=brown,green fromplant uk china india asia everyday mostcountries -sweet? leaves? adults~
+green tea | hotdrink_c | 15 | caffeine col=green fromplant japan china asia healthy
+iced tea | drink_c | 10 | caffeine col=brown cold sweet usa packet?
+cocoa | hotdrink_c | 8 | choc col=brown dairy -caffeine?
+juice | juice_c | 55 | col=orange,yellow kidknows everyday? mostcountries
+orange juice | juice_c | 60 | col=orange breakfast citrus? sour~ kidknows
+apple juice | juice_c | 35 | col=yellow children
+lemonade | softdrink_c | 50 | col=yellow,white sour~ fromfruit summery fizzy~
+cola | softdrink_c | 70 | col=brown,black fizzy caffeine usa famous mostcountries
+soda | softdrink_c | 45 | col=any fizzy usa
+energy drink | softdrink_c | 20 | caffeine fizzy adults -children? -healthy col=yellow,green
+smoothie | juice_c | 25 | fromfruit creamy healthy col=pink,green,any
+beer | alcohol_c | 60 | col=yellow,brown fizzy bitter grain germany europe uk~ party adults cheap~ glass~
+wine | alcohol_c | 60 | col=red,white fromfruit france italy spain europe expensive~ glass~ adults party~ wedding~
+red wine | alcohol_c | 15 | col=red fromfruit france italy
+champagne | alcohol_c | 30 | col=yellow fizzy france europe expensive luxury party wedding holiday
+whisky | alcohol_c | 25 | col=brown,orange uk usa~ grain expensive~
+vodka | alcohol_c | 20 | col=white seethrough russia europe
+rum | alcohol_c | 12 | col=brown,white samerica~ sweet~
+gin | alcohol_c | 8 | col=white seethrough uk
+tequila | alcohol_c | 12 | col=yellow,white mexico
+sake | alcohol_c | 5 | col=white seethrough japan asia rice
+cocktail | alcohol_c | 25 | col=any sweet~ party fromfruit? glass~
+cider | alcohol_c | 10 | col=yellow fizzy fromfruit uk
+milk tea | drink_c | 5 | asia dairy caffeine sweet
+coconut water | drink_c | 4 | natural fromplant tropical
+# ===== trees =====================================================================
+tree | tree_c | 85 | kidknows everyday mostcountries city garden~ playground
+oak | tree_c | 40 | col=green,brown europe namerica woodland strong
+pine tree | conifer_c | 45 | sz=8 namerica europe xmas~
+christmas tree | conifer_c | 70 | sz=6 xmas holiday house livingroom decoration light? -outdoors? kidknows wintery manmade~ shop
+fir tree | conifer_c | 15 | sz=8 europe xmas~
+spruce | conifer_c | 6 | europe namerica
+cedar | conifer_c | 4 | smells asia~
+redwood | conifer_c | 10 | sz=9 namerica usa tall rare famous
+sequoia | conifer_c | 6 | sz=9 usa namerica
+cypress | conifer_c | 3 | europe
+maple tree | tree_c | 25 | col=green,red,orange canada namerica
+birch | tree_c | 15 | col=white,green europe russia
+willow | tree_c | 15 | col=green nearwater freshwater europe
+weeping willow | tree_c | 6 | col=green nearwater
+palm tree | palm_c | 70 | sz=8 col=green,brown kidknows famous
+coconut palm | palm_c | 5 | sz=8
+baobab | tree_c | 8 | africa grassland rare heavy
+bamboo | tree_c | 30 | -tree? col=green asia china japan longthin hollow fast evergreen -wood?
+apple tree | fruittree_c | 30 | col=green,red europe
+cherry tree | fruittree_c | 15 | col=pink,white japan asia europe flower? bloom_spring
+orange tree | fruittree_c | 8 | col=green,orange spain~ hotclimate
+olive tree | fruittree_c | 8 | col=green,grey italy greece spain europe hotclimate
+lemon tree | fruittree_c | 4 | col=green,yellow italy~ hotclimate
+chestnut tree | tree_c | 6 | col=green europe
+beech | tree_c | 5 | europe
+elm | tree_c | 3 | europe
+ash tree | tree_c | 3 | europe
+eucalyptus | tree_c | 8 | oceania smells
+bonsai | houseplant_c | 20 | sz=3 tree? japan asia expensive~ art~
+mangrove | tree_c | 3 | nearwater tropical ocean
+# ===== flowers and plants =======================================================
+flower | flower_c | 85 | col=any kidknows everyday mostcountries
+rose | flower_c | 85 | col=red,pink,white/yellow thorns smellsnice gift wedding famous kidknows
+red rose | flower_c | 10 | col=red thorns smellsnice gift
+tulip | flower_c | 50 | col=red,yellow,pink,purple multicol? europe bloom_spring easter~
+sunflower | flower_c | 60 | sz=6 col=yellow,brown tall seeds summery onfarm~ crop~ famous
+daisy | flower_c | 40 | sz=2 col=white,yellow garden wild
+dandelion | flower_c | 40 | sz=2 col=yellow/white garden wild pest~ blow? fluffy~
+lily | flower_c | 30 | col=white,pink smellsnice waterplant~
+water lily | waterplant_c | 15 | flower col=white,pink,green freshwater flat
+lotus | waterplant_c | 10 | flower col=pink,white asia india religion~
+orchid | flower_c | 30 | col=purple,white,pink houseplant tropical expensive~
+daffodil | flower_c | 30 | col=yellow bloom_spring easter uk~ europe
+poppy | flower_c | 25 | col=red/black wild grassland? europe
+violet | flower_c | 10 | sz=2 col=purple
+lilac | bush_c | 8 | flower col=purple smellsnice bloom_spring
+bouquet | flower_c | 25 | col=any gift wedding manmade~ shop decoration
+carnation | flower_c | 8 | col=pink,red,white
+chrysanthemum | flower_c | 5 | col=yellow,white asia japan
+marigold | flower_c | 5 | col=orange,yellow india mexico
+hibiscus | flower_c | 6 | col=red,pink tropical hotclimate
+jasmine | flower_c | 6 | col=white smellsnice asia climbs_pl
+cherry blossom | flower_c | 25 | col=pink,white japan asia bloom_spring famous tree?
+forget-me-not | flower_c | 3 | sz=2 col=blue
+snowdrop | flower_c | 3 | sz=2 col=white wintery
+iris | flower_c | 4 | col=purple,blue
+bluebell | flower_c | 5 | sz=2 col=blue,purple woodland uk europe
+venus flytrap | plant_base | 25 | sz=3 col=green,red carnivore? insectivore moves~ houseplant? rare namerica usa scary~ -flower
+cactus | cactus_c | 70 | kidknows famous
+aloe vera | cactus_c | 15 | -spiky? houseplant medical? grooming? cosmetic~ -desert? col=green
+succulent | cactus_c | 10 | houseplant -spiky? sz=3
+grass | plant_base | 80 | sz=2 col=green garden playground grassland onfarm everyday mostcountries kidknows -leaves? longthin soft? flat~
+lawn | plant_base | 10 | sz=7 col=green garden flat -leaves
+ivy | plant_base | 15 | col=green climbs_pl evergreen poisonous~ wall woodland
+moss | plant_base | 15 | sz=2 col=green soft wet woodland -flower -leaves rock?
+fern | plant_base | 15 | col=green woodland houseplant~ leaves
+clover | plant_base | 15 | sz=2 col=green grassland
+four-leaf clover | plant_base | 10 | sz=2 col=green rare
+weed | plant_base | 20 | col=green garden pest~ wild
+nettle | plant_base | 10 | col=green stings sharp? wild woodland garden~ -soft
+thistle | plant_base | 5 | col=purple,green spiky thorns uk~
+reed | waterplant_c | 4 | col=green,brown longthin freshwater
+algae | waterplant_c | 8 | sz=1 col=green slimy wet freshwater ocean -flower -leaves
+mistletoe | plant_base | 12 | col=green,white xmas holiday intrees? poisonous
+holly | bush_c | 15 | col=green,red xmas thorns spiky evergreen poisonous
+hedge | bush_c | 15 | sz=6 col=green garden -flower evergreen? longthin? manmade~
+rosebush | bush_c | 4 | flower thorns col=red,green
+cotton plant | crop_plant | 8 | col=white,green fluffy soft samerica~ usa~ india~ asia~ africa~
+tobacco plant | crop_plant | 3 | col=green
+sugar cane | crop_plant | 5 | col=green longthin tall sweet samerica brazil asia tropical
+wheat field | crop_plant | 3 | sz=8 col=yellow onfarm
+hay | plant_base | 25 | -alive -grows col=yellow dried onfarm farm? farmuse? fluffy? -leaves manmade~ sz=6
+straw | plant_base | 15 | -alive -grows col=yellow dried onfarm farmuse longthin hollow? -leaves
+seed | plant_base | 30 | sz=1 col=brown,black -leaves garden? grows food~ hard round?
+leaf | plant_base | 60 | sz=3 col=green/red,orange,yellow,brown flat -grows? garden woodland kidknows -alive?
+pine cone | conifer_c | 20 | sz=3 -tree -alive -grows col=brown cone woodland xmas~ hard
+branch | tree_c | 25 | sz=5 -tree -alive? -grows? col=brown wood longthin woodland -tall -tall_plant -lift? lift
+log | tree_c | 20 | sz=6 -tree -alive -grows col=brown wood cylinder heavy woodland fire_rel? flammable camping~ -tall -tall_plant
+stick | tree_c | 40 | sz=4 -tree -alive -grows col=brown wood longthin woodland garden -tall -tall_plant -heavy lift thrown kidknows
+root | plant_base | 10 | col=brown underground longthin -leaves
+thorn | plant_base | 5 | sz=1 sharp pointed -leaves col=brown
+pollen | plant_base | 6 | sz=1 -alive col=yellow powder flower~ summery
