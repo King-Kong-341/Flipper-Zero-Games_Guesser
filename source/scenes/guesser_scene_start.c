@@ -22,8 +22,14 @@ bool guesser_scene_start_on_event(void* context, SceneManagerEvent event) {
         return false;
 
     app->menu_index = (uint8_t)(event.event - GuesserViewEventMenu);
+    guesser_fx(app, GuesserFxSelect);
     switch(app->menu_index) {
     case GuesserMenuPlay:
+        /* still loading is fine: the game waits for it. Known bad is not. */
+        if(furi_event_flag_get(app->loaded) && !guesser_data_ok(app)) {
+            guesser_show_data_error(app);
+            break;
+        }
         app->guess_number = 0;
         app->game_won = false;
         app->result_saved = false;

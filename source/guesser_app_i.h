@@ -10,6 +10,7 @@
 #include <storage/storage.h>
 
 #include "helpers/guesser_engine.h"
+#include "helpers/guesser_fx.h"
 #include "helpers/guesser_storage.h"
 #include "scenes/guesser_scene.h"
 #include "views/guesser_view.h"
@@ -49,6 +50,7 @@ typedef struct {
     SceneManager* scene_manager;
     NotificationApp* notifications;
     Storage* storage;
+    GuesserFxPlayer* fx;
 
     GuesserView* view;
     TextInput* text_input;
@@ -57,9 +59,17 @@ typedef struct {
     /* --- game state --- */
     GuesserStorage store; /* dataset file handle + reader bridge */
     Tq_Dataset dataset;
-    bool dataset_ready;
     Tq_Learned learned;
     Tq_Engine* engine;
+
+    /* --- background loading: the loader opens the data while the intro
+     * plays, then checks the whole file once without holding up the game */
+    FuriThread* loader;
+    FuriEventFlag* loaded; /* set when dataset, learned and engine are ready */
+    volatile Tq_Error load_error;
+    volatile bool dataset_ready; /* loaded without error */
+    volatile bool data_bad; /* the background check found the file damaged */
+    volatile bool closing; /* stops the background check */
 
     GuesserSettings settings;
     GuesserStats stats;
@@ -82,6 +92,7 @@ typedef struct {
     char message[40];
     char message2[40];
     char message_header[24];
+    bool message_fatal; /* the app closes after this message */
     bool game_won;
     bool result_saved; /* this game's result is in the stats already */
 } GuesserApp;
@@ -89,4 +100,11 @@ typedef struct {
 /** A one-button message on the animated view; returns to the menu after OK. */
 void guesser_show_message(GuesserApp* app, const char* header, const char* line1, const char* line2);
 void guesser_show_error(GuesserApp* app, const char* line1, const char* line2);
-void guesser_notify(GuesserApp* app, const NotificationSequence* seq);
+void guesser_fx(GuesserApp* app, GuesserFx effect);
+/**
+ * Waits (if needed) until the loader is done; false if there is no usable
+ * data. Only the first Play right after start can actually wait here.
+ */
+bool guesser_data_ok(GuesserApp* app);
+/** The "data file missing/damaged" message; the app closes after OK. */
+void guesser_show_data_error(GuesserApp* app);

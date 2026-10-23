@@ -18,7 +18,7 @@ bool guesser_scene_error_on_event(void* context, SceneManagerEvent event) {
     GuesserApp* app = context;
     if(event.type == SceneManagerEventTypeBack ||
        (event.type == SceneManagerEventTypeCustom && event.event == GuesserViewEventDialogLeft)) {
-        if(app->dataset_ready) {
+        if(!app->message_fatal) {
             /* recoverable: back to the menu */
             scene_manager_search_and_switch_to_another_scene(app->scene_manager, GuesserSceneStart);
         } else {

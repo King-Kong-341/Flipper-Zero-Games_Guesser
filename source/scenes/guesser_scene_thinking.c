@@ -1,8 +1,9 @@
 #include "../guesser_app_i.h"
 
 /**
- * All the SD reads and float work happen here, on a worker thread, with the
- * loading spinner up (SPEC 6.6 / 8.3). A turn reads up to TQ_CANDIDATES
+ * All the SD reads and float work happen here, on a worker thread (SPEC 6.6).
+ * The current screen stays up and ignores keys; the thinking animation only
+ * appears when a turn takes longer than half a second (SPEC 8.3). A turn reads up to TQ_CANDIDATES
  * columns, so it must never run inside a draw callback.
  */
 
@@ -47,6 +48,12 @@ static int32_t guesser_worker_thread(void* context) {
 
     switch(app->job) {
     case GuesserJobStartGame:
+        /* right after app start the data may still be on its way */
+        if(!guesser_data_ok(app)) {
+            app->outcome = GuesserOutcomeError;
+            view_dispatcher_send_custom_event(app->view_dispatcher, GuesserEventWorkerDone);
+            return 0;
+        }
         tq_engine_set_question_limit(app->engine, app->settings.question_limit);
         ok = tq_engine_reset(app->engine, TQ_NO_CATEGORY);
         break;
@@ -91,7 +98,8 @@ static int32_t guesser_worker_thread(void* context) {
 
 void guesser_scene_thinking_on_enter(void* context) {
     GuesserApp* app = context;
-    guesser_view_show_thinking(app->view);
+    /* The screen stays as it is; only a slow turn shows the thinking ball. */
+    guesser_view_set_busy(app->view);
     view_dispatcher_switch_to_view(app->view_dispatcher, GuesserViewMain);
 
     /* 3 KB: the v1 engine peaked at ~1.1 KB; v2 adds the row scorer and the
@@ -108,6 +116,12 @@ bool guesser_scene_thinking_on_event(void* context, SceneManagerEvent event) {
     }
     if(event.type != SceneManagerEventTypeCustom || event.event != GuesserEventWorkerDone) {
         return false;
+    }
+
+    /* no data, or the background check found it damaged */
+    if(!app->dataset_ready || app->data_bad) {
+        guesser_show_data_error(app);
+        return true;
     }
 
     switch(app->outcome) {
@@ -128,6 +142,7 @@ bool guesser_scene_thinking_on_event(void* context, SceneManagerEvent event) {
         return true;
     case GuesserOutcomeError:
     default:
+        guesser_fx(app, GuesserFxError);
         guesser_show_error(
             app,
             app->engine->io_error ? "SD card unreadable." : "Something went wrong.",

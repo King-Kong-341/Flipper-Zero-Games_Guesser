@@ -66,8 +66,12 @@ ask whether it is male or female.
 > firmware). Copying the 4 MB file takes about a minute. No qFlipper at hand?
 > Put the SD card in a card reader and copy the file to `apps/Games/`.
 
-> The first start takes a few seconds longer: the Flipper unpacks the 4 MB
-> knowledge base and checks it once. Built for the **official firmware 1.5** (API 88). On older firmware, update your Flipper first.
+> **First start after installing:** before the app opens, the Flipper itself
+> unpacks the 4 MB knowledge base onto the SD card (you see its hourglass) --
+> once. After that Guesser opens instantly with its intro and loads in the
+> background; the one-time check of the file runs while you are already
+> playing. Built for the **official firmware 1.5** (API 88). On older
+> firmware, update your Flipper first.
 
 ## 🎮 How to play
 
@@ -98,10 +102,18 @@ Not sure? **No?** means *probably not*, **Yes?** means *probably*, **?** means
   against its front-runners and asks the one that tells it the most —
   and skips questions that make no sense for what you are thinking of
 - 📚 **Teach it:** things it could not guess are remembered on your Flipper
-- 📊 Stats (games, wins, fastest win), settings (number of questions, sound,
-  vibration), a three-page "How to play"
-- 📴 **Fully offline:** the whole knowledge base lives on the SD card and is
-  read in small pieces — it is never loaded into RAM
+- ✨ Drifting star-field backgrounds, glints sweeping over the title and the
+  buttons, menu items gliding in — and no loading screen between questions:
+  the next one slides in right after your answer
+- 🔊 Sounds, LED and vibration for every moment (intro chime, the guess
+  drum-roll, a fanfare when it wins, a sad tune when it loses)
+- ⚙️ Settings: number of questions, which answer is pre-selected, sound on/off,
+  **volume 0–100 % in steps of 10**, key sounds, vibration, LED, forget taught
+  things, reset stats
+- 📊 Stats (games, wins, fastest win) and a three-page "How to play"
+- 📴 **Fully offline, no connection of any kind:** no Wi-Fi, Bluetooth or
+  internet — the whole knowledge base lives on the SD card and is read in small
+  pieces, never loaded into RAM
 
 ## 🛠 Build it yourself
 

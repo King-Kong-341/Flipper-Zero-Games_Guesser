@@ -26,10 +26,10 @@ void guesser_scene_result_on_enter(void* context) {
     if(app->game_won) {
         uint8_t rate = app->stats.games ? (uint8_t)(100u * app->stats.wins / app->stats.games) : 0;
         guesser_view_show_win(app->view, app->engine->asked_count, app->guess_number, rate);
-        guesser_notify(app, &sequence_success);
+        guesser_fx(app, GuesserFxWin);
     } else {
         guesser_view_show_lose(app->view);
-        guesser_notify(app, &sequence_error);
+        guesser_fx(app, GuesserFxLose);
     }
     view_dispatcher_switch_to_view(app->view_dispatcher, GuesserViewMain);
 }

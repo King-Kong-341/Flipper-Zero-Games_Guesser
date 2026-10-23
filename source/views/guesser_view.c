@@ -8,6 +8,7 @@
 
 #define GS_TICK_MS    40 /* 25 fps */
 #define GS_INTRO_LEN  56 /* ticks the intro plays before the menu */
+#define GS_BUSY_DELAY 12 /* ticks of work before the thinking screen shows */
 #define GS_WRAP_LINES 4
 #define GS_WRAP_WIDTH 124
 
@@ -41,7 +42,8 @@ struct GuesserView {
 typedef struct {
     uint8_t mode;
     uint32_t tick;
-    bool loading;
+    bool busy; /* the app is working: keep the screen, ignore keys */
+    uint8_t busy_t; /* ticks spent busy */
     bool fired; /* intro: IntroDone already sent */
     uint8_t sel; /* menu item, answer or help page */
     int16_t anim; /* animated selection position (pixels) */
@@ -91,6 +93,45 @@ static void gs_vline(Canvas* c, int32_t x, int32_t y, int32_t h) {
 static void gs_sparkle(Canvas* c, int32_t x, int32_t y, int32_t s) {
     canvas_draw_line(c, x - s, y, x + s, y);
     canvas_draw_line(c, x, y - s, x, y + s);
+}
+
+/**
+ * The background: a slowly drifting, twinkling star field in three depths,
+ * drawn only inside the box (x0, y0)-(x1, y1) so it never touches text.
+ */
+static void gs_stars(Canvas* c, uint32_t t, int32_t x0, int32_t y0, int32_t x1, int32_t y1) {
+    static const uint8_t div[3] = {16, 8, 4}; /* far stars drift slowest */
+    for(uint32_t i = 0; i < 18; i++) {
+        uint32_t layer = i % 3u;
+        int32_t x = (int32_t)((i * 53u + 17u + 1024u - (t / div[layer]) % 128u) % 128u);
+        int32_t y = (int32_t)((i * 29u + 7u) % 64u);
+        if(x < x0 || x > x1 || y < y0 || y > y1) continue;
+        uint32_t tw = (t + i * 7u) % 60u;
+        if(tw < 3u) continue; /* twinkle off */
+        if(layer == 2 && tw > 52u && x - 1 >= x0 && x + 1 <= x1 && y - 1 >= y0 && y + 1 <= y1) {
+            gs_sparkle(c, x, y, 1); /* a near star flares up */
+        } else {
+            canvas_draw_dot(c, x, y);
+        }
+    }
+}
+
+/**
+ * A glint sweeping over a box now and then: a slanted 2 px band drawn in
+ * XOR, so it brightens dark areas and darkens light ones.
+ */
+static void
+    gs_shine(Canvas* c, uint32_t t, int32_t x, int32_t y, int32_t w, int32_t h, uint32_t period) {
+    int32_t pos = (int32_t)(t % period) * 4 - h;
+    if(pos > w + h) return;
+    canvas_set_color(c, ColorXOR);
+    for(int32_t row = 0; row < h; row++) {
+        int32_t sx = x + pos + (h - row) / 2;
+        for(int32_t k = 0; k < 2; k++) {
+            if(sx + k >= x && sx + k < x + w) canvas_draw_dot(c, sx + k, y + row);
+        }
+    }
+    canvas_set_color(c, ColorBlack);
 }
 
 /* A small filled triangle pointing left (dir < 0) or right (dir > 0). */
@@ -330,6 +371,7 @@ static void gs_draw_intro(Canvas* c, const GsModel* m) {
     if(t < 10) r = (int32_t)t * 17 / 10;
     else if(t < 14) r = 17 - ((int32_t)t - 10);
     int32_t look = (t > 20 && t < 40) ? gs_sin(t) * 2 / 64 : 0;
+    if(t > 4) gs_stars(c, t, 0, 0, 127, 36);
     gs_orb(c, 64, 22, r, look, 0, (t > 44) ? GsMoodHappy : GsMoodNormal, t);
     /* sparkles circling the ball */
     if(t > 6) {
@@ -357,12 +399,10 @@ static void gs_draw_intro(Canvas* c, const GsModel* m) {
         }
         x += w + 2;
     }
-    /* subtitle or loading */
+    if(t > 34) gs_shine(c, t - 34u, 64 - tw / 2 - 2, 40, tw + 4, 12, 200);
+    /* the subtitle types itself */
     canvas_set_font(c, FontSecondary);
-    if(m->loading) {
-        static const char* const dots[4] = {"Loading", "Loading.", "Loading..", "Loading..."};
-        canvas_draw_str_aligned(c, 64, 63, AlignCenter, AlignBottom, dots[(t / 6u) % 4u]);
-    } else if(t > 36) {
+    if(t > 36) {
         static const char sub[] = "Think of anything";
         size_t n = (t - 36u) * 2u;
         if(n > sizeof(sub) - 1) n = sizeof(sub) - 1;
@@ -379,32 +419,43 @@ static void gs_draw_menu(Canvas* c, const GsModel* m) {
     uint32_t t = m->tick;
     /* left: the mascot watching the menu */
     int32_t ly = (int32_t)m->sel - 1;
-    gs_orb(c, 21, 27, 14, 2, ly, GsMoodNormal, t);
+    gs_stars(c, t, 0, 0, 43, 54);
+    /* the ball floats gently */
+    int32_t fy = gs_sin(t / 2u) * 2 / 64;
+    gs_orb(c, 21, 27 + fy, 14, 2, ly, GsMoodNormal, t);
     uint32_t phase = (t / 7u) % 6u;
     if(phase == 0) gs_sparkle(c, 6, 10, 2);
     if(phase == 2) gs_sparkle(c, 37, 8, 2);
     if(phase == 4) gs_sparkle(c, 39, 40, 1);
     canvas_set_font(c, FontSecondary);
-    canvas_draw_str_aligned(c, 21, 63, AlignCenter, AlignBottom, "v1.0");
+    canvas_draw_str_aligned(c, 21, 63, AlignCenter, AlignBottom, "v1.1");
     /* right: title and items */
     canvas_set_font(c, FontPrimary);
     canvas_draw_str(c, 50, 10, "GUESSER");
-    canvas_draw_line(c, 46, 12, 127, 12);
+    gs_shine(c, t + 120u, 48, 1, 54, 10, 160);
+    /* the underline draws itself out from the left */
+    int32_t ul = t < 9u ? 46 + (int32_t)t * 9 : 127;
+    canvas_draw_line(c, 46, 12, ul, 12);
     canvas_draw_rbox(c, 46, m->anim, 82, 12, 3);
     for(uint8_t i = 0; i < GuesserMenuCount; i++) {
         int32_t y = 14 + i * 12;
+        /* the items glide in one after another */
+        int32_t in = (int32_t)t - (int32_t)i * 2;
+        int32_t dx = in < 6 ? (6 - (in < 0 ? 0 : in)) * 12 : 0;
         bool on = (m->anim + 6 >= y && m->anim + 6 < y + 12);
         canvas_set_color(c, on ? ColorWhite : ColorBlack);
-        canvas_draw_str(c, 52, y + 9, gs_menu_labels[i]);
+        canvas_draw_str(c, 52 + dx, y + 9, gs_menu_labels[i]);
         if(on) gs_arrow(c, 120, y + 5, 1);
         canvas_set_color(c, ColorBlack);
     }
+    gs_shine(c, t, 46, m->anim, 82, 12, 110);
 }
 
 static void gs_draw_thinking(Canvas* c, const GsModel* m) {
     uint32_t t = m->tick;
     static const int8_t look[4][2] = {{-3, -2}, {3, -2}, {3, 1}, {-3, 1}};
     const int8_t* l = look[(t / 6u) % 4u];
+    gs_stars(c, t, 0, 0, 127, 47);
     /* three dots orbit the ball; the glass hides them as they pass behind */
     for(uint32_t k = 0; k < 3; k++) {
         uint32_t a = t * 2u + k * 11u;
@@ -433,18 +484,23 @@ static void gs_draw_question(Canvas* c, GsModel* m) {
     uint32_t total = m->total ? m->total : 1u;
     uint32_t fill = 50u * (m->asked < total ? m->asked : total) / total;
     if(fill) canvas_draw_box(c, 74, 4, (int32_t)fill, 3);
-    /* the question slides in from the right */
+    if(fill > 2) gs_shine(c, m->tick, 74, 4, (int32_t)fill, 3, 90);
+    /* the question slides in from the right, and out to the left once it
+     * is answered -- the next one follows straight away */
     int32_t dx = (m->tick < 6u) ? (int32_t)(6u - m->tick) * 22 : 0;
-    gs_text_block(c, m->text, dx, 12, 31);
-    /* what the highlighted button means, in full */
+    if(m->busy) dx = -(int32_t)(m->busy_t + 1u) * 22;
+    if(dx > -128) gs_text_block(c, m->text, dx, 12, 31);
+    /* what the highlighted button means, in full (blinks once chosen) */
     canvas_set_font(c, FontSecondary);
-    canvas_draw_str_aligned(c, 64, 50, AlignCenter, AlignBottom, gs_answer_names[m->sel]);
+    if(!m->busy || (m->busy_t / 2u) % 2u == 0u)
+        canvas_draw_str_aligned(c, 64, 50, AlignCenter, AlignBottom, gs_answer_names[m->sel]);
     gs_draw_bar(c, m, 52);
 }
 
 static void gs_draw_guess(Canvas* c, const GsModel* m) {
     uint32_t t = m->tick;
     if(t < 14) {
+        gs_stars(c, t, 0, 10, 127, 63);
         /* the ball lights up: rings flowing outwards */
         for(uint32_t k = 0; k < 3; k++) {
             int32_t rr = 17 + (int32_t)((t * 2u + k * 8u) % 24u);
@@ -526,10 +582,12 @@ static void gs_draw_win(Canvas* c, const GsModel* m) {
     }
     canvas_draw_str_aligned(c, 88, 41, AlignCenter, AlignBottom, line);
     gs_pill(c, 70, 51, 36, "OK", true, 0);
+    gs_shine(c, t, 70, 51, 36, 12, 70);
 }
 
 static void gs_draw_lose(Canvas* c, const GsModel* m) {
     uint32_t t = m->tick;
+    gs_stars(c, t, 0, 0, 46, 63);
     gs_orb(c, 26, 27, 14, 0, 1, GsMoodSad, t);
     /* a tear rolls down */
     int32_t ty = 28 + (int32_t)(t % 18u) / 2;
@@ -555,19 +613,31 @@ static void gs_stat_box(Canvas* c, int32_t x, int32_t y, const char* label, cons
 }
 
 static void gs_draw_stats(Canvas* c, const GsModel* m) {
-    gs_header(c, "Stats", m->tick);
+    uint32_t t = m->tick;
+    gs_header(c, "Stats", t);
+    gs_stars(c, t, 40, 0, 127, 9);
     char v[16];
-    snprintf(v, sizeof(v), "%u", m->num[0]);
-    gs_stat_box(c, 2, 11, "Games", v);
-    snprintf(v, sizeof(v), "%u", m->num[1]);
-    gs_stat_box(c, 65, 11, "Won by me", v);
-    snprintf(v, sizeof(v), "%u%%", m->num[0] ? (unsigned)(100u * m->num[1] / m->num[0]) : 0u);
-    gs_stat_box(c, 2, 33, "Win rate", v);
-    if(m->num[2])
-        snprintf(v, sizeof(v), "%u", m->num[2]);
-    else
-        snprintf(v, sizeof(v), "-");
-    gs_stat_box(c, 65, 33, "Fastest", v);
+    /* the boxes pop in one by one */
+    if(t >= 1u) {
+        snprintf(v, sizeof(v), "%u", m->num[0]);
+        gs_stat_box(c, 2, 11, "Games", v);
+    }
+    if(t >= 3u) {
+        snprintf(v, sizeof(v), "%u", m->num[1]);
+        gs_stat_box(c, 65, 11, "Won by me", v);
+    }
+    if(t >= 5u) {
+        snprintf(
+            v, sizeof(v), "%u%%", m->num[0] ? (unsigned)(100u * m->num[1] / m->num[0]) : 0u);
+        gs_stat_box(c, 2, 33, "Win rate", v);
+    }
+    if(t >= 7u) {
+        if(m->num[2])
+            snprintf(v, sizeof(v), "%u", m->num[2]);
+        else
+            snprintf(v, sizeof(v), "-");
+        gs_stat_box(c, 65, 33, "Fastest", v);
+    }
     canvas_set_font(c, FontSecondary);
     char line[40];
     snprintf(line, sizeof(line), "Avg %u questions  -  %u taught", m->num[3], m->num[4]);
@@ -578,6 +648,7 @@ static void gs_draw_help(Canvas* c, const GsModel* m) {
     uint32_t t = m->tick;
     switch(m->sel) {
     case 0: {
+        gs_stars(c, t, 0, 0, 38, 52);
         gs_orb(c, 24, 30, 13, 2, -2, GsMoodNormal, t);
         /* thought bubble with a question mark */
         canvas_draw_circle(c, 40, 13, 1);
@@ -609,6 +680,7 @@ static void gs_draw_help(Canvas* c, const GsModel* m) {
         break;
     }
     default: {
+        gs_stars(c, t, 0, 0, 44, 52);
         gs_orb(c, 24, 28, 13, 0, 0, GsMoodHappy, t);
         if((t / 6u) % 2u) gs_sparkle(c, 8, 9, 2);
         else gs_sparkle(c, 41, 12, 2);
@@ -634,6 +706,7 @@ static void gs_draw_help(Canvas* c, const GsModel* m) {
 }
 
 static void gs_draw_dialog(Canvas* c, const GsModel* m) {
+    gs_stars(c, m->tick, 0, 0, 127, 18);
     gs_orb(c, 64, 9, 7, 0, 0, GsMoodNormal, m->tick);
     canvas_set_font(c, FontPrimary);
     canvas_draw_str_aligned(c, 64, 30, AlignCenter, AlignBottom, m->text);
@@ -708,7 +781,12 @@ static void gs_timer(void* context) {
         {
             m->tick++;
             gs_update_targets(m);
-            if(m->mode == GsModeIntro && !m->loading && !m->fired && m->tick >= GS_INTRO_LEN) {
+            if(m->busy && m->mode != GsModeThinking && ++m->busy_t >= GS_BUSY_DELAY) {
+                /* the turn takes a while: show that we are on it */
+                m->mode = GsModeThinking;
+                m->tick = 0;
+            }
+            if(m->mode == GsModeIntro && !m->fired && m->tick >= GS_INTRO_LEN) {
                 m->fired = true;
                 fire = true;
             }
@@ -739,9 +817,11 @@ static bool gs_input(InputEvent* event, void* context) {
         view->view,
         GsModel * m,
         {
-            switch(m->mode) {
+            uint8_t sel_before = m->sel;
+            /* busy: the worker owns the engine, ignore keys */
+            switch(m->busy ? GsModeThinking : m->mode) {
             case GsModeIntro:
-                if(event->type == InputTypeShort && !m->loading && !m->fired && m->tick > 8) {
+                if(event->type == InputTypeShort && !m->fired && m->tick > 8) {
                     m->fired = true;
                     send = GuesserViewEventIntroDone;
                 }
@@ -826,6 +906,7 @@ static bool gs_input(InputEvent* event, void* context) {
             default: /* thinking: the worker owns the engine, ignore keys */
                 break;
             }
+            if(!send && m->sel != sel_before) send = GuesserViewEventClick;
         },
         true);
 
@@ -872,9 +953,7 @@ void guesser_view_set_callback(GuesserView* view, GuesserViewCallback callback, 
         (view)->view,                                 \
         GsModel * m,                                  \
         {                                             \
-            bool loading = m->loading;                \
             memset(m, 0, sizeof(*m));                 \
-            m->loading = loading;                     \
             m->mode = (mode_);                        \
             body                                      \
         },                                            \
@@ -890,8 +969,15 @@ void guesser_view_show_intro(GuesserView* view) {
     GS_SHOW(view, GsModeIntro, {});
 }
 
-void guesser_view_set_loading(GuesserView* view, bool loading) {
-    with_view_model(view->view, GsModel * m, { m->loading = loading; }, true);
+void guesser_view_set_busy(GuesserView* view) {
+    with_view_model(
+        view->view,
+        GsModel * m,
+        {
+            m->busy = true;
+            m->busy_t = 0;
+        },
+        true);
 }
 
 void guesser_view_show_menu(GuesserView* view, uint8_t selected) {

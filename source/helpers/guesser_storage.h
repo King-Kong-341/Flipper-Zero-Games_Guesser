@@ -13,7 +13,7 @@
 
 #define GUESSER_SETTINGS_MAGIC   0x51533032UL /* "20SQ" */
 #define GUESSER_STATS_MAGIC      0x54533032UL /* "20ST" */
-#define GUESSER_SETTINGS_VERSION 1
+#define GUESSER_SETTINGS_VERSION 2
 #define GUESSER_STATS_VERSION    1
 
 typedef struct {
@@ -27,11 +27,13 @@ typedef struct {
     uint32_t magic;
     uint16_t version;
     uint8_t question_limit; /* 15, 20 or 25 */
-    uint8_t ask_category; /* 1 = show the category screen */
+    uint8_t volume; /* 0..10, in steps of 10 % */
     uint8_t sound;
     uint8_t vibro;
     uint8_t default_answer_yes; /* 1 = start on Yes, 0 = start on "?" */
-    uint8_t reserved;
+    uint8_t led;
+    uint8_t clicks; /* key sounds */
+    uint8_t reserved[3];
 } GuesserSettings;
 
 typedef struct {
@@ -47,6 +49,13 @@ typedef struct {
 
 /** Opens APP_ASSETS_PATH("guesser.dat"). Always call close, even on failure. */
 Tq_Error guesser_storage_open_dataset(GuesserStorage* st, Storage* storage, Tq_Dataset* ds);
+/**
+ * The one-time CRC check of the whole file, made to run in the background:
+ * it reads through its own File handle, so the game can keep using st->file.
+ * Returns false only when the file is really damaged -- a check stopped by
+ * *cancel (app closing) or skipped because it passed before returns true.
+ */
+bool guesser_storage_verify_dataset(Storage* storage, const Tq_Dataset* ds, volatile bool* cancel);
 void guesser_storage_close_dataset(GuesserStorage* st, Tq_Dataset* ds);
 
 void guesser_settings_load(Storage* storage, GuesserSettings* out);

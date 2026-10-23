@@ -1,11 +1,13 @@
 #include "../guesser_app_i.h"
 
-/* The animated logo; the view sends IntroDone after ~2 s or on any key. */
+/* The animated logo, first thing on screen while the data loads behind it;
+ * the view sends IntroDone after ~2 s or on any key. */
 
 void guesser_scene_intro_on_enter(void* context) {
     GuesserApp* app = context;
-    /* the intro has been playing since app start (while loading) */
+    guesser_view_show_intro(app->view);
     view_dispatcher_switch_to_view(app->view_dispatcher, GuesserViewMain);
+    guesser_fx(app, GuesserFxIntro);
 }
 
 bool guesser_scene_intro_on_event(void* context, SceneManagerEvent event) {

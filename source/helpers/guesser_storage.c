@@ -53,23 +53,58 @@ Tq_Error guesser_storage_open_dataset(GuesserStorage* st, Storage* storage, Tq_D
 
     uint32_t start = furi_get_tick();
     Tq_Error err = tq_dataset_open(ds, st->reader, false);
-    if(err == TqOk) {
-        GuesserVerified seen;
-        bool known = read_record(storage, VERIFIED_PATH, &seen, sizeof(seen)) &&
-                     seen.magic == GUESSER_VERIFIED_MAGIC && seen.crc32 == ds->crc32 &&
-                     seen.size == st->reader.size;
-        if(!known) {
-            if(tq_dataset_verify(ds)) {
-                GuesserVerified ok = {GUESSER_VERIFIED_MAGIC, ds->crc32, st->reader.size};
-                write_record(storage, VERIFIED_PATH, &ok, sizeof(ok));
-            } else {
-                tq_dataset_close(ds);
-                err = TqErrCrc;
-            }
-        }
-    }
     FURI_LOG_I(TAG, "dataset open: %s in %lums", tq_error_str(err), furi_get_tick() - start);
     return err;
+}
+
+typedef struct {
+    File* file;
+    volatile bool* cancel;
+    uint32_t reads;
+} GuesserVerifyCtx;
+
+static bool guesser_verify_read_at(void* ctx, uint32_t offset, void* buf, size_t len) {
+    GuesserVerifyCtx* v = ctx;
+    if(*v->cancel) return false;
+    /* leave the SD card to the game now and then */
+    if((++v->reads & 15u) == 0) furi_delay_tick(1);
+    return guesser_read_at(v->file, offset, buf, len);
+}
+
+bool guesser_storage_verify_dataset(Storage* storage, const Tq_Dataset* ds, volatile bool* cancel) {
+    GuesserVerified seen;
+    if(read_record(storage, VERIFIED_PATH, &seen, sizeof(seen)) &&
+       seen.magic == GUESSER_VERIFIED_MAGIC && seen.crc32 == ds->crc32 &&
+       seen.size == ds->reader.size) {
+        return true;
+    }
+
+    GuesserVerifyCtx v = {storage_file_alloc(storage), cancel, 0};
+    bool ok = true;
+    if(storage_file_open(v.file, DATASET_PATH, FSAM_READ, FSOM_OPEN_EXISTING)) {
+        uint32_t start = furi_get_tick();
+        /* only reader and crc32 are used: a shallow copy is enough */
+        Tq_Dataset probe = *ds;
+        probe.reader.read_at = guesser_verify_read_at;
+        probe.reader.ctx = &v;
+        ok = tq_dataset_verify(&probe);
+        if(*cancel) {
+            ok = true; /* not finished: check again next time */
+        } else if(ok) {
+            GuesserVerified done = {GUESSER_VERIFIED_MAGIC, ds->crc32, ds->reader.size};
+            write_record(storage, VERIFIED_PATH, &done, sizeof(done));
+        }
+        FURI_LOG_I(
+            TAG,
+            "dataset check: %s in %lums",
+            *cancel ? "stopped" : (ok ? "ok" : "BAD"),
+            furi_get_tick() - start);
+    } else {
+        ok = false;
+    }
+    storage_file_close(v.file);
+    storage_file_free(v.file);
+    return ok;
 }
 
 void guesser_storage_close_dataset(GuesserStorage* st, Tq_Dataset* ds) {
@@ -109,24 +144,48 @@ static bool write_record(Storage* storage, const char* path, const void* data, s
     return ok;
 }
 
+/* Guesser 1.0 settings, kept to carry them over */
+typedef struct {
+    uint32_t magic;
+    uint16_t version;
+    uint8_t question_limit;
+    uint8_t ask_category;
+    uint8_t sound;
+    uint8_t vibro;
+    uint8_t default_answer_yes;
+    uint8_t reserved;
+} GuesserSettingsV1;
+
 void guesser_settings_load(Storage* storage, GuesserSettings* out) {
     /* A corrupt or missing file is silently replaced by defaults (SPEC 9). */
     GuesserSettings def = {
         .magic = GUESSER_SETTINGS_MAGIC,
         .version = GUESSER_SETTINGS_VERSION,
         .question_limit = 20,
-        .ask_category = 0, /* unused since Guesser 1.0 */
+        .volume = 7,
         .sound = 1,
-        .vibro = 0,
+        .vibro = 1,
         .default_answer_yes = 1,
-        .reserved = 0,
+        .led = 1,
+        .clicks = 1,
     };
-    if(!read_record(storage, SETTINGS_PATH, out, sizeof(*out)) ||
-       out->magic != GUESSER_SETTINGS_MAGIC || out->version != GUESSER_SETTINGS_VERSION ||
-       (out->question_limit != 15 && out->question_limit != 20 && out->question_limit != 25)) {
-        *out = def;
-        guesser_settings_save(storage, out);
+    if(read_record(storage, SETTINGS_PATH, out, sizeof(*out)) &&
+       out->magic == GUESSER_SETTINGS_MAGIC && out->version == GUESSER_SETTINGS_VERSION &&
+       (out->question_limit == 15 || out->question_limit == 20 || out->question_limit == 25) &&
+       out->volume <= 10) {
+        return;
     }
+    *out = def;
+    GuesserSettingsV1 old;
+    if(read_record(storage, SETTINGS_PATH, &old, sizeof(old)) &&
+       old.magic == GUESSER_SETTINGS_MAGIC && old.version == 1) {
+        if(old.question_limit == 15 || old.question_limit == 25)
+            out->question_limit = old.question_limit;
+        out->sound = old.sound ? 1 : 0;
+        out->vibro = old.vibro ? 1 : 0;
+        out->default_answer_yes = old.default_answer_yes ? 1 : 0;
+    }
+    guesser_settings_save(storage, out);
 }
 
 void guesser_settings_save(Storage* storage, const GuesserSettings* settings) {

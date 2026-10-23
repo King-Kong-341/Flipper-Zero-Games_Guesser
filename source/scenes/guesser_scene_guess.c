@@ -4,7 +4,7 @@ void guesser_scene_guess_on_enter(void* context) {
     GuesserApp* app = context;
     guesser_view_show_guess(app->view, app->guess_name, app->guess_number);
     view_dispatcher_switch_to_view(app->view_dispatcher, GuesserViewMain);
-    guesser_notify(app, &sequence_blink_blue_10);
+    guesser_fx(app, GuesserFxGuess);
 }
 
 bool guesser_scene_guess_on_event(void* context, SceneManagerEvent event) {

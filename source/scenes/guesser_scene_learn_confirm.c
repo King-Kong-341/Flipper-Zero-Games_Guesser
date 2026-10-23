@@ -42,7 +42,7 @@ bool guesser_scene_learn_confirm_on_event(void* context, SceneManagerEvent event
             guesser_show_error(app, "Could not save.", "Check the SD card.");
             return true;
         }
-        guesser_notify(app, &sequence_success);
+        guesser_fx(app, GuesserFxSaved);
         guesser_show_message(app, "Thanks!", "I learned", app->learn_name);
         return true;
     }

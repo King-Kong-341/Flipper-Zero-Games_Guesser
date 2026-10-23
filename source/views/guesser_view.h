@@ -25,6 +25,7 @@ typedef enum {
     GuesserViewEventDialogLeft,
     GuesserViewEventDialogRight,
     GuesserViewEventBack,
+    GuesserViewEventClick, /* the selection moved (key sound only) */
 } GuesserViewEvent;
 
 typedef enum {
@@ -43,7 +44,12 @@ View* guesser_view_get_view(GuesserView* view);
 void guesser_view_set_callback(GuesserView* view, GuesserViewCallback callback, void* context);
 
 void guesser_view_show_intro(GuesserView* view);
-void guesser_view_set_loading(GuesserView* view, bool loading);
+/**
+ * The app is working on the next turn: the screen stays, keys are ignored,
+ * and only if it takes longer than ~0.5 s the thinking animation takes over.
+ * Any show_* call ends it.
+ */
+void guesser_view_set_busy(GuesserView* view);
 void guesser_view_show_menu(GuesserView* view, uint8_t selected);
 void guesser_view_show_thinking(GuesserView* view);
 void guesser_view_show_question(

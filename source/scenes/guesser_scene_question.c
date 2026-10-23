@@ -19,7 +19,7 @@ bool guesser_scene_question_on_event(void* context, SceneManagerEvent event) {
     if(event.event >= GuesserViewEventAnswer &&
        event.event < GuesserViewEventAnswer + TqAnswerCount) {
         app->pending_answer = (Tq_Answer)(event.event - GuesserViewEventAnswer);
-        guesser_notify(app, &sequence_blink_blue_10);
+        guesser_fx(app, GuesserFxSelect);
         app->job = GuesserJobAnswer;
         scene_manager_next_scene(app->scene_manager, GuesserSceneThinking);
         return true;
@@ -28,6 +28,7 @@ bool guesser_scene_question_on_event(void* context, SceneManagerEvent event) {
         if(app->engine->asked_count == 0) {
             scene_manager_next_scene(app->scene_manager, GuesserSceneQuitConfirm);
         } else {
+            guesser_fx(app, GuesserFxUndo);
             app->job = GuesserJobUndo;
             scene_manager_next_scene(app->scene_manager, GuesserSceneThinking);
         }

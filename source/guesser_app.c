@@ -5,6 +5,11 @@
 static bool guesser_custom_event_callback(void* context, uint32_t event) {
     furi_assert(context);
     GuesserApp* app = context;
+    if(event == GuesserViewEventClick) {
+        /* the selection moved: just the key sound, no scene cares */
+        guesser_fx(app, GuesserFxClick);
+        return true;
+    }
     return scene_manager_handle_custom_event(app->scene_manager, event);
 }
 
@@ -20,13 +25,55 @@ static void guesser_view_event_callback(uint32_t event, void* context) {
     view_dispatcher_send_custom_event(app->view_dispatcher, event);
 }
 
-void guesser_notify(GuesserApp* app, const NotificationSequence* seq) {
-    if(app->settings.sound || seq == &sequence_blink_blue_10) {
-        notification_message(app->notifications, seq);
+void guesser_fx(GuesserApp* app, GuesserFx effect) {
+    guesser_fx_play(app->fx, effect);
+}
+
+#define GUESSER_LOADED_FLAG 1u
+
+bool guesser_data_ok(GuesserApp* app) {
+    furi_event_flag_wait(
+        app->loaded, GUESSER_LOADED_FLAG, FuriFlagWaitAny | FuriFlagNoClear, FuriWaitForever);
+    return app->dataset_ready && !app->data_bad;
+}
+
+void guesser_show_data_error(GuesserApp* app) {
+    const char* what = app->data_bad                   ? "Data file damaged." :
+                       (app->load_error == TqErrIo) ? "Data file missing." :
+                                                        "Data file unusable.";
+    guesser_fx(app, GuesserFxError);
+    guesser_show_message(app, "Oops", what, "Please reinstall the app.");
+    app->message_fatal = true;
+}
+
+/* Runs alongside the intro and the menu: opens the knowledge base (a few
+ * small tables, fast), lets the game start, then checks the whole 4 MB file
+ * once -- the very first start only -- while the player is already playing. */
+static int32_t guesser_loader_thread(void* context) {
+    GuesserApp* app = context;
+    Tq_Error err = guesser_storage_open_dataset(&app->store, app->storage, &app->dataset);
+    if(err == TqOk) {
+        guesser_learned_load_file(app->storage, &app->learned, app->dataset.crc32);
+        app->engine = tq_engine_alloc(&app->dataset, &app->learned);
+        tq_engine_seed(app->engine, furi_hal_random_get());
+        FURI_LOG_I(
+            TAG,
+            "%s: %lu entities x %lu questions",
+            app->dataset.dataset_id,
+            app->dataset.entity_count,
+            app->dataset.question_count);
     }
-    if(app->settings.vibro && (seq == &sequence_success || seq == &sequence_error)) {
-        notification_message(app->notifications, &sequence_single_vibro);
+    app->load_error = err;
+    app->dataset_ready = (err == TqOk);
+    furi_event_flag_set(app->loaded, GUESSER_LOADED_FLAG);
+
+    if(err == TqOk) {
+        furi_thread_set_current_priority(FuriThreadPriorityLow);
+        if(!guesser_storage_verify_dataset(app->storage, &app->dataset, &app->closing)) {
+            app->data_bad = true;
+        }
     }
+    return 0;
 }
 
 void guesser_show_message(GuesserApp* app, const char* header, const char* line1, const char* line2) {
@@ -36,6 +83,7 @@ void guesser_show_message(GuesserApp* app, const char* header, const char* line1
     app->message[sizeof(app->message) - 1] = '\0';
     strncpy(app->message2, line2 ? line2 : "", sizeof(app->message2) - 1);
     app->message2[sizeof(app->message2) - 1] = '\0';
+    app->message_fatal = false;
     scene_manager_next_scene(app->scene_manager, GuesserSceneError);
 }
 
@@ -50,6 +98,7 @@ static GuesserApp* guesser_app_alloc(void) {
     app->gui = furi_record_open(RECORD_GUI);
     app->notifications = furi_record_open(RECORD_NOTIFICATION);
     app->storage = furi_record_open(RECORD_STORAGE);
+    app->loaded = furi_event_flag_alloc();
 
     app->view_dispatcher = view_dispatcher_alloc();
     app->scene_manager = scene_manager_alloc(&guesser_scene_handlers, app);
@@ -71,11 +120,19 @@ static GuesserApp* guesser_app_alloc(void) {
 
     guesser_settings_load(app->storage, &app->settings);
     guesser_stats_load(app->storage, &app->stats);
+    app->fx = guesser_fx_alloc(app->notifications);
+    guesser_fx_configure(app->fx, &app->settings);
     return app;
 }
 
 static void guesser_app_free(GuesserApp* app) {
     furi_assert(app);
+
+    /* stop the background check before the data goes away */
+    app->closing = true;
+    furi_thread_join(app->loader);
+    furi_thread_free(app->loader);
+    guesser_fx_free(app->fx);
 
     if(app->engine) tq_engine_free(app->engine);
     tq_learned_clear(&app->learned);
@@ -91,6 +148,7 @@ static void guesser_app_free(GuesserApp* app) {
     scene_manager_free(app->scene_manager);
     view_dispatcher_free(app->view_dispatcher);
 
+    furi_event_flag_free(app->loaded);
     furi_record_close(RECORD_STORAGE);
     furi_record_close(RECORD_NOTIFICATION);
     furi_record_close(RECORD_GUI);
@@ -101,37 +159,14 @@ int32_t guesser_app(void* p) {
     UNUSED(p);
     GuesserApp* app = guesser_app_alloc();
 
-    /* The intro animation runs on its own timer while the knowledge base
-     * opens (the very first start also checks the whole file once). */
+    /* The intro plays straight away; the knowledge base loads behind it
+     * and keeps loading while the menu is up. */
     view_dispatcher_attach_to_gui(app->view_dispatcher, app->gui, ViewDispatcherTypeFullscreen);
-    guesser_view_set_loading(app->view, true);
-    guesser_view_show_intro(app->view);
-    view_dispatcher_switch_to_view(app->view_dispatcher, GuesserViewMain);
+    scene_manager_next_scene(app->scene_manager, GuesserSceneIntro);
 
-    Tq_Error err = guesser_storage_open_dataset(&app->store, app->storage, &app->dataset);
-    if(err == TqOk) {
-        app->dataset_ready = true;
-        guesser_learned_load_file(app->storage, &app->learned, app->dataset.crc32);
-        app->engine = tq_engine_alloc(&app->dataset, &app->learned);
-        tq_engine_seed(app->engine, furi_hal_random_get());
-        FURI_LOG_I(
-            TAG,
-            "%s: %lu entities x %lu questions",
-            app->dataset.dataset_id,
-            app->dataset.entity_count,
-            app->dataset.question_count);
-    }
-    guesser_view_set_loading(app->view, false);
-
-    if(err == TqOk) {
-        scene_manager_next_scene(app->scene_manager, GuesserSceneIntro);
-    } else {
-        /* Data file missing or corrupt: say so plainly and exit (SPEC 9). */
-        strcpy(app->message_header, "Oops");
-        strcpy(app->message, (err == TqErrIo) ? "Data file missing." : "Data file unusable.");
-        strcpy(app->message2, "Please reinstall the app.");
-        scene_manager_next_scene(app->scene_manager, GuesserSceneError);
-    }
+    /* 3 KB: opening peaks at ~1.4 KB (tq_dataset_open + block loads) */
+    app->loader = furi_thread_alloc_ex("GuesserLoader", 3072, guesser_loader_thread, app);
+    furi_thread_start(app->loader);
 
     view_dispatcher_run(app->view_dispatcher);
     guesser_app_free(app);
