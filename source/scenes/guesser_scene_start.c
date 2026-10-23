@@ -26,6 +26,7 @@ bool guesser_scene_start_on_event(void* context, SceneManagerEvent event) {
     case GuesserMenuPlay:
         app->guess_number = 0;
         app->game_won = false;
+        app->result_saved = false;
         app->job = GuesserJobStartGame;
         scene_manager_next_scene(app->scene_manager, GuesserSceneThinking);
         break;

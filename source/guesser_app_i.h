@@ -83,6 +83,7 @@ typedef struct {
     char message2[40];
     char message_header[24];
     bool game_won;
+    bool result_saved; /* this game's result is in the stats already */
 } GuesserApp;
 
 /** A one-button message on the animated view; returns to the menu after OK. */

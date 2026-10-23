@@ -1,6 +1,9 @@
 #include "../guesser_app_i.h"
 
 static void guesser_record_result(GuesserApp* app) {
+    /* Back from the keyboard returns here: count each game once */
+    if(app->result_saved) return;
+    app->result_saved = true;
     GuesserStats* s = &app->stats;
     if(s->games < 0xFFFF) s->games++;
     if(app->game_won) {

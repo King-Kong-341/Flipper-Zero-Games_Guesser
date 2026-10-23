@@ -11,7 +11,9 @@ App(
         "views/*.c",
         "helpers/*.c",
     ],
-    stack_size=2 * 1024,
+    # 4 KB: opening the knowledge base nests ~1.4 KB of read buffers (measured
+    # with -fstack-usage), and stack overflow is not detected on this platform.
+    stack_size=4 * 1024,
     fap_category="Games",
     fap_icon="guesser.png",
     fap_icon_assets="images",
