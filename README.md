@@ -60,6 +60,12 @@ ask whether it is male or female.
 3. In qFlipper's **File Manager**, copy the file to **`SD Card/apps/Games/`**.
 4. On the Flipper: **Menu → Apps → Games → Guesser**. Have fun!
 
+> **qFlipper says "Cannot connect to the update server"?** That is only its
+> online firmware check and has nothing to do with the app — close the message
+> and use the **File Manager** tab (not "Install from file", which is for
+> firmware). Copying the 4 MB file takes about a minute. No qFlipper at hand?
+> Put the SD card in a card reader and copy the file to `apps/Games/`.
+
 > The first start takes a few seconds longer: the Flipper unpacks the 4 MB
 > knowledge base and checks it once. Built for the **official firmware 1.5** (API 88). On older firmware, update your Flipper first.
 
