@@ -61,7 +61,7 @@ ask whether it is male or female.
 4. On the Flipper: **Menu → Apps → Games → Guesser**. Have fun!
 
 > The first start takes a few seconds longer: the Flipper unpacks the 4 MB
-> knowledge base and checks it once. Made for the **official firmware 1.x**.
+> knowledge base and checks it once. Built for the **official firmware 1.5** (API 88). On older firmware, update your Flipper first.
 
 ## 🎮 How to play
 
